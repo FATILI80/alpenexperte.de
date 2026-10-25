@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="Alpen-Experte" xmlns="http://www.topografix.com/GPX/1/1">
+  <metadata>
+    <name>Firstalm Ruebezahlalm + Sonnenwendjoch: Kaiser-Doppel</name>
+    <desc>Gravel-Tour ab Obere Firstalm / Spitzingsattel nach Oesterreich - ca. 60 km</desc>
+    <author><name>Alpen-Experte</name></author>
+  </metadata>
+  <trk>
+    <name>Firstalm Ruebezahlalm + Sonnenwendjoch: Kaiser-Doppel</name>
+    <trkseg>
+      <trkpt lat="47.6586" lon="11.8785"></trkpt>
+      <trkpt lat="47.65" lon="11.87"></trkpt>
+      <trkpt lat="47.63" lon="11.86"></trkpt>
+      <trkpt lat="47.58" lon="11.88"></trkpt>
+      <trkpt lat="47.56" lon="11.9"></trkpt>
+      <trkpt lat="47.55" lon="11.97"></trkpt>
+      <trkpt lat="47.56" lon="12.05"></trkpt>
+    </trkseg>
+  </trk>
+</gpx>

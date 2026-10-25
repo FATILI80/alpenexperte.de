@@ -112,6 +112,14 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    /* 2b. SICHERUNG: Externe Links (z.B. Komoot) NIE abfangen - immer normal oeffnen */
+    document.querySelectorAll('a[href^="http"]').forEach(link => {
+        link.addEventListener('click', function(e) {
+            if (this.hasAttribute('target') && this.getAttribute('target') === '_blank') { return; }
+            e.stopPropagation();
+        }, true);
+    });
+
     /* =========================================================
        3. INTERSECTION OBSERVER – Sanfte Animationen
        ========================================================= */

@@ -5190,3 +5190,100 @@ h3.section-title {
 .tours-category .tours-heading { color: var(--color-primary-dark); margin-bottom: var(--space-xs); }
 .tours-category .tours-sub { color: var(--color-text-light); margin-bottom: var(--space-lg); }
 @media (max-width: 768px) { .directory-list { gap: var(--space-md); } }
+
+/* ===== GRENZGAENGER / BADGE + GPX (neue Kategorie) ===== */
+.badge {
+    display: inline-block;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    line-height: 1.4;
+    vertical-align: middle;
+}
+.badge-insider {
+    background: linear-gradient(135deg, #d9356c, #f77f00);
+    color: #fff;
+    margin-left: 0.4rem;
+}
+.card-highlights {
+    margin: 0.6rem 0 0.2rem;
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+    line-height: 1.6;
+}
+.gpx-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 0.6rem;
+}
+.btn-gpx {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: #1a472a;
+    color: #fff !important;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+.btn-gpx:hover { background: #2e6b42; }
+.btn-affiliate {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: #fff;
+    color: #f77f00 !important;
+    border: 2px solid #f77f00;
+    padding: 0.45rem 0.95rem;
+    border-radius: 8px;
+    font-size: 0.82rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.btn-affiliate:hover { background: #f77f00; color: #fff !important; }
+.tours-category--grenzgaenger {
+    background: linear-gradient(180deg, rgba(217,53,108,0.06), rgba(247,127,0,0.04));
+    border: 1px solid rgba(217,53,108,0.18);
+    border-radius: 16px;
+    padding: var(--space-lg);
+    margin-top: var(--space-2xl);
+}
+.tours-category--grenzgaenger .tours-heading {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #d9356c;
+}
+@media (max-width: 768px) {
+    .tours-category--grenzgaenger { padding: var(--space-md); }
+    .gpx-actions { flex-direction: column; }
+    .gpx-actions a { width: 100%; justify-content: center; }
+}
+
+/* ===== btn-primary (Auftrag: orange Routen-Buttons, JS-frei) ===== */
+.btn-primary {
+    display: inline-block;
+    background: #ea580c;
+    color: #ffffff !important;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.2s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background: #c2410c;
+    color: #ffffff !important;
+    transform: translateY(-2px);
+}
+
