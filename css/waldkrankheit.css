@@ -1,0 +1,27 @@
+/* WALDKRANKHEIT.CSS — Waldschadens-Content Styling, Komponenten-modular */
+:root{--wk-primary:#8b4513;--wk-accent:#2d5016;--wk-warn:#d4764f;--wk-light:#f5f5f5;--wk-dark:#333;--wk-gray:#999}
+.wk-hero{position:relative;min-height:70vh;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,#8b4513,#2d5016);overflow:hidden;margin-bottom:3rem}
+.wp-hero__bg{position:absolute;inset:0;background-size:cover;background-position:center;opacity:.3;z-index:1}
+.wk-hero__overlay{position:absolute;inset:0;background:rgba(0,0,0,.5);z-index:2}
+.wk-hero__content{position:relative;z-index:3;text-align:center;color:#fff;padding:2rem;max-width:800px}
+.wk-hero h1{font-size:3.5rem;font-weight:700;margin:0 0 1rem;text-shadow:2px 2px 4px rgba(0,0,0,.5)}
+.wk-hero p{font-size:1.25rem;line-height:1.6;margin:0 0 1.5rem;opacity:.9}
+.wk-hero__author{font-style:italic;opacity:.8;font-size:1rem}
+.wk-container{max-width:1000px;margin:0 auto;padding:0 1.5rem}
+.wk-section{padding:3rem 0;border-bottom:1px solid #eee}
+.wk-section:last-child{border-bottom:none}
+.wk-section h2{font-size:2.5rem;font-weight:600;margin:0 0 2rem;color:var(--wk-dark)}
+.wk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1.5rem}
+.wk-card{background:#fff;border:1px solid #eee;border-radius:8px;padding:1.5rem;text-align:center;transition:transform .3s,box-shadow .3s}
+.wk-card:hover{transform:translateY(-4px);box-shadow:0 10px 20px rgba(0,0,0,.1)}
+.wk-icon{font-size:2.5rem;margin-bottom:1rem;display:block}
+.wk-card h3{font-size:1.25rem;font-weight:600;margin:0 0 .5rem;color:var(--wk-accent)}
+.wk-card p{font-size:.9rem;color:var(--wk-gray);line-height:1.6;margin:0}
+.wk-nav{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}
+.wk-nav-card{display:block;background:#fff;border:1px solid #eee;border-radius:8px;padding:2rem;text-decoration:none;color:inherit;transition:all .3s;text-align:center}
+.wk-nav-card:hover{border-color:var(--wk-accent);box-shadow:0 10px 20px rgba(0,0,0,.1);transform:translateY(-4px)}
+.wk-nav-card span{font-size:3rem;margin-bottom:1rem;display:block}
+.wk-nav-card h3{font-size:1.5rem;margin:0 0 .5rem;color:var(--wk-accent)}
+.wk-nav-card p{font-size:.95rem;color:var(--wk-gray);margin:0;line-height:1.5}
+.wk-affiliate{background:rgba(196,167,111,.05);border-left:4px solid #c4a76f;padding:1.5rem;border-radius:8px;margin:2rem 0;font-size:.875rem;color:#555}
+@media(max-width:768px){.wk-hero h1{font-size:2rem}.wk-grid{grid-template-columns:1fr}.wk-section h2{font-size:2rem}.wk-hero{min-height:50vh}}

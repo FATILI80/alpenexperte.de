@@ -1,0 +1,48 @@
+Fehlende content-Ordner: []
+Neue content-Ordner: ['3-seen-vergleich', 'aiplspitz', 'albert-link-huette', 'alkaese-milchverarbeitung-bayerische-voralpen', 'alm-kulinarik', 'alm-restaurants', 'alm-und-wald-bayerische-voralpen', 'almauftrieb-abtrieb-bayerische-voralpen', 'almen-kulturlandschaft-bayerische-voralpen', 'almgenossenschaften-bayerische-voralpen', 'almhuetten-architektur-bayerische-voralpen', 'almprodukte-vermarktung-bayerische-voralpen', 'almtiere-bayerische-voralpen', 'almwald-beweidung', 'almwirtschaft-artenvielfalt-bayerische-voralpen', 'almwirtschaft-bayerische-voralpen', 'almwirtschaft-klimawandel-bayerische-voralpen', 'almwirtschaft-landschaftspflege-bayerische-voralpen', 'almwirtschaft-tourismus-bayerische-voralpen', 'almwirtschaft-winter-bayerische-voralpen', 'alpenrose', 'alpenrosen', 'alpensalamander-bayerische-voralpen', 'alpenschneehuhn-bayerische-voralpen', 'alpine-blumenwiesen', 'alpine-ethik-nachhaltigkeit-bayerische-voralpen', 'alpine-gefahren-bayerische-voralpen', 'alpine-kraeuterkueche', 'alpine-rasen', 'alpine-wildkraeuter-heilkraeuter', 'alpinismus-bayerische-voralpen', 'alte-spitzingstrasse', 'anfaenger-guide', 'anfaenger-routen', 'anfaengerfehler', 'apps', 'arnika', 'astronomie-events', 'auerhahn', 'auerhuhn', 'auerhuhn-bayerische-voralpen', 'ausruestung-bergtouren-bayerische-voralpen', 'ausruestung-winter', 'bachforelle-bayerische-voralpen', 'baselayer', 'bauernhofmuseum-bayerische-voralpen', 'baumgrenze-alpen', 'bedeutende-moorgebiete-bayerische-voralpen', 'berg-knigge', 'bergbau-geschichte-bayerische-voralpen', 'bergmischwald-natuerliche-waldgesellschaft', 'bergrettung-bayerische-voralpen', 'bergwald-im-wandel', 'bergwald-oekologie', 'bergwandern-bayerische-voralpen', 'bergwanderung-brecherspitz-bayerische-voralpen', 'best-locations', 'biodiversitaet-artenschutz-voralpen', 'birkhuhn', 'blankenstein', 'blomberg', 'bodenschneid', 'bodenschneid-gratkletterei', 'bodenschneid-klettersteig', 'braeuche-feste', 'brecherspitz', 'brecherspitz-gipfelweg', 'brecherspitz-klettersteig', 'buche-bergwald', 'dav-haus-spitzingsee', 'die-alpidische-gebirgsbildung', 'drei-seen-runde', 'edelweiss', 'edelweiss-alpen', 'einsteiger', 'elefanten-in-den-alpen', 'enzian', 'enzian-alpen', 'eon-schliersee', 'eon-spitzingsee', 'erdbeben', 'erdgeschichte-auf-einen-blick', 'erste-hilfe', 'erste-hilfe-berge-bayerische-voralpen', 'felstechniken-uebersicht', 'fichte-bergwald', 'firstalm', 'fischerei-schliersee', 'fischpopulation-voralpenseen', 'flechten-moose-alpen', 'flora', 'flyschzone', 'foehn', 'foehn-bayerische-voralpen', 'forstliche-foerderprogramme', 'forstwege-management', 'fortgeschrittene', 'fossilien-im-alpenraum', 'fuchs-dachs-bayerische-voralpen', 'gaemse', 'gaemse-bayerische-voralpen', 'gebirgsstelze', 'gefaehrdung-moore-bayerische-voralpen', 'geomorphologie', 'geschichte-jennerwein', 'gesteine-spitzingsattel', 'gesteinskreislauf-im-alpenraum', 'gewitter-alpen-bayerische-voralpen', 'glaubenskultur-kirchen-bayerische-voralpen', 'haas-fertigbau-trail', 'historische-verkehrswege-bayerische-voralpen', 'hochmiesing', 'hochmoore-bayerische-voralpen', 'hohenstufen', 'holzernte-ruecketechniken', 'holzkunst-schnitzerei-bayerische-voralpen', 'huetten-karte', 'huettentour', 'hw-001-spitzingsattel-rottach', 'hw-002-fischbachau-rotwand', 'hw-003-blauberge-spitzingsee', 'jaegerkamp', 'jagd-und-wald-voralpen', 'jahreszeiten', 'josefsthaler-wasserfaelle', 'karst-und-hoehlen', 'klettern-bayerische-voralpen', 'klettersteige-bayerische-voralpen', 'klimawandel-alpine-seen', 'klimawandel-bayerische-voralpen', 'kommunikation', 'kreuzotter-bayerische-voralpen', 'kultur-geschichte', 'kultur-geschichte-bayerische-voralpen', 'kulturelles-erbe-zukunft-bayerische-voralpen', 'laerchengold', 'langlauf', 'latschengebuesch-alpen', 'lawinenkunde-grundlagen', 'leonhardstein', 'libellen-voralpenseen', 'malerei-kunst-bayerische-voralpen', 'markus-wasmeier', 'midlayer', 'milchstrasse-fotografieren', 'mineralien-und-bodenschaetze', 'mittelalter-astronomie-tegernsee', 'molassebecken-alpenvorland', 'moor-klima-bayerische-voralpen', 'moor-wasserhaushalt-bayerische-voralpen', 'moore-archive-naturgeschichte-bayerische-voralpen', 'moore-bayerische-voralpen', 'moore-biodiversitaet-bayerische-voralpen', 'moore-mensch-bayerische-voralpen', 'moorrenaturierung-bayerische-voralpen', 'moorschutz-bayern-bayerische-voralpen', 'moorvegetation-bayerische-voralpen', 'mountaincarts', 'mtb-saisonkalender', 'muenchen-spitzingsee-mtb', 'murmeltier', 'murmeltier-bayerische-voralpen', 'musik-instrumente', 'musik-singen-bayerische-voralpen', 'nachhaltige-waldwirtschaft-voralpen', 'naehrstoffkreislauf-bergseen', 'naturschutz-alpine-flora', 'nebel-inversion-bayerische-voralpen', 'neuntoeter', 'niedermoore-bayerische-voralpen', 'niederschlag-starkregen-bayerische-voralpen', 'noerdliche-kalkalpen', 'obere-firstalm', 'oepnv-guide', 'orchideen-alpen', 'orchideen-wildblumen', 'orientierung-berge-bayerische-voralpen', 'outer-shell', 'packlisten', 'persoenlichkeiten-bayerische-voralpen', 'pflanzenanpassungen-alpen', 'pilze-region', 'plankton-bergseen', 'preis-leistung', 'prinzenweg', 'qualitaetsmerkmale', 'reh-bayerische-voralpen', 'rodeln-familie', 'rodelpisten', 'ross-buchstein', 'rothirsch', 'rothirsch-bayerische-voralpen', 'rotwand', 'rotwand-klettersteig', 'rotwand-reibn-skitouren', 'rotwandhaus', 'saeugetiere-bayerische-voralpen', 'sagen-legenden-bayerische-voralpen', 'saisonaler-kalender', 'schichtstufen-und-reliefentwicklung', 'schliersee-limnologie', 'schnee-lawinen-bayerische-voralpen', 'schneeschuh', 'schneeschuhwandern-bayerische-voralpen', 'schoenfeldhuette', 'schwierigkeit-t1', 'schwierigkeit-t2', 'schwierigkeit-t3', 'schwierigkeit-t4', 'schwierigkeits-guide-sts', 'sedimente-seeboden', 'seen-moore-wechselwirkung', 'seenentstehung-alpen', 'seeufer-lebensraum', 'senner-käsekultur-bayerische-voralpen', 'sicherheit-ausruestung', 'sicherheit-wetter-berge-bayerische-voralpen', 'siegsdorfer-petrusquelle', 'skigebiet', 'skitouren', 'skitouren-anfaenger', 'skitouren-bayerische-voralpen', 'spitzingsee', 'spitzingsee-limnologie', 'spitzingsee-runde', 'steinadler', 'steinadler-bayerische-voralpen', 'steinzeit-jaeger-spitzingsee', 'sternenkaerte-saisonal', 'sternenklar-mangfallgebirge', 'tanne-bergwald', 'taubenstein', 'taubenstein-klettersteig', 'taubenstein-suedgrat', 'tegernsee', 'tegernsee-limnologie', 'tegernseer-huette', 'tektonik', 'teleskop-auswahl', 'temperatur-hoehenstufen-bayerische-voralpen', 'temperaturschichtung-bergseen', 'tierwelt-moore-bayerische-voralpen', 'torfmoose-bayerische-voralpen', 'tourenplanung', 'tourenplanung-bayerische-voralpen', 'trachten', 'trachten-brauchtum-bayerische-voralpen', 'trainingsplaene', 'untere-firstalm', 'valepp', 'vegetationsstufen-alpen', 'vergletscherung', 'wald-klimawandel-voralpen', 'waldboden-humus', 'waldfruechte-region', 'waldverjuengung-naturverjuengung', 'wallfahrten-prozessionen-bayerische-voralpen', 'wanderfalke-weissrueckenspecht', 'wandern-uebersicht', 'wanderstoecke', 'wanderwege', 'wasseramsel', 'wasserkreislauf-alpen', 'wasserqualitaet-gewaesserschutz', 'wearables', 'weitere-arten', 'wetter-klima-bayerische-voralpen', 'wetter-sicherheit-berge-bayerische-voralpen', 'wetterkunde', 'wetterphaenomene-bayerische-voralpen', 'wetterrekorde-bayerische-voralpen', 'wetterstationen-bayerische-voralpen', 'wettervorhersage-berge-bayerische-voralpen', 'wildbachverbauung-schutzwald', 'wildpflanzen', 'wildschwein-bayerische-voralpen', 'wilparting', 'wind-berge-bayerische-voralpen', 'winterkalender', 'wirtschaftsgeschichte-bayerische-voralpen', 'wolkenkunde-bergsteiger-bayerische-voralpen', 'zufluesse-hydrologie', 'zukunft-almwirtschaft-bayerische-voralpen']
+
+Fehlende Dateien: 0
+
+Neue Dateien: 928
+  3-seen-vergleich\index.html
+  _news_ticker.html
+  _partner_hub.html
+  _wartungs_report_2026-06-01.html
+  aiplspitz\index.html
+  aktivitaeten\index.html
+  albert-link-huette\index.html
+  alkaese-milchverarbeitung-bayerische-voralpen\index.html
+  alm-kulinarik\index.html
+  alm-restaurants\index.html
+  alm-und-wald-bayerische-voralpen\index.html
+  almauftrieb-abtrieb-bayerische-voralpen\index.html
+  almen-kulturlandschaft-bayerische-voralpen\index.html
+  almgenossenschaften-bayerische-voralpen\index.html
+  almhuetten-architektur-bayerische-voralpen\index.html
+  almkultur\index.html
+  almprodukte-vermarktung-bayerische-voralpen\index.html
+  almtiere-bayerische-voralpen\index.html
+  almwald-beweidung\index.html
+  almwirtschaft-artenvielfalt-bayerische-voralpen\index.html
+
+=== BACKUP Aktivitäten-Links ===
+  Wandern & Outdoor (Übersicht): content/aktivitaeten/wandern-uebersicht.html
+  Alle Wanderrouten: content/wandern/index.html
+  Klettern: content/klettern/index.html
+  MTB-Touren: content/mtb/index.html
+  Winter-Guide: content/winter/index.html
+  Nordic Walking: content/nordic-walking/index.html
+
+=== AKTUELL Aktivitäten-Links ===
+  Wandern & Outdoor (Übersicht): content/aktivitaeten/wandern-uebersicht.html
+  Alle Wanderrouten: content/wandern/index.html
+  Klettern: content/klettern/index.html
+  MTB-Touren: content/mtb/index.html
+  Winter-Guide: content/winter/index.html
+  Nordic Walking: content/nordic-walking/index.html
+
+content/aktivitaeten/mountaincarts.html: Backup=True Aktuell=True
+
+content/mountaincards/index.html: Backup=False Aktuell=False
+
+content/huetten/rodelpisten/index.html: Backup=True Aktuell=True

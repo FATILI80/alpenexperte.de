@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Fauna & Flora der Alpen – Tierbeobachtung & Alpenbotanik</title>
+
+    <meta name="description"
+
+        content="Tierbeobachtung in den Bayerischen Alpen. Murmeltiere, Steinböcke, Greifvögel & Alpenblumen – mit Beobachtungstipps und hochwertiger Optik." />
+
+    <link rel="stylesheet" href="/css/style.css?v=20260608" />
+
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+
+    <script type="application/ld+json">
+
+        {
+
+            "@context": "https://schema.org",
+
+            "@type": "CollectionPage",
+
+            "name": "Fauna & Flora der Alpen",
+
+            "url": "https://www.alpenexperte.de/content/fauna/index.html",
+
+            "description": "Tierbeobachtung und Alpenbotanik für Spitzingsee, Brecherspitz und Umgebung."
+
+        }
+
+    </script>
+
+    <link rel="canonical" href="https://www.alpenexperte.de/content/fauna/index.html" />
+
+    <meta property="og:title" content="Fauna & Flora der Alpen – Tierbeobachtung & Alpenbotanik" />
+    <meta property="og:description" content="Tierbeobachtung in den Bayerischen Alpen. Murmeltiere, Steinböcke, Greifvögel & Alpenblumen – mit Beobachtungstipps und hochwertiger Optik." />
+    <meta property="og:image" content="https://www.alpenexperte.de/images/vogel.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.alpenexperte.de/content/fauna/index.html" />
+</head>
+
+<body>
+
+    <!-- ===== SKIP-LINK ===== -->
+
+    <a href="#main" class="skip-link visually-hidden-focusable">Zum Hauptinhalt springen</a>
+
+    <!-- ===== HEADER / NAVIGATION ===== -->
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+            <a href="/" class="logo" aria-label="Alpen-Experte Startseite">
+                <img src="/images/logo.svg" alt="Alpen-Experte" width="160" height="42">
+            </a>
+            <!-- SUCHE -->
+            <form class="header-search" role="search" action="https://www.google.com/search" method="get" target="_blank">
+                <input type="hidden" name="q" value="site:alpenexperte.de">
+                <label for="header-search-input" class="visually-hidden">Suche auf alpenexperte.de</label>
+                <input id="header-search-input" class="header-search-input" type="text" name="q2" placeholder="Suchen…" aria-label="Suchbegriff eingeben">
+                <button type="submit" class="header-search-btn" aria-label="Suche starten">&rsaquo;</button>
+            </form>
+            <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mainNav" aria-label="Navigation öffnen/schließen">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <nav id="mainNav" class="main-nav" aria-label="Hauptnavigation">
+                <ul class="nav-list">
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Aktivitäten</button>
+                        <div class="nav-dropdown">
+                            <a href="/content/wandern/index.html" class="megamenu-item">Wandern</a>
+                            <a href="/content/klettern/index.html" class="megamenu-item">Klettern</a>
+                            <a href="/content/mtb/index.html" class="megamenu-item">MTB-Touren</a>
+                            <a href="/content/winter/index.html" class="megamenu-item">Winter-Guide</a>
+                            <a href="/content/nordic-walking/index.html" class="megamenu-item">Nordic Walking</a>
+                        </div>
+                    </li>
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Hütten</button>
+                        <div class="nav-dropdown">
+                            <a href="/content/huetten/index.html" class="megamenu-item">Hüttenführer (Übersicht)</a>
+                            <a href="/content/huetten/rotwandhaus.html" class="megamenu-item">Rotwandhaus</a>
+                            <a href="/content/huetten/dav-haus-spitzingsee.html" class="megamenu-item">DAV-Haus Spitzingsee</a>
+                            <a href="/content/huetten/tegernseer-huette.html" class="megamenu-item">Tegernseer Hütte</a>
+                            <a href="/content/huetten/albert-link-huette.html" class="megamenu-item">Albert-Link-Hütte</a>
+                            <a href="/content/huetten/schoenfeldhuette.html" class="megamenu-item">Schönfeldhütte</a>
+                            <a href="/content/huetten/alm-restaurants/index.html" class="megamenu-item">Alm-Restaurants</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Wissensbibliothek</button>
+                        <div class="nav-dropdown megamenu">
+                            <div class="megamenu-grid">
+                                <a href="/content/fauna/index.html" class="megamenu-item">Fauna & Flora</a>
+                                <a href="/content/botanik/index.html" class="megamenu-item">Botanik</a>
+                                <a href="/content/geologie/index.html" class="megamenu-item">Geologie</a>
+                                <a href="/content/meteorologie/index.html" class="megamenu-item">Meteorologie</a>
+                                <a href="/content/limnologie/index.html" class="megamenu-item">Limnologie</a>
+                                <a href="/content/moore/index.html" class="megamenu-item">Moore</a>
+                                <a href="/content/forstwirtschaft/index.html" class="megamenu-item">Forstwirtschaft</a>
+                                <a href="/content/zoologie/index.html" class="megamenu-item">Zoologie</a>
+                                <a href="/content/almwirtschaft/index.html" class="megamenu-item">Almwirtschaft</a>
+                                <a href="/content/alpinismus_sicherheit/index.html" class="megamenu-item">Alpinismus & Sicherheit</a>
+                                <a href="/content/kultur_geschichte/index.html" class="megamenu-item">Kultur & Geschichte</a>
+                                <a href="/content/astronomie_geschichte/index.html" class="megamenu-item">Astronomie & Geschichte</a>
+                                <a href="/content/sternenhimmel/index.html" class="megamenu-item">Sternenhimmel</a>
+                                <a href="/content/almkultur/index.html" class="megamenu-item">Almkultur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="/content/praxis/index.html" class="nav-link">Praxis</a></li>
+                    <li><a href="/content/regional/index.html" class="nav-link">Regional</a></li>
+                                    <li><a href="/huetten.html" class="nav-link">H&uuml;tten &amp; Almen</a></li>
+                    <li><a href="/restaurants.html" class="nav-link">Restaurants</a></li>
+                    <li><a href="/live-check.html" class="nav-link">Wetter &amp; Webcams</a></li>
+                    <li><a href="/packlisten.html" class="nav-link">Packlisten</a></li>
+                    <li><a href="/anreise.html" class="nav-link">Anreise &amp; Parken</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== MAIN ===== -->
+
+    <main id="main">
+
+        <section class="section" aria-labelledby="page-title">
+
+            <div class="container" style="text-align: center;">
+
+                <span class="featured-badge"
+
+                    style="background: rgba(74,124,89,0.12); color: var(--color-alpine-green);">🌿
+
+                    Neu: Alpen-Fauna</span>
+
+                <h1 id="page-title" class="section-title">Fauna & Flora der Alpen</h1>
+
+                <p
+
+                    style="font-size: var(--step-0); max-width: 700px; margin: 0 auto var(--space-lg); color: var(--color-text-light);">
+
+                    Tierbeobachtung am Spitzingsee und Brecherspitz. Mit hochwertiger Optik wird die Alpenwelt zum
+
+                    Naturerlebnis.
+
+                </p>
+<div class="hero-image" style="margin:var(--space-lg) 0;"><img src="/images/vogel-adler.jpg" alt="Vogel Adler" style="width:100%;height:auto;border-radius:var(--radius-lg);" loading="eager" /></div>
+
+
+            </div>
+
+        </section>
+
+        <!-- ===== TIERBEOSBACHTUNG ===== -->
+
+        <section class="section section--alt" aria-labelledby="tiere-title">
+
+            <div class="container">
+
+                <header class="section-header">
+
+                    <h2 id="tiere-title" class="section-title">🦅 Tierbeobachtung am Spitzingsee</h2>
+
+                    <p class="section-desc">Welche Tiere du rund um die Obere Firstalm und am Brecherspitz beobachten
+
+                        kannst.</p>
+
+                </header>
+
+                <div class="grid grid--3col">
+
+                    <article id="murmel" class="silo-card" style="opacity: 1; animation: none;">
+
+                        <div class="silo-card-body" style="text-align: center;">
+
+                            <span class="silo-card-icon" style="font-size: 3rem;">🦌</span>
+
+                            <h3 class="silo-card-title">Murmeltiere</h3>
+
+                            <p class="silo-card-text">Häufig oberhalb der Baumgrenze am Brecherspitz-Gipfelgrat zu
+
+                                beobachten. Besonders aktiv am frühen Morgen. Typisch: Der laute Pfiff als Warnruf.</p>
+
+                        </div>
+
+                    <!-- ===== AFFILIATE PARTNER ===== -->
+<div style="background:rgba(196,167,111,.05);border-left:4px solid #c4a76f;padding:1.5rem;border-radius:8px;margin:2rem 0;">
+<strong style="color:#1a472a;">🛒 Ausrüstung & Partner</strong>
+<p style="margin:.5rem 0;font-size:.875rem;color:#555;">★ Affiliate-Links: Bei Kauf erhalten wir eine Provision</p>
+<div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem;">
+<a href="https://www.bergzeit.de" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🥾 Bergzeit</a>
+<a href="https://www.bergfreunde.de" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🧗 Bergfreunde</a>
+<a href="https://www.booking.com" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🏨 Booking</a>
+<a href="https://bahn.de" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🚆 DB Bahn</a>
+<a href="https://www.komoot.de/premium" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🗺️ Komoot</a>
+</div>
+</div>
+
+</article>
+
+                    <article id="gams" class="silo-card" style="opacity: 1; animation: none;">
+
+                        <div class="silo-card-body" style="text-align: center;">
+
+                            <span class="silo-card-icon" style="font-size: 3rem;">🐐</span>
+
+                            <h3 class="silo-card-title">Steinböcke & Gämsen</h3>
+
+                            <p class="silo-card-text">Im Mangfallgebirge heimisch. Gämsen sind scheuer, Steinböcke
+
+                                zeigen
+
+                                sich gelegentlich an den Taubenstein-Felswänden.</p>
+
+                        </div>
+
+                    </article>
+
+                    <article id="steinadler" class="silo-card" style="opacity: 1; animation: none;">
+
+                        <div class="silo-card-body" style="text-align: center;">
+
+                            <span class="silo-card-icon" style="font-size: 3rem;">🦅</span>
+
+                            <h3 class="silo-card-title">Greifvögel</h3>
+
+                            <p class="silo-card-text">Mäusebussard, Turmfalke und gelegentlich Steinadler kreisen über
+
+                                dem Brecherspitz. Ein Fernglas ist hier Gold wert.</p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===== OPTIK-EMPFEHLUNG ===== -->
+
+        <section class="section" aria-labelledby="optik-title" style="text-align: center;">
+
+            <div class="container" style="max-width: var(--container-narrow);">
+
+                <span class="featured-badge" style="background: rgba(199,75,44,0.1); color: var(--color-accent);">🔭
+
+                    Empfehlung</span>
+
+                <h2 id="optik-title" class="section-title">Hochwertige Optik für die Alpen</h2>
+
+                <p style="color: var(--color-text-light); margin-bottom: var(--space-lg);">
+
+                    Für die Tierbeobachtung in den Alpen empfehlen wir hochwertige Ferngläser und Spektive.
+
+                    Wir testen regelmäßig Modelle von Swarovski Optik, Zeiss und Nikon.
+
+                </p>
+
+                <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
+
+                    <a href="#" class="btn btn--primary">🔭 Fernglas-Test 2025 (Coming Soon)</a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===== BOTANIK / FLORA ===== -->
+
+        <section class="section section--alt" aria-labelledby="botanik-title">
+
+            <div class="container">
+
+                <header class="section-header">
+
+                    <h2 id="botanik-title" class="section-title">🌸 Alpenflora-Guide</h2>
+
+                    <p class="section-desc">Die Pflanzenwelt rund um Brecherspitz, Rotwand und Bodenschneid – mit
+
+                        Schutzstatus, Blütezeit und Standorten.</p>
+
+                </header>
+
+                <div class="grid grid--3col">
+
+                    <article class="silo-card" style="opacity: 1; animation: none;">
+
+                        <a href="flora/enzian.html" style="text-decoration: none; color: inherit; display: block;">
+
+                            <div class="silo-card-body" style="text-align: center;">
+
+                                <span class="silo-card-icon" style="font-size: 3rem;">💙</span>
+
+                                <h3 class="silo-card-title">Enzian & Alpenrose</h3>
+
+                                <p class="silo-card-text">Clusius-Enzian blüht Juni–August, die Alpenrose färbt ganze
+
+                                    Hänge rosa. Beide sind geschützt – und die Alpenrose ist giftig.</p>
+
+                                <span class="silo-card-cta">Zum Guide →</span>
+
+                            </div>
+
+                        </a>
+
+                    </article>
+
+                    <article class="silo-card" style="opacity: 1; animation: none;">
+
+                        <a href="flora/edelweiss.html" style="text-decoration: none; color: inherit; display: block;">
+
+                            <div class="silo-card-body" style="text-align: center;">
+
+                                <span class="silo-card-icon" style="font-size: 3rem;">⭐</span>
+
+                                <h3 class="silo-card-title">Edelweiß</h3>
+
+                                <p class="silo-card-text">Streng geschützt! Das Edelweiß wächst auf kalkhaltigen Böden
+
+                                    ab 1.500 m – am Taubenstein-Grat und auf der Rotwand.</p>
+
+                                <span class="silo-card-cta">Zum Guide →</span>
+
+                            </div>
+
+                        </a>
+
+                    </article>
+
+                    <article class="silo-card" style="opacity: 1; animation: none;">
+
+                        <a href="flora/arnika.html" style="text-decoration: none; color: inherit; display: block;">
+
+                            <div class="silo-card-body" style="text-align: center;">
+
+                                <span class="silo-card-icon" style="font-size: 3rem;">🌼</span>
+
+                                <h3 class="silo-card-title">Arnika & Trollblume</h3>
+
+                                <p class="silo-card-text">Die gelbe Heilpflanze auf den Almwiesen und die goldene
+
+                                    Kugelblume an Bachläufen. Mit wilden Orchideen.</p>
+
+                                <span class="silo-card-cta">Zum Guide →</span>
+
+                            </div>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+                <div style="text-align: center; margin-top: var(--space-lg);">
+
+                    <a href="flora/index.html" class="btn btn--primary">🌸 Alle Alpenblumen im Überblick →</a>
+
+                    <a href="flora/hohenstufen.html" class="btn btn--secondary" style="margin-left: var(--space-sm);">📊
+
+                        Höhenstufen der Alpen →</a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    <section style="padding: var(--space-2xl) 0;"><div class="container" style="max-width: var(--container-narrow);"><h2 style="text-align: center; margin-bottom: var(--space-lg);">Naturbeobachtung (Affiliate)</h2><div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-md);"><div style="background: linear-gradient(135deg, var(--color-glass), var(--color-surface)); border-radius: var(--radius-md); padding: var(--space-md); text-align: center;"><strong>Fernglas</strong><p style="color: var(--color-text-light); font-size:0.85rem;">Für die Tierbeobachtung</p><a href="https://www.bergzeit.de/fernglas/" rel="nofollow sponsored" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); display: inline-block;">Bei Bergzeit</a></div><div style="background: linear-gradient(135deg, var(--color-glass), var(--color-surface)); border-radius: var(--radius-md); padding: var(--space-md); text-align: center;"><strong>Bestimmungsbuch</strong><p style="color: var(--color-text-light); font-size:0.85rem;">Alpenflora & Fauna</p><a href="https://amzn.to/4aLbQg6" rel="nofollow sponsored" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); display: inline-block;">Auf Amazon</a></div></div></div></section></main>
+    <!-- ===== NEWS-TICKER-CONTAINER (dynamisch via JS) ===== -->
+    <div id="news-ticker-container"></div>
+
+    <!-- ===== FEEDBACK-BOX (User-Engagement) ===== -->
+    <section class="feedback-box" style="margin: 3rem auto; max-width: var(--container-narrow); padding: 2rem; background: linear-gradient(135deg, var(--color-bg-alt), var(--color-surface)); border-radius: var(--radius-lg); text-align: center; border: 2px dashed var(--color-primary);">
+        <h3 style="color: var(--color-wood-dark); margin-bottom: 1rem;">💬 Deine Meinung zählt!</h3>
+        <p style="color: var(--color-text-light); margin-bottom: 1.5rem; font-size: 1.05rem;">
+            <strong>Fehlt etwas oder stimmt eine Information nicht?</strong><br />
+            Hilf uns, diese Seite aktuell zu halten!
+        </p>
+        <a href="mailto:info@alpenexperte.de?subject=Feedback%20-%20Fauna%20%26%20Flora%20der%20Alpen%20%E2%80%93%20Tierbeobachtung%20%26%20Alpenbotanik"
+           class="btn btn-primary"
+           style="display: inline-block; padding: 0.75rem 2rem; background: var(--color-primary); color: var(--color-white); border-radius: var(--radius-md); text-decoration: none; font-weight: 600; transition: background 0.2s;">
+            ✉️ Feedback senden
+        </a>
+        <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--color-text-light);">
+            Deine Rückmeldung hilft anderen Besuchern.<br />
+            <a href="/impressum.html#datenschutz" style="color: var(--color-primary);">Datenschutz</a>
+        </p>
+    </section>
+
+        <!-- ===== FOOTER ===== -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="/images/logo.svg" alt="Alpen-Experte" width="160" height="42" loading="lazy">
+                    <p>Echte Alm-Praxis. Seit 2025.</p>
+                    <blockquote style="margin-top:var(--space-sm);font-style:italic;font-size:0.85rem;color:var(--color-text-light);border-left:2px solid var(--color-accent);padding-left:var(--space-sm);">&bdquo;Über d'Oim geht da Weg zua d'Sterndln und zruck zua d'Menschn.&ldquo; &ndash; Bayrische Weisheit</blockquote>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Aktivitäten</h4>
+                    <ul>
+                        <li><a href="/content/wandern/index.html">Wandern</a></li>
+                        <li><a href="/content/klettern/index.html">Klettern</a></li>
+                        <li><a href="/content/mtb/index.html">MTB-Touren</a></li>
+                        <li><a href="/content/winter/index.html">Winter-Guide</a></li>
+                        <li><a href="/content/huetten/rodelpisten/index.html">Rodelpisten</a></li>
+                    
+                        <li><a href="/huetten.html">H&uuml;tten &amp; Almen</a></li>
+                        <li><a href="/restaurants.html">Restaurants</a></li>
+                        <li><a href="/live-check.html">Wetter &amp; Webcams</a></li>
+                        <li><a href="/packlisten.html">Packlisten</a></li>
+                        <li><a href="/anreise.html">Anreise &amp; Parken</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Wissen & Kultur</h4>
+                    <ul>
+                        <li><a href="/content/kultur_geschichte/index.html">Kultur & Geschichte</a></li>
+                        <li><a href="/content/fauna/index.html">Fauna & Flora</a></li>
+                        <li><a href="/content/huetten/index.html">Hüttenführer</a></li>
+                        <li><a href="/content/regional/index.html">Regional-Seiten</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Rechtliches</h4>
+                    <ul>
+                        <li><a href="/impressum.html">Impressum</a></li>
+                        <li><a href="/datenschutz.html">Datenschutz</a></li>
+                        <li><a href="/impressum.html#affiliate">Affiliate-Offenlegung</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025&ndash;2026 Alpen-Experte. Alle Rechte vorbehalten.</p>
+                <p class="footer-disclaimer">Diese Seite enthält Affiliate-Links. Bei Kauf über diese Links erhalten wir eine kleine Provision &ndash; für dich entstehen keine Mehrkosten.</p>
+                <p class="footer-updated" style="font-size:0.75rem;color:var(--color-text-light);margin-top:var(--space-xs);">Zuletzt aktualisiert: 7. Juni 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== COOKIE-BANNER (DSGVO) ===== -->
+
+    
+
+<div id="cookieBanner" class="cookie-banner" role="dialog" aria-labelledby="cookie-title"
+        aria-describedby="cookie-desc">
+        <div class="cookie-banner-inner">
+            <div class="cookie-banner-text">
+                <span id="cookie-title" style="font-weight: 700;">🍪 Hinweis</span>
+                <span id="cookie-desc">Diese Website verwendet ausschließlich technisch notwendige Cookies. Kein
+                    Tracking, keine Analyse. Weitere Infos in unserer <a href="/datenschutz.html"
+                        style="color: var(--color-primary);">Datenschutzerklärung</a>.</span>
+            </div>
+
+            <div class="cookie-banner-actions">
+
+                <button id="cookieAccept" class="cookie-btn cookie-btn--accept">✅ Akzeptieren</button>
+
+                <button id="cookieDecline" class="cookie-btn cookie-btn--decline">✕ Ablehnen</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+    <script src="/js/main.js?v=20260608" defer></script>
+
+</body>
+
+</html>
+

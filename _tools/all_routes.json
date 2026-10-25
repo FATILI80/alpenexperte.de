@@ -1,0 +1,1652 @@
+[
+ {
+  "slug": "brecherspitz",
+  "name": "Brecherspitz",
+  "hoehe": "1.683 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "650 Hm",
+  "region": "Spitzingsee",
+  "badge": "Klassischer Gipfel",
+  "kurz": "Der beruehmte Aussichtsberg ueber dem Spitzingsee. Kurz, steil, grandios.",
+  "start": "Parkplatz Spitzingsee (Seelachen)",
+  "ziel": "Brecherspitz (1.683 m)",
+  "zoom": 13,
+  "center": [
+   47.66,
+   11.88
+  ],
+  "bbox": [
+   [
+    47.675,
+    11.86
+   ],
+   [
+    47.645,
+    11.895
+   ]
+  ],
+  "beschreibung": [
+   "Die Brecherspitz ist DER Hausberg am Spitzingsee. Trotz der bescheidenen Hoehe von 1.683 m bietet sie eine grossartige Rundsicht ueber den See und das Rotwand-Massiv.",
+   "Der Weg fuehrt ueber die Firstalm und ist gut beschildert. Die letzten Meter zum Gipfelkreuz sind steil, aber trittsicher zu meistern.",
+   "Belohnt wirst du mit einem 360-Grad-Panorama, das zu den schoensten der Bayerischen Voralpen zaehlt."
+  ]
+ },
+ {
+  "slug": "rinnerspitz",
+  "name": "Rinnerspitz",
+  "hoehe": "1.615 m",
+  "t": "T3",
+  "dauer": "3,5 Std.",
+  "hm": "700 Hm",
+  "region": "Spitzingsee",
+  "badge": "Einsamer Gipfel",
+  "kurz": "Ruhige Alternative zur Brecherspitz mit freiem Gipfelgefuehl.",
+  "start": "Spitzingsee Ort",
+  "ziel": "Rinnerspitz (1.615 m)",
+  "zoom": 13,
+  "center": [
+   47.662,
+   11.893
+  ],
+  "bbox": [
+   [
+    47.678,
+    11.875
+   ],
+   [
+    47.648,
+    11.912
+   ]
+  ],
+  "beschreibung": [
+   "Der Rinnerspitz liegt abseits des Trubels und ist deutlich ruhiger als die benachbarte Brecherspitz.",
+   "Vom Spitzingsee fuehrt die Route ueber den Jaegerkamp-Sattel und dann ueber einen teils weglosen, mit Steinmaennern markierten Steig zum Gipfel.",
+   "Der letzte Anstieg erfordert Trittsicherheit - dafuer wirst du mit Einsamkeit und einem weiten Blick belohnt."
+  ]
+ },
+ {
+  "slug": "bodenschneid",
+  "name": "Bodenschneid",
+  "hoehe": "1.668 m",
+  "t": "T2",
+  "dauer": "4 Std.",
+  "hm": "700 Hm",
+  "region": "Tegernsee",
+  "badge": "Panorama-Grat",
+  "kurz": "Gratweg ueber die Bodenschneid mit Blick auf Tegernsee und Spitzingsee.",
+  "start": "Parkplatz Enterrottach",
+  "ziel": "Bodenschneid (1.668 m)",
+  "zoom": 13,
+  "center": [
+   47.67,
+   11.83
+  ],
+  "bbox": [
+   [
+    47.685,
+    11.81
+   ],
+   [
+    47.655,
+    11.85
+   ]
+  ],
+  "beschreibung": [
+   "Die Bodenschneid ist ein lohnender Gipfel zwischen Tegernsee und Spitzingsee mit einem aussichtsreichen Gratweg.",
+   "Vom Parkplatz Enterrottach geht es zunaechst durch Wald, spaeter ueber Almwiesen empor.",
+   "Als Abstieg empfiehlt sich die Variante ueber die Miesbachalm - so ergibt sich eine abwechslungsreiche Runde."
+  ]
+ },
+ {
+  "slug": "buchstein",
+  "name": "Buchstein",
+  "hoehe": "1.701 m",
+  "t": "T4",
+  "dauer": "6 Std.",
+  "hm": "1.100 Hm",
+  "region": "Tegernsee",
+  "badge": "Anspruchsvoll",
+  "kurz": "Alpine Felsenburg mit anspruchsvoller Kletterpassage.",
+  "start": "Parkplatz Untere Buchstein-Alm",
+  "ziel": "Buchstein (1.701 m)",
+  "zoom": 13,
+  "center": [
+   47.665,
+   11.8
+  ],
+  "bbox": [
+   [
+    47.685,
+    11.78
+   ],
+   [
+    47.645,
+    11.82
+   ]
+  ],
+  "beschreibung": [
+   "Der Buchstein ist mit 1.701 m die hoechste Erhebung oestlich des Tegernsees und ein ernst zu nehmender alpiner Felsgipfel.",
+   "Der Anstieg ist teils weglos und erfordert sicheres Gehen in alpinem Gelaende.",
+   "Nur fuer erfahrene Bergsteiger mit guter Kondition."
+  ]
+ },
+ {
+  "slug": "rossstein",
+  "name": "Rossstein",
+  "hoehe": "1.698 m",
+  "t": "T2",
+  "dauer": "4,5 Std.",
+  "hm": "850 Hm",
+  "region": "Tegernsee",
+  "badge": "Gipfel mit Huette",
+  "kurz": "Gemuetlicher Gipfel mit gleichnamiger Huette am Grat.",
+  "start": "Parkplatz Rottach-Egern",
+  "ziel": "Rossstein (1.698 m)",
+  "zoom": 13,
+  "center": [
+   47.66,
+   11.795
+  ],
+  "bbox": [
+   [
+    47.678,
+    11.775
+   ],
+   [
+    47.642,
+    11.815
+   ]
+  ],
+  "beschreibung": [
+   "Der Rossstein ist ein beliebter Gipfel zwischen Tegern- und Achensee. Die gleichnamige Huette am Grat laedt zur Einkehr ein.",
+   "Die Route fuehrt ueber die Buchstein-Alm sanft ansteigend zum Gipfel.",
+   "Die Tour ist ueber die Aufstiege zu Buchstein und Rossstein kombinierbar - ein klassisches Voralpenziel."
+  ]
+ },
+ {
+  "slug": "holzeralm",
+  "name": "Holzer Alm",
+  "hoehe": "1.300 m",
+  "t": "T1",
+  "dauer": "2 Std.",
+  "hm": "300 Hm",
+  "region": "Spitzingsee",
+  "badge": "Familientour",
+  "kurz": "Gemuetliche Almwanderung, ideal mit Kindern.",
+  "start": "Parkplatz Valepp / Spitzingsee",
+  "ziel": "Holzer Alm (1.300 m)",
+  "zoom": 14,
+  "center": [
+   47.678,
+   11.88
+  ],
+  "bbox": [
+   [
+    47.69,
+    11.865
+   ],
+   [
+    47.668,
+    11.895
+   ]
+  ],
+  "beschreibung": [
+   "Die Holzer Alm ist ein leichtes, familienfreundliches Ausflugsziel mit Panoramablick auf das Rotwand-Massiv.",
+   "Der Weg ist breit, gut ausgebaut und fuer Kinder, Senioren und sogar Kinderwagen geeignet.",
+   "Auf der Alm gibt es deftige Brotzeit und hausgemachte Kuchen."
+  ]
+ },
+ {
+  "slug": "spitzingsee-umrundung",
+  "name": "Spitzingsee-Umrundung",
+  "hoehe": "1.090 m",
+  "t": "T1",
+  "dauer": "2,5 Std.",
+  "hm": "120 Hm",
+  "region": "Spitzingsee",
+  "badge": "See-Runde",
+  "kurz": "Gemuetliche Runde um den idyllischen Spitzingsee.",
+  "start": "Parkplatz Spitzingsee",
+  "ziel": "Spitzingsee (1.090 m)",
+  "zoom": 14,
+  "center": [
+   47.665,
+   11.89
+  ],
+  "bbox": [
+   [
+    47.68,
+    11.87
+   ],
+   [
+    47.65,
+    11.91
+   ]
+  ],
+  "beschreibung": [
+   "Die Runde um den Spitzingsee ist eine der beliebtesten leichten Wanderungen der Region.",
+   "Der Uferweg fuehrt durch bewaldete Abschnitte und ueber Wiesen, immer mit Blick auf das Wasser.",
+   "Zahlreiche Einkehrmoeglichkeiten machen die Tour zum entspannten Familienerlebnis."
+  ]
+ },
+ {
+  "slug": "jaegerkamp-runde",
+  "name": "Jaegerkamp-Runde",
+  "hoehe": "1.446 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "400 Hm",
+  "region": "Spitzingsee",
+  "badge": "Rundweg",
+  "kurz": "Rundtour ueber Jaegerkamp und Rinnerspitz-Sattel.",
+  "start": "Parkplatz Spitzingsee (Seelachen)",
+  "ziel": "Jaegerkamp (1.446 m)",
+  "zoom": 13,
+  "center": [
+   47.66,
+   11.888
+  ],
+  "bbox": [
+   [
+    47.678,
+    11.868
+   ],
+   [
+    47.642,
+    11.908
+   ]
+  ],
+  "beschreibung": [
+   "Die Jaegerkamp-Runde verbindet den Gipfel mit idyllischen Almwiesen zu einem abwechslungsreichen Rundweg.",
+   "Der Aufstieg erfolgt ueber den Waldweg, der Abstieg ueber die Weideflaechen der Holzer Alm.",
+   "Eine kompakte Halbtagestour mit tollem Panorama."
+  ]
+ },
+ {
+  "slug": "aiplspitz-runde",
+  "name": "Aiplspitz-Runde",
+  "hoehe": "1.827 m",
+  "t": "T3",
+  "dauer": "5 Std.",
+  "hm": "900 Hm",
+  "region": "Spitzingsee",
+  "badge": "Grasgipfel",
+  "kurz": "Hochtour auf den grasigen Aussichtsberg ueber dem See.",
+  "start": "Parkplatz Spitzingsee",
+  "ziel": "Aiplspitz (1.827 m)",
+  "zoom": 13,
+  "center": [
+   47.665,
+   11.905
+  ],
+  "bbox": [
+   [
+    47.685,
+    11.88
+   ],
+   [
+    47.645,
+    11.93
+   ]
+  ],
+  "beschreibung": [
+   "Der hoch gelegene Grasgipfel bietet eine der weitesten Aussichten der Gegend.",
+   "Vom Spitzingsee geht es steil, aber technisch einfach ueber Bergwiesen und Geroell nach oben.",
+   "Der Gipfel ist wenig besucht - hier findest du noch echte Ruhe."
+  ]
+ },
+ {
+  "slug": "rotwandhaus-aufstieg",
+  "name": "Rotwandhaus-Aufstieg",
+  "hoehe": "1.737 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "600 Hm",
+  "region": "Spitzingsee",
+  "badge": "Huettenziel",
+  "kurz": "Aufstieg zur hoechstgelegenen Huette der Region.",
+  "start": "Parkplatz Spitzingsee",
+  "ziel": "Rotwandhaus (1.737 m)",
+  "zoom": 13,
+  "center": [
+   47.65,
+   11.9
+  ],
+  "bbox": [
+   [
+    47.668,
+    11.88
+   ],
+   [
+    47.632,
+    11.925
+   ]
+  ],
+  "beschreibung": [
+   "Das Rotwandhaus auf 1.737 m ist die hoechstgelegene Huette des Mangfallgebirges.",
+   "Die Route fuehrt vom Spitzingsee ueber die Untere und Obere Firstalm ansteigend zum Haus.",
+   "Belohnt wirst du mit Panoramablick und zuenftiger Huettenkueche."
+  ]
+ },
+ {
+  "slug": "hintere-firstalm",
+  "name": "Hintere Firstalm",
+  "hoehe": "1.400 m",
+  "t": "T1",
+  "dauer": "2,5 Std.",
+  "hm": "350 Hm",
+  "region": "Spitzingsee",
+  "badge": "Almwandern",
+  "kurz": "Leichte Almwanderung zur urigen Hinteren Firstalm.",
+  "start": "Parkplatz Spitzingsee (Firstalm)",
+  "ziel": "Hintere Firstalm (1.400 m)",
+  "zoom": 14,
+  "center": [
+   47.672,
+   11.875
+  ],
+  "bbox": [
+   [
+    47.688,
+    11.86
+   ],
+   [
+    47.658,
+    11.892
+   ]
+  ],
+  "beschreibung": [
+   "Die Hintere Firstalm ist ein ruhiger, traditioneller Almbetrieb mit herrlichem Bergblick.",
+   "Der breite Almweg ist leicht zu gehen und eignet sich fuer Genusswanderer.",
+   "Hier gibt es echten Almkaese und eine ordentliche Brotzeit."
+  ]
+ },
+ {
+  "slug": "schoenfeldalm-runde",
+  "name": "Schoenfeldalm-Runde",
+  "hoehe": "1.360 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "450 Hm",
+  "region": "Spitzingsee",
+  "badge": "Rundwanderung",
+  "kurz": "Rundweg ueber die Schoenfeldalm unterhalb der Rotwand.",
+  "start": "Parkplatz Spitzingsee",
+  "ziel": "Schoenfeldalm (1.360 m)",
+  "zoom": 13,
+  "center": [
+   47.645,
+   11.91
+  ],
+  "bbox": [
+   [
+    47.662,
+    11.89
+   ],
+   [
+    47.628,
+    11.93
+   ]
+  ],
+  "beschreibung": [
+   "Die Schoenfeldalm liegt idyllisch unterhalb der Rotwand und ist Ausgangspunkt vieler Rundwege.",
+   "Die Route fuehrt zunaechst durch Bergwald, dann ueber offene Almflaechen.",
+   "Die Einkehr mit hausgemachtem Kaese macht die Tour zum Genusserlebnis."
+  ]
+ },
+ {
+  "slug": "untere-firstalm-runde",
+  "name": "Untere Firstalm-Runde",
+  "hoehe": "1.400 m",
+  "t": "T1",
+  "dauer": "2 Std.",
+  "hm": "300 Hm",
+  "region": "Spitzingsee",
+  "badge": "Familienrunde",
+  "kurz": "Entspannte Runde zur Unteren Firstalm fuer die ganze Familie.",
+  "start": "Parkplatz Spitzingsee (Seelachen)",
+  "ziel": "Untere Firstalm (1.400 m)",
+  "zoom": 14,
+  "center": [
+   47.665,
+   11.872
+  ],
+  "bbox": [
+   [
+    47.678,
+    11.858
+   ],
+   [
+    47.65,
+    11.888
+   ]
+  ],
+  "beschreibung": [
+   "Die Untere Firstalm ist ein beliebter Familienbetrieb mit Spielplatz und Streichelzoo.",
+   "Der Weg dorthin ist leicht, breit und auch mit Kinderwagen machbar.",
+   "Ein perfekter Ausflug fuer Familien mit kleinen Kindern."
+  ]
+ },
+ {
+  "slug": "valepp-talwanderung",
+  "name": "Valepp-Talwanderung",
+  "hoehe": "900 m",
+  "t": "T1",
+  "dauer": "3 Std.",
+  "hm": "150 Hm",
+  "region": "Valepp",
+  "badge": "Talwanderung",
+  "kurz": "Gemuetliche Talwanderung durch das wildromantische Valepptal.",
+  "start": "Parkplatz Valepp",
+  "ziel": "Valepptal (900 m)",
+  "zoom": 13,
+  "center": [
+   47.615,
+   11.86
+  ],
+  "bbox": [
+   [
+    47.64,
+    11.83
+   ],
+   [
+    47.59,
+    11.89
+   ]
+  ],
+  "beschreibung": [
+   "Das Valepptal ist ein abgeschiedenes, wildromantisches Tal mit einem der letzten Urwaelder der Region.",
+   "Die Wanderung folgt dem rauschenden Wildbach und ist ueberwiegend eben und leicht.",
+   "Das urige Forsthaus Valepp mit Biergarten laedt zur Einkehr ein."
+  ]
+ },
+ {
+  "slug": "rotwand-rundtour",
+  "name": "Rotwand-Rundtour",
+  "hoehe": "1.884 m",
+  "t": "T3",
+  "dauer": "6 Std.",
+  "hm": "1.000 Hm",
+  "region": "Spitzingsee",
+  "badge": "Grosse Runde",
+  "kurz": "Anspruchsvolle Ganztagestour zur Rotwand.",
+  "start": "Parkplatz Spitzingsee",
+  "ziel": "Rotwand (1.884 m)",
+  "zoom": 12,
+  "center": [
+   47.645,
+   11.905
+  ],
+  "bbox": [
+   [
+    47.67,
+    11.87
+   ],
+   [
+    47.62,
+    11.94
+   ]
+  ],
+  "beschreibung": [
+   "Diese grosse Rundtour kombiniert den Spitzingsee mit dem Rotwand-Gipfel.",
+   "Der Anstieg ueber die Kuempflalm ist steil, aber technisch einfach.",
+   "Ein langer, aber lohnender Tag fuer konditionsstarke Wanderer."
+  ]
+ },
+ {
+  "slug": "schoenfeldalm-rotwand",
+  "name": "Schoenfeldalm zur Rotwand",
+  "hoehe": "1.884 m",
+  "t": "T3",
+  "dauer": "5 Std.",
+  "hm": "850 Hm",
+  "region": "Spitzingsee",
+  "badge": "Gipfeltour",
+  "kurz": "Der klassische Rotwand-Aufstieg ueber die Schoenfeldalm.",
+  "start": "Parkplatz Spitzingsee",
+  "ziel": "Rotwand (1.884 m)",
+  "zoom": 13,
+  "center": [
+   47.648,
+   11.905
+  ],
+  "bbox": [
+   [
+    47.665,
+    11.885
+   ],
+   [
+    47.63,
+    11.925
+   ]
+  ],
+  "beschreibung": [
+   "Vom Spitzingsee fuehrt diese klassische Route zunaechst zur Schoenfeldalm und dann steil auf die Rotwand.",
+   "Der Weg ist anspruchsvoll, aber gut markiert und fuer trittsichere Wanderer geeignet.",
+   "Oben wartet eine der besten Aussichten der Bayerischen Voralpen."
+  ]
+ },
+ {
+  "slug": "kuempflalm",
+  "name": "Kuempflalm",
+  "hoehe": "1.450 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "400 Hm",
+  "region": "Spitzingsee",
+  "badge": "Almziel",
+  "kurz": "Halbtageswanderung zur einsamen Kuempflalm.",
+  "start": "Parkplatz Spitzingsee",
+  "ziel": "Kuempflalm (1.450 m)",
+  "zoom": 14,
+  "center": [
+   47.648,
+   11.895
+  ],
+  "bbox": [
+   [
+    47.662,
+    11.878
+   ],
+   [
+    47.635,
+    11.912
+   ]
+  ],
+  "beschreibung": [
+   "Die Kuempflalm ist ein stilles, traditionelles Almziel abseits der grossen Wege.",
+   "Der Anstieg erfolgt ueber einen stillen Bergwald und lichtet sich erst kurz vor der Alm.",
+   "Auf der Alm gibt es Selbstbedienung mit Almbrotzeit und Getraenken."
+  ]
+ },
+ {
+  "slug": "bleckstein",
+  "name": "Bleckstein",
+  "hoehe": "1.400 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "400 Hm",
+  "region": "Valepp",
+  "badge": "Ruhiger Gipfel",
+  "kurz": "Unbekannter Aussichtsgipfel ueber dem Valepptal.",
+  "start": "Parkplatz Valepp",
+  "ziel": "Bleckstein (1.400 m)",
+  "zoom": 13,
+  "center": [
+   47.625,
+   11.835
+  ],
+  "bbox": [
+   [
+    47.645,
+    11.81
+   ],
+   [
+    47.605,
+    11.86
+   ]
+  ],
+  "beschreibung": [
+   "Der Bleckstein ist einer der unbekanntesten, aber schoensten Aussichtsberge der Gegend.",
+   "Die Tour fuehrt durch abwechslungsreichen Bergwald und endet an einem Gipfelkreuz.",
+   "Hier findest du garantiert Ruhe - kaum jemand kennt diesen Gipfel."
+  ]
+ },
+ {
+  "slug": "rettenscharten",
+  "name": "Rettenscharten",
+  "hoehe": "1.600 m",
+  "t": "T3",
+  "dauer": "4 Std.",
+  "hm": "700 Hm",
+  "region": "Valepp",
+  "badge": "Alpine Runde",
+  "kurz": "Anspruchsvolle Runde in unberuehrter Natur.",
+  "start": "Parkplatz Valepp",
+  "ziel": "Rettenscharten (1.600 m)",
+  "zoom": 13,
+  "center": [
+   47.63,
+   11.855
+  ],
+  "bbox": [
+   [
+    47.65,
+    11.83
+   ],
+   [
+    47.608,
+    11.882
+   ]
+  ],
+  "beschreibung": [
+   "Die Rettenscharten ist ein wilder Bergruecken, den nur wenige Besucher kennen.",
+   "Die Route erfordert Trittsicherheit, da der obere Teil weglos und mit Steinmaennern markiert ist.",
+   "Fuer erfahrene Wanderer, die echte Wildnis suchen."
+  ]
+ },
+ {
+  "slug": "plankenstein",
+  "name": "Plankenstein",
+  "hoehe": "1.760 m",
+  "t": "T3",
+  "dauer": "5 Std.",
+  "hm": "900 Hm",
+  "region": "Wendelstein",
+  "badge": "Hochtour",
+  "kurz": "Lohnende Hochtour mit Blick zur Zugspitze.",
+  "start": "Parkplatz Bayrischzell",
+  "ziel": "Plankenstein (1.760 m)",
+  "zoom": 12,
+  "center": [
+   47.7,
+   12.005
+  ],
+  "bbox": [
+   [
+    47.72,
+    11.98
+   ],
+   [
+    47.678,
+    12.03
+   ]
+  ],
+  "beschreibung": [
+   "Der Plankenstein bei Bayrischzell bietet eine grossartige Hochgebirgstour.",
+   "Der Anstieg fuehrt ueber die Wirtsalm und dann steil ueber Almwiesen zum Gipfel.",
+   "Belohnt wirst du mit einem Panorama von der Zugspitze bis zum Wendelstein."
+  ]
+ },
+ {
+  "slug": "wendelstein",
+  "name": "Wendelstein",
+  "hoehe": "1.838 m",
+  "t": "T3",
+  "dauer": "5 Std.",
+  "hm": "1.000 Hm",
+  "region": "Wendelstein",
+  "badge": "Aussichtsberg",
+  "kurz": "Der beruehmte Aussichtsberg mit Panoramablick.",
+  "start": "Parkplatz Bayrischzell",
+  "ziel": "Wendelstein (1.838 m)",
+  "zoom": 12,
+  "center": [
+   47.705,
+   12.013
+  ],
+  "bbox": [
+   [
+    47.725,
+    11.99
+   ],
+   [
+    47.682,
+    12.04
+   ]
+  ],
+  "beschreibung": [
+   "Der Wendelstein ist einer der bekanntesten Aussichtsberge der bayerischen Alpen.",
+   "Die Wanderung fuehrt ueber die Reindler-Alm steil, aber technisch einfach zum Gipfelplateau.",
+   "Oben erwarten dich ein Kreuz, eine Wetterstation und eine atemberaubende Rundsicht."
+  ]
+ },
+ {
+  "slug": "schliersbergalm",
+  "name": "Schliersbergalm",
+  "hoehe": "1.061 m",
+  "t": "T1",
+  "dauer": "1,5 Std.",
+  "hm": "250 Hm",
+  "region": "Schliersee",
+  "badge": "Genusswanderung",
+  "kurz": "Gemuetliche Wanderung zur Schliersbergalm ueber dem See.",
+  "start": "Bahnhof Schliersee",
+  "ziel": "Schliersbergalm (1.061 m)",
+  "zoom": 14,
+  "center": [
+   47.72,
+   11.86
+  ],
+  "bbox": [
+   [
+    47.735,
+    11.845
+   ],
+   [
+    47.702,
+    11.88
+   ]
+  ],
+  "beschreibung": [
+   "Die Schliersbergalm liegt hoch ueber dem Schliersee und ist ein beliebtes Ausflugsziel.",
+   "Der breite Almweg ist leicht zu gehen und auch fuer Familien geeignet.",
+   "Von der Terrasse hast du einen herrlichen Blick auf den Schliersee."
+  ]
+ },
+ {
+  "slug": "schoenmoosrunde",
+  "name": "Schoenmoosrunde",
+  "hoehe": "1.200 m",
+  "t": "T2",
+  "dauer": "3,5 Std.",
+  "hm": "450 Hm",
+  "region": "Schliersee",
+  "badge": "Rundweg",
+  "kurz": "Abwechslungsreiche Runde durch Wald und Moor.",
+  "start": "Parkplatz Schliersee Ost",
+  "ziel": "Schoenmoos (1.200 m)",
+  "zoom": 13,
+  "center": [
+   47.7,
+   11.84
+  ],
+  "bbox": [
+   [
+    47.718,
+    11.82
+   ],
+   [
+    47.682,
+    11.862
+   ]
+  ],
+  "beschreibung": [
+   "Die Schoenmoosrunde fuehrt durch eine abwechslungsreiche Landschaft aus Wald, Wiesen und Moor.",
+   "Der Weg ist maessig ansteigend und bietet immer wieder Blicke auf den Schliersee.",
+   "Im Herbst verwandelt sich das Moor in ein goldenes Farbenmeer."
+  ]
+ },
+ {
+  "slug": "kirchlesberg-runde",
+  "name": "Kirchlesberg-Runde",
+  "hoehe": "1.140 m",
+  "t": "T1",
+  "dauer": "2 Std.",
+  "hm": "300 Hm",
+  "region": "Schliersee",
+  "badge": "Spazierweg",
+  "kurz": "Leichte Runde mit Kapelle und Seeblick.",
+  "start": "Parkplatz Schliersee",
+  "ziel": "Kirchlesberg (1.140 m)",
+  "zoom": 14,
+  "center": [
+   47.73,
+   11.87
+  ],
+  "bbox": [
+   [
+    47.745,
+    11.855
+   ],
+   [
+    47.715,
+    11.888
+   ]
+  ],
+  "beschreibung": [
+   "Diese leichte Runde fuehrt zur malerischen Kirchlesberg-Kapelle ueber dem Schlierseetal.",
+   "Der Weg ist breit, gut ausgebaut und ideal fuer einen gemuetlichen Nachmittagsspaziergang.",
+   "Die Kapelle mit ihrem kleinen Glockenturm ist ein beliebtes Fotomotiv."
+  ]
+ },
+ {
+  "slug": "tegernseer-hoehenweg",
+  "name": "Tegernseer Hoehenweg",
+  "hoehe": "1.200 m",
+  "t": "T2",
+  "dauer": "4 Std.",
+  "hm": "500 Hm",
+  "region": "Tegernsee",
+  "badge": "Hoehenweg",
+  "kurz": "Aussichtsreicher Hoehenweg ueber dem Tegernsee.",
+  "start": "Parkplatz Rottach-Egern",
+  "ziel": "Tegernseer Hoehenweg (1.200 m)",
+  "zoom": 13,
+  "center": [
+   47.7,
+   11.77
+  ],
+  "bbox": [
+   [
+    47.72,
+    11.745
+   ],
+   [
+    47.682,
+    11.795
+   ]
+  ],
+  "beschreibung": [
+   "Der Tegernseer Hoehenweg verlaeuft oberhalb des Sees durch lichten Wald und ueber Wiesen.",
+   "Der Weg ist gut markiert und bietet immer wieder Blicke auf den See.",
+   "Zahlreiche Einkehrmoeglichkeiten laden zur Rast ein."
+  ]
+ },
+ {
+  "slug": "wallberg",
+  "name": "Wallberg",
+  "hoehe": "1.722 m",
+  "t": "T2",
+  "dauer": "4 Std.",
+  "hm": "850 Hm",
+  "region": "Tegernsee",
+  "badge": "Klassiker",
+  "kurz": "Der Hausberg von Rottach-Egern mit grandioser Aussicht.",
+  "start": "Parkplatz Rottach-Egern",
+  "ziel": "Wallberg (1.722 m)",
+  "zoom": 13,
+  "center": [
+   47.685,
+   11.74
+  ],
+  "bbox": [
+   [
+    47.705,
+    11.715
+   ],
+   [
+    47.665,
+    11.765
+   ]
+  ],
+  "beschreibung": [
+   "Der Wallberg ist der bekannteste Aussichtsberg ueber dem Tegernsee.",
+   "Die Wanderung fuehrt ueber die Wallbergalm und dann weiter zum Gipfel.",
+   "Oben geniesst du einen der schoensten Blicke auf den Tegernsee."
+  ]
+ },
+ {
+  "slug": "rottach-egern-seerunde",
+  "name": "Rottach-Egern Seerunde",
+  "hoehe": "740 m",
+  "t": "T1",
+  "dauer": "2,5 Std.",
+  "hm": "80 Hm",
+  "region": "Tegernsee",
+  "badge": "See-Runde",
+  "kurz": "Flache Runde entlang des Suedufers des Tegernsees.",
+  "start": "Rottach-Egern Ortsmitte",
+  "ziel": "Tegernsee Suedufer (740 m)",
+  "zoom": 14,
+  "center": [
+   47.69,
+   11.75
+  ],
+  "bbox": [
+   [
+    47.705,
+    11.735
+   ],
+   [
+    47.675,
+    11.768
+   ]
+  ],
+  "beschreibung": [
+   "Diese flache Runde folgt dem Suedufer des Tegernsees von Rottach-Egern aus.",
+   "Der Uferweg ist durchgehend gut ausgebaut und auch mit Kinderwagen geeignet.",
+   "Unterwegs laden mehrere Cafes und Biergaerten zum Verweilen ein."
+  ]
+ },
+ {
+  "slug": "hinterriss-runde",
+  "name": "Hinterriss-Runde",
+  "hoehe": "1.500 m",
+  "t": "T3",
+  "dauer": "5 Std.",
+  "hm": "800 Hm",
+  "region": "Tegernsee",
+  "badge": "Wildnis",
+  "kurz": "Einsame Tour zur urigen Hinterriss-Alm.",
+  "start": "Parkplatz Tegernsee",
+  "ziel": "Hinterriss-Alm (1.500 m)",
+  "zoom": 13,
+  "center": [
+   47.66,
+   11.765
+  ],
+  "bbox": [
+   [
+    47.68,
+    11.74
+   ],
+   [
+    47.638,
+    11.795
+   ]
+  ],
+  "beschreibung": [
+   "Die Hinterriss-Runde fuehrt in einen stillen Winkel des Mangfallgebirges.",
+   "Die Route ist teils weglos und erfordert gute Orientierung.",
+   "Die Hinterriss-Alm ist ein einfacher Almbetrieb mit Selbstversorgung."
+  ]
+ },
+ {
+  "slug": "schinder",
+  "name": "Schinder",
+  "hoehe": "1.808 m",
+  "t": "T3",
+  "dauer": "5 Std.",
+  "hm": "950 Hm",
+  "region": "Tegernsee",
+  "badge": "Gipfelziel",
+  "kurz": "Aussichtsreicher Gipfel mit Blick ueber das ganze Gebirge.",
+  "start": "Parkplatz Oberhof",
+  "ziel": "Schinder (1.808 m)",
+  "zoom": 12,
+  "center": [
+   47.665,
+   11.78
+  ],
+  "bbox": [
+   [
+    47.685,
+    11.755
+   ],
+   [
+    47.642,
+    11.808
+   ]
+  ],
+  "beschreibung": [
+   "Der Schinder ist ein markanter Gipfel mit hervorragender Rundumsicht.",
+   "Der Anstieg ist steil und teilweise felsig, aber gut markiert.",
+   "Vom Gipfel reicht der Blick ueber Tegernsee, Schliersee und Spitzingsee."
+  ]
+ },
+ {
+  "slug": "brecherspitz-grat",
+  "name": "Brecherspitz-Grat",
+  "hoehe": "1.683 m",
+  "t": "T3",
+  "dauer": "4 Std.",
+  "hm": "700 Hm",
+  "region": "Spitzingsee",
+  "badge": "Gratueberschreitung",
+  "kurz": "Gratueberschreitung mit ausgesetzten Passagen.",
+  "start": "Parkplatz Spitzingsee (Firstalm)",
+  "ziel": "Brecherspitz (1.683 m)",
+  "zoom": 13,
+  "center": [
+   47.658,
+   11.882
+  ],
+  "bbox": [
+   [
+    47.675,
+    11.862
+   ],
+   [
+    47.64,
+    11.9
+   ]
+  ],
+  "beschreibung": [
+   "Diese anspruchsvolle Variante ueberschreitet die Brecherspitz von Nord nach Sued ueber den Grat.",
+   "Der Gratweg erfordert Trittsicherheit und Schwindelfreiheit.",
+   "Fuer bergerfahrene Wanderer eine der schoensten Touren der Region."
+  ]
+ },
+ {
+  "slug": "rottachalm",
+  "name": "Rottachalm",
+  "hoehe": "1.400 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "450 Hm",
+  "region": "Spitzingsee",
+  "badge": "Almziel",
+  "kurz": "Gemuetliche Almwanderung mit Blick auf den See.",
+  "start": "Parkplatz Spitzingsee",
+  "ziel": "Rottachalm (1.400 m)",
+  "zoom": 14,
+  "center": [
+   47.67,
+   11.885
+  ],
+  "bbox": [
+   [
+    47.685,
+    11.868
+   ],
+   [
+    47.655,
+    11.902
+   ]
+  ],
+  "beschreibung": [
+   "Die Rottachalm ist ein beliebtes Almziel oberhalb des Spitzingsees.",
+   "Der Weg dorthin ist gut markiert und maessig ansteigend.",
+   "Auf der Alm gibt es regionale Spezialitaeten und einen herrlichen Blick."
+  ]
+ },
+ {
+  "slug": "krottentalalm",
+  "name": "Krottentalalm",
+  "hoehe": "1.350 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "400 Hm",
+  "region": "Valepp",
+  "badge": "Almrunde",
+  "kurz": "Ruhige Almwanderung im Krottental.",
+  "start": "Parkplatz Valepp",
+  "ziel": "Krottentalalm (1.350 m)",
+  "zoom": 13,
+  "center": [
+   47.64,
+   11.85
+  ],
+  "bbox": [
+   [
+    47.655,
+    11.832
+   ],
+   [
+    47.622,
+    11.87
+   ]
+  ],
+  "beschreibung": [
+   "Die Krottentalalm liegt versteckt in einem stillen Seitental.",
+   "Die Tour ist wenig besucht und fuehrt durch urwaldaehnlichen Bergwald.",
+   "Die Alm ist ein einfacher Betrieb mit hausgemachtem Kaese."
+  ]
+ },
+ {
+  "slug": "aibleck-rundweg",
+  "name": "Aibleck-Rundweg",
+  "hoehe": "1.520 m",
+  "t": "T2",
+  "dauer": "4 Std.",
+  "hm": "600 Hm",
+  "region": "Spitzingsee",
+  "badge": "Rundweg",
+  "kurz": "Abwechslungsreiche Rundtour um das Aibleck.",
+  "start": "Parkplatz Spitzingsee",
+  "ziel": "Aibleck (1.520 m)",
+  "zoom": 13,
+  "center": [
+   47.655,
+   11.87
+  ],
+  "bbox": [
+   [
+    47.672,
+    11.85
+   ],
+   [
+    47.635,
+    11.892
+   ]
+  ],
+  "beschreibung": [
+   "Der Aibleck-Rundweg fuehrt durch Waelder, ueber Wiesen und durch felsige Abschnitte.",
+   "Die Route ist abwechslungsreich und bietet immer wieder neue Perspektiven.",
+   "Ein idealer Halbtagesausflug fuer Genusswanderer mit etwas Kondition."
+  ]
+ },
+ {
+  "slug": "kesselalm",
+  "name": "Kesselalm",
+  "hoehe": "1.280 m",
+  "t": "T1",
+  "dauer": "2 Std.",
+  "hm": "300 Hm",
+  "region": "Tegernsee",
+  "badge": "Familienalm",
+  "kurz": "Leichte Wanderung zur Kesselalm am Tegernsee.",
+  "start": "Parkplatz Tegernsee",
+  "ziel": "Kesselalm (1.280 m)",
+  "zoom": 14,
+  "center": [
+   47.698,
+   11.76
+  ],
+  "bbox": [
+   [
+    47.712,
+    11.745
+   ],
+   [
+    47.685,
+    11.778
+   ]
+  ],
+  "beschreibung": [
+   "Die Kesselalm ist ein familienfreundliches Ausflugsziel ueber dem Tegernsee.",
+   "Der Weg ist breit und auch mit Kinderwagen problemlos zu bewaeltigen.",
+   "Die Sonnenterrasse der Alm bietet einen herrlichen Blick auf den See."
+  ]
+ },
+ {
+  "slug": "aueralm",
+  "name": "Aueralm",
+  "hoehe": "1.420 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "500 Hm",
+  "region": "Schliersee",
+  "badge": "Almrunde",
+  "kurz": "Idyllische Almrunde im Schlierseer Gebirge.",
+  "start": "Parkplatz Schliersee",
+  "ziel": "Aueralm (1.420 m)",
+  "zoom": 13,
+  "center": [
+   47.69,
+   11.825
+  ],
+  "bbox": [
+   [
+    47.705,
+    11.808
+   ],
+   [
+    47.672,
+    11.845
+   ]
+  ],
+  "beschreibung": [
+   "Die Aueralm ist ein idyllisches Almziel abseits der Hauptwege.",
+   "Die Route fuehrt durch lichten Bergwald und lichtet sich kurz vor der Alm.",
+   "Als Rundweg mit Abstieg ueber die Sulzbergalm besonders reizvoll."
+  ]
+ },
+ {
+  "slug": "sulzbergalm-runde",
+  "name": "Sulzbergalm-Runde",
+  "hoehe": "1.180 m",
+  "t": "T1",
+  "dauer": "2,5 Std.",
+  "hm": "350 Hm",
+  "region": "Schliersee",
+  "badge": "Genusstour",
+  "kurz": "Entspannte Runde mit Alm-Einkehr.",
+  "start": "Bahnhof Schliersee",
+  "ziel": "Sulzbergalm (1.180 m)",
+  "zoom": 14,
+  "center": [
+   47.7,
+   11.835
+  ],
+  "bbox": [
+   [
+    47.715,
+    11.818
+   ],
+   [
+    47.685,
+    11.852
+   ]
+  ],
+  "beschreibung": [
+   "Die Sulzbergalm-Runde ist eine der entspanntesten Wanderungen am Schliersee.",
+   "Der breite Weg fuehrt sanft ansteigend durch Wald und ueber offene Wiesen.",
+   "Die Einkehr auf der Sulzbergalm mit Blick auf den See rundet die Tour ab."
+  ]
+ },
+ {
+  "slug": "ringsee-runde",
+  "name": "Ringsee-Runde",
+  "hoehe": "1.100 m",
+  "t": "T1",
+  "dauer": "3 Std.",
+  "hm": "200 Hm",
+  "region": "Spitzingsee",
+  "badge": "Naturerlebnis",
+  "kurz": "Gemuetliche Runde zum stillen Ringsee.",
+  "start": "Parkplatz Valepp",
+  "ziel": "Ringsee (1.100 m)",
+  "zoom": 13,
+  "center": [
+   47.605,
+   11.87
+  ],
+  "bbox": [
+   [
+    47.625,
+    11.85
+   ],
+   [
+    47.585,
+    11.89
+   ]
+  ],
+  "beschreibung": [
+   "Die Ringsee-Runde fuehrt zu einem der stillsten Bergseen der Region.",
+   "Die Tour ist flach bis leicht ansteigend und fuehrt durch urigen Bergwald.",
+   "Der kleine See mit seiner Spiegelung ist ein perfektes Fotomotiv."
+  ]
+ },
+ {
+  "slug": "miesing-runde",
+  "name": "Miesing-Runde",
+  "hoehe": "1.300 m",
+  "t": "T2",
+  "dauer": "3,5 Std.",
+  "hm": "500 Hm",
+  "region": "Spitzingsee",
+  "badge": "Rundweg",
+  "kurz": "Waldreiche Rundtour zur Miesingalm.",
+  "start": "Parkplatz Spitzingsee",
+  "ziel": "Miesingalm (1.300 m)",
+  "zoom": 13,
+  "center": [
+   47.655,
+   11.848
+  ],
+  "bbox": [
+   [
+    47.67,
+    11.83
+   ],
+   [
+    47.638,
+    11.868
+   ]
+  ],
+  "beschreibung": [
+   "Die Miesing-Runde fuehrt durch ausgedehnte Bergwaelder zur idyllischen Miesingalm.",
+   "Der Aufstieg ist gleichmaessig und ohne technische Schwierigkeiten.",
+   "Die Miesingalm bietet eine zuenftige Brotzeit mit Blick auf den Spitzingsee."
+  ]
+ },
+ {
+  "slug": "toter-mann-runde",
+  "name": "Toter-Mann-Runde",
+  "hoehe": "1.400 m",
+  "t": "T2",
+  "dauer": "4 Std.",
+  "hm": "550 Hm",
+  "region": "Spitzingsee",
+  "badge": "Rundweg",
+  "kurz": "Rundtour ueber den Roethelsteinsattel.",
+  "start": "Parkplatz Spitzingsee",
+  "ziel": "Roethelsteinsattel (1.400 m)",
+  "zoom": 13,
+  "center": [
+   47.648,
+   11.868
+  ],
+  "bbox": [
+   [
+    47.665,
+    11.85
+   ],
+   [
+    47.63,
+    11.888
+   ]
+  ],
+  "beschreibung": [
+   "Die Toter-Mann-Runde fuehrt ueber einen wilden Sattel mitten im Waldgebiet.",
+   "Die Route ist teils weglos und eignet sich fuer Wanderer mit Orientierungssinn.",
+   "Abwechslungsreich und garantiert ohne Menschenmassen."
+  ]
+ },
+ {
+  "slug": "stuibenalm-runde",
+  "name": "Stuibenalm-Runde",
+  "hoehe": "1.320 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "420 Hm",
+  "region": "Schliersee",
+  "badge": "Almrunde",
+  "kurz": "Leichte Almrunde mit Einkehr.",
+  "start": "Parkplatz Schliersee",
+  "ziel": "Stuibenalm (1.320 m)",
+  "zoom": 13,
+  "center": [
+   47.685,
+   11.85
+  ],
+  "bbox": [
+   [
+    47.7,
+    11.832
+   ],
+   [
+    47.668,
+    11.87
+   ]
+  ],
+  "beschreibung": [
+   "Die Stuibenalm-Runde ist eine gemuetliche Wanderung fuer die ganze Familie.",
+   "Der Weg ist gut markiert und fuehrt durch abwechslungsreichen Bergwald.",
+   "Auf der Alm wird regionale Kueche und hausgemachte Limonade serviert."
+  ]
+ },
+ {
+  "slug": "angerer-alm",
+  "name": "Angerer Alm",
+  "hoehe": "1.250 m",
+  "t": "T1",
+  "dauer": "2 Std.",
+  "hm": "280 Hm",
+  "region": "Tegernsee",
+  "badge": "Familientour",
+  "kurz": "Leichte Wanderung zur Angerer Alm.",
+  "start": "Parkplatz Tegernsee",
+  "ziel": "Angerer Alm (1.250 m)",
+  "zoom": 14,
+  "center": [
+   47.705,
+   11.775
+  ],
+  "bbox": [
+   [
+    47.72,
+    11.76
+   ],
+   [
+    47.692,
+    11.792
+   ]
+  ],
+  "beschreibung": [
+   "Die Angerer Alm ist ein beliebtes Ausflugsziel fuer Familien ueber dem Tegernsee.",
+   "Der Weg ist breit, asphaltiert und auch mit Kinderwagen zu bewaeltigen.",
+   "Die grosse Sonnenterrasse bietet Platz fuer die ganze Familie."
+  ]
+ },
+ {
+  "slug": "frillensee-runde",
+  "name": "Frillensee-Runde",
+  "hoehe": "1.150 m",
+  "t": "T1",
+  "dauer": "2,5 Std.",
+  "hm": "250 Hm",
+  "region": "Wendelstein",
+  "badge": "Naturerlebnis",
+  "kurz": "Runde zum geschuetzten Frillensee.",
+  "start": "Parkplatz Bayrischzell",
+  "ziel": "Frillensee (1.150 m)",
+  "zoom": 14,
+  "center": [
+   47.71,
+   12.02
+  ],
+  "bbox": [
+   [
+    47.725,
+    12.005
+   ],
+   [
+    47.695,
+    12.038
+   ]
+  ],
+  "beschreibung": [
+   "Der Frillensee ist ein geschuetztes Naturdenkmal bei Bayrischzell.",
+   "Die Wanderung fuehrt auf breiten Wegen durch Wald und ueber Wiesen zum See.",
+   "Ein ruhiges Ziel fuer einen entspannten Nachmittag."
+  ]
+ },
+ {
+  "slug": "teufelsgraben",
+  "name": "Teufelsgraben-Runde",
+  "hoehe": "920 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "350 Hm",
+  "region": "Wendelstein",
+  "badge": "Klammwanderung",
+  "kurz": "Wilde Klammwanderung durch den Teufelsgraben.",
+  "start": "Parkplatz Bayrischzell",
+  "ziel": "Teufelsgraben (920 m)",
+  "zoom": 14,
+  "center": [
+   47.715,
+   12.005
+  ],
+  "bbox": [
+   [
+    47.73,
+    11.988
+   ],
+   [
+    47.698,
+    12.022
+   ]
+  ],
+  "beschreibung": [
+   "Der Teufelsgraben ist eine wilde Schlucht mit eindrucksvollen Felswänden.",
+   "Die Route ist teils ausgesetzt und erfordert Trittsicherheit.",
+   "Ein spannendes Naturerlebnis fuer abenteuerlustige Wanderer."
+  ]
+ },
+ {
+  "slug": "oberaudorf-kaltental",
+  "name": "Kaltental-Runde",
+  "hoehe": "1.050 m",
+  "t": "T2",
+  "dauer": "3,5 Std.",
+  "hm": "450 Hm",
+  "region": "Wendelstein",
+  "badge": "Talschlucht",
+  "kurz": "Rundwanderung durch das wildromantische Kaltental.",
+  "start": "Parkplatz Oberaudorf",
+  "ziel": "Kaltental (1.050 m)",
+  "zoom": 13,
+  "center": [
+   47.69,
+   12.045
+  ],
+  "bbox": [
+   [
+    47.708,
+    12.028
+   ],
+   [
+    47.672,
+    12.062
+   ]
+  ],
+  "beschreibung": [
+   "Das Kaltental ist eine idyllische Schlucht mit Wasserfaellen und Felswaenden.",
+   "Die Route fuehrt stetig ansteigend am Wildbach entlang.",
+   "Am oberen Talende oeffnet sich der Blick auf die umliegenden Gipfel."
+  ]
+ },
+ {
+  "slug": "spitzingsee-suesswasser",
+  "name": "Suesswasseralm-Runde",
+  "hoehe": "1.380 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "480 Hm",
+  "region": "Spitzingsee",
+  "badge": "Almrunde",
+  "kurz": "Rundwanderung zur Suesswasseralm.",
+  "start": "Parkplatz Spitzingsee",
+  "ziel": "Suesswasseralm (1.380 m)",
+  "zoom": 13,
+  "center": [
+   47.652,
+   11.882
+  ],
+  "bbox": [
+   [
+    47.668,
+    11.865
+   ],
+   [
+    47.635,
+    11.9
+   ]
+  ],
+  "beschreibung": [
+   "Die Suesswasseralm ist ein versteckt gelegenes Almziel oberhalb des Spitzingsees.",
+   "Die Route fuehrt durch ruhigen Bergwald und ueber stille Wiesen.",
+   "Ein Geheimtipp fuer alle, die Ruhe suchen."
+  ]
+ },
+ {
+  "slug": "schwarzenkopf",
+  "name": "Schwarzenkopf",
+  "hoehe": "1.520 m",
+  "t": "T3",
+  "dauer": "4,5 Std.",
+  "hm": "700 Hm",
+  "region": "Spitzingsee",
+  "badge": "Gipfelziel",
+  "kurz": "Ueberschaubarer Gipfel mit weiter Sicht.",
+  "start": "Parkplatz Valepp",
+  "ziel": "Schwarzenkopf (1.520 m)",
+  "zoom": 13,
+  "center": [
+   47.622,
+   11.818
+  ],
+  "bbox": [
+   [
+    47.64,
+    11.795
+   ],
+   [
+    47.602,
+    11.842
+   ]
+  ],
+  "beschreibung": [
+   "Der Schwarzenkopf bietet trotz geringer Hoehe eine ueberraschend weite Aussicht.",
+   "Der Anstieg ist teils steil und erfordert Trittsicherheit.",
+   "Ein lohnendes Ziel fuer Wanderer, die gerne abseits der Wege unterwegs sind."
+  ]
+ },
+ {
+  "slug": "rauschberghuette",
+  "name": "Rauschberg-Hoehenweg",
+  "hoehe": "1.600 m",
+  "t": "T3",
+  "dauer": "5 Std.",
+  "hm": "800 Hm",
+  "region": "Wendelstein",
+  "badge": "Hoehenweg",
+  "kurz": "Anspruchsvoller Hoehenweg mit Fernsicht.",
+  "start": "Parkplatz Bayrischzell",
+  "ziel": "Rauschberg (1.600 m)",
+  "zoom": 12,
+  "center": [
+   47.698,
+   12.035
+  ],
+  "bbox": [
+   [
+    47.718,
+    12.012
+   ],
+   [
+    47.678,
+    12.058
+   ]
+  ],
+  "beschreibung": [
+   "Der Rauschberg-Hoehenweg fuehrt ueber einen aussichtsreichen Ruecken.",
+   "Die Route ist teilweise ausgesetzt und fuer trittsichere Wanderer geeignet.",
+   "Von hier blickt man weit hinein in die Chiemgauer und Bayerischen Alpen."
+  ]
+ },
+ {
+  "slug": "spitzingsee-bergwald",
+  "name": "Bergwald-Runde Spitzingsee",
+  "hoehe": "1.250 m",
+  "t": "T2",
+  "dauer": "2,5 Std.",
+  "hm": "350 Hm",
+  "region": "Spitzingsee",
+  "badge": "Waldtour",
+  "kurz": "Stille Waldrunde abseits des Trubels.",
+  "start": "Parkplatz Spitzingsee",
+  "ziel": "Bergwald (1.250 m)",
+  "zoom": 14,
+  "center": [
+   47.66,
+   11.868
+  ],
+  "bbox": [
+   [
+    47.675,
+    11.85
+   ],
+   [
+    47.648,
+    11.885
+   ]
+  ],
+  "beschreibung": [
+   "Diese stille Waldrunde eignet sich ideal fuer heisse Sommertage.",
+   "Der Weg fuehrt durch schattigen Bergwald und vorbei an kleinen Quellen.",
+   "Kaum besucht und wunderbar erholsam."
+  ]
+ },
+ {
+  "slug": "himmelmoosalm",
+  "name": "Himmelmoosalm",
+  "hoehe": "1.340 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "450 Hm",
+  "region": "Spitzingsee",
+  "badge": "Almziel",
+  "kurz": "Gemuetliche Almwanderung zur Himmelmoosalm.",
+  "start": "Parkplatz Schliersee",
+  "ziel": "Himmelmoosalm (1.340 m)",
+  "zoom": 13,
+  "center": [
+   47.695,
+   11.845
+  ],
+  "bbox": [
+   [
+    47.712,
+    11.828
+   ],
+   [
+    47.678,
+    11.862
+   ]
+  ],
+  "beschreibung": [
+   "Die Himmelmoosalm liegt idyllisch eingebettet zwischen Wald und Wiesen.",
+   "Die Route ist gleichmaessig ansteigend und ohne technische Schwierigkeiten.",
+   "Auf der Alm mit suessem Namen gibt es deftige Brotzeit und Nachspeisen."
+  ]
+ },
+ {
+  "slug": "acher-blick-runde",
+  "name": "Acher-Blick-Runde",
+  "hoehe": "1.100 m",
+  "t": "T2",
+  "dauer": "3 Std.",
+  "hm": "400 Hm",
+  "region": "Tegernsee",
+  "badge": "Aussichtsrunde",
+  "kurz": "Runde mit Blick ins Achental.",
+  "start": "Parkplatz Tegernsee",
+  "ziel": "Achenblick (1.100 m)",
+  "zoom": 13,
+  "center": [
+   47.705,
+   11.71
+  ],
+  "bbox": [
+   [
+    47.72,
+    11.692
+   ],
+   [
+    47.69,
+    11.728
+   ]
+  ],
+  "beschreibung": [
+   "Die Acher-Blick-Runde belohnt mit einem fantastischen Blick ins Achental.",
+   "Der Weg ist maessig ansteigend und abwechslungsreich.",
+   "Ein lohnender Halbtagesausflug fuer Genusswanderer."
+  ]
+ }
+]

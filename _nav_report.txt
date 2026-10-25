@@ -1,0 +1,71 @@
+=== BACKUP AKTIVITAETEN ===
+
+=== AKTUELL AKTIVITAETEN ===
+
+=== ALLE NAV-LINKS BACKUP ===
+  Wandern & Outdoor (Übersicht): content/aktivitaeten/wandern-uebersicht.html
+  Almkultur: content/almkultur/index.html
+  Almwirtschaft: content/almwirtschaft/index.html
+  Alpinismus & Sicherheit: content/alpinismus_sicherheit/index.html
+  Astronomie & Geschichte: content/astronomie_geschichte/index.html
+  Ausrüstung: content/ausruestung/index.html
+  Wanderstöcke: content/ausruestung/wanderstoecke/index.html
+  Botanik: content/botanik/index.html
+  Fauna & Flora: content/fauna/index.html
+  Fehlkauf vermeiden: content/fehlkauf-vermeidung/index.html
+  Forstwirtschaft: content/forstwirtschaft/index.html
+  Geologie: content/geologie/index.html
+  🏠 Albert-Link-Hütte: content/huetten/albert-link-huette.html
+  🍽️ Alm-Restaurants: content/huetten/alm-restaurants/index.html
+  🏠 DAV-Haus Spitzingsee: content/huetten/dav-haus-spitzingsee.html
+  🗺️ Hüttenführer (Übersicht): content/huetten/index.html
+  🏠 Rotwandhaus: content/huetten/rotwandhaus.html
+  🏠 Schönfeldhütte: content/huetten/schoenfeldhuette.html
+  🏠 Tegernseer Hütte: content/huetten/tegernseer-huette.html
+  Klettern: content/klettern/index.html
+  Kultur & Geschichte: content/kultur_geschichte/index.html
+  Layering-System: content/layering/index.html
+  Limnologie: content/limnologie/index.html
+  Meteorologie: content/meteorologie/index.html
+  Moore: content/moore/index.html
+  MTB-Touren: content/mtb/index.html
+  Nordic Walking: content/nordic-walking/index.html
+  Sternenhimmel: content/sternenhimmel/index.html
+  Alle Wanderrouten: content/wandern/index.html
+  Winter-Guide: content/winter/index.html
+  Zoologie: content/zoologie/index.html
+
+=== ALLE NAV-LINKS AKTUELL ===
+  Wandern & Outdoor (Übersicht): content/aktivitaeten/wandern-uebersicht.html
+  Almkultur: content/almkultur/index.html
+  Almwirtschaft: content/almwirtschaft/index.html
+  Alpinismus & Sicherheit: content/alpinismus_sicherheit/index.html
+  Astronomie & Geschichte: content/astronomie_geschichte/index.html
+  Ausrüstung: content/ausruestung/index.html
+  Wanderstöcke: content/ausruestung/wanderstoecke/index.html
+  Botanik: content/botanik/index.html
+  Fauna & Flora: content/fauna/index.html
+  Fehlkauf vermeiden: content/fehlkauf-vermeidung/index.html
+  Forstwirtschaft: content/forstwirtschaft/index.html
+  Geologie: content/geologie/index.html
+  🏠 Albert-Link-Hütte: content/huetten/albert-link-huette.html
+  🍽️ Alm-Restaurants: content/huetten/alm-restaurants/index.html
+  🏠 DAV-Haus Spitzingsee: content/huetten/dav-haus-spitzingsee.html
+  🗺️ Hüttenführer (Übersicht): content/huetten/index.html
+  🏠 Rotwandhaus: content/huetten/rotwandhaus.html
+  🏠 Schönfeldhütte: content/huetten/schoenfeldhuette.html
+  🏠 Tegernseer Hütte: content/huetten/tegernseer-huette.html
+  Klettern: content/klettern/index.html
+  Kultur & Geschichte: content/kultur_geschichte/index.html
+  Layering-System: content/layering/index.html
+  Limnologie: content/limnologie/index.html
+  Meteorologie: content/meteorologie/index.html
+  Moore: content/moore/index.html
+  MTB-Touren: content/mtb/index.html
+  Nordic Walking: content/nordic-walking/index.html
+  Sternenhimmel: content/sternenhimmel/index.html
+  Alle Wanderrouten: content/wandern/index.html
+  Winter-Guide: content/winter/index.html
+  Zoologie: content/zoologie/index.html
+
+=== FEHLENDE NAV-LINKS (0) ===

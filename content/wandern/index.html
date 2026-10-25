@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wanderrouten im Mangfallgebirge | Alpen-Experte</title>
+    <meta name="description" content="61 Wanderrouten zwischen Tegernsee, Schliersee, Spitzingsee und Valepp. Nach Schwierigkeit sortiert (T1-T4) – mit Tourensteckbrief, ÖPNV und Hüttentipps." />
+    <style>
+        /* ===== ROUTEN-GRID (3 Schwierigkeits-Abschnitte) ===== */
+        .routen-section {
+            margin-bottom: var(--space-3xl);
+        }
+        .routen-section-heading {
+            font-family: var(--font-display);
+            color: var(--color-wood-dark);
+            font-size: var(--step-2);
+            margin-bottom: var(--space-md);
+            padding-bottom: var(--space-sm);
+            border-bottom: 3px solid var(--color-primary);
+        }
+        .routen-section-heading--leicht { border-bottom-color: #2ecc71; }
+        .routen-section-heading--mittel { border-bottom-color: #f39c12; }
+        .routen-section-heading--schwer { border-bottom-color: #e74c3c; }
+        .routen-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+        .routen-grid .silo-card {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .routen-grid .silo-card-link {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        .routen-grid .silo-card-body {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-xs);
+            height: 100%;
+        }
+        .routen-grid .silo-card-text {
+            flex-grow: 1;
+        }
+    </style>
+    <link rel="stylesheet" href="../../css/style.css?v=20260608" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <meta property="og:title" content="Wanderrouten im Mangfallgebirge | Alpen-Experte" />
+    <meta property="og:description" content="Wanderrouten mit Tourensteckbrief, ÖPNV-Anbindung und Hüttentipps." />
+    <meta property="og:image" content="https://www.alpenexperte.de/images/wandern-motiv2.jpg" />
+    <link rel="canonical" href="https://www.alpenexperte.de/content/wandern/index.html" />
+</head>
+<body>
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+            <a href="/" class="logo" aria-label="Alpen-Experte Startseite">
+                <img src="/images/logo.svg" alt="Alpen-Experte" width="160" height="42">
+            </a>
+            <nav>
+                <a href="/" class="nav-link">Home</a>
+            </nav>
+        </div>
+    </header>
+    <main id="main">
+<!-- ===== ROUTEN-KARTE ===== -->
+<section style="max-width:1000px;margin:2rem auto;padding:0 1.5rem;">
+<h2 style="color:#1a472a;font-size:1.8rem;">🗺️ Wanderrouten Mangfallgebirge</h2>
+<div id="route-map-content-wandern-index" style="height:450px;width:100%;border-radius:8px;border:2px solid #2ecc71;margin:1rem 0;"></div>
+<p style="text-align:center;padding:8px;background:#333;color:#fff;border-radius:8px;" id="status-content-wandern-index">⏳ Lade Karte...</p>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded',function(){
+    var s=document.getElementById('status-content-wandern-index');
+    if(typeof L==='undefined'){s.innerHTML='❌ Karte nicht geladen';return;}
+    try{
+        var m=L.map('route-map-content-wandern-index').setView([47.65,11.92],12);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OSM',maxZoom:19}).addTo(m);
+        var r=L.polyline([[47.652,11.923],[47.645,11.93],[47.635,11.94],[47.62,11.92],[47.61,11.905]],{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
+        L.circleMarker([47.652,11.923],{color:"#2ECC71",radius:10,fillOpacity:.8}).bindPopup("Spitzingsee").addTo(m);
+        L.circleMarker([47.645,11.93],{color:"#E74C3C",radius:10,fillOpacity:.8}).bindPopup("Rotwand 1884m").addTo(m);
+        m.fitBounds(r.getBounds());
+        s.innerHTML='✅ Wanderrouten Mangfallgebirge';
+    }catch(e){s.innerHTML='❌ Fehler: '+e.message;}
+});
+</script>
+</section>
+        <article class="container" style="padding: var(--space-xl) var(--space-md); max-width: var(--container-wide);">
+            <nav class="breadcrumb" aria-label="Breadcrumb">
+                <ol><li><a href="/">Home</a></li><li aria-current="page">Wanderrouten</li></ol>
+            </nav>
+            <header class="article-header" style="margin-bottom: var(--space-2xl);">
+                <span class="featured-badge" style="background: rgba(45,138,86,0.12); color: #2d8a56; display: inline-block; margin-bottom: var(--space-sm);">🥾 61 Wanderrouten</span>
+                <span class="visually-hidden" id="routen-count-dynamic"></span>
+                <h1>Wanderrouten im Mangfallgebirge</h1>
+                <p style="font-size: var(--step-1); color: var(--color-text-light); max-width: 700px;">Von gemütlichen See-Umrundungen (T1) bis zu anspruchsvollen Gratüberschreitungen (T4) – mit Tourensteckbrief, ÖPNV-Anbindung und Hüttenempfehlungen.</p>
+<div class="hero-image" style="margin:var(--space-lg) 0;"><img src="/images/wandern-motiv2.jpg" alt="Wandern Motiv2" style="width:100%;height:auto;border-radius:var(--radius-lg);" loading="eager" /></div>
+
+            </header>
+
+                        <!-- ===== ROUTEN-GRID: 3 SCHWIERIGKEITS-ABSCHNITTE ===== -->
+
+            <!-- ===== 🟢 LEICHT (T1-T2) ===== -->
+            <section class="routen-section" aria-labelledby="routen-leicht">
+                <h2 id="routen-leicht" class="routen-section-heading routen-section-heading--leicht">🟢 Leichte Wanderungen &amp; Familienrunden (T1–T2)</h2>
+                <div class="routen-grid">
+
+                    <article class="silo-card">
+                        <a href="spitzingsee-umrundung.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Spitzingsee-Umrundung (1.090 m) – See-Runde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Runde um den idyllischen Spitzingsee – ideal für Familien.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="valepp-talwanderung.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Valepp-Talwanderung (900 m) – Talwanderung</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Talwanderung durch das wildromantische Valepptal.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="untere-firstalm-runde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Untere Firstalm-Runde (1.400 m) – Familienrunde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Entspannte Runde zur Unteren Firstalm für die ganze Familie.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="untere-firstalm.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Untere Firstalm – Familienwanderung am Spitzingsee</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Leichte Almwanderung – ideal für einen Familiensonntag.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="blomberg.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Blomberg (1.248 m) – Familienberg am Tegernsee</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der klassische Familienberg am Tegernsee – auch mit Sesselbahn.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="kirchlesberg-runde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Kirchlesberg-Runde (1.140 m) – Spazierweg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Leichte Runde mit Kapelle und Seeblick.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="rottach-egern-seerunde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rottach-Egern Seerunde (740 m) – See-Runde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Flache Runde entlang des Südufers des Tegernsees.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="teufelsgraben.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Teufelsgraben-Runde (920 m) – Klammwanderung</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Wilde Klammwanderung durch den Teufelsgraben.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="auenalm.html" class="silo-card-link" hidden></a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="angerer-alm.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Angerer Alm (1.250 m) – Familientour</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Leichte Wanderung zur Angerer Alm.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="sulzbergalm-runde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Sulzbergalm-Runde (1.180 m) – Genusstour</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Entspannte Runde mit Alm-Einkehr.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="ringsee-runde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Ringsee-Runde (1.100 m) – Naturerlebnis</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Runde zum stillen Ringsee.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="stuibenalm-runde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Stuibenalm-Runde (1.320 m) – Almrunde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Leichte Almrunde mit Einkehr.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="frillensee-runde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Frillensee-Runde (1.150 m) – Naturerlebnis</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Runde zum geschützten Frillensee.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="auer-lm.html" class="silo-card-link" hidden></a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="aueralm.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Aueralm (1.420 m) – Almrunde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Idyllische Almrunde im Schlierseer Gebirge.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="schliersbergalm.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Schliersbergalm (1.061 m) – Genusswanderung</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Wanderung zur Schliersbergalm über dem See.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="schoenmoosrunde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Schönmoosrunde (1.200 m) – Rundweg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Abwechslungsreiche Runde durch Wald und Moor.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="himmelmoosalm.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Himmelmoosalm (1.340 m) – Almziel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Almwanderung zur Himmelmoosalm.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="jaegerkamp-runde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Jägerkamp-Runde (1.446 m) – Rundweg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundtour über Jägerkamp und Rinnerspitz-Sattel.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="jaegerkamp.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Jägerkamp (1.446 m) – Kurze Wanderung am Spitzingsee</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Beliebte Halbtagestour mit Blick auf den Spitzingsee.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="hintere-firstalm.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Hintere Firstalm (1.400 m) – Almwandern</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Leichte Almwanderung zur urigen Hinteren Firstalm.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="schoenfeldalm-runde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Schönfeldalm-Runde (1.360 m) – Rundwanderung</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundweg über die Schönfeldalm unterhalb der Rotwand.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="aibleck-rundweg.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Aibleck-Rundweg (1.520 m) – Rundweg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Abwechslungsreiche Rundtour um das Aibleck.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="kesselalm.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Kesselalm (1.280 m) – Familienalm</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Leichte Wanderung zur Kesselalm am Tegernsee.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="spitzingsee-suesswasser.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Süßwasseralm-Runde (1.380 m) – Almrunde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundwanderung zur Süßwasseralm.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="spitzingsee-bergwald.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Bergwald-Runde Spitzingsee (1.250 m) – Waldtour</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Stille Waldrunde abseits des Trubels.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="miesing-runde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Miesing-Runde (1.300 m) – Rundweg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Waldreiche Rundtour zur Miesingalm.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="toter-mann-runde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Toter-Mann-Runde (1.400 m) – Rundweg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundtour über den Rötelsteinsattel.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="krottentalalm.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Krottentalalm (1.350 m) – Almrunde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Ruhige Almwanderung im Krottental.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="rottachalm.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rottachalm (1.400 m) – Almziel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Almwanderung mit Blick auf den See.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="holzeralm.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Holzer Alm (1.300 m) – Familientour</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Almwanderung, ideal mit Kindern.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="kuempflalm.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Kümpflalm (1.450 m) – Almziel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Halbtageswanderung zur einsamen Kümpflalm.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="acer-blick-runde.html" class="silo-card-link" hidden></a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="acher-blick-runde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Acher-Blick-Runde (1.100 m) – Aussichtsrunde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Runde mit Blick ins Achental.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="hinterriss-runde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Hinterriss-Runde (1.500 m) – Wildnis</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Einsame Tour zur urigen Hinterriss-Alm.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="oberaudorf-kaltental.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Kaltental-Runde (1.050 m) – Talschlucht</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundwanderung durch das wildromantische Kaltental.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="tegernseer-hoehenweg.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Tegernseer Höhenweg (1.200 m) – Höhenweg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Aussichtsreicher Höhenweg über dem Tegernsee.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="rauschberghuette.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rauschberg-Höhenweg (1.600 m) – Höhenweg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Anspruchsvoller Höhenweg mit Fernsicht.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="schwarzenkopf.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Schwarzenkopf (1.520 m) – Gipfelziel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Überschaubarer Gipfel mit weiter Sicht.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- ===== 🟡 MITTEL (T3) ===== -->
+            <section class="routen-section" aria-labelledby="routen-mittel">
+                <h2 id="routen-mittel" class="routen-section-heading routen-section-heading--mittel">🟡 Mittelschwere Bergwanderungen (T3)</h2>
+                <div class="routen-grid">
+
+                    <article class="silo-card">
+                        <a href="brecherspitz.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Brecherspitz (1.683 m) – Klassischer Gipfel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der berühmte Aussichtsberg über dem Spitzingsee. Kurz, steil, grandios.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="bodenschneid.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Bodenschneid (1.668 m) – Panorama-Grat</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gratweg über die Bodenschneid mit Blick auf Tegernsee und Spitzingsee.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="rinnerspitz.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rinnerspitz (1.615 m) – Einsamer Gipfel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Ruhige Alternative zur Brecherspitz mit freiem Gipfelgefühl.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="rossstein.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Roßstein (1.698 m) – Gipfel mit Hütte</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütlicher Gipfel mit gleichnamiger Hütte am Grat.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="buchstein.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Buchstein (1.701 m) – Anspruchsvoll</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Alpine Felsenburg mit anspruchsvoller Kletterpassage.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="aiplspitz.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Aiplspitz (1.827 m) – Anspruchsvolle Wanderung</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Aussichtsreiche Wanderung auf den grasigen Gipfel über dem See.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="aiplspitz-runde.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Aiplspitz-Runde (1.827 m) – Grasgipfel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Hochtour auf den grasigen Aussichtsberg über dem See.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="rotwandhaus-aufstieg.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rotwandhaus-Aufstieg (1.737 m) – Hüttenziel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Aufstieg zur höchstgelegenen Hütte der Region.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="schoenfeldalm-rotwand.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Schönfeldalm zur Rotwand (1.884 m) – Gipfeltour</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der klassische Rotwand-Aufstieg über die Schönfeldalm.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="hochmiesing.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Hochmiesing (1.883 m) – Königsrunde am Spitzingsee</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Lange, aussichtsreiche Rundtour auf den Hochmiesing.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="rottach-egern-seerunde.html" class="silo-card-link" hidden></a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="wallberg.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Wallberg (1.722 m) – Klassiker</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der Hausberg von Rottach-Egern mit grandioser Aussicht.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="schinder.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Schinder (1.808 m) – Gipfelziel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Aussichtsreicher Gipfel mit Blick über das ganze Gebirge.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                                        <article class="silo-card">
+                        <a href="plankenstein.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Plankenstein (1.760 m) – Hochtour</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Lohnende Hochtour mit Blick zur Zugspitze.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="wendelstein.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Wendelstein (1.838 m) – Aussichtsberg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der berühmte Aussichtsberg mit Panoramablick.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="rotwand-rundtour.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rotwand-Rundtour (1.884 m) – Große Runde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Anspruchsvolle Ganztagestour zur Rotwand.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="bleckstein.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Bleckstein (1.400 m) – Ruhiger Gipfel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Unbekannter Aussichtsgipfel über dem Valepptal.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="rettenscharten.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rettenscharten (1.600 m) – Alpine Runde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Anspruchsvolle Runde in unberührter Natur.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="brecherspitz-grat.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Brecherspitz-Grat (1.683 m) – Gratüberschreitung</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gratüberschreitung mit ausgesetzten Passagen.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="bodenschneid-klettersteig.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Bodenschneid-Klettersteig</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Klettersteig-Variante über die Bodenschneid.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- ===== ⚪ MEHRTAGES-HÜTTENWANDERUNGEN ===== -->
+            <section class="routen-section" aria-labelledby="routen-huettentouren">
+                <h2 id="routen-huettentouren" class="routen-section-heading">⚪ Mehrtages-Hüttenwanderungen</h2>
+                <div class="routen-grid">
+
+                    <article class="silo-card">
+                        <a href="hw-001-spitzingsattel-rottach.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">4-Tage-Hüttenwanderung: Spitzingsattel → Rottach</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Viertägige Hüttentour durch das Mangfallgebirge nach Rottach-Egern.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="hw-002-fischbachau-rotwand.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">4-Tage-Hüttenwanderung: Fischbachau → Rotwand</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Viertägige Hüttentour von Fischbachau zur Rotwand.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="hw-003-blauberge-spitzingsee.html" class="silo-card-link">
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title" style="font-size: 1rem;">5-Tage-Hüttenwanderung: Blauberge–Spitzingsee</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Fünftägige Hüttentour über die Blauberge zum Spitzingsee.</p>
+                                <span class="silo-card-cta">Route ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- ===== 🛒 AFFILIATE PARTNER ===== -->
+            <div style="background:rgba(196,167,111,.05);border-left:4px solid #c4a76f;padding:1.5rem;border-radius:8px;margin:2rem 0;">
+                <strong style="color:#1a472a;">🛒 Ausrüstung &amp; Partner</strong>
+                <p style="margin:.5rem 0;font-size:.875rem;color:#555;">★ Affiliate-Links: Bei Kauf erhalten wir eine Provision</p>
+                <div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem;">
+                    <a href="https://www.bergzeit.de" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🥾 Bergzeit</a>
+                    <a href="https://www.bergfreunde.de" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🧗 Bergfreunde</a>
+                    <a href="https://www.booking.com" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🏨 Booking</a>
+                    <a href="https://bahn.de" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🚆 DB Bahn</a>
+                    <a href="https://www.komoot.de/premium" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🗺map Komoot</a>
+                </div>
+            </div>
+
+                </article>
+    </main>
+    <footer class="site-footer" role="contentinfo">
+        <div class="container" style="text-align: center; padding: var(--space-lg);">
+            <p>&copy; 2025–2026 Alpen-Experte. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
+    <script src="../../js/main.js?v=20260608" defer></script>
+
+
+
+
+
+
+</body>
+</html>

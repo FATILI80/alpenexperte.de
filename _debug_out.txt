@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Jägerkamp (1.446 m) – Kurze Wanderung am Spitzingsee – Alpen-Experte</title>
+
+    <meta name="description"
+        content="Jägerkamp 1.446m – Kurze Wanderung am Spitzingsee (T2, 2 Std., 350 Hm). Weniger überlaufen, mit grandiosem Blick auf Spitzingsee und Brecherspitz." />
+
+    <link rel="stylesheet" href="../../css/style.css?v=2025-05-31-4" />
+
+    <link rel="icon" type="image/svg+xml" href="../../images/favicon.svg" />
+
+    <script type="application/ld+json">
+
+        {
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": "Jägerkamp (1.446 m) – Kurzer, lohnender Gipfel am Spitzingsee",
+            "description": "Jägerkamp 1.446m – T2-Wanderung, 2 Std., 350 Hm. Weniger überlaufen, grandioser Blick auf Spitzingsee.",
+            "author": {
+                "@type": "Organization",
+                "name": "Alpen-Experte"
+            }
+        }
+
+    </script>
+
+    <link rel="canonical" href="https://www.alpen-experte.de/content/wandern/jaegerkamp.html" />
+
+    <meta property="og:title" content="Jägerkamp (1.446 m) – Kurze Wanderung am Spitzingsee – Alpen-Experte" />
+    <meta property="og:description" content="Jägerkamp 1.446m – Kurze Wanderung am Spitzingsee (T2, 2 Std., 350 Hm). Weniger überlaufen, mit grandiosem Blick auf Spitzingsee und Brecherspitz." />
+    <meta property="og:image" content="https://www.alpen-experte.de/images/hero-panorama.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.alpen-experte.de/content/wandern/jaegerkamp.html" />
+</head>
+
+<body>
+
+    <header class="site-header">
+
+        <div class="container">
+
+            <div class="header-inner">
+
+                <a href="../../index.html" class="logo"><img src="../../images/logo.svg" alt="Alpen-Experte" width="180"
+               

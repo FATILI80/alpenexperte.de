@@ -1,0 +1,33 @@
+# robots.txt – AlpenExperte
+# https://www.alpenexperte.de/robots.txt
+#
+# Stand: Juni 2026
+
+User-agent: *
+
+# === EXPLIZIT ERLAUBTE BEREICHE ===
+# Suchmaschinen dürfen alle Inhalte und Cluster-Unterseiten indexieren
+Allow: /content/
+Allow: /cluster/
+Allow: /region/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# === EXPLIZIT GESPERRTE BEREICHE ===
+# Archiv – nicht für die öffentliche Indexierung bestimmt
+Disallow: /archive/
+
+# Hilfsskripte und temporäre/wartungs-Dateien (mit _-Präfix)
+Disallow: /_*
+
+# Keine Python- oder Konfigurationsdateien im Root
+Disallow: /*.py$
+Disallow: /*.json$
+Disallow: /*.md$
+
+# === SITEMAP ===
+Sitemap: https://www.alpenexperte.de/sitemap.xml
+
+# === CRAWL-DELAY (für rücksichtsvolle Crawler) ===
+Crawl-Delay: 10

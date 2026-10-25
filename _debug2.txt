@@ -1,0 +1,22 @@
+breadcrumb" aria-label="Brotkrumen-Navigation"
+            style="--bs-breadcrumb-divider: 'â€º'; padding: var(--space-md) 0; font-size: 0.85rem; color: var(--color-text-light);">
+
+            <div class="container">
+
+                <a href="../../index.html" style="color: var(--color-text-light); text-decoration: none;">ðŸ”ï¸ Home</a>
+                <span style="margin: 0 0.35rem;">â€º</span>
+                <a href="index.html" style="color: var(--color-text-light); text-decoration: none;">Wanderrouten</a>
+                <span style="margin: 0 0.35rem;">â€º</span>
+                <span style="color: var(--color-wood-dark); font-weight: 600;">Jägerkamp (1.446 m)</span>
+
+            </div>
+
+        </nav>
+
+        <section class="section">
+
+            <div class="container" style="max-width: var(--container-narrow);">
+
+                <header class="article-header" style="margin-bottom: var(--space-2xl);">
+
+                    <span class="featured-badge" style="display: inline-b

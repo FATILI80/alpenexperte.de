@@ -1,0 +1,24 @@
+=== KEYWORD-CHECK ===
+OK: mountaincard
+OK: Mountaincard
+NEU: mountaincarts
+NEU: Mountaincarts
+OK: Wildschutz
+OK: wildschutz
+NEU: Tierschutz
+NEU: tierschutz
+OK: Wanderrouten
+OK: wanderrouten
+NEU: Wildschutzkarte
+NEU: wildschutzkarte
+NEU: Wildtier
+NEU: wildtier
+NEU: Mountain-Card
+NEU: mountain-card
+
+=== FEHLENDE H2-UEBERSCHRIFTEN ===
+
+=== DATEIGROESSE ===
+Backup: 46,448 Zeichen
+Aktuell: 46,440 Zeichen
+Differenz: 8 Zeichen

@@ -1,0 +1,65 @@
+{
+  "geologie": [
+    "/images/felsformation.jpg",
+    "/images/alpenpanorama.jpg"
+  ],
+  "limnologie": [
+    "/images/bergsee-spiegelung.jpg",
+    "/images/bergpanorama-see.jpg"
+  ],
+  "botanik": [
+    "/images/natur.jpg",
+    "/images/wald.jpg"
+  ],
+  "zoologie": [
+    "/images/natur.jpg",
+    "/images/wald.jpg"
+  ],
+  "forstwirtschaft": [
+    "/images/wald.jpg",
+    "/images/natur.jpg"
+  ],
+  "moore": [
+    "/images/natur.jpg",
+    "/images/bergsee-spiegelung.jpg",
+    "/images/alpenpanorama.jpg"
+  ],
+  "almwirtschaft": [
+    "/images/alpenpanorama.jpg"
+  ],
+  "kultur_geschichte": [
+    "/images/alpenpanorama.jpg",
+    "/images/bergsee-spiegelung.jpg"
+  ],
+  "meteorologie": [
+    "/images/alpenpanorama.jpg"
+  ],
+  "alpinismus_sicherheit": [
+    "/images/felsformation.jpg"
+  ],
+  "_layout": {
+    "hero-alpenpanorama": "/images/alpenpanorama.jpg",
+    "hero-bergsee": "/images/alpenpanorama.jpg",
+    "hero-bergwiese": "/images/alpenpanorama.jpg",
+    "hero-sonnenuntergang": "/images/alpenpanorama.jpg",
+    "hero-winterpanorama": "/images/alpenpanorama.jpg",
+    "bg-alpen-nebel": "/images/alpenpanorama.jpg",
+    "bg-alpen-dammerung": "/images/alpenpanorama.jpg",
+    "bg-alpen-fruhling": "/images/alpenpanorama.jpg",
+    "bg-alpen-sommer": "/images/alpenpanorama.jpg",
+    "bg-alpen-herbst": "/images/alpenpanorama.jpg",
+    "bg-alpen-winter": "/images/alpenpanorama.jpg",
+    "card-wandern": "/images/bergsee-spiegelung.jpg",
+    "card-klettern": "/images/bergsee-spiegelung.jpg",
+    "card-mtb": "/images/bergsee-spiegelung.jpg",
+    "card-winter": "/images/bergsee-spiegelung.jpg",
+    "card-huetten": "/images/bergsee-spiegelung.jpg",
+    "card-kultur": "/images/bergsee-spiegelung.jpg",
+    "card-almkultur": "/images/bergsee-spiegelung.jpg",
+    "card-fauna": "/images/bergsee-spiegelung.jpg",
+    "card-sternenhimmel": "/images/bergsee-spiegelung.jpg",
+    "card-astronomie": "/images/bergsee-spiegelung.jpg",
+    "card-praktisches": "/images/bergsee-spiegelung.jpg",
+    "card-alpenaustausch": "/images/bergsee-spiegelung.jpg"
+  }
+}

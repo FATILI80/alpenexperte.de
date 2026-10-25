@@ -1,0 +1,17 @@
+{
+  "_description": "KLASSIKER — Nur existierende Bilder aus dem Inventar",
+  "bento_wandern": "/images/wandern-aussicht.jpg",
+  "bento_huetten": "/images/hutte-firstalm.jpg",
+  "bento_klettern": "/images/klettern-brecherspitz.jpg",
+  "bento_ausruestung": "/images/layering-hero.jpg",
+  "bento_sicherheit": "/images/sicherheit-hero.jpg",
+  "bento_fauna": "/images/natur.jpg",
+  "bento_botanik": "/images/wald.jpg",
+  "bento_almwirtschaft": "/images/alpenkaese.jpg",
+  "bento_almkultur": "/images/wandern-einkehr.jpg",
+  "bento_sternenhimmel": "/images/sternenhimmel-hero.jpg",
+  "bento_cluster": "/images/wandern-panorama.jpg",
+  "bento_region": "/images/felsformation.jpg",
+  "hero": "/images/heropanorama.jpg",
+  "index": "/images/heropanorama.jpg"
+}

@@ -1,0 +1,72 @@
+============================================================
+1. index.html - Bildpfade
+============================================================
+  Extern: 0
+  Absolut (/images/...): 42
+  Relativ (problematisch): 0
+  ✅ ALLE ABSOLUT!
+
+============================================================
+2. ALLE _image_map.json - Pfade & Duplikate
+============================================================
+  ✅ 313 Maps OK
+  ❌ 0 Maps mit Problemen
+
+============================================================
+3. _rebuild_all_sections.py - assets/images/layout/
+============================================================
+  ✅ KEINE assets/images/layout/ mehr
+
+============================================================
+4. _image_pipeline.py - ../ Pfade
+============================================================
+  ❌ NOCH 19 relative image-Pfade:
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+     ../../images/
+
+============================================================
+5. Stichprobe: 20 HTMLs auf relative assets-Bildpfade
+============================================================
+  ❌ content\mountaincards\index.html: ['../../images/logo.svg', '../../images/wandern-brecherspitz.jpg', '../../images/hutte-firstalm.jpg', '../../images/klettern-brecherspitz.jpg', '../../images/logo.svg']
+  HTMLs mit relativen Pfaden: 1
+
+============================================================
+FAZIT
+============================================================
+  ❌ 19 Probleme gefunden:
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/
+     - _image_pipeline.py: ../../images/

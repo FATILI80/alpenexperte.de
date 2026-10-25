@@ -1,0 +1,17 @@
+UX-AUDIT: alpenexperte.de
+==========================
+Start: 2026-06-08 01:25
+
+PHASE 1: Analyse der aktuellen Struktur
+- Navigation Header
+- Footer
+- Startseiten-Sektionen
+- Leere/defekte Links
+
+PHASE 2: Konsolidierung
+- Doppelte Einstiegspunkte entfernen
+- Leere Buttons umleiten
+
+PHASE 3: Affiliate-Vorbereitung
+
+PHASE 4: Mobile-Optimierung

@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alpenexperte.de — Alpen-Wissen aus erster Hand. Lokal. Ehrlich. Praxisnah.</title>
+    <meta name="description" content="alpenexperte.de: Keine Tourismus-Werbung, sondern echtes Alpen-Wissen. Wanderrouten, Hütten, Kultur, Fauna & Flora – von Einheimischen für dein Bergerlebnis.">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="css/style.css?v=20260608">
+    <link rel="stylesheet" href="css/homepage-v3.css?v=20260615?v=20260608">
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "alpenexperte.de",
+        "url": "https://www.alpenexperte.de",
+        "description": "Echte Alm-Praxis. Erfahrung & Sicherheit für dein Bergerlebnis. Unabhängige Tests, Hütten-Guides, Alpinwissen.",
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": {
+                "@type": "EntryPoint",
+                "urlTemplate": "https://www.alpenexperte.de/search?q={search_term_string}"
+            },
+            "query-input": "required name=search_term_string"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": ["Product", "TouristTrip"],
+        "name": "Alpen-Experte – Touren & Wissen für die Bayerischen Voralpen",
+        "description": "Echte Alm-Praxis. Geprüfte Wanderrouten, Klettersteige, MTB-Touren, Hütten-Guides und alpines Wissen für das Mangfallgebirge.",
+        "brand": {
+            "@type": "Brand",
+            "name": "alpenexperte.de"
+        },
+        "about": {
+            "@type": "Mountain",
+            "name": "Bayerische Voralpen – Mangfallgebirge",
+            "elevation": "1884",
+            "location": {
+                "@type": "Place",
+                "name": "Mangfallgebirge",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressRegion": "Bayern",
+                    "addressCountry": "DE"
+                }
+            }
+        },
+        "offers": {
+            "@type": "AggregateOffer",
+            "description": "Kostenlose Tourenbeschreibungen, Hütten-Guides und Alpinwissen"
+        }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": ["Product", "TouristTrip"],
+        "name": "Alpen-Experte – Touren & Wissen für die Bayerischen Voralpen",
+        "description": "Echte Alm-Praxis. Geprüfte Wanderrouten, Klettersteige, MTB-Touren, Hütten-Guides und alpines Wissen für das Mangfallgebirge.",
+        "brand": {
+            "@type": "Brand",
+            "name": "alpenexperte.de"
+        },
+        "about": {
+            "@type": "Mountain",
+            "name": "Bayerische Voralpen – Mangfallgebirge",
+            "elevation": "1884",
+            "location": {
+                "@type": "Place",
+                "name": "Mangfallgebirge",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressRegion": "Bayern",
+                    "addressCountry": "DE"
+                }
+            }
+        },
+        "offers": {
+            "@type": "AggregateOffer",
+            "description": "Kostenlose Tourenbeschreibungen, Hütten-Guides und Alpinwissen"
+        }
+    }
+    </script>
+    <link rel="canonical" href="https://www.alpenexperte.de/index.html">
+    <meta property="og:title" content="alpenexperte.de — Alpen-Wissen aus erster Hand. Lokal. Ehrlich. Praxisnah.">
+    <meta property="og:description" content="alpenexperte.de: Keine Tourismus-Werbung, sondern echtes Alpen-Wissen. Wanderrouten, Hütten, Kultur, Fauna & Flora – von Einheimischen für dein Bergerlebnis.">
+    <meta property="og:image" content="https://www.alpenexperte.de/images/hero-panorama.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.alpenexperte.de/index.html">
+    <!-- Plausible – DSGVO-konform -->
+    <script defer data-domain="alpenexperte.de" src="https://plausible.io/js/script.js"></script>
+    <style>
+        /* ===== BOMBENFESTE BILD- und LAYOUT-REGELN ===== */
+        .img-container {
+            width: 100%;
+            height: 160px;
+            overflow: hidden;
+            border-radius: var(--radius-md);
+            position: relative;
+            z-index: 1;
+            flex-shrink: 0;
+        }
+        .img-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform var(--transition-slow);
+        }
+        .img-container:hover img {
+            transform: scale(1.06);
+        }
+        .img-container--round {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            margin: 0 auto var(--space-sm);
+        }
+        .img-container--hero {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            height: 100%;
+            border-radius: 0;
+        }
+        .img-container--hero img {
+            object-fit: cover;
+        }
+
+        /* Karten-Layout – Bilder dürfen NIEMALS Texte überdecken */
+        .silo-card {
+            display: flex;
+            flex-direction: column;
+            background: var(--color-glass);
+            backdrop-filter: blur(var(--blur-glass));
+            -webkit-backdrop-filter: blur(var(--blur-glass));
+            border: 1px solid var(--color-glass-border);
+            border-radius: var(--radius-md);
+            overflow: hidden;
+            box-shadow: var(--shadow-card);
+            transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+            z-index: 1;
+        }
+        .silo-card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-lg);
+            background: var(--color-glass-hover);
+            border-color: var(--color-glass-border-hover);
+        }
+        .silo-card-link {
+            display: flex;
+            flex-direction: column;
+            color: inherit;
+            text-decoration: none;
+            height: 100%;
+        }
+        .silo-card-link:hover {
+            color: inherit;
+        }
+        .silo-card-body {
+            padding: var(--space-lg);
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .silo-card-icon {
+            font-size: 1.5rem;
+            display: block;
+            margin-bottom: var(--space-sm);
+        }
+        .silo-card-title {
+            font-family: var(--font-display);
+            font-size: 1.15rem;
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: var(--space-xs);
+        }
+        .silo-card-text {
+            font-size: 0.9rem;
+            color: var(--color-text-light);
+            line-height: 1.5;
+            margin-bottom: var(--space-md);
+            font-weight: 500;
+            flex: 1;
+        }
+        .silo-card-cta {
+            font-size: 0.85rem;
+            font-weight: 700;
+            color: var(--color-primary);
+            transition: color var(--transition-fast);
+            margin-top: auto;
+        }
+        .silo-card:hover .silo-card-cta {
+            color: var(--color-secondary);
+        }
+
+        /* Hero-Bereich bombenfest */
+        .hero {
+            position: relative;
+            overflow: hidden;
+            min-height: 85vh;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            z-index: 0;
+        }
+        @keyframes heroZoom {
+            from { transform: scale(1); }
+            to { transform: scale(1.08); }
+        }
+        .hero-img-wrap {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            overflow: hidden;
+        }
+        .hero-img-wrap img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            animation: heroZoom 20s ease forwards;
+        }
+        .hero-overlay {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            padding: var(--space-4xl) 0 var(--space-3xl);
+            background: linear-gradient(180deg, rgba(26, 37, 44, 0.4) 0%, rgba(26, 37, 44, 0.8) 100%);
+        }
+
+        /* Karten-Buttons bombenfest */
+        .card-btn-wrap {
+            margin-top: auto;
+            padding-top: var(--space-sm);
+        }
+        .card-btn-wrap .btn {
+            display: inline-block;
+            width: auto;
+            min-width: 120px;
+        }
+
+        /* Sticky Header */
+        .site-header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        /* Navigations-Dropdown bleiben immer VOR Bildern */
+        .nav-dropdown {
+            z-index: 200;
+        }
+
+        /* Kein inline-style background-image der Karten mehr */
+        .silo-card-image-wrap {
+            width: 100%;
+            min-height: 140px;
+            max-height: 160px;
+            overflow: hidden;
+        }
+        .silo-card-image-wrap img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            display: block;
+        }
+
+        /* Sicherheitspolster für Tabellen */
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+        }
+        .routen-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        /* Clean Affiliate-Platzhalter */
+        .affiliate-box {
+            border: 1px solid var(--color-glass-border);
+            border-radius: var(--radius-md);
+            padding: var(--space-lg);
+            background: var(--color-glass);
+            text-align: center;
+        }
+        .affiliate-box .btn {
+            display: inline-block;
+            width: auto;
+        }
+
+        /* Wetter-Widget bombenfest */
+        .weather-widget {
+            min-height: 100px;
+        }
+
+        /* Region-Hero bombenfest */
+        .region-hero {
+            position: relative;
+            min-height: 340px;
+            display: flex;
+            align-items: center;
+            z-index: 0;
+            border-bottom: 2px solid var(--color-primary);
+        }
+        .region-hero-bg {
+            position: absolute;
+            inset: 0;
+            z-index: 0;
+            overflow: hidden;
+        }
+        .region-hero-bg img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .region-hero-overlay {
+            position: relative;
+            z-index: 2;
+            width: 100%;
+            padding: var(--space-3xl) 0 var(--space-2xl);
+        }
+
+        /* Cookie-Banner bombenfest */
+        .cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+        }
+
+        /* ===== MOUNTAINCARDS ===== */
+        .mountaincard {
+            border-left: 4px solid var(--color-primary);
+        }
+        .mountaincard .silo-card-title {
+            color: var(--color-primary);
+        }
+
+        /* ===== INSIDER-TIP & SAFETY-HINT ===== */
+        .insider-tip, .safety-hint {
+            font-size: 0.82rem;
+            line-height: 1.5;
+            margin: var(--space-sm) 0;
+            padding: var(--space-sm);
+            border-radius: var(--radius-sm);
+        }
+        .insider-tip {
+            background: rgba(255, 193, 7, 0.08);
+            border-left: 3px solid #ffc107;
+            color: #856404;
+        }
+        .safety-hint {
+            background: rgba(220, 53, 69, 0.06);
+            border-left: 3px solid #dc3545;
+            color: #721c24;
+        }
+        .insider-tip strong, .safety-hint strong {
+            font-weight: 700;
+        }
+
+        /* Section-Einschub für Mountaincards */
+        .section-inset {
+            margin-top: var(--space-xl);
+            padding-top: var(--space-lg);
+            border-top: 1px solid rgba(139,94,60,0.15);
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                min-height: 50vh;
+            }
+            .hero-overlay {
+                padding: var(--space-2xl) 0;
+            }
+            .img-container {
+                height: 120px;
+            }
+            .silo-card-image-wrap {
+                min-height: 100px;
+                max-height: 120px;
+            }
+            .silo-card-image-wrap img {
+                height: 100px;
+            }
+        }
+        @media (max-width: 480px) {
+            .hero {
+                min-height: 40vh;
+            }
+            .img-container {
+                height: 100px;
+            }
+        }
+    </style>
+
+<style>
+/* ===== BENTO-GRID DASHBOARD ===== */
+.bento-section{padding:24px 16px;max-width:1200px;margin:0 auto}
+.bento-container{width:100%}
+.bento-header{text-align:center;margin-bottom:32px}
+.bento-title{font-size:1.75rem;font-weight:700;color:#1a2a1a;margin-bottom:6px;line-height:1.2}
+.bento-subtitle{font-size:.95rem;color:#6b7a6b;margin:0}
+.bento-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;max-width:1000px;margin:0 auto}
+.bento-card{display:flex;flex-direction:column;align-items:center;text-decoration:none;background:#fff;border:1px solid #eee;border-radius:12px;padding:16px 10px;transition:transform .15s ease,box-shadow .15s ease;cursor:pointer}
+.bento-card:hover{transform:translateY(-2px);box-shadow:0 4px 16px rgba(0,0,0,.06)}
+.bento-card:active{transform:translateY(0)}
+.bento-img-wrap{width:100%;aspect-ratio:1/1;border-radius:10px;overflow:hidden;background:#f5f5f5;margin-bottom:10px}
+.bento-img-wrap img{width:100%;height:100%;object-fit:cover;display:block}
+.bento-label{font-size:.85rem;font-weight:600;color:#2c3e2d;text-align:center;line-height:1.3}
+@media(max-width:768px){.bento-section{padding:16px 16px 80px}.bento-title{font-size:1.35rem}.bento-subtitle{font-size:.85rem}.bento-grid{grid-template-columns:repeat(2,1fr);gap:10px}.bento-card{padding:10px;border-radius:10px}.bento-img-wrap{border-radius:8px}.bento-label{font-size:.78rem}}
+</style>
+
+
+<style>
+@media(max-width:768px){.mobile-bottom-nav{display:flex!important}}
+@media(min-width:769px){.mobile-bottom-nav{display:none!important}}
+.mobile-bottom-nav{position:fixed;bottom:0;left:0;right:0;background:rgba(255,255,255,.96);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid #eee;display:flex;justify-content:space-around;align-items:center;padding:8px 0;z-index:9999;box-shadow:0 -2px 12px rgba(0,0,0,.04)}
+.mobile-bottom-nav a{display:flex;flex-direction:column;align-items:center;text-decoration:none;color:#6b7a6b;padding:6px 10px;border-radius:8px;transition:color .15s ease;gap:2px}
+.mobile-bottom-nav a:hover,.mobile-bottom-nav a:active{color:#4a7c59}
+</style>
+
+</head>
+<body>
+    <!-- SKIP-LINK -->
+    <a href="#main-content" class="visually-hidden-focusable">Zum Hauptinhalt springen</a>
+
+    <!-- ===== HEADER / NAVIGATION ===== -->
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+            <a href="/" class="logo" aria-label="Alpen-Experte Startseite">
+                <img src="/images/logo.svg" alt="Alpen-Experte" width="160" height="42">
+            </a>
+            <!-- SUCHE -->
+            <form class="header-search" role="search" action="https://www.google.com/search" method="get" target="_blank">
+                <input type="hidden" name="q" value="site:alpenexperte.de">
+                <label for="header-search-input" class="visually-hidden">Suche auf alpenexperte.de</label>
+                <input id="header-search-input" class="header-search-input" type="text" name="q2" placeholder="🔍 Suchen…" aria-label="Suchbegriff eingeben">
+                <button type="submit" class="header-search-btn" aria-label="Suche starten">›</button>
+            </form>
+            <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mainNav" aria-label="Navigation öffnen/schließen">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <nav id="mainNav" class="main-nav" aria-label="Hauptnavigation">
+                <ul class="nav-list">
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Aktivitäten</button>
+                        <div class="nav-dropdown">
+                                                        <a href="content/wandern/index.html" class="megamenu-item">Wandern</a>
+                            <a href="content/klettern/index.html" class="megamenu-item">Klettern</a>
+                            <a href="content/mtb/index.html" class="megamenu-item">MTB-Touren</a>
+                            <a href="gravel.html" class="megamenu-item">Gravel Biking</a>
+                            <a href="content/winter/index.html" class="megamenu-item">Winter-Guide</a>
+                            <a href="content/nordic-walking/index.html" class="megamenu-item">Nordic Walking</a>
+                            <a href="content/aktivitaten/mountaincart.html" class="megamenu-item">Mountaincart Spitzingsee</a>
+                        </div>
+                    </li>
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Hütten</button>
+                        <div class="nav-dropdown">
+                            <a href="content/huetten/index.html" class="megamenu-item">🗺️ Hüttenführer (Übersicht)</a>
+                            <a href="content/huetten/rotwandhaus.html" class="megamenu-item">🏠 Rotwandhaus</a>
+                            <a href="content/huetten/dav-haus-spitzingsee.html" class="megamenu-item">🏠 DAV-Haus Spitzingsee</a>
+                            <a href="content/huetten/tegernseer-huette.html" class="megamenu-item">🏠 Tegernseer Hütte</a>
+                            <a href="content/huetten/albert-link-huette.html" class="megamenu-item">🏠 Albert-Link-Hütte</a>
+                            <a href="content/huetten/schoenfeldhuette.html" class="megamenu-item">🏠 Schönfeldhütte</a>
+                            <a href="content/huetten/alm-restaurants/index.html" class="megamenu-item">🍽️ Alm-Restaurants</a>
+                        </div>
+                    </li>
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Ausrüstung</button>
+                        <div class="nav-dropdown">
+                            <a href="content/ausruestung/index.html" class="megamenu-item">Ausrüstung</a>
+                            <a href="content/ausruestung/wanderstoecke/index.html" class="megamenu-item">Wanderstöcke</a>
+                            <a href="content/fehlkauf-vermeidung/index.html" class="megamenu-item">Fehlkauf vermeiden</a>
+                            <a href="content/layering/index.html" class="megamenu-item">Layering-System</a>
+                        </div>
+                    </li>
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Wissensbibliothek</button>
+                        <div class="nav-dropdown megamenu">
+                            <div class="megamenu-grid">
+                                <a href="content/fauna/index.html" class="megamenu-item">Fauna & Flora</a>
+                                <a href="content/botanik/index.html" class="megamenu-item">Botanik</a>
+                                <a href="content/geologie/index.html" class="megamenu-item">Geologie</a>
+                                <a href="content/meteorologie/index.html" class="megamenu-item">Meteorologie</a>
+                                <a href="content/limnologie/index.html" class="megamenu-item">Limnologie</a>
+                                <a href="content/moore/index.html" class="megamenu-item">Moore</a>
+                                <a href="content/forstwirtschaft/index.html" class="megamenu-item">Forstwirtschaft</a>
+                                <a href="content/zoologie/index.html" class="megamenu-item">Zoologie</a>
+                                <a href="content/almwirtschaft/index.html" class="megamenu-item">Almwirtschaft</a>
+                                <a href="content/alpinismus_sicherheit/index.html" class="megamenu-item">Alpinismus & Sicherheit</a>
+                                <a href="content/kultur_geschichte/index.html" class="megamenu-item">Kultur & Geschichte</a>
+                                <a href="content/astronomie_geschichte/index.html" class="megamenu-item">Astronomie & Geschichte</a>
+                                <a href="content/sternenhimmel/index.html" class="megamenu-item">Sternenhimmel</a>
+                                <a href="content/almkultur/index.html" class="megamenu-item">Almkultur</a>
+                                <a href="content/mountaincards/index.html" class="megamenu-item">Mountaincards</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="content/praxis/index.html" class="nav-link">Praxis</a></li>
+                    <li class="nav-item-has-dropdown"><button class="nav-dropdown-toggle" aria-expanded="false">🌲 Waldkrankheit</button><div class="nav-dropdown"><a href="/waldkrankheit/" class="megamenu-item">Übersicht</a><a href="/waldkrankheit/ursachen/" class="megamenu-item">Ursachen</a><a href="/waldkrankheit/symptome/" class="megamenu-item">Symptome</a><a href="/waldkrankheit/zukunft/" class="megamenu-item">Zukunft</a><a href="/waldkrankheit/ressourcen/" class="megamenu-item">Ressourcen</a></div></li>
+                    <li><a href="content/regional/index.html" class="nav-link">Regional</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO-BEREICH ===== -->
+    <section class="hero" aria-label="Alpen-Panorama">
+        <div class="hero-img-wrap">
+            <img src="/images/bergpanorama-see.jpg" alt="Alpenpanorama" loading="eager">
+        </div>
+        <div class="hero-overlay">
+            <div class="container">
+                <div style="margin-bottom:var(--space-md);">
+                    <span class="hero-badge">🏔️ 15 Wanderrouten · 12 Klettersteige · 200+ Guides</span>
+                </div>
+                <h1 class="hero-title">Alpenexperte.de</h1>
+                <p class="hero-subtitle">Echte Alm-Praxis. Erfahrung & Sicherheit für dein Bergerlebnis – lokal, ehrlich, unabhängig.</p>
+                <div class="hero-ctas">
+                    <a href="content/wandern/index.html" class="btn btn--primary">Wanderrouten entdecken</a>
+                    <a href="content/huetten/index.html" class="btn btn--secondary">Hüttenführer</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <main id="main-content">
+        <!-- ===== SEKTION 1: AKTIVITÄTEN ===== -->
+        <section class="section section--lounge" aria-labelledby="aktivitaeten-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="featured-badge" style="display: inline-block; margin-bottom: var(--space-sm); background: linear-gradient(135deg, var(--color-wood-dark), var(--color-accent)); color: white; padding: 4px 14px; border-radius: 20px; font-size: 0.85rem; box-shadow: 0 2px 8px rgba(139, 94, 60, 0.3);">🥾 Aktiv unterwegs</span>
+                    <h2 id="aktivitaeten-title" class="section-title">Aktivitäten in den Voralpen</h2>
+<div style="width: 80px; height: 3px; background: linear-gradient(90deg, var(--color-accent), var(--color-wood-dark)); margin: var(--space-sm) auto var(--space-md); border-radius: 2px;"></div>
+                    <p class="section-desc">Ob zu Fuß, auf zwei Rädern oder mit Steigeisen – die Bayerischen Voralpen bieten für jedes Können und jede Jahreszeit das passende Erlebnis.</p>
+                </header>
+                <div class="grid grid--3col">
+                    <article class="silo-card">
+                        <a href="content/wandern/index.html" class="silo-card-link" aria-label="Wanderrouten in den Voralpen">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/panorama-sommer.jpg" alt="Wanderrouten in den Voralpen" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <span class="featured-badge" style="display: inline-block; margin-bottom: var(--space-sm);">🥇 Beliebt</span>
+                                <h3 class="silo-card-title">Wandern</h3>
+                                <p class="silo-card-text"><strong>12 Routen von T1 bis T4</strong><br />Rotwand, Brecherspitz, Taubenstein & mehr – mit GPX, Höhenprofil und Einkehr-Tipps.</p>
+                                <span class="silo-card-cta">Routen entdecken →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/klettern/index.html" class="silo-card-link" aria-label="Klettergebiete">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/felsformation.jpg" alt="Klettergebiete in den Bayerischen Voralpen" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <span class="featured-badge" style="display: inline-block; margin-bottom: var(--space-sm);">🧗 Neu</span>
+                                <h3 class="silo-card-title">Klettern</h3>
+                                <p class="silo-card-text"><strong>Klettergärten & Routen</strong><br />Vom Bodenschneid-Klettersteig bis zu den Klettergärten am Spitzingsee – für Anfänger und Profis.</p>
+                                <span class="silo-card-cta">Kletterrouten →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/mtb/index.html" class="silo-card-link" aria-label="MTB-Touren">
+                            <div class="silo-card-body">
+                                                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/hero-panorama.jpg" alt="MTB-Touren in den Voralpen" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">MTB-Touren</h3>
+                                <p class="silo-card-text"><strong>Trails & Flow-Strecken</strong><br />Von der Valepp-Runde bis zur Spitzingsee-Abfahrt – mit Höhenprofil und Schwierigkeitsgrad.</p>
+                                <span class="silo-card-cta">MTB-Routen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="gravel.html" class="silo-card-link" aria-label="Gravel Biking">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/hero-panorama.jpg" alt="Gravel Biking im Mangfallgebirge" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <span class="featured-badge" style="display: inline-block; margin-bottom: var(--space-sm);">🚵 Neu</span>
+                                <h3 class="silo-card-title">Gravel Biking</h3>
+                                <p class="silo-card-text"><strong>50 Gravel-Touren</strong><br />Von Easy-Talrunden bis Epic-Bikepacking im Mangfallgebirge – plus Setup-Guide zu Reifen, Gepäck und GPS.</p>
+                                <span class="silo-card-cta">Gravel-Touren →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/winter/index.html" class="silo-card-link" aria-label="Winter-Guide">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/rotwand-ausblick-im-winter.jpg" alt="Winteraktivitäten in den Voralpen" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Winter-Guide</h3>
+                                <p class="silo-card-text"><strong>Schnee & Eis</strong><br />Skifahren, Rodeln, Schneeschuhwandern und Winterwanderungen – Tipps für die kalte Jahreszeit.</p>
+                                <span class="silo-card-cta">Winter-Erlebnisse →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/nordic-walking/index.html" class="silo-card-link" aria-label="Nordic Walking">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/wandern-alpen.jpg" alt="Nordic Walking Strecken" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Nordic Walking</h3>
+                                <p class="silo-card-text"><strong>Geprüfte Strecken</strong><br />Rund um Schliersee und Spitzingsee – mit Stockeinsatz und 360-Grad-Panorama.</p>
+                                <span class="silo-card-cta">Strecken entdecken →</span>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <div class="section-separator" aria-hidden="true" style="height: 12px; background: linear-gradient(90deg, transparent, var(--color-wood-dark), var(--color-accent), var(--color-wood-dark), transparent); margin: 0; border: none;"></div>
+        <!-- ===== SEKTION 2: HÜTTEN & EINKEHREN ===== -->
+        <section class="section section--lounge-alt" aria-labelledby="huetten-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="featured-badge" style="display: inline-block; margin-bottom: var(--space-sm); background: linear-gradient(135deg, var(--color-wood-dark), var(--color-accent)); color: white; padding: 4px 14px; border-radius: 20px; font-size: 0.85rem; box-shadow: 0 2px 8px rgba(139, 94, 60, 0.3);">🏔️ Hütten & Einkehren</span>
+                    <h2 id="huetten-title" class="section-title">Hütten & Einkehren</h2>
+<div style="width: 80px; height: 3px; background: linear-gradient(90deg, var(--color-accent), var(--color-wood-dark)); margin: var(--space-sm) auto var(--space-md); border-radius: 2px;"></div>
+                    <p class="section-desc">Die schönsten Hütten, Almen und Einkehrmöglichkeiten im Mangfallgebirge – von der bewirtschafteten Alm bis zur Selbstversorger-Hütte.</p>
+                </header>
+                <div class="grid grid--3col">
+                    <article class="silo-card">
+                        <a href="content/huetten/index.html" class="silo-card-link" aria-label="Hüttenführer">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/bergpanorama-see.jpg" alt="Hüttenführer" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Hüttenführer</h3>
+                                <p class="silo-card-text"><strong>Alle Hütten auf einen Blick</strong><br />Rotwandhaus, Tegernseer Hütte, Schönfeldhütte & mehr – mit Anreise, Öffnungszeiten und Übernachtung.</p>
+                                <span class="silo-card-cta">Hütten entdecken →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/huetten/alm-restaurants/index.html" class="silo-card-link" aria-label="Alm-Restaurants">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/huttefirstalm.jpg" alt="Alm-Restaurants" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Alm-Restaurants</h3>
+                                <p class="silo-card-text"><strong>Kulinarik auf der Alm</strong><br />Obere & Untere Firstalm, Valepper Alm, Stümpfling – wo der Kaiserschmarrn am besten schmeckt.</p>
+                                <span class="silo-card-cta">Alm-Genuss →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/huetten/rodelpisten/index.html" class="silo-card-link" aria-label="Rodelpisten">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/rodelpiste.jpg" alt="Rodelpisten" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Rodelpisten</h3>
+                                <p class="silo-card-text"><strong>Action im Schnee</strong><br />Die besten Rodelpisten rund um Schliersee und Spitzingsee für Groß und Klein.</p>
+                                <span class="silo-card-cta">Rodeln gehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <div class="section-separator" aria-hidden="true" style="height: 12px; background: linear-gradient(90deg, transparent, var(--color-wood-dark), var(--color-accent), var(--color-wood-dark), transparent); margin: 0; border: none;"></div>
+        <!-- ===== SEKTION 3: AUSRÜSTUNG & KNOW-HOW ===== -->
+        <section class="section section--lounge" aria-labelledby="ausruestung-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="featured-badge" style="display: inline-block; margin-bottom: var(--space-sm); background: linear-gradient(135deg, var(--color-wood-dark), var(--color-accent)); color: white; padding: 4px 14px; border-radius: 20px; font-size: 0.85rem; box-shadow: 0 2px 8px rgba(139, 94, 60, 0.3);">🎒 Ausrüstung & Know-how</span>
+                    <h2 id="ausruestung-title" class="section-title">Ausrüstung & Know-how</h2>
+<div style="width: 80px; height: 3px; background: linear-gradient(90deg, var(--color-accent), var(--color-wood-dark)); margin: var(--space-sm) auto var(--space-md); border-radius: 2px;"></div>
+                    <p class="section-desc">Besser ausgerüstet, sicherer unterwegs. Von Wanderstöcken über Bekleidung bis zur Kletterausrüstung – echte Praxistests statt Labormärchen.</p>
+                </header>
+                <div class="grid grid--3col">
+                    <article class="silo-card">
+                        <a href="content/ausruestung/index.html" class="silo-card-link" aria-label="Ausrüstung">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/BahnhofNeuhaus.jpg" alt="Ausrüstung" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Ausrüstung</h3>
+                                <p class="silo-card-text"><strong>Alles für die Tour</strong><br />Von der richtigen Kleidung bis zum Notfall-Set – die ultimative Ausrüstungs-Checkliste für die Voralpen.</p>
+                                <span class="silo-card-cta">Ausrüstung prüfen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/ausruestung/wanderstoecke/index.html" class="silo-card-link" aria-label="Wanderstöcke Test">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/rodelpiste.jpg" alt="Wanderstöcke Test" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Wanderstöcke</h3>
+                                <p class="silo-card-text"><strong>Test & Kaufberatung</strong><br />Leki, Black Diamond, Komperdell – 8 Modelle im Härtetest auf der Alm. Mit Gewichts- und Preisvergleich.</p>
+                                <span class="silo-card-cta">Stöcke vergleichen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/layering/index.html" class="silo-card-link" aria-label="Layering-System">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/spitzingsee-perfekt.jpg" alt="Layering-System" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Layering-System</h3>
+                                <p class="silo-card-text"><strong>Die richtige Schicht</strong><br />Merino, Fleece, Softshell & Hardshell – welches Material für welche Schicht und Jahreszeit optimal ist.</p>
+                                <span class="silo-card-cta">Layering lernen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/fehlkauf-vermeidung/index.html" class="silo-card-link" aria-label="Fehlkauf vermeiden">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/spitzingsee-perfekt.jpg" alt="Fehlkauf vermeiden" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Fehlkauf vermeiden</h3>
+                                <p class="silo-card-text"><strong>Die 5 häufigsten Fehler</strong><br />Warum billige Wanderstöcke keine gute Idee sind und wie du beim Outdoorkauf wirklich sparst.</p>
+                                <span class="silo-card-cta">Fehler vermeiden →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/fitness/index.html" class="silo-card-link" aria-label="Fitness">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/wandern-natur.jpg" alt="Fitness" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Fitness</h3>
+                                <p class="silo-card-text"><strong>Training für die Berge</strong><br />Mit diesen Übungen bereitest du dich optimal auf die nächste Bergtour vor – Knie- und rückenschonend.</p>
+                                <span class="silo-card-cta">Fitness-Tipps →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/sicherheit/index.html" class="silo-card-link" aria-label="Sicherheit im Berg">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/Bergaussicht.jpg" alt="Sicherheit im Berg" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Sicherheit</h3>
+                                <p class="silo-card-text"><strong>Alpine Gefahren verstehen</strong><br />Wetterumschwung, Absturzgefahr, Orientierungsverlust – wie du Risiken minimierst.</p>
+                                <span class="silo-card-cta">Sicherheits-Tipps →</span>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <div class="section-separator" aria-hidden="true" style="height: 12px; background: linear-gradient(90deg, transparent, var(--color-wood-dark), var(--color-accent), var(--color-wood-dark), transparent); margin: 0; border: none;"></div>
+        <!-- ===== SEKTION 4: FAUNA & FLORA ===== -->
+        <section class="section section--lounge-alt" aria-labelledby="fauna-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="featured-badge" style="display: inline-block; margin-bottom: var(--space-sm); background: linear-gradient(135deg, var(--color-wood-dark), var(--color-accent)); color: white; padding: 4px 14px; border-radius: 20px; font-size: 0.85rem; box-shadow: 0 2px 8px rgba(139, 94, 60, 0.3);">🦌 Fauna & Flora</span>
+                    <h2 id="fauna-title" class="section-title">Fauna & Flora</h2>
+<div style="width: 80px; height: 3px; background: linear-gradient(90deg, var(--color-accent), var(--color-wood-dark)); margin: var(--space-sm) auto var(--space-md); border-radius: 2px;"></div>
+                    <p class="section-desc">Die Tier- und Pflanzenwelt der Bayerischen Voralpen ist einzigartig. Lerne die Bewohner der Alpen kennen – von der Gämse bis zur seltenen Orchidee.</p>
+                </header>
+                <div class="grid grid--3col">
+                    <article class="silo-card">
+                        <a href="content/fauna/index.html" class="silo-card-link" aria-label="Fauna & Flora Übersicht">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/wanderpfad-im-nebel.jpeg" alt="Fauna & Flora" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <span class="featured-badge" style="display: inline-block; margin-bottom: var(--space-sm);">🌿 Übersicht</span>
+                                <h3 class="silo-card-title">Fauna & Flora Übersicht</h3>
+                                <p class="silo-card-text"><strong>Alle Arten auf einen Blick</strong><br />Von der Gämse bis zur Alpenrose – die komplette Artenvielfalt der Voralpen.</p>
+                                <span class="silo-card-cta">Zur Übersicht →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/botanik/index.html" class="silo-card-link" aria-label="Botanik">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/wanderpfad-im-nebel.jpeg" alt="Botanik" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Botanik</h3>
+                                <p class="silo-card-text"><strong>Alpine Pflanzenwelt</strong><br />Alpenrosen, Edelweiß, Enzian & Orchideen – Portrait der wichtigsten Bergpflanzen.</p>
+                                <span class="silo-card-cta">Pflanzen entdecken →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/zoologie/index.html" class="silo-card-link" aria-label="Zoologie">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/wanderpfad-im-nebel.jpeg" alt="Zoologie" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Zoologie</h3>
+                                <p class="silo-card-text"><strong>Alpine Tierwelt</strong><br />Steinadler, Murmeltier, Rothirsch & Co. – Lebensweise, Lebensraum und Besonderheiten.</p>
+                                <span class="silo-card-cta">Tiere entdecken →</span>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <div class="section-separator" aria-hidden="true" style="height: 12px; background: linear-gradient(90deg, transparent, var(--color-wood-dark), var(--color-accent), var(--color-wood-dark), transparent); margin: 0; border: none;"></div>
+        <!-- ===== SEKTION 5: NATURWISSENSCHAFTEN ===== -->
+        <section class="section section--lounge" aria-labelledby="naturwissenschaften-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="featured-badge" style="display: inline-block; margin-bottom: var(--space-sm); background: linear-gradient(135deg, var(--color-wood-dark), var(--color-accent)); color: white; padding: 4px 14px; border-radius: 20px; font-size: 0.85rem; box-shadow: 0 2px 8px rgba(139, 94, 60, 0.3);">🔬 Naturwissenschaften</span>
+                    <h2 id="naturwissenschaften-title" class="section-title">Naturwissenschaften</h2>
+<div style="width: 80px; height: 3px; background: linear-gradient(90deg, var(--color-accent), var(--color-wood-dark)); margin: var(--space-sm) auto var(--space-md); border-radius: 2px;"></div>
+                    <p class="section-desc">Warum gibt es Moore im Gebirge? Wie entstehen Voralpenseen? Und was verrät das Gestein über die Alpen? Antworten aus Geologie, Meteorologie & Co.</p>
+                </header>
+                <div class="grid grid--3col">
+                    <article class="silo-card">
+                        <a href="content/geologie/index.html" class="silo-card-link" aria-label="Geologie">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/felsformation.jpg" alt="Geologie" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Geologie</h3>
+                                <p class="silo-card-text"><strong>Die Alpen im Zeitraffer</strong><br />Gesteinsschichten, Karstphänomene und die Entstehung des Mangfallgebirges.</p>
+                                <span class="silo-card-cta">Geologie verstehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/meteorologie/index.html" class="silo-card-link" aria-label="Meteorologie">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/bergpanorama-see.jpg" alt="Meteorologie" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Meteorologie</h3>
+                                <p class="silo-card-text"><strong>Wetter verstehen</strong><br />Föhn, Gewitter, Wolkenkunde – wie das Wetter in den Voralpen funktioniert und was es für Touren bedeutet.</p>
+                                <span class="silo-card-cta">Wetterwissen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/limnologie/index.html" class="silo-card-link" aria-label="Limnologie">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/spitzingsee-perfekt.jpg" alt="Limnologie" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Limnologie</h3>
+                                <p class="silo-card-text"><strong>Geheimnisse der Seen</strong><br />Schliersee, Spitzingsee, Tegernsee – Entstehung, Ökologie und Wasserqualität der Voralpenseen.</p>
+                                <span class="silo-card-cta">Seen erkunden →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/moore/index.html" class="silo-card-link" aria-label="Moore">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/spitzingsee-perfekt.jpg" alt="Moore" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Moore</h3>
+                                <p class="silo-card-text"><strong>Klimaretter der Alpen</strong><br />Warum Moore mehr CO₂ speichern als Wälder – und warum sie für das alpine Ökosystem unverzichtbar sind.</p>
+                                <span class="silo-card-cta">Moore entdecken →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/forstwirtschaft/index.html" class="silo-card-link" aria-label="Forstwirtschaft">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/wald.jpg" alt="Forstwirtschaft" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Forstwirtschaft</h3>
+                                <p class="silo-card-text"><strong>Der Wald im Wandel</strong><br />Bergmischwald, Klimawandel und nachhaltige Forstwirtschaft in den Bayerischen Voralpen.</p>
+                                <span class="silo-card-cta">Waldwissen →</span>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <div class="section-separator" aria-hidden="true" style="height: 12px; background: linear-gradient(90deg, transparent, var(--color-wood-dark), var(--color-accent), var(--color-wood-dark), transparent); margin: 0; border: none;"></div>
+        <!-- ===== SEKTION 6: KULTUR & GESCHICHTE ===== -->
+        <section class="section section--lounge-alt" aria-labelledby="kultur-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="featured-badge" style="display: inline-block; margin-bottom: var(--space-sm); background: linear-gradient(135deg, var(--color-wood-dark), var(--color-accent)); color: white; padding: 4px 14px; border-radius: 20px; font-size: 0.85rem; box-shadow: 0 2px 8px rgba(139, 94, 60, 0.3);">📜 Kultur & Geschichte</span>
+                    <h2 id="kultur-title" class="section-title">Kultur & Geschichte</h2>
+<div style="width: 80px; height: 3px; background: linear-gradient(90deg, var(--color-accent), var(--color-wood-dark)); margin: var(--space-sm) auto var(--space-md); border-radius: 2px;"></div>
+                    <p class="section-desc">Die Alpen sind nicht nur Natur – sie sind Kulturraum. Seit Jahrhunderten prägen Menschen die Landschaft. Entdecke Geschichten, Bräuche und Traditionen.</p>
+                </header>
+                <div class="grid grid--3col">
+                    <article class="silo-card">
+                        <a href="content/kultur_geschichte/index.html" class="silo-card-link" aria-label="Kultur & Geschichte">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/bergpanorama-see.jpg" alt="Kultur & Geschichte" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Kultur & Geschichte</h3>
+                                <p class="silo-card-text"><strong>Kulturerbe der Alpen</strong><br />Von der Almwirtschaft über Sagen bis zur Holzkunst – was die Alpenkultur ausmacht.</p>
+                                <span class="silo-card-cta">Kultur entdecken →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/almwirtschaft/index.html" class="silo-card-link" aria-label="Almwirtschaft">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/bergpanorama-see.jpg" alt="Almwirtschaft" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Almwirtschaft</h3>
+                                <p class="silo-card-text"><strong>Käse, Milch & Tradition</strong><br />Wie die Almwirtschaft die Voralpen prägt – von der Milchverarbeitung bis zur Alpkäse-Herstellung.</p>
+                                <span class="silo-card-cta">Almwirtschaft →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/almkultur/index.html" class="silo-card-link" aria-label="Almkultur">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/bergpanorama-see.jpg" alt="Almkultur" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Almkultur & Brauchtum</h3>
+                                <p class="silo-card-text"><strong>Leben auf der Alm</strong><br />Trachten, Bräuche, Musik und Kulinarik – die Almkultur lebt in den Voralpen bis heute.</p>
+                                <span class="silo-card-cta">Almkultur erleben →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/astronomie_geschichte/index.html" class="silo-card-link" aria-label="Astronomie & Geschichte">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/sternenhimmel-nacht.jpg" alt="Astronomie & Geschichte" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Astronomie & Geschichte</h3>
+                                <p class="silo-card-text"><strong>Sterne und ihre Geschichten</strong><br />Von mittelalterlichen Sternenkarten bis zu den Jagdmethoden der Steinzeit – Astronomie und alpine Geschichte verbinden sich.</p>
+                                <span class="silo-card-cta">Geschichte entdecken →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/alpinismus_sicherheit/index.html" class="silo-card-link" aria-label="Alpinismus & Sicherheit">
+                            <div class="silo-card-body">
+                                <div class="silo-card-image" style="width: 100%; height: 140px; overflow: hidden; border-radius: var(--radius-md) var(--radius-md) 0 0; margin-bottom: var(--space-sm);"><img src="/images/felsformation.jpg" alt="Alpinismus & Sicherheit" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;" /></div>
+                                <h3 class="silo-card-title">Alpinismus & Sicherheit</h3>
+                                <p class="silo-card-text"><strong>Ethik & Verantwortung</strong><br />Alpine Ethik, nachhaltiges Bergsteigen und Sicherheitsstandards für Touren in den Voralpen.</p>
+                                <span class="silo-card-cta">Mehr erfahren →</span>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <div class="section-separator" aria-hidden="true" style="height: 12px; background: linear-gradient(90deg, transparent, var(--color-wood-dark), var(--color-accent), var(--color-wood-dark), transparent); margin: 0; border: none;"></div>
+<!-- ===== SEKTION 8: PRAKTISCHES WISSEN ===== -->
+        <section class="section section--lounge" aria-labelledby="praxis-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="featured-badge">📋 Wissen</span>
+                    <h2 id="praxis-title" class="section-title">Praktisches Wissen</h2>
+                    <p class="section-desc">Was du wirklich wissen musst – kein Oberflächenwissen, sondern echte alpine Tiefe. Von der Geologie bis zum Wetterphänomen.</p>
+                </header>
+                <div class="grid grid--3col">
+                    <article class="silo-card">
+                        <a href="content/praxis/foehn.html" class="silo-card-link" aria-label="Föhn-Erklärung">
+                            <div class="silo-card-image-wrap">
+                                <img src="/images/panorama-sommer.jpg" alt="Föhn-Erklärung – Alpen-Experte" loading="lazy">
+                            </div>
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title">Föhn-Erklärung</h3>
+                                <p class="silo-card-text">Wie entsteht der Föhn? Warum bringt er Kopfschmerzen? Und wann ist er gefährlich für Touren?</p>
+                                <span class="silo-card-cta">Föhn verstehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/praxis/geologie.html" class="silo-card-link" aria-label="Geologie Mangfallgebirge">
+                            <div class="silo-card-image-wrap">
+                                <img src="/images/felsformation.jpg" alt="Geologie – Alpen-Experte" loading="lazy">
+                            </div>
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title">Geologie</h3>
+                                <p class="silo-card-text">Das Mangfallgebirge: Entstehung, Gestein, Karstphänomene – was unter deinen Füßen liegt.</p>
+                                <span class="silo-card-cta">Geologie erkunden →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/praxis/saisonaler-kalender.html" class="silo-card-link" aria-label="Saisonkalender">
+                            <div class="silo-card-image-wrap">
+                                <img src="/images/panorama-sommer.jpg" alt="Saisonkalender – Alpen-Experte" loading="lazy">
+                            </div>
+                            <div class="silo-card-body">
+                                <h3 class="silo-card-title">Saisonkalender</h3>
+                                <p class="silo-card-text">Wann blüht der Enzian? Wann ist Setzzeit der Gämse? Wann ist die beste Wanderzeit?</p>
+                                <span class="silo-card-cta">Kalender ansehen →</span>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <hr class="section-separator" aria-hidden="true">
+
+        <!-- ===== SEKTION 9: TOP-ROUTEN DIESER WOCHE ===== -->
+        <section class="section section--lounge-alt" aria-labelledby="toprouten-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="featured-badge">⭐ Empfehlung</span>
+                    <h2 id="toprouten-title" class="section-title">Top-Routen dieser Woche</h2>
+                    <p class="section-desc">Unsere aktuellen Highlights – je nach Jahreszeit, Wetterlage und Bedingungen.</p>
+                </header>
+                <div class="grid grid--3col">
+                    <article class="silo-card">
+                        <a href="content/wandern/rotwand.html" class="silo-card-link" aria-label="Rotwand">
+                            <div class="silo-card-image-wrap">
+                                <img src="/images/wandern-brecherspitz.jpg" alt="Rotwand (1.884 m) – Alpen-Experte" loading="lazy">
+                            </div>
+                            <div class="silo-card-body">
+                                <span class="featured-badge">🥇 Empfohlen</span>
+                                <h3 class="silo-card-title">Rotwand (1.884 m)</h3>
+                                <p class="silo-card-text"><strong>📍 Valepp / Spitzingsee</strong><br>Die Klassiker-Route: Vom Valepp-Parkplatz über das Rotwandhaus zum Gipfel. Ca. 3,5 Std., T2. Atemberaubender Panoramablick.</p>
+                                <span class="silo-card-cta">Route anzeigen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/huetten/wanderwege/brecherspitz-gipfelweg.html" class="silo-card-link" aria-label="Brecherspitz">
+                            <div class="silo-card-image-wrap">
+                                <img src="/images/wandern-brecherspitz.jpg" alt="Brecherspitz-Gipfel – Alpen-Experte" loading="lazy">
+                            </div>
+                            <div class="silo-card-body">
+                                <span class="featured-badge" style="background:var(--color-primary);">🥈 Klassiker</span>
+                                <h3 class="silo-card-title">Brecherspitz-Gipfel</h3>
+                                <p class="silo-card-text"><strong>📍 Spitzingsee</strong><br>Ab der Oberen Firstalm – der Gipfelweg mit Einkehr-Möglichkeit. Kaiserschmarrn inklusive. Ca. 2,5 Std., T2.</p>
+                                <span class="silo-card-cta">Route anzeigen →</span>
+                            </div>
+                        </a>
+                    </article>
+                    <article class="silo-card">
+                        <a href="content/huetten/wanderwege/josefsthaler-wasserfaelle.html" class="silo-card-link" aria-label="Josefsthaler Wasserfälle">
+                            <div class="silo-card-image-wrap">
+                                <img src="/images/spitzingsee-perfekt.jpg" alt="Josefsthaler Wasserfälle – Alpen-Experte" loading="lazy">
+                            </div>
+                            <div class="silo-card-body">
+                                <span class="featured-badge" style="background:var(--color-primary);">🥉 Familientipp</span>
+                                <h3 class="silo-card-title">Josefsthaler Wasserfälle</h3>
+                                <p class="silo-card-text"><strong>📍 Spitzingsee / Schliersee</strong><br>Leichte Wanderung (T1) zu den tosenden Wasserfällen – ideal für Familien. Ca. 1 Std., kinderwagentauglich.</p>
+                                <span class="silo-card-cta">Route anzeigen →</span>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== SEKTOR 8: ANGEBOTE & PAKETE – 3x SPITZINGSEE ===== -->
+        <section class="section section--lounge" aria-labelledby="angebote-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="featured-badge">🎁 Angebote & Pakete</span>
+                    <h2 id="angebote-title" class="section-title">3x Spitzingsee – Erlebnispakete für deinen Aufenthalt</h2>
+                    <p class="section-desc">Ob Familien-Wochenende, Aktiv-Urlaub oder Wellness-Auszeit – drei maßgeschneiderte Pakete für deinen Aufenthalt am Spitzingsee.</p>
+                </header>
+                <div class="grid grid--3col">
+                    <article class="silo-card">
+                        <div class="silo-card-image-wrap">
+                            <img src="/images/spitzingsee-perfekt.jpg" alt="Familien-Wochenende Spitzingsee – Alpen-Experte" loading="lazy">
+                        </div>
+                        <div class="silo-card-body">
+                            <span class="featured-badge" style="background:var(--color-primary);">👨‍👩‍👧‍👦 Für Familien</span>
+                            <h3 class="silo-card-title">Familien-Wochenende Spitzingsee</h3>
+                            <p class="silo-card-text"><strong>2 Übernachtungen inkl. Frühstück im DAV-Haus Spitzingsee</strong><br>✔ Geführte Kinderwanderung zur Unteren Firstalm<br>✔ Kaiserschmarrn-Essen für die ganze Familie<br>✔ Eintritt in das Naturerlebnisbad Schliersee<br>✔ BRB-Ticket München–Spitzingsee (Hin & Rück)<br><strong>Preis:</strong> ab 189 € pro Familie (2 Erw. + 2 Kinder)</p>
+                            <span class="silo-card-cta" style="cursor:pointer;">Paket anfragen →</span>
+                        </div>
+                    </article>
+                    <article class="silo-card">
+                        <div class="silo-card-image-wrap">
+                            <img src="/images/Alpen.jpg" alt="3-Gipfel-Tour – Das Aktiv-Paket – Alpen-Experte" loading="lazy">
+                        </div>
+                        <div class="silo-card-body">
+                            <span class="featured-badge" style="background:var(--color-primary);">🥾 Für Aktive</span>
+                            <h3 class="silo-card-title">3-Gipfel-Tour – Das Aktiv-Paket</h3>
+                            <p class="silo-card-text"><strong>3 Tage, 3 Gipfel, 3 Übernachtungen</strong><br>✔ Tag 1: Rotwand (1.884 m) mit Übernachtung Rotwandhaus<br>✔ Tag 2: Brecherspitz (1.683 m) mit Übernachtung Schönfeldhütte<br>✔ Tag 3: Bodenschneid (1.668 m) und Abstieg<br>✔ GPX-Daten & Tourenkarten inklusive<br><strong>Preis:</strong> ab 279 € pro Person (inkl. HP)</p>
+                            <span class="silo-card-cta" style="cursor:pointer;">Paket anfragen →</span>
+                        </div>
+                    </article>
+                    <article class="silo-card">
+                        <div class="silo-card-image-wrap">
+                            <img src="/images/bergpanorama-see.jpg" alt="Wellness-Paket" loading="lazy">
+                        </div>
+                        <div class="silo-card-body">
+                            <span class="featured-badge" style="background:var(--color-primary);">🧘 Wellness & Genuss</span>
+                            <h3 class="silo-card-title">Alm-Wellness & Kulinarik</h3>
+                            <p class="silo-card-text"><strong>2 Übernachtungen mit Verwöhnprogramm</strong><br>✔ Käse-Verkostung auf der Schönfeldhütte<br>✔ Saunagang im DAV-Haus (Sauna gegen Gebühr)<br>✔ Wildgerichte-Dinner in der Alm-Restaurants<br>✔ Geführte Fototour zum Sonnenaufgang<br><strong>Preis:</strong> ab 349 € pro Person</p>
+                            <span class="silo-card-cta" style="cursor:pointer;">Paket anfragen →</span>
+                        </div>
+                    </article>
+                </div>
+                <p style="text-align:center;font-size:0.8rem;color:var(--color-text-light);margin-top:var(--space-md);">* Alle Pakete sind buchbar über die jeweiligen Hüttenwirte. Preise verstehen sich inkl. MwSt. Stand 2026. Änderungen vorbehalten.</p>
+            </div>
+        </section>
+
+        <details class="collapse-section">
+            <summary><span>🔍 Mythbuster - Schwurbel-Alarm anzeigen</span></summary>
+        <!-- ===== SEKTOR 9: SCHWURBEL-ALARM – KRITIK & MYTHEN ===== -->
+        <section class="section section--lounge-alt" aria-labelledby="schwurbel-title">
+            <div class="container" style="max-width:var(--container-narrow);">
+                <header class="section-header">
+                    <span class="featured-badge" style="background:#dc3545;">🔍 Mythbuster</span>
+                    <h2 id="schwurbel-title" class="section-title">Schwurbel-Alarm – Die größten Fehlinformationen über die Voralpen</h2>
+                    <p class="section-desc">Was stimmt wirklich? Wir räumen mit den hartnäckigsten Gerüchten und Mythen rund um das Mangfallgebirge auf. Fakten statt Hörensagen.</p>
+                </header>
+                <div style="background:rgba(220,53,69,0.05);padding:var(--space-lg);border-radius:var(--radius-md);border-left:4px solid #dc3545;">
+                    <h4 style="color:var(--color-primary);margin-bottom:var(--space-sm);">❌ Mythos 1: „Im Spitzingsee kann man bedenkenlos baden gehen"</h4>
+                    <p><strong>Fakt:</strong> Der Spitzingsee hat eine EU-Badequalität der Klasse B – das bedeutet „gut", aber nicht „ausgezeichnet". Wegen der Schwebstoffe aus den Gebirgsbächen ist die Sichttiefe bei 1,5–2,5 m begrenzt. Baden ist grundsätzlich möglich, aber an heißen Tagen kann es am Ostufer zu Blaualgen-Blüten kommen. Der Schliersee und der Tegernsee haben besser Werte (Klasse A).</p>
+                </div>
+                <div style="margin-top:var(--space-md);background:rgba(220,53,69,0.05);padding:var(--space-lg);border-radius:var(--radius-md);border-left:4px solid #dc3545;">
+                    <h4 style="color:var(--color-primary);margin-bottom:var(--space-sm);">❌ Mythos 2: „Wildbäche in den Alpen sind sauberes Trinkwasser"</h4>
+                    <p><strong>Fakt:</strong> Ein gefährlicher Mythos! Alle Wildbäche im Mangfallgebirge sind <strong>kein Trinkwasser</strong>. Grund: Almwirtschaft und Weidevieh. Die Bäche werden von Almwässern gespeist, die durch Weideflächen fließen – mit entsprechenden bakteriellen Belastungen. Auch oberhalb der Almhütten gilt: Kein Wasser aus unbekannten Quellen trinken!</p>
+                </div>
+                <div style="margin-top:var(--space-md);background:rgba(220,53,69,0.05);padding:var(--space-lg);border-radius:var(--radius-md);border-left:4px solid #dc3545;">
+                    <h4 style="color:var(--color-primary);margin-bottom:var(--space-sm);">❌ Mythos 3: „Im Winter sind alle Almstraßen geräumt"</h4>
+                    <p><strong>Fakt:</strong> Nein. Die Zufahrtsstraßen zu den Almen (z.B. zur Albert-Link-Hütte oder zum Rotwandhaus) werden im Winter <strong>nicht</strong> regulär geräumt. Wintergäste müssen zu Fuß oder mit Tourenski anreisen. Eine Ausnahme bildet die Stümpflingbahn, die auch im Winter in Betrieb ist und den Zugang zur Jagahütt'n ermöglicht.</p>
+                </div>
+                <div style="margin-top:var(--space-md);background:rgba(220,53,69,0.05);padding:var(--space-lg);border-radius:var(--radius-md);border-left:4px solid #dc3545;">
+                    <h4 style="color:var(--color-primary);margin-bottom:var(--space-sm);">❌ Mythos 4: „Das Rotwandhaus ist ganzjährig geöffnet"</h4>
+                    <p><strong>Fakt:</strong> Das Rotwandhaus ist eine Selbstversorger-Hütte ohne regulären Bewirtungsbetrieb im Winter. Die Hütte ist zwar im Winter zugänglich, aber nur für Mitglieder des DAV mit Selbstversorger-Ausstattung. Im Sommer (Mai–Oktober) ist sie bewirtschaftet – hier lohnt sich der berühmte Rotwand-Kaiserschmarrn!</p>
+                </div>
+            </div>
+        </details>
+        </section>
+
+        <hr class="section-separator" aria-hidden="true">
+
+        <details class="collapse-section">
+            <summary><span>🥾 Alle 50 Routen anzeigen</span></summary>
+        <!-- ===== SEKTION 10: 50 GEPRÜFTE WANDERROUTEN ===== -->
+        <section class="section section--lounge" aria-labelledby="routen50-title">
+            <div class="container">
+                <header class="section-header">
+                    <span class="featured-badge">🥾 50 Routen</span>
+                    <h2 id="routen50-title" class="section-title">50 geprüfte Wanderrouten</h2>
+                    <p class="section-desc">Alle Routen nach Schwierigkeit sortiert – von der leichten Talwanderung bis zur alpinen Herausforderung.</p>
+                </header>
+
+                <!-- LEICHT T1-T2 -->
+                <div style="margin-bottom:var(--space-xl);">
+                    <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-md);border-left:4px solid #2ecc71;padding-left:var(--space-sm);">🟢 Leicht (T1–T2)</h3>
+                    <div class="table-wrap">
+                        <table class="routen-table">
+                            <thead>
+                                <tr style="background:var(--color-wood-dark);color:var(--color-white);">
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:left;">Route</th>
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:left;">Name</th>
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:center;">KM</th>
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:center;">Std.</th>
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:center;">T</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R001</td><td style="padding:var(--space-xs) var(--space-md);">Obere Firstalm Rundweg</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">8.5</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">2:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T1</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R002</td><td style="padding:var(--space-xs) var(--space-md);">Untere Firstalm</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">6.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">1:45</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T1</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R003</td><td style="padding:var(--space-xs) var(--space-md);">Spitzingsee Rundweg</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">4.2</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">1:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T1</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R004</td><td style="padding:var(--space-xs) var(--space-md);">Josefsthaler Wasserfälle</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">7.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">2:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T1</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R005</td><td style="padding:var(--space-xs) var(--space-md);">Taubenstein ab Spitzingsee</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">5.5</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">2:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T2</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R006</td><td style="padding:var(--space-xs) var(--space-md);">Schönfeldhütte ab Spitzingsattel</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">6.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">2:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T1</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R007</td><td style="padding:var(--space-xs) var(--space-md);">Albert-Link-Hütte ab Spitzingsee</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">5.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">1:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T1</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R008</td><td style="padding:var(--space-xs) var(--space-md);">Bodenschneidhaus ab Spitzingsee</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">5.9</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">2:40</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T2</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R009</td><td style="padding:var(--space-xs) var(--space-md);">Spitzingsee–Untere–Obere Firstalm</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">11.5</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">4:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T2</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R010</td><td style="padding:var(--space-xs) var(--space-md);">Waldspaziergang Valepp</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">9.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">2:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T1</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R011</td><td style="padding:var(--space-xs) var(--space-md);">Spitzingsee Aiplspitz Talweg</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">7.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">2:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T1</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R012</td><td style="padding:var(--space-xs) var(--space-md);">Fischhausen-Neuhaus Rundweg</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">5.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">1:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T1</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R013</td><td style="padding:var(--space-xs) var(--space-md);">Grünsee ab Spitzingsee</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">6.5</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">2:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T1</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R014</td><td style="padding:var(--space-xs) var(--space-md);">Stolzenberg Einstieg</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">4.5</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">1:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T1</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R015</td><td style="padding:var(--space-xs) var(--space-md);">Schliersee Uferrundweg</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">7.5</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">2:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T1</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- MITTEL T3 -->
+                <div style="margin-bottom:var(--space-xl);">
+                    <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-md);border-left:4px solid #f39c12;padding-left:var(--space-sm);">🟡 Mittel (T3)</h3>
+                    <div class="table-wrap">
+                        <table class="routen-table">
+                            <thead>
+                                <tr style="background:var(--color-wood-dark);color:var(--color-white);">
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:left;">Route</th>
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:left;">Name</th>
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:center;">KM</th>
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:center;">Std.</th>
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:center;">T</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R016</td><td style="padding:var(--space-xs) var(--space-md);">Obere Firstalm–Bodenschneid Runde</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">7.7</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">3:07</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R017</td><td style="padding:var(--space-xs) var(--space-md);">Obere Firstalm–Brecherspitz Vorgipfel</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">10.2</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">3:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R018</td><td style="padding:var(--space-xs) var(--space-md);">Rotwand ab Spitzingsee</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">17.3</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">6:59</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R019</td><td style="padding:var(--space-xs) var(--space-md);">Bodenschneid ab Neuhaus</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">7.5</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">3:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R020</td><td style="padding:var(--space-xs) var(--space-md);">Jägerkamp ab Spitzingsee</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">8.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">3:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R021</td><td style="padding:var(--space-xs) var(--space-md);">Aiplspitz ab Spitzingsee</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">9.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">3:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R022</td><td style="padding:var(--space-xs) var(--space-md);">Hochmiesing ab Rotwandhaus</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">6.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">2:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R023</td><td style="padding:var(--space-xs) var(--space-md);">Taubenstein–Schönfeldhütte Runde</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">9.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">3:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R024</td><td style="padding:var(--space-xs) var(--space-md);">Rosskopf Stolzeneck-Grat</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">10.7</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">4:21</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R025</td><td style="padding:var(--space-xs) var(--space-md);">Brecherspitz Westgrat</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">12.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">4:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R026</td><td style="padding:var(--space-xs) var(--space-md);">Rotwand–Auerspitz Überschreitung</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">15.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">5:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R027</td><td style="padding:var(--space-xs) var(--space-md);">Gindelalmschneid ab Schliersee</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">8.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">3:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R028</td><td style="padding:var(--space-xs) var(--space-md);">Suttenstein ab Schliersee</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">7.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">2:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R029</td><td style="padding:var(--space-xs) var(--space-md);">Blecksteinhaus ab Spitzingsee</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">8.5</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">3:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R030</td><td style="padding:var(--space-xs) var(--space-md);">Obere Firstalm–Stümpfling Runde</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">9.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">3:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R031</td><td style="padding:var(--space-xs) var(--space-md);">Jägerkamp–Schönfeldhütte Runde</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">10.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">4:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R032</td><td style="padding:var(--space-xs) var(--space-md);">Rotwand Winterweg</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">12.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">4:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R033</td><td style="padding:var(--space-xs) var(--space-md);">Hochmiesing–Miesingsattel Runde</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">11.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">4:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R034</td><td style="padding:var(--space-xs) var(--space-md);">Brecherspitz ab Spitzingsattel</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">10.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">3:45</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R035</td><td style="padding:var(--space-xs) var(--space-md);">Blomberg ab Bad Tölz</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">9.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">3:30</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T3</td></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- ANSPRUCHSVOLL T4+ -->
+                <div>
+                    <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-md);border-left:4px solid #e74c3c;padding-left:var(--space-sm);">🔴 Anspruchsvoll (T4+)</h3>
+                    <div class="table-wrap">
+                        <table class="routen-table">
+                            <thead>
+                                <tr style="background:var(--color-wood-dark);color:var(--color-white);">
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:left;">Route</th>
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:left;">Name</th>
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:center;">KM</th>
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:center;">Std.</th>
+                                    <th style="padding:var(--space-sm) var(--space-md);text-align:center;">T</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R036</td><td style="padding:var(--space-xs) var(--space-md);">Rotwand-Reibn Komplett</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">18.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">7:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T4</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R037</td><td style="padding:var(--space-xs) var(--space-md);">Bodenschneid–Brecherspitz Überschreitung</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">13.1</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">5:54</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T4</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R038</td><td style="padding:var(--space-xs) var(--space-md);">Drei-Seen Tag 1 (Schliersee–Spitzingsee)</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">14.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">5:00</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">T4</td></tr>
+                                <tr style="border-bottom:1px solid rgba(139,94,60,0.1);"><td style="padding:var(--space-xs) var(--space-md);">R039</td><td style="padding:var(--space-xs) var(--space-md);">Drei-Seen Tag 2 (Spitzingsee–Firstalm)</td><td style="padding:var(--space-xs) var(--space-md);text-align:center;">12.0</td><td style="padding:var(--space-xs) var(--space-md);text-align:

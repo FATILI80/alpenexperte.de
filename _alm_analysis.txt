@@ -1,0 +1,1739 @@
+<!DOCTYPE html>
+
+
+<html lang="de">
+
+
+<head>
+
+
+    <meta charset="UTF-8" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <title>Alm-Restaurants & Hütten-Gastronomie – Alpen-Experte</title>
+
+
+    <meta name="description"
+
+
+        content="Die besten Alm-Restaurants in den Bayerischen Alpen: Obere Firstalm, Untere Firstalm, Jagahüttn und mehr. Mit Speisekarten, Bewertungen & regionalen Spezialitäten." />
+
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+
+
+    <meta http-equiv="Pragma" content="no-cache" />
+
+
+    <meta http-equiv="Expires" content="0" />
+
+
+    <link rel="stylesheet" href="../../../css/style.css?v=2025-05-31-4" />
+
+
+    <link rel="icon" type="image/svg+xml" href="../../../images/favicon.svg" />
+
+
+    <script type="application/ld+json">
+
+
+        {
+
+
+            "@context": "https://schema.org",
+
+
+            "@type": "Article",
+
+
+            "headline": "Alm-Restaurants & Hütten-Gastronomie in den Bayerischen Alpen",
+
+
+            "description": "Die besten Alm-Restaurants: Obere Firstalm, Untere Firstalm, Jagahüttn und mehr. Mit Speisekarten, Bewertungen & regionalen Spezialitäten.",
+
+
+            "author": {
+
+
+                "@type": "Organization",
+
+
+                "name": "Alpen-Experte"
+
+
+            }
+
+
+        }
+
+
+    </script>
+
+
+    <link rel="canonical" href="https://www.alpen-experte.de/content/huetten/alm-restaurants/index.html" />
+
+    <meta property="og:title" content="Alm-Restaurants & Hütten-Gastronomie – Alpen-Experte" />
+    <meta property="og:description" content="Die besten Alm-Restaurants in den Bayerischen Alpen: Obere Firstalm, Untere Firstalm, Jagahüttn und mehr. Mit Speisekarten, Bewertungen & regionalen Spezialitäten." />
+    <meta property="og:image" content="https://www.alpen-experte.de/images/hero-panorama.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.alpen-experte.de/content/huetten/alm-restaurants/index.html" />
+</head>
+
+
+<body>
+
+
+    
+
+<header class="site-header">
+
+        <div class="container">
+
+            <div class="header-inner">
+
+                <a href="../../../index.html" class="logo"><img src="../../../images/logo.svg" alt="Alpen-Experte" width="180"
+                        height="47" /></a>
+
+                <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav"
+                    aria-label="Navigation öffnen">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+
+                <nav id="mainNav" class="main-nav">
+
+                                                            <!-- nav-v2 -->
+                    <ul class="nav-list">
+                        <li><a href="../../../index.html">Home</a></li>
+                        <li class="nav-item-has-dropdown">
+                            <a href="../../../content/wandern/index.html">Wandern</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="../../../content/wandern/index.html">Übersicht Wandern</a></li>
+                                <li><a href="../../../content/wandern/rotwand.html">Rotwand</a></li>
+                                <li><a href="../../../content/wandern/taubenstein.html">Taubenstein</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item-has-dropdown">
+                            <a href="../../../content/klettern/index.html">Klettern</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="../../../content/klettern/index.html">Übersicht Klettern</a></li>
+                                <li><a href="../../../content/klettern/brecherspitz-klettersteig.html">Brecherspitz-Klettersteig</a></li>
+                                <li><a href="../../../content/klettern/rotwand-klettersteig.html">Rotwand-Klettersteig</a></li>
+                                <li><a href="../../../content/klettern/taubenstein-klettersteig.html">Taubenstein-Klettersteig</a></li>
+                                <li><a href="../../../content/klettern/blankenstein.html">Blankenstein-Ostgrat</a></li>
+                                <li><a href="../../../content/klettern/ross-buchstein.html">Ross- & Buchstein</a></li>
+                                <li><a href="../../../content/klettern/leonhardstein.html">Leonhardstein</a></li>
+                                <li><a href="../../../content/klettern/bodenschneid-gratkletterei.html">Bodenschneid-Grat</a></li>
+                                <li><a href="../../../content/klettern/taubenstein-suedgrat.html">Taubenstein-Südgrat</a></li>
+                                <li><a href="../../../content/klettern/anfaenger-routen.html">Anfänger-Routen</a></li>
+                                <li><a href="../../../content/klettern/sicherheit-ausruestung.html">Sicherheit & Ausrüstung</a></li>
+                                <li><a href="../../../content/klettern/felstechniken-uebersicht.html">Felstechniken</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item-has-dropdown">
+                            <a href="../../../content/mtb/index.html">MTB</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="../../../content/mtb/index.html">Übersicht MTB</a></li>
+                                <li><a href="../../../content/mtb/drei-seen-runde.html">Drei-Seen-Runde</a></li>
+                                <li><a href="../../../content/mtb/prinzenweg.html">Prinzenweg</a></li>
+                                <li><a href="../../../content/mtb/rotwand.html">Rotwand</a></li>
+                                <li><a href="../../../content/mtb/alte-spitzingstrasse.html">Alte Spitzingstrasse</a></li>
+                                <li><a href="../../../content/mtb/spitzingsee-runde.html">Spitzingsee-Runde</a></li>
+                                <li><a href="../../../content/mtb/muenchen-spitzingsee-mtb.html">München &rarr; Spitzingsee</a></li>
+                                <li><a href="../../../content/mtb/schwierigkeits-guide-sts.html">STS-Schwierigkeitsguide</a></li>
+                                <li><a href="../../../content/mtb/mtb-saisonkalender.html">MTB-Saisonkalender</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item-has-dropdown">
+                            <a href="../../../content/winter/index.html">Winter</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="../../../content/winter/index.html">Übersicht Winter</a></li>
+                                <li><a href="../../../content/winter/rotwand-reibn-skitouren.html">Rotwand-Reibn Skitouren</a></li>
+                                <li><a href="../../../content/winter/skitouren-anfaenger.html">Skitouren für Anfänger</a></li>
+                                <li><a href="../../../content/winter/rodeln-familie.html">Rodeln für die Familie</a></li>
+                                <li><a href="../../../content/winter/lawinenkunde-grundlagen.html">Lawinenkunde</a></li>
+                                <li><a href="../../../content/winter/ausruestung-winter.html">Winterausrüstung</a></li>
+                                <li><a href="../../../content/winter/winterkalender.html">Winterkalender</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item-has-dropdown">
+                            <a href="../../../content/huetten/index.html">Hütten</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="../../../content/huetten/index.html">Übersicht Hütten</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item-has-dropdown">
+                            <a href="../../../content/regional/kultur-geschichte/index.html">Kultur</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="../../../content/regional/kultur-geschichte/index.html">Übersicht Kultur</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item-has-dropdown">
+                            <a href="../../../content/almkultur/index.html">Almkultur</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="../../../content/almkultur/index.html">Übersicht Almkultur</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item-has-dropdown">
+                            <a href="../../../content/fauna/index.html">Fauna & Flora</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="../../../content/fauna/index.html">Übersicht</a></li>
+                                <li><a href="../../../content/fauna/index.html#murmel">Murmeltier</a></li>
+                                <li><a href="../../../content/fauna/index.html#gams">Gämse</a></li>
+                                <li><a href="../../../content/fauna/index.html#steinadler">Steinadler</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item-has-dropdown">
+                            <a href="../../../content/sternenhimmel/index.html">Sternenhimmel</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="../../../content/sternenhimmel/index.html">Übersicht</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item-has-dropdown">
+                            <a href="../../../alpenaustausch/index.html">Alpenaustausch</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="../../../alpenaustausch/index.html">Community</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item-has-dropdown">
+                            <a href="../../../content/praxis/index.html">Praktisches</a>
+                            <ul class="nav-dropdown">
+                                <li><a href="../../../content/praxis/index.html">Übersicht</a></li>
+                                <li><a href="../../../content/praxis/oepnv-guide/index.html">ÖPNV-Guide</a></li>
+                                <li><a href="../../../content/ausruestung/index.html">Ausrüstung</a></li>
+                                <li><a href="../../../content/sicherheit/wetterkunde.html">Wetterkunde</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+
+        <!-- ===== BREADCRUMB ===== -->
+
+
+        <nav class="breadcrumb" aria-label="Brotkrumen-Navigation"
+
+
+            style="padding: var(--space-md) 0 0; max-width: var(--container-wide); margin: 0 auto; padding-left: var(--space-md); padding-right: var(--space-md);">
+
+
+            <a href="../../../index.html">Home</a> / <a href="../../huetten/index.html">Hütten</a> /
+
+
+            <span>Alm-Restaurants</span>
+
+
+        </nav>
+
+
+        <section class="section">
+
+
+            <div class="container">
+
+
+                <nav class="breadcrumb"
+
+
+                    style="margin-bottom: var(--space-lg); font-size: 0.9rem; color: var(--color-text-light);">
+
+
+                    <a href="../../../index.html">Home</a> / <a href="../index.html">Hütten</a> /
+
+
+                    <span>Alm-Restaurants</span>
+
+
+                </nav>
+
+
+                <div class="section-header">
+
+
+                    <span class="featured-badge">🍽️ Kulinarische Alm-Welt</span>
+
+
+                    <h1 class="section-title">Die besten Alm-Restaurants in den Bayerischen Alpen</h1>
+
+
+                    <p class="section-desc">Regionale Leckereien, traditionelle Wirtshauskultur und atemberaubende
+
+
+                        Bergpanoramen. Hier isst du, wo die Einheimischen einkehren.</p>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ===== OBERE FIRSTALM ===== -->
+
+
+        <section class="section section--alt" aria-labelledby="firstalm-title">
+
+
+            <div class="container">
+
+
+                <div class="featured-layout">
+
+
+                    <div class="featured-image">
+
+
+                        <img src="../../../images/hutte-firstalm.jpg?v=2"
+
+
+                            alt="Obere Firstalm am Brecherspitz – Panorama-Terrasse mit Bergblick" width="600"
+
+
+                            height="400" loading="lazy" />
+
+
+                    </div>
+
+
+                    <div class="featured-content">
+
+
+                        <span class="featured-badge">🥇 Platz 1 – Unsere Top-Empfehlung</span>
+
+
+                        <h2 id="firstalm-title" class="featured-title">🏔️ Obere Firstalm – Brecherspitz, Spitzingsee
+
+
+                        </h2>
+
+
+                        <div
+
+
+                            style="display: flex; gap: var(--space-sm); margin-bottom: var(--space-md); flex-wrap: wrap;">
+
+
+                            <span
+
+
+                                style="background: #4A7C59; color: white; padding: 2px 10px; border-radius: 12px; font-size: 0.8rem;">📍
+
+
+                                1.362m</span>
+
+
+                            <span
+
+
+                                style="background: #C74B2C; color: white; padding: 2px 10px; border-radius: 12px; font-size: 0.8rem;">🍽️
+
+
+                                Traditionell Bayerisch</span>
+
+
+                        </div>
+
+
+                        <p class="featured-text">Die <strong>Obere Firstalm</strong> thront auf 1.362m Höhe am
+
+
+                            Brecherspitz
+
+
+                            oberhalb des Spitzingsees – und ist für uns <strong>die Nummer 1 aller
+
+
+                                Alm-Restaurants</strong>
+
+
+                            in den Bayerischen Alpen. Der Ausblick von der Sonnenterrasse auf die Bayerischen Voralpen
+
+
+                            ist
+
+
+                            schlicht atemberaubend.</p>
+
+
+                        <h3
+
+
+                            style="font-family: var(--font-display); color: var(--color-wood-dark); margin: var(--space-lg) 0 var(--space-md);">
+
+
+                            📋 Speisekarte – Bewährte Klassiker & neue Highlights</h3>
+
+
+                        <div
+
+
+                            style="background: var(--color-cream); padding: var(--space-lg); border-radius: var(--radius-lg); margin-bottom: var(--space-lg);">
+
+
+                            <p
+
+
+                                style="color: var(--color-text-light); margin-bottom: var(--space-md); font-style: italic;">
+
+
+                                Die Karte wechselt saisonal. Folgende Gerichte sind regelmäßig im Angebot (Stand 2026,
+
+
+                                unverbindlich):</p>
+
+
+                            <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+
+
+                                <tr style="border-bottom: 1px solid rgba(139,94,60,0.15);">
+
+
+                                    <td style="padding: var(--space-sm) 0;"><strong>🥟 Spinatknödel</strong> ⭐
+
+
+                                        Publikumsrenner</td>
+
+
+                                    <td style="padding: var(--space-sm) 0; color: var(--color-text-light);">Mit
+
+
+                                        brauner Butter, Parmesan und gemischtem Salat – vegetarisch</td>
+
+
+                                </tr>
+
+
+                                <tr style="border-bottom: 1px solid rgba(139,94,60,0.15);">
+
+
+                                    <td style="padding: var(--space-sm) 0;"><strong>🦆 Entenkeulen</strong></td>
+
+
+                                    <td style="padding: var(--space-sm) 0; color: var(--color-text-light);">Knusprig
+
+
+                                        gebraten mit Blaukraut und Semmelknödeln</td>
+
+
+                                </tr>
+
+
+                                <tr style="border-bottom: 1px solid rgba(139,94,60,0.15);">
+
+
+                                    <td style="padding: var(--space-sm) 0;"><strong>🦌 Wild-Burger</strong></td>
+
+
+                                    <td style="padding: var(--space-sm) 0; color: var(--color-text-light);">Aus
+
+
+                                        regionalem Wildfleisch, mit Breznchips und Preiselbeeren</td>
+
+
+                                </tr>
+
+
+                                <tr style="border-bottom: 1px solid rgba(139,94,60,0.15);">
+
+
+                                    <td style="padding: var(--space-sm) 0;"><strong>🥨 Breznchips</strong></td>
+
+
+                                    <td style="padding: var(--space-sm) 0; color: var(--color-text-light);">Knusprige
+
+
+                                        Brezeln aus dem Ofen mit Obatzda-Dip</td>
+
+
+                                </tr>
+
+
+                                <tr style="border-bottom: 1px solid rgba(139,94,60,0.15);">
+
+
+                                    <td style="padding: var(--space-sm) 0;"><strong>🥩 Spare Ribs</strong></td>
+
+
+                                    <td style="padding: var(--space-sm) 0; color: var(--color-text-light);">Voll
+
+
+                                        fleischig, BBQ-mariniert, mit Krautsalat und Bratkartoffeln</td>
+
+
+                                </tr>
+
+
+                                <tr>
+
+
+                                    <td style="padding: var(--space-sm) 0;"><strong>🥗 Vegane & vegetarische
+
+
+                                            Gerichte</strong></td>
+
+
+                                    <td style="padding: var(--space-sm) 0; color: var(--color-text-light);">Täglich
+
+
+                                        wechselnde Auswahl – auf Nachfrage auch vegane Optionen</td>
+
+
+                                </tr>
+
+
+                            </table>
+
+
+                        </div>
+
+
+                        <h3
+
+
+                            style="font-family: var(--font-display); color: var(--color-wood-dark); margin-bottom: var(--space-md);">
+
+
+                            🏡 Was die Obere Firstalm besonders macht</h3>
+
+
+                        <ul class="featured-list">
+
+
+                            <li>✅ <strong>Traumlage:</strong> Direkt am Brecherspitz-Panoramaweg, 360°-Blick auf die
+
+
+                                Bayerischen Alpen</li>
+
+
+                            <li>✅ <strong>Hausgemacht:</strong> Alle Speisen werden frisch in der Almküche zubereitet –
+
+
+                                keine Fertigprodukte</li>
+
+
+                            <li>✅ <strong>Biergarten:</strong> 150 Plätze auf der Sonnenterrasse mit Decken und
+
+
+                                Heizstrahlern</li>
+
+
+                            <li>✅ <strong>Kinderfreundlich:</strong> Spielplatz, Streichelzoo mit Ziegen, eigener
+
+
+                                Hütten-Kinderpunsch</li>
+
+
+                            <li>✅ <strong>Winter:</strong> Direkter Zugang zur Firstalm-Rodelpiste und zum Skihang</li>
+
+
+                        </ul>
+
+
+                        <div style="display: flex; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg);">
+
+
+                            <a href="https://www.obere-firstalm.de" target="_blank" rel="noopener"
+
+
+                                class="btn btn--primary">🌐 Zur Website der Firstalm</a>
+
+
+                            <a href="../rodelpisten/index.html" class="btn btn--secondary">🛷 Rodelpiste entdecken</a>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ===== JAGAHÜTTN – UNSER BETRIEB ===== -->
+
+
+        <section class="section section--alt" aria-labelledby="jagahuettn-title"
+
+
+            style="border: 2px solid #C74B2C; border-radius: var(--radius-lg); margin: var(--space-xl) var(--space-md); padding: var(--space-md);">
+
+
+            <div class="container">
+
+
+                <div class="featured-layout">
+
+
+                    <div class="featured-image">
+
+
+                        <img src="../../../images/hutte-jagahuettn.svg"
+
+
+                            alt="Jagahüttn – Unser Familienbetrieb am Spitzingsee" width="600" height="400"
+
+
+                            loading="lazy" style="background: var(--color-cream); border-radius: var(--radius-md);" />
+
+
+                    </div>
+
+
+                    <div class="featured-content">
+
+
+                        <span class="featured-badge" style="background: #C74B2C; color: white;">🏢 Unser Betrieb –
+
+
+                            Direkt
+
+
+                            vom Unternehmen</span>
+
+
+                        <h2 id="jagahuettn-title" class="featured-title">🦌 Jagahüttn – Spitzingsee-Gebiet</h2>
+
+
+                        <div
+
+
+                            style="display: flex; gap: var(--space-sm); margin-bottom: var(--space-md); flex-wrap: wrap;">
+
+
+                            <span
+
+
+                                style="background: #4A7C59; color: white; padding: 2px 10px; border-radius: 12px; font-size: 0.8rem;">📍
+
+
+                                ca. 1.100m</span>
+
+
+                            <span
+
+
+                                style="background: #C74B2C; color: white; padding: 2px 10px; border-radius: 12px; font-size: 0.8rem;">🦌
+
+
+                                Wildspezialitäten</span>
+
+
+                            <span
+
+
+                                style="background: #7BA7BC; color: white; padding: 2px 10px; border-radius: 12px; font-size: 0.8rem;">🥇
+
+
+                                Platz 1 – Unser Betrieb</span>
+
+
+                        </div>
+
+
+                        <p class="featured-text">Die <strong>Jagahüttn</strong> ist unser eigener Familienbetrieb im
+
+
+                            Spitzingsee-Gebiet auf ca. 1.100m Höhe. Was die Jagahüttn auszeichnet: <strong>Wildgerichte
+
+
+                                aus eigener Jagd</strong>, hausgemachter Kaiserschmarrn und eine gemütliche
+
+
+                            Hütten-Atmosphäre, die Gäste seit Generationen begeistert.</p>
+
+
+                        <h3
+
+
+                            style="font-family: var(--font-display); color: var(--color-wood-dark); margin: var(--space-lg) 0 var(--space-md);">
+
+
+                            📋 Unsere Spezialitäten</h3>
+
+
+                        <div
+
+
+                            style="background: var(--color-cream); padding: var(--space-lg); border-radius: var(--radius-lg); margin-bottom: var(--space-lg);">
+
+
+                            <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+
+
+                                <tr style="border-bottom: 1px solid rgba(139,94,60,0.15);">
+
+
+                                    <td style="padding: var(--space-sm) 0;"><strong>🦌 Wild-Burger</strong> ⭐
+
+
+                                        Publikumsrenner</td>
+
+
+                                    <td style="padding: var(--space-sm) 0; color: var(--color-text-light);">Aus
+
+
+                                        regionalem Wildfleisch, mit Preiselbeeren und Breznchips</td>
+
+
+                                </tr>
+
+
+                                <tr style="border-bottom: 1px solid rgba(139,94,60,0.15);">
+
+
+                                    <td style="padding: var(--space-sm) 0;"><strong>🥞 Hausgemachter
+
+
+                                            Kaiserschmarrn</strong></td>
+
+
+                                    <td style="padding: var(--space-sm) 0; color: var(--color-text-light);">Mit
+
+
+                                        Apfelmus und Puderzucker – ein Gedicht</td>
+
+
+                                </tr>
+
+
+                                <tr style="border-bottom: 1px solid rgba(139,94,60,0.15);">
+
+
+                                    <td style="padding: var(--space-sm) 0;"><strong>🥩 Wildgulasch</strong></td>
+
+
+                                    <td style="padding: var(--space-sm) 0; color: var(--color-text-light);">Aus der
+
+
+                                        eigenen Jagd, geschmort mit Serviettenknödeln</td>
+
+
+                                </tr>
+
+
+                                <tr>
+
+
+                                    <td style="padding: var(--space-sm) 0;"><strong>🥨 Brotzeit-Teller</strong></td>
+
+
+                                    <td style="padding: var(--space-sm) 0; color: var(--color-text-light);">Mit
+
+
+                                        Obatzda, Brezen, Radi und hausgemachter Wurst</td>
+
+
+                                </tr>
+
+
+                            </table>
+
+
+                        </div>
+
+
+                        <h3
+
+
+                            style="font-family: var(--font-display); color: var(--color-wood-dark); margin-bottom: var(--space-md);">
+
+
+                            🏡 Was die Jagahüttn besonders macht</h3>
+
+
+                        <ul class="featured-list">
+
+
+                            <li>✅ <strong>Eigener Familienbetrieb</strong> – direkt vom Unternehmen geführt, mit
+
+
+                                Liebe zur Tradition</li>
+
+
+                            <li>✅ <strong>Wild aus eigener Jagd</strong> – nachhaltig und regional, direkt aus
+
+
+                                den umliegenden Wäldern</li>
+
+
+                            <li>✅ <strong>Hausgemachter Kaiserschmarrn</strong> – nach Familienrezept, so fluffig
+
+
+                                wie nirgendwo sonst</li>
+
+
+                            <li>✅ <strong>Gemütliche Hütten-Atmosphäre</strong> – mit Kaminofen und
+
+
+                                Panorama-Terrasse</li>
+
+
+                            <li>✅ <strong>Dreihüttentour:</strong> Perfekte Station zwischen Firstalm und Unterer
+
+
+                                Firstalm</li>
+
+
+                        </ul>
+
+
+                        <div style="display: flex; gap: var(--space-md); flex-wrap: wrap; margin-top: var(--space-lg);">
+
+
+                            <a href="https://www.jagahuettn.de" target="_blank" rel="noopener"
+
+
+                                class="btn btn--primary">🌐 Zur Website der Jagahüttn</a>
+
+
+                            <a href="../../../region/spitzingsee/" class="btn btn--secondary">🗺️ Spitzingsee-Hub
+
+
+                                entdecken</a>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ===== SPEISEN-BILDER ===== -->
+
+
+        <section class="section">
+
+
+            <div class="container">
+
+
+                <div class="section-header">
+
+
+                    <h2 class="section-title">😍 Was Gäste an der Firstalm lieben</h2>
+
+
+                    <p class="section-desc">Die Obere Firstalm ist bekannt für ihre hausgemachte Küche und regionale
+
+
+                        Produkte.</p>
+
+
+                </div>
+
+
+                <div class="grid grid--3col">
+
+
+                    <div class="silo-card" style="opacity: 1; animation: none;">
+
+
+                        <div class="silo-card-image">
+
+
+                            <img src="../../../images/hero-panorama.jpg?v=2" alt="Alpines Panorama" loading="lazy" />
+
+
+                        </div>
+
+
+                        <div class="silo-card-body" style="text-align: center;">
+
+
+                            <h3 class="silo-card-title">🥟 Spinatknödel</h3>
+
+
+                            <p class="silo-card-text">Der absolute Publikumsrenner auf der Firstalm. Mit brauner Butter
+
+
+                                und Parmesan – ein Gedicht.</p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="silo-card" style="opacity: 1; animation: none;">
+
+
+                        <div class="silo-card-image">
+
+
+                            <img src="../../../images/featured-wanderstoecke.jpg?v=2" alt="Wanderwege in den Alpen"
+
+
+                                loading="lazy" />
+
+
+                        </div>
+
+
+                        <div class="silo-card-body" style="text-align: center;">
+
+
+                            <h3 class="silo-card-title">🦌 Wild-Burger</h3>
+
+
+                            <p class="silo-card-text">Saftiger Burger aus regionalem Wildfleisch, serviert mit
+
+
+                                knusprigen Breznchips. Ein Highlight auf der Karte.</p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="silo-card" style="opacity: 1; animation: none;">
+
+
+                        <div class="silo-card-image">
+
+
+                            <img src="../../../images/alpenkaese.jpg?v=2" alt="Alpine Spezialitäten" loading="lazy" />
+
+
+                        </div>
+
+
+                        <div class="silo-card-body" style="text-align: center;">
+
+
+                            <h3 class="silo-card-title">🥩 Spare Rips</h3>
+
+
+                            <p class="silo-card-text">Voll fleischig, BBQ-mariniert, mit Krautsalat und Bratkartoffeln.
+
+
+                                Für alle mit großem Hunger.</p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ===== UNTERE FIRSTALM ===== -->
+
+
+        <section class="section section--alt" aria-labelledby="ufirstalm-title">
+
+
+            <div class="container">
+
+
+                <div class="featured-layout" style="direction: rtl;">
+
+
+                    <div class="featured-image" style="direction: ltr;">
+
+
+                        <img src="../../../images/schweinsbraten.jpg?v=2"
+
+
+                            alt="Untere Firstalm – Familienfreundliche Alm" width="600" height="400" loading="lazy" />
+
+
+                    </div>
+
+
+                    <div class="featured-content" style="direction: ltr;">
+
+
+                        <span class="featured-badge">🥈 Familien-Liebling</span>
+
+
+                        <h2 id="ufirstalm-title" class="featured-title">🏡 Untere Firstalm – Brecherspitz, Spitzingsee
+
+
+                        </h2>
+
+
+                        <div
+
+
+                            style="display: flex; gap: var(--space-sm); margin-bottom: var(--space-md); flex-wrap: wrap;">
+
+
+                            <span
+
+
+                                style="background: #4A7C59; color: white; padding: 2px 10px; border-radius: 12px; font-size: 0.8rem;">📍
+
+
+                                ~1.312m</span>
+
+
+                            <span
+
+
+                                style="background: #7BA7BC; color: white; padding: 2px 10px; border-radius: 12px; font-size: 0.8rem;">👨‍👩‍👧‍👦
+
+
+                                Familienfreundlich</span>
+
+
+                        </div>
+
+
+                        <p class="featured-text">Die <strong>Untere Firstalm</strong> liegt nur 50m unterhalb der
+
+
+                            Oberen Firstalm am Brecherspitz-Südhang und ist der perfekte Ort für Familien mit Kindern.
+
+
+                            Der Weg vom Spitzingsee
+
+
+                            hoch ist eine gemütliche 45-Minuten-Wanderung – auch für kleine Beine machbar.</p>
+
+
+                        <h3
+
+
+                            style="font-family: var(--font-display); color: var(--color-wood-dark); margin: var(--space-lg) 0 var(--space-md);">
+
+
+                            📋 Besonderheiten</h3>
+
+
+                        <div
+
+
+                            style="background: var(--color-cream); padding: var(--space-lg); border-radius: var(--radius-lg); margin-bottom: var(--space-lg);">
+
+
+                            <ul
+
+
+                                style="list-style: disc; padding-left: var(--space-lg); color: var(--color-text-light);">
+
+
+                                <li><strong>Kinderspielplatz</strong> mit Schaukel, Rutsche und Sandkasten direkt neben
+
+
+                                    der Terrasse</li>
+
+
+                                <li><strong>Hausgemachte Kinderportionen</strong> – kleine Portionen für kleine Gäste
+
+
+                                </li>
+
+
+                                <li><strong>Brotzeit-Spezialität:</strong> Obatzda mit Bretzel & Radi</li>
+
+
+                                <li><strong>Warme Küche:</strong> Täglich wechselnde Mittagskarte mit saisonalen
+
+
+                                    Gerichten</li>
+
+
+                            </ul>
+
+
+                        </div>
+
+
+                        <h3
+
+
+                            style="font-family: var(--font-display); color: var(--color-wood-dark); margin-bottom: var(--space-md);">
+
+
+                            📍 Lage & Anreise</h3>
+
+
+                        <p style="color: var(--color-text-light); margin-bottom: var(--space-md);">Vom Spitzingsee aus
+
+
+                            erreichst du die Untere Firstalm in ca. 45 Minuten zu Fuß (Forstweg, kinderwagentauglich).
+
+
+                            Im Winter ist sie über die Taubensteinbahn oder Stümpflingbahn erreichbar.</p>
+
+
+                        <div style="display: flex; gap: var(--space-md); flex-wrap: wrap;">
+
+
+                            <a href="https://www.spitzingsee.de" target="_blank" rel="noopener"
+
+
+                                class="btn btn--primary">🌐 Website besuchen</a>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ===== TAUBENSTEINHAUS ===== -->
+
+
+        <section class="section" aria-labelledby="tauben-title">
+
+
+            <div class="container">
+
+
+                <div class="featured-layout">
+
+
+                    <div class="featured-image">
+
+
+                        <img src="../../../images/kaiserschmarrn.jpg?v=5"
+
+
+                            alt="Taubensteinhaus – DAV-Hütte am Taubenstein" width="600" height="400" loading="lazy" />
+
+
+                    </div>
+
+
+                    <div class="featured-content">
+
+
+                        <span class="featured-badge">🥉 DAV-Hütte mit Kultstatus</span>
+
+
+                        <h2 id="tauben-title" class="featured-title">🏔️ Taubensteinhaus – Spitzingsee</h2>
+
+
+                        <div
+
+
+                            style="display: flex; gap: var(--space-sm); margin-bottom: var(--space-md); flex-wrap: wrap;">
+
+
+                            <span
+
+
+                                style="background: #4A7C59; color: white; padding: 2px 10px; border-radius: 12px; font-size: 0.8rem;">📍
+
+
+                                1.536m</span>
+
+
+                            <span
+
+
+                                style="background: #7BA7BC; color: white; padding: 2px 10px; border-radius: 12px; font-size: 0.8rem;">🏔️
+
+
+                                DAV-Berghütte</span>
+
+
+                        </div>
+
+
+                        <p class="featured-text">Das <strong>Taubensteinhaus</strong> (1.536m) ist eine bewirtschaftete
+
+
+                            DAV-Hütte am Taubenstein im Spitzingsee-Gebiet. Perfekt gelegen für Touren auf die
+
+
+                            Rotwand, zum Brecherspitz oder als Startpunkt für die
+
+
+                            Brecherspitz-Taubenstein-Überschreitung.
+
+
+                            Berühmt für seinen <strong>legendären Kaiserschmarrn</strong> und die sonnige Terrasse mit
+
+
+                            Blick auf den Spitzingsee.</p>
+
+
+                        <h3
+
+
+                            style="font-family: var(--font-display); color: var(--color-wood-dark); margin: var(--space-lg) 0 var(--space-md);">
+
+
+                            📋 Hütten-Spezialitäten & Übernachtung</h3>
+
+
+                        <div
+
+
+                            style="background: var(--color-cream); padding: var(--space-lg); border-radius: var(--radius-lg); margin-bottom: var(--space-lg);">
+
+
+                            <p style="color: var(--color-text-light); font-style: italic;">Die Speisekarte variiert
+
+
+                                saisonal. Das Taubensteinhaus ist bekannt für seinen Kaiserschmarrn und bayerische
+
+
+                                Klassiker.</p>
+
+
+                            <ul
+
+
+                                style="list-style: disc; padding-left: var(--space-lg); color: var(--color-text-light);">
+
+
+                                <li><strong>Legendärer Kaiserschmarrn</strong> – weit über die Region bekannt</li>
+
+
+                                <li><strong>Bayerische Brotzeit</strong> – Obatzda, Brezel & Radi</li>
+
+
+                                <li><strong>Warme Küche</strong> – saisonale Gerichte und Eintöpfe</li>
+
+
+                                <li><strong>🛏️ Übernachtung:</strong> Matratzenlager inkl. Frühstück –
+
+
+                                    DAV-Mitglieder sparen</li>
+
+
+                            </ul>
+
+
+                        </div>
+
+
+                        <h3
+
+
+                            style="font-family: var(--font-display); color: var(--color-wood-dark); margin-bottom: var(--space-md);">
+
+
+                            🏔️ Was das Taubensteinhaus besonders macht</h3>
+
+
+                        <ul class="featured-list">
+
+
+                            <li>✅ <strong>Perfekte Lage:</strong> Direkt am Taubenstein, Ausgangspunkt für Rotwand,
+
+
+                                Brecherspitz & Spitzingsee-Runde</li>
+
+
+                            <li>✅ <strong>Taubensteinbahn:</strong> Bequemer Aufstieg vom Spitzingsee in 6 Minuten –
+
+
+                                auch für Familien</li>
+
+
+                            <li>✅ <strong>Legendärer Kaiserschmarrn:</strong> Weit über die Region bekannt – unbedingt
+
+
+                                probieren!</li>
+
+
+                            <li>✅ <strong>Übernachtung möglich:</strong> Matratzenlager für Mehrtagestouren –
+
+
+                                DAV-Mitglieder sparen</li>
+
+
+                            <li>✅ <strong>Winterbetrieb:</strong> An Wochenenden und in den Ferien geöffnet – Skitouren
+
+
+                                & Winterwandern</li>
+
+
+                        </ul>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ===== WEITERE HÜTTEN ===== -->
+
+
+        <section class="section section--alt">
+
+
+            <div class="container">
+
+
+                <div class="section-header">
+
+
+                    <h2 class="section-title">🏔️ Weitere empfehlenswerte Alm-Restaurants</h2>
+
+
+                    <p class="section-desc">Noch mehr kulinarische Highlights in den Bayerischen Alpen.</p>
+
+
+                </div>
+
+
+                <div class="grid grid--3col">
+
+
+                    <div class="silo-card" style="opacity: 1; animation: none;">
+
+
+                        <div class="silo-card-body">
+
+
+                            <span class="silo-card-icon">🏡</span>
+
+
+                            <h3 class="silo-card-title">Tegernseer Hütte</h3>
+
+
+                            <p class="silo-card-text">📍 Tegernsee<br />Bekannt für ihre sonnige Terrasse mit Seeblick
+
+
+                                und bayerische Schmankerl.</p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="silo-card" style="opacity: 1; animation: none;">
+
+
+                        <div class="silo-card-body">
+
+
+                            <span class="silo-card-icon">🏡</span>
+
+
+                            <h3 class="silo-card-title">Winklmoosalm</h3>
+
+
+                            <p class="silo-card-text">📍 Reit im Winkl<br />Eines der schönsten Hochplateaus der Alpen
+
+
+                                mit traditioneller Almwirtschaft.</p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="silo-card" style="opacity: 1; animation: none;">
+
+
+                        <div class="silo-card-body">
+
+
+                            <span class="silo-card-icon">🏡</span>
+
+
+                            <h3 class="silo-card-title">Blauberge-Alm</h3>
+
+
+                            <p class="silo-card-text">📍 Spitzingsee<br />Gemütliche Alm mit regionaler Küche – ein
+
+
+                                Geheimtipp abseits der Hauptwege.</p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ===== HÜTTEN-ETIKETTE ===== -->
+
+
+        <section class="section" style="background: var(--color-wood-dark); color: var(--color-white);">
+
+
+            <div class="container" style="max-width: var(--container-narrow);">
+
+
+                <div style="text-align: center;">
+
+
+                    <h2 style="font-family: var(--font-display); font-size: 1.75rem; margin-bottom: var(--space-lg);">📖
+
+
+                        Hütten-Etikette – So benimmst du dich auf der Alm</h2>
+
+
+                    <div class="grid grid--3col" style="margin-top: var(--space-xl);">
+
+
+                        <div style="text-align: center; padding: var(--space-md);">
+
+
+                            <div style="font-size: 2.5rem; margin-bottom: var(--space-sm);">🥾</div>
+
+
+                            <h3
+
+
+                                style="font-family: var(--font-display); font-size: 1rem; margin-bottom: var(--space-sm);">
+
+
+                                Schuhe ausziehen</h3>
+
+
+                            <p style="font-size: 0.85rem; opacity: 0.8;">Wander- und Skischuhe gehören in den
+
+
+                                Schuhständer – Hausschuhe liegen bereit.</p>
+
+
+                        </div>
+
+
+                        <div style="text-align: center; padding: var(--space-md);">
+
+
+                            <div style="font-size: 2.5rem; margin-bottom: var(--space-sm);">🔇</div>
+
+
+                            <h3
+
+
+                                style="font-family: var(--font-display); font-size: 1rem; margin-bottom: var(--space-sm);">
+
+
+                                Ruhe bewahren</h3>
+
+
+                            <p style="font-size: 0.85rem; opacity: 0.8;">Kein Handy-Klingeln, keine laute Musik – die
+
+
+                                Natur genießen.</p>
+
+
+                        </div>
+
+
+                        <div style="text-align: center; padding: var(--space-md);">
+
+
+                            <div style="font-size: 2.5rem; margin-bottom: var(--space-sm);">💶</div>
+
+
+                            <h3
+
+
+                                style="font-family: var(--font-display); font-size: 1rem; margin-bottom: var(--space-sm);">
+
+
+                                Bargeld mitnehmen</h3>
+
+
+                            <p style="font-size: 0.85rem; opacity: 0.8;">Viele Almen haben keinen Kartenleser – also
+
+
+                                immer genug Bargeld einstecken.</p>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+        <!-- ===== CTA ===== -->
+
+
+        <section class="section" style="text-align: center;">
+
+
+            <div class="container">
+
+
+                <h2
+
+
+                    style="font-family: var(--font-display); color: var(--color-wood-dark); margin-bottom: var(--space-md);">
+
+
+                    Bereit für deine nächste Hütten-Einkehr?</h2>
+
+
+                <p style="color: var(--color-text-light); margin-bottom: var(--space-lg);">Plan jetzt deine Tour – und
+
+
+                    kehr in einem dieser einzigartigen Alm-Restaurants ein.</p>
+
+
+                <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
+
+
+                    <a href="https://www.obere-firstalm.de" target="_blank" rel="noopener" class="btn btn--primary">🌐
+
+
+                        Obere Firstalm besuchen</a>
+
+
+                    <a href="../rodelpisten/index.html" class="btn btn--secondary">🛷 Rodelpisten entdecken</a>
+
+
+                    <a href="../../ausruestung/wanderstoecke/index.html" class="btn btn--secondary">🥾
+
+
+                        Wanderstöcke-Test</a>
+
+
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+    <!-- ===== NEWS-TICKER-CONTAINER (dynamisch via JS) ===== -->
+    <div id="news-ticker-container"></div>
+
+
+
+    <!-- ===== FEEDBACK-BOX (User-Engagement) ===== -->
+    <section class="feedback-box" style="margin: 3rem auto; max-width: var(--container-narrow); padding: 2rem; background: linear-gradient(135deg, var(--color-bg-alt), var(--color-surface)); border-radius: var(--radius-lg); text-align: center; border: 2px dashed var(--color-primary);">
+        <h3 style="color: var(--color-wood-dark); margin-bottom: 1rem;">💬 Deine Meinung zählt!</h3>
+        <p style="color: var(--color-text-light); margin-bottom: 1.5rem; font-size: 1.05rem;">
+            Warst du auf dieser Tour?<br />
+            <strong>Schreib uns, wie die ÖPNV-Verbindung geklappt hat!</strong>
+        </p>
+        <a href="mailto:info@alpen-experte.de?subject=Feedback%20-%20Alm-Restaurants%20%26%20H%C3%BCtten-Gastronomie%20%E2%80%93%20Alpen-Experte"
+           class="btn btn-primary"
+           style="display: inline-block; padding: 0.75rem 2rem; background: var(--color-primary); color: var(--color-white); border-radius: var(--radius-md); text-decoration: none; font-weight: 600; transition: background 0.2s;">
+            ✉️ Feedback senden
+        </a>
+        <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--color-text-light);">
+            Deine Rückmeldung hilft anderen Wanderern bei der Planung.<br />
+            <a href="../../../impressum.html#datenschutz" style="color: var(--color-primary);">Datenschutz</a>
+        </p>
+    </section>
+
+
+
+
+
+    
+
+
+
+    <!-- ===== QUELLEN & EXPERTISE (E-E-A-T) ===== -->
+    <section class="quellen-section" aria-labelledby="quellen-title-index">
+        <h2 id="quellen-title-index">Quellen & Expertise</h2>
+        <p>
+            Die Informationen auf dieser Seite basieren auf offiziellen Quellen,
+            langjähriger eigener Erfahrung in der Region sowie aktuellen Fahrplan-
+            und Betriebsdaten. Wir aktualisieren diese Angaben regelmässig,
+            können jedoch keine Gewähr für die Vollständigkeit und Richtigkeit
+            der externen Informationen übernehmen.
+        </p>
+        <ul class="quellen-list">
+            <li>
+                <a href="https://www.alpenbahnen-spitzingsee.de" target="_blank"
+                   rel="noopener noreferrer">Alpenbahnen Spitzingsee</a>
+                &mdash; Aktuelle Betriebszeiten, Ticketpreise & Sperrungen
+            </li>
+            <li>
+                <a href="https://www.schliersee.de" target="_blank"
+                   rel="noopener noreferrer">Schliersee Tourismus</a>
+                &mdash; Offizielle Tourist-Info der Gemeinde Schliersee
+            </li>
+            <li>
+                <a href="https://www.bayern.by" target="_blank"
+                   rel="noopener noreferrer">Bayern Tourismus</a>
+                &mdash; Offizielle Urlaubsregion Bayerische Alpen
+            </li>
+            <li>
+                <a href="https://www.brb.de" target="_blank"
+                   rel="noopener noreferrer">BRB Bayerische Regiobahn</a>
+                &mdash; Fahrplanauskunft & ÖPNV-Verbindungen
+            </li>
+        </ul>
+        <p style="margin-top: var(--space-sm); font-size: 0.8rem; color: var(--color-text-light);">
+            Stand: Juni 2026. Alle Angaben ohne Gewähr.
+            <a href="../../../impressum.html" style="color: var(--color-primary);">Impressum & Datenschutz</a>
+        </p>
+    </section>
+
+
+<footer class="site-footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+                <div class="footer-brand">
+
+                    <img src="../../../images/logo.svg" alt="Alpen-Experte" width="160" height="42" loading="lazy" />
+
+                    <p>Echte Alm-Praxis. Seit 2025.</p>
+
+                </div>
+
+                <div class="footer-links">
+
+                    <h4 class="footer-heading">Aktivitäten</h4>
+
+                    <ul>
+
+                        <li><a href="../../wandern/index.html">Wandern</a></li>
+
+                        <li><a href="../index.html">Klettern</a></li>
+
+                        <li><a href="../../mtb/index.html">MTB-Touren</a></li>
+
+                        <li><a href="../../winter/index.html">Winter-Guide</a></li>
+
+                        <li><a href="../../huetten/rodelpisten/index.html">Rodelpisten</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-links">
+
+                    <h4 class="footer-heading">Wissen & Kultur</h4>
+
+                    <ul>
+
+                        <li><a href="../../regional/kultur-geschichte/index.html">Kultur & Geschichte</a></li>
+
+                        <li><a href="../../fauna/index.html">Fauna & Flora</a></li>
+
+                        <li><a href="../../huetten/index.html">Hüttenführer</a></li>
+
+                        <li><a href="../../regional/index.html">Regional-Seiten</a></li>
+
+                        <li><a href="../../ausruestung/index.html">Ausrüstung</a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="footer-links">
+
+                    <h4 class="footer-heading">Rechtliches</h4>
+
+                    <ul>
+
+                        <li><a href="../../../impressum.html">Impressum</a></li>
+
+                        <li><a href="../../../datenschutz.html">Datenschutz</a></li>
+
+                        <li><a href="../../../impressum.html#affiliate">Affiliate-Offenlegung</a></li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+
+                <p>&copy; 2025–2026 Alpen-Experte. Alle Rechte vorbehalten.</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    
+
+    <script src="../../../js/main.js" defer></script>
+
+
+</body>
+
+
+</html>
+
+

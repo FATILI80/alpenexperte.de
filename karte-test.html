@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karten-Test — alpenexperte.de</title>
+<style>
+  body{margin:0;font-family:Arial;background:#1a252c;color:#fff;}
+  h1{text-align:center;padding:20px;color:#2ecc71;}
+  #map{height:80vh;width:100%;margin:0 auto;border:2px solid #2ecc71;}
+  .status{padding:20px;text-align:center;background:#333;font-size:1.2rem;}
+  .ok{color:#2ecc71}.fail{color:#e74c3c}
+</style>
+</head>
+<body>
+<h1>🗺️ Leaflet-Karten-Test</h1>
+<div id="map"></div>
+<div class="status" id="status">⏳ Lade Karte...</div>
+
+<!-- Leaflet von UNPKG CDN -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!-- Fallback: wenn CDN nicht lädt, lokales Leaflet -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var status = document.getElementById('status');
+    
+    if (typeof L === 'undefined') {
+        status.innerHTML = '<span class="fail">❌ Leaflet.js konnte NICHT geladen werden!<br>Bitte erlaube externe Skripte von unpkg.com in deinem Browser/AdBlocker/Firewall.</span>';
+        return;
+    }
+    
+    try {
+        var map = L.map('map').setView([47.72, 11.85], 12);
+        
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap',
+            maxZoom: 19
+        }).addTo(map);
+        
+        // Route: Schliersee → Spitzingsee (Drei-Seen-Runde)
+        var route = L.polyline([
+            [47.7234, 11.8567],  // Schliersee
+            [47.715, 11.85],
+            [47.712, 11.8234],   // Gindelalm
+            [47.7645, 11.7654],  // Tegernsee
+            [47.76, 11.75],
+            [47.6521, 11.9234]   // Spitzingsee
+        ], {color: '#FF6B35', weight: 4, opacity: 0.8}).addTo(map);
+        
+        // Marker
+        L.circleMarker([47.7234, 11.8567], {color: '#2ECC71', radius: 10, fillOpacity: 0.8})
+            .bindPopup('<b>🏁 START: Schliersee</b><br>⚡ Ladestation').addTo(map);
+        L.circleMarker([47.6521, 11.9234], {color: '#E74C3C', radius: 10, fillOpacity: 0.8})
+            .bindPopup('<b>🏁 ZIEL: Spitzingsee</b>').addTo(map);
+        L.circleMarker([47.7645, 11.7654], {color: '#3498db', radius: 8, fillOpacity: 0.8})
+            .bindPopup('Tegernsee').addTo(map);
+        L.circleMarker([47.712, 11.8234], {color: '#F39C12', radius: 8, fillOpacity: 0.8})
+            .bindPopup('Gindelalm ⚡').addTo(map);
+        
+        map.fitBounds(route.getBounds());
+        
+        status.innerHTML = '<span class="ok">✅ KARTE GELADEN! Drei-Seen-Runde sichtbar.</span>';
+    } catch(e) {
+        status.innerHTML = '<span class="fail">❌ Fehler: ' + e.message + '</span>';
+    }
+});
+</script>
+</body>
+</html>

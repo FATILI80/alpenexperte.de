@@ -1,0 +1,73 @@
+# ============================================================
+# .vercelignore – alpenexperte.de
+# Schließt alles vom Deployment aus, was NICHT ins Web gehört.
+# ============================================================
+
+# --- Komplette Backup-Ordner ---
+website_backup/
+website_backup*
+_backup_images_fix/
+_backup_routen_gravel_*/
+archive/
+backup_hour/
+backup_maps/
+videos/
+
+# --- Backup-Dateien im Root ---
+*.backup
+*.backup-*
+*.backup_*
+*.monster-backup
+*.imgbak
+*.picsum_backup
+*.safe
+*_backup.html
+backup_*.html
+*.bak
+*.tar
+*.zip
+website_backup*
+
+# --- Build-/Wartungs-Skripte (nie ins Web) ---
+*.py
+__pycache__/
+*.pyc
+package.json
+package-lock.json
+
+# --- Analyse- und Report-Dateien ---
+_*.txt
+seo_analysis_report.txt
+bild_inventar.txt
+*.log
+debug.txt
+check_links_report.txt
+
+# --- Interne Doku ---
+*.md
+STRUKTUR_MAP.md
+ENTWURF_*
+
+# --- Node / Build-Artefakte ---
+node_modules/
+dist/
+build/
+.cache/
+.vercel/
+.turbo/
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- Lokale Env ---
+.env
+.env.local
+.env.*.local
+
+# --- CSS-Backups im Webroot ---
+css/style.css.backup-nav
+css/style.min.css

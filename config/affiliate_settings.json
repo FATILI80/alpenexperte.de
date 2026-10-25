@@ -1,0 +1,48 @@
+{
+  "partner": [
+    {
+      "id": "amazon",
+      "name": "Amazon",
+      "url": "https://amzn.to/test-id-2026",
+      "icon": "🛒",
+      "description": "Riesige Auswahl & schnelle Lieferung",
+      "button_text": "Bei Amazon stöbern"
+    },
+    {
+      "id": "ebay",
+      "name": "eBay",
+      "url": "https://www.ebay.de/test-id-2026",
+      "icon": "🏷️",
+      "description": "Neu & Gebraucht – oft günstiger",
+      "button_text": "Bei eBay stöbern"
+    },
+    {
+      "id": "komoot",
+      "name": "Komoot",
+      "url": "https://www.komoot.de/test-id-2026",
+      "icon": "🥾",
+      "description": "Routenplanung & Offline-Karten",
+      "button_text": "Zu Komoot"
+    },
+    {
+      "id": "bergzeit",
+      "name": "Bergzeit",
+      "url": "https://www.bergzeit.de/test-id-2026",
+      "icon": "⛰️",
+      "description": "Outdoor-Ausrüstung & Bekleidung",
+      "button_text": "Zu Bergzeit"
+    },
+    {
+      "id": "bahn",
+      "name": "Deutsche Bahn",
+      "url": "https://www.bahn.de/test-id-2026",
+      "icon": "🚆",
+      "description": "Bahnverbindungen & Sparpreise",
+      "button_text": "Zur Bahn"
+    }
+  ],
+  "disclosure": {
+    "text": "* Als Amazon-Partner verdienen wir an qualifizierten Verkäufen. Auch für andere Partner-Shops erhalten wir bei Kauf eine kleine Provision – für dich entstehen keine Mehrkosten.",
+    "page": "rechtliches/affiliate-transparenz.html"
+  }
+}

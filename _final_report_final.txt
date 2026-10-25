@@ -1,0 +1,90 @@
+======================================================================
+FINALISIERUNGS-CHECK: Alpen-Experte
+======================================================================
+
+--- CHARSET-CHECK ---
+  Geprüft: 164 HTML-Dateien
+  ✅ Korrektes charset="UTF-8": 163
+  ❌ Fehlendes charset: 1
+    - _news_ticker.html (NO <head>)
+
+--- SITEMAP-REGENERATION ---
+  URLs für Sitemap: 162
+  Sitemap geschrieben: c:\Users\User\Desktop\alpen-experte\sitemap.xml
+  [0] https://www.alpen-experte.de/alpenaustausch/index.html
+  [1] https://www.alpen-experte.de/cluster/bergtouren/index.html
+  [2] https://www.alpen-experte.de/cluster/familien-wandern/index.html
+  [3] https://www.alpen-experte.de/cluster/index.html
+  [4] https://www.alpen-experte.de/cluster/klettersteige/index.html
+
+--- BILD-INVENTAR (alpen-experte/images/) ---
+  Bilder insgesamt: 55
+    alpenkaese.jpg (182 KB)
+    alpenkaese.svg (1 KB)
+    backup\hutte-firstalm.jpg (223 KB)
+    backup\rodelpiste.jpg (223 KB)
+    backup\silo-ausruestung.jpg (408 KB)
+    backup\silo-fehlkauf.jpg (182 KB)
+    backup\silo-huetten.jpg (408 KB)
+    backup\silo-layering.jpg (269 KB)
+    backup\silo-mtb.jpg (534 KB)
+    backup\silo-praxis.jpg (534 KB)
+    backup\silo-regional.jpg (223 KB)
+    backup\silo-sicherheit.jpg (182 KB)
+    backup\silo-tech.jpg (265 KB)
+    backup\silo-winter.jpg (223 KB)
+    favicon.svg (0 KB)
+    featured-wanderstoecke.jpg (534 KB)
+    featured-wanderstoecke.svg (2 KB)
+    gipfelbuch-eintrag.jpg (123 KB)
+    haeuschen-alpen.jpg (489 KB)
+    hero-panorama.jpg (408 KB)
+    hero-panorama.svg (4 KB)
+    hutte-firstalm.jpg (360 KB)
+    hutte-firstalm.svg (3 KB)
+    hutte-jagahuettn.svg (3 KB)
+    kaiserschmarrn.jpg (265 KB)
+    kaiserschmarrn.svg (1 KB)
+    kleines-haeuschen.jpg (476 KB)
+    logo.svg (1 KB)
+    placeholder-product.svg (0 KB)
+    placeholder-route.svg (0 KB)
+    regional\kultur-geschichte\schliersee-fischerei.jpg (123 KB)
+    regional\kultur-geschichte\wasmeier-freilichtmuseum.jpg (476 KB)
+    regional\kultur-geschichte\wilparting-kapelle.jpg (489 KB)
+    rodelpiste.jpg (218 KB)
+    rodelpiste.svg (3 KB)
+    schweinsbraten.jpg (269 KB)
+    schweinsbraten.svg (1 KB)
+    silo-ausruestung.jpg (532 KB)
+    silo-ausruestung.svg (1 KB)
+    silo-fehlkauf.jpg (219 KB)
+    silo-fehlkauf.svg (1 KB)
+    silo-huetten.jpg (489 KB)
+    silo-huetten.svg (1 KB)
+    silo-layering.jpg (286 KB)
+    silo-layering.svg (1 KB)
+    silo-mtb.jpg (290 KB)
+    silo-praxis.jpg (123 KB)
+    silo-praxis.svg (1 KB)
+    silo-regional.jpg (476 KB)
+    silo-regional.svg (1 KB)
+    silo-sicherheit.jpg (313 KB)
+    silo-sicherheit.svg (0 KB)
+    silo-tech.jpg (206 KB)
+    silo-tech.svg (1 KB)
+    silo-winter.jpg (408 KB)
+
+--- BILD-ZUORDNUNG in alm-restaurants/index.html ---
+  Datei: content/huetten/alm-restaurants/index.html (1739 Zeilen)
+  L 303: src=../../../images/hutte-firstalm.jpg?v=2        alt=?
+  L 594: src=../../../images/hutte-jagahuettn.svg          alt=?
+  L 867: src=../../../images/alpenkaese.jpg?v=2            alt=Alpine Käsespezialitäten
+  L 897: src=../../../images/schweinsbraten.jpg?v=2        alt=Wanderwege in den Alpen
+  L 930: src=../../../images/hero-panorama.jpg?v=2         alt=Alpine Spezialitäten
+  L 978: src=../../../images/schweinsbraten.jpg?v=2        alt=?
+  L1143: src=../../../images/kaiserschmarrn.jpg?v=5        alt=?
+  L1731: src=../../../js/main.js                           alt=?
+
+
+✅ CHECK ABGESCHLOSSEN

@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+
+    <title>Hüttenführer Alpen – Alpen-Experte</title>
+
+    <meta name="description"
+
+        content="Der ultimative Hüttenführer für die Alpen: Alm-Restaurants, Rodelpisten, Übernachtungstipps und Hütten-Etikette." />
+
+    <link rel="stylesheet" href="/css/style.css?v=20260608" />
+
+    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+
+    <script type="application/ld+json">
+
+        {
+
+            "@context": "https://schema.org",
+
+            "@type": "CollectionPage",
+
+            "name": "Hüttenführer Alpen",
+
+            "description": "Alm-Restaurants, Rodelpisten, Übernachtungstipps und Hütten-Etikette für die Alpen.",
+
+            "isPartOf": {
+
+                "@type": "WebSite",
+
+                "name": "alpenexperte.de",
+
+                "url": "https://www.alpenexperte.de"
+
+            }
+
+        }
+
+    </script>
+
+    <link rel="canonical" href="https://www.alpenexperte.de/content/huetten/index.html" />
+
+    <meta property="og:title" content="Hüttenführer Alpen – Alpen-Experte" />
+    <meta property="og:description" content="Der ultimative Hüttenführer für die Alpen: Alm-Restaurants, Rodelpisten, Übernachtungstipps und Hütten-Etikette." />
+    <meta property="og:image" content="https://www.alpenexperte.de/images/huetten-hero.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.alpenexperte.de/content/huetten/index.html" />
+</head>
+
+<body>
+
+    <!-- ===== HEADER / NAVIGATION ===== -->
+    <header class="site-header" role="banner">
+        <div class="container header-inner">
+            <a href="/" class="logo" aria-label="Alpen-Experte Startseite">
+                <img src="/images/logo.svg" alt="Alpen-Experte" width="160" height="42">
+            </a>
+            <!-- SUCHE -->
+            <form class="header-search" role="search" action="https://www.google.com/search" method="get" target="_blank">
+                <input type="hidden" name="q" value="site:alpenexperte.de">
+                <label for="header-search-input" class="visually-hidden">Suche auf alpenexperte.de</label>
+                <input id="header-search-input" class="header-search-input" type="text" name="q2" placeholder="Suchen…" aria-label="Suchbegriff eingeben">
+                <button type="submit" class="header-search-btn" aria-label="Suche starten">&rsaquo;</button>
+            </form>
+            <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mainNav" aria-label="Navigation öffnen/schließen">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <nav id="mainNav" class="main-nav" aria-label="Hauptnavigation">
+                <ul class="nav-list">
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Aktivitäten</button>
+                        <div class="nav-dropdown">
+                            <a href="/content/wandern/index.html" class="megamenu-item">Wandern</a>
+                            <a href="/content/klettern/index.html" class="megamenu-item">Klettern</a>
+                            <a href="/content/mtb/index.html" class="megamenu-item">MTB-Touren</a>
+                            <a href="/content/winter/index.html" class="megamenu-item">Winter-Guide</a>
+                            <a href="/content/nordic-walking/index.html" class="megamenu-item">Nordic Walking</a>
+                        </div>
+                    </li>
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Hütten</button>
+                        <div class="nav-dropdown">
+                            <a href="/content/huetten/index.html" class="megamenu-item">Hüttenführer (Übersicht)</a>
+                            <a href="/content/huetten/rotwandhaus.html" class="megamenu-item">Rotwandhaus</a>
+                            <a href="/content/huetten/dav-haus-spitzingsee.html" class="megamenu-item">DAV-Haus Spitzingsee</a>
+                            <a href="/content/huetten/tegernseer-huette.html" class="megamenu-item">Tegernseer Hütte</a>
+                            <a href="/content/huetten/albert-link-huette.html" class="megamenu-item">Albert-Link-Hütte</a>
+                            <a href="/content/huetten/schoenfeldhuette.html" class="megamenu-item">Schönfeldhütte</a>
+                            <a href="/content/huetten/alm-restaurants/index.html" class="megamenu-item">Alm-Restaurants</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Wissensbibliothek</button>
+                        <div class="nav-dropdown megamenu">
+                            <div class="megamenu-grid">
+                                <a href="/content/fauna/index.html" class="megamenu-item">Fauna & Flora</a>
+                                <a href="/content/botanik/index.html" class="megamenu-item">Botanik</a>
+                                <a href="/content/geologie/index.html" class="megamenu-item">Geologie</a>
+                                <a href="/content/meteorologie/index.html" class="megamenu-item">Meteorologie</a>
+                                <a href="/content/limnologie/index.html" class="megamenu-item">Limnologie</a>
+                                <a href="/content/moore/index.html" class="megamenu-item">Moore</a>
+                                <a href="/content/forstwirtschaft/index.html" class="megamenu-item">Forstwirtschaft</a>
+                                <a href="/content/zoologie/index.html" class="megamenu-item">Zoologie</a>
+                                <a href="/content/almwirtschaft/index.html" class="megamenu-item">Almwirtschaft</a>
+                                <a href="/content/alpinismus_sicherheit/index.html" class="megamenu-item">Alpinismus & Sicherheit</a>
+                                <a href="/content/kultur_geschichte/index.html" class="megamenu-item">Kultur & Geschichte</a>
+                                <a href="/content/astronomie_geschichte/index.html" class="megamenu-item">Astronomie & Geschichte</a>
+                                <a href="/content/sternenhimmel/index.html" class="megamenu-item">Sternenhimmel</a>
+                                <a href="/content/almkultur/index.html" class="megamenu-item">Almkultur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="/content/praxis/index.html" class="nav-link">Praxis</a></li>
+                    <li><a href="/content/regional/index.html" class="nav-link">Regional</a></li>
+                                    <li><a href="/huetten.html" class="nav-link">H&uuml;tten &amp; Almen</a></li>
+                    <li><a href="/restaurants.html" class="nav-link">Restaurants</a></li>
+                    <li><a href="/live-check.html" class="nav-link">Wetter &amp; Webcams</a></li>
+                    <li><a href="/packlisten.html" class="nav-link">Packlisten</a></li>
+                    <li><a href="/anreise.html" class="nav-link">Anreise &amp; Parken</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== SKIP-LINK ===== -->
+
+    <a href="#main" class="skip-link">Zum Inhalt springen</a>
+
+    <main id="main">
+
+        <!-- ===== SEITEN-HEADER ===== -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h1 class="section-title">🏡 Hüttenführer</h1>
+
+                    <p class="section-desc">Die schönsten Almhütten der Alpen – inkl. Alm-Restaurants, Rodelpisten,
+
+                        Übernachtungstipps und Hütten-Etikette.</p>
+
+                </div>
+
+                <!-- ===== HAUPTKATEGORIEN ===== -->
+
+                <div class="grid grid--3col">
+
+                    <article class="silo-card">
+
+                        <a href="alm-restaurants/index.html" class="silo-card-link"
+
+                            aria-label="Alm-Restaurants & Hütten-Gastronomie">
+
+                            <div class="silo-card-image">
+
+                                <img src="/images/huette-alm.jpg" alt="" width="400" height="260"
+
+                                    loading="lazy" />
+
+                            </div>
+
+                            <div class="silo-card-body">
+
+                                <span class="silo-card-icon">🍽️</span>
+
+                                <h2 class="silo-card-title">Alm-Restaurants</h2>
+
+                                <p class="silo-card-text">Die besten Hütten-Wirte der Alpen: Obere Firstalm, Untere
+
+                                    Firstalm, Taubensteinhaus & mehr. Mit Speisekarten, Bewertungen und regionalen
+
+                                    Spezialitäten.</p>
+
+                            </div>
+
+                        </a>
+
+                    <!-- ===== AFFILIATE PARTNER ===== -->
+<div style="background:rgba(196,167,111,.05);border-left:4px solid #c4a76f;padding:1.5rem;border-radius:8px;margin:2rem 0;">
+<strong style="color:#1a472a;">🛒 Ausrüstung & Partner</strong>
+<p style="margin:.5rem 0;font-size:.875rem;color:#555;">★ Affiliate-Links: Bei Kauf erhalten wir eine Provision</p>
+<div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem;">
+<a href="https://www.bergzeit.de" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🥾 Bergzeit</a>
+<a href="https://www.bergfreunde.de" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🧗 Bergfreunde</a>
+<a href="https://www.booking.com" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🏨 Booking</a>
+<a href="https://bahn.de" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🚆 DB Bahn</a>
+<a href="https://www.komoot.de/premium" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">🗺️ Komoot</a>
+</div>
+</div>
+
+</article>
+
+                    <article class="silo-card">
+
+                        <a href="rodelpisten/index.html" class="silo-card-link"
+
+                            aria-label="Rodelpisten & Mondscheinrodeln">
+
+                            <div class="silo-card-image">
+
+                                <img src="/images/rodelpiste.jpg" alt="" width="400" height="260" loading="lazy" />
+
+                            </div>
+
+                            <div class="silo-card-body">
+
+                                <span class="silo-card-icon">🛷</span>
+
+                                <h2 class="silo-card-title">Rodelpisten</h2>
+
+                                <p class="silo-card-text">Die schönsten Toboggan-Runs der Alpen – von der
+
+                                    Spitzingsee-Rodelbahn bis zur Taubensteinbahn. Inkl. Mondscheinrodeln und
+
+                                    Sicherheitstipps.</p>
+
+                            </div>
+
+                        </a>
+
+                    </article>
+
+                    <article class="silo-card">
+
+                        <a href="wanderwege/index.html" class="silo-card-link"
+
+                            aria-label="Wanderwege ab Obere Firstalm">
+            <div class="silo-card-image" style="width:100%;height:160px;overflow:hidden;border-radius:8px 8px 0 0;">
+                <img src="/images/huetten-hero.jpg" alt="" style="width:100%;height:100%;object-fit:cover;" loading="lazy" />
+            </div>
+
+                            <div class="silo-card-body">
+
+                                <span class="silo-card-icon">🥾</span>
+
+                                <h2 class="silo-card-title">Wanderwege</h2>
+
+                                <p class="silo-card-text">Alle Wanderrouten ab der Oberen Firstalm: Brecherspitz-Gipfel,
+
+                                    Taubenstein, Rotwand, Bodenschneid & Rundtouren im Spitzingsee-Gebiet.</p>
+
+                            </div>
+
+                        </a>
+
+                    </article>
+
+                    <article class="silo-card">
+
+                        <a href="klettern/index.html" class="silo-card-link" aria-label="Klettern am Brecherspitz">
+            <div class="silo-card-image" style="width:100%;height:160px;overflow:hidden;border-radius:8px 8px 0 0;">
+                <img src="/images/huette-alm.jpg" alt="" style="width:100%;height:100%;object-fit:cover;" loading="lazy" />
+            </div>
+
+                            <div class="silo-card-body">
+
+                                <span class="silo-card-icon">🧗</span>
+
+                                <h2 class="silo-card-title">Klettern</h2>
+
+                                <p class="silo-card-text">Brecherspitz-Klettersteig (B/C), Klettergärten am Spitzingsee
+
+                                    und Boulderblöcke – für Anfänger bis Profis.</p>
+
+                            </div>
+
+                        </a>
+
+                    </article>
+
+                    <article class="silo-card">
+
+                        <a href="huetten-karte/" class="silo-card-link"
+
+                            aria-label="Hütten-Karte Spitzingsee">
+            <div class="silo-card-image" style="width:100%;height:160px;overflow:hidden;border-radius:8px 8px 0 0;">
+            <img src="/images/spitzingsee-perfekt.jpg"jpg" alt="" style="width:100%;height:100%;object-fit:cover;" loading="lazy" />
+            </div>
+
+                            <div class="silo-card-body">
+
+                                <span class="silo-card-icon">🗺️</span>
+
+                                <h2 class="silo-card-title">Hütten-Karte</h2>
+
+                                <p class="silo-card-text">Interaktive Übersicht aller Hütten, Bergbahnen und
+
+                                    wichtigen Orte im Spitzingsee-Gebiet – inkl. Entfernungen & Höhen.</p>
+
+                            </div>
+
+                        </a>
+
+                    </article>
+
+                    <article class="silo-card">
+
+                        <a href="../regional/almwirtschaft.html" class="silo-card-link"
+
+                            aria-label="Almwirtschaft Guide">
+            <div class="silo-card-image" style="width:100%;height:160px;overflow:hidden;border-radius:8px 8px 0 0;">
+      <img src="/images/spitzingsee-perfekt.jpg"-hero.jpg" alt="" style="width:100%;height:100%;object-fit:cover;" loading="lazy" />
+            </div>
+
+                            <div class="silo-card-body">
+
+                                <span class="silo-card-icon">�</span>
+
+                                <h2 class="silo-card-title">Almwirtschaft</h2>
+
+                                <p class="silo-card-text">Was hinter der Hüttenromantik steckt: harte Arbeit, regionale
+
+                                    Produkte, autofreie Logistik. So funktionieren die Almen wirklich.</p>
+
+                            </div>
+
+                        </a>
+
+                    </article>
+
+                </div>
+
+                <!-- ===== HIGHLIGHTS ===== -->
+
+                <div style="margin-top: var(--space-xl);">
+
+                    <h2 class="section-title" style="font-size: var(--step-1); text-align: center;">🥇 Unsere
+
+                        Top-Empfehlungen</h2>
+
+                    <div class="grid grid--3col" style="margin-top: var(--space-md);">
+
+                        <article class="silo-card" style="border-left: 4px solid var(--color-accent);">
+
+                            <div class="silo-card-body">
+
+                                <span class="featured-badge"
+
+                                    style="display: inline-block; margin-bottom: var(--space-sm);">🏆 Platz 1</span>
+
+                                <h3 class="silo-card-title">Obere Firstalm</h3>
+
+                                <p class="silo-card-text"><strong>📍 Spitzingsee / Brecherspitz</strong><br />
+
+                                    Die Nummer 1 unter den Alm-Restaurants: Kaiserschmarrn, Schweinsbraten und
+
+                                    Alpenkäse – direkt an der Spitzingsee-Rodelbahn gelegen.</p>
+
+                                <a href="alm-restaurants/index.html#obere-firstalm" class="btn btn--primary"
+
+                                    style="margin-top: var(--space-sm);">Zur Bewertung →</a>
+
+                            </div>
+
+                        </article>
+
+                        <article class="silo-card" style="border-left: 4px solid var(--color-wood-dark);">
+
+                            <div class="silo-card-body">
+
+                                <span class="featured-badge"
+
+                                    style="display: inline-block; margin-bottom: var(--space-sm); background: var(--color-wood-dark);">🥈
+
+                                    Platz 2</span>
+
+                                <h3 class="silo-card-title">Untere Firstalm</h3>
+
+                                <p class="silo-card-text"><strong>📍 Spitzingsee / Brecherspitz</strong><br />
+
+                                    Familientreffpunkt mit hausgemachter Küche, Kinderspielplatz und
+
+                                    Schlittenverleih. Ideal für den Winterausflug mit den Kleinen.</p>
+
+                                <a href="alm-restaurants/index.html#untere-firstalm" class="btn btn--secondary"
+
+                                    style="margin-top: var(--space-sm);">Zur Bewertung →</a>
+
+                            </div>
+
+                        </article>
+
+                        <article class="silo-card" style="border-left: 4px solid var(--color-wood-dark);">
+
+                            <div class="silo-card-body">
+
+                                <span class="featured-badge"
+
+                                    style="display: inline-block; margin-bottom: var(--space-sm); background: var(--color-wood-dark);">🥉
+
+                                    Platz 3</span>
+
+                                <h3 class="silo-card-title">Taubensteinhaus</h3>
+
+                                <p class="silo-card-text"><strong>📍 Spitzingsee / Brecherspitz</strong><br />
+
+                                    Bewirtschaftete DAV-Hütte auf 1.536m mit legendärem Kaiserschmarrn, Übernachtung
+
+                                    und direktem Zugang zur Taubensteinbahn.</p>
+
+                                <a href="alm-restaurants/index.html#tauben-title" class="btn btn--secondary"
+
+                                    style="margin-top: var(--space-sm);">Zur Bewertung →</a>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ===== INTERAKTIVE HÜTTEN-TABELLE ===== -->
+
+        <section class="section" style="margin-bottom: var(--space-3xl);">
+
+            <div class="container">
+
+                <div class="section-header" style="margin-bottom: var(--space-lg);">
+
+                    <h2 class="section-title" style="font-size: var(--step-1); text-align: center;">🏠 Hütten & Routen – Übersicht</h2>
+
+                    <p class="section-desc" style="max-width: 700px; margin: 0 auto; text-align: center;">Alle Hütten rund um Spitzingsee, Schliersee und Valepp – mit verknüpften Touren, Kontaktdaten und Anreise-Tipps.</p>
+
+                </div>
+
+                <div style="overflow-x: auto;">
+
+                    <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+
+                        <thead>
+
+                            <tr style="background: var(--color-wood-dark); color: var(--color-white);">
+
+                                <th style="padding: var(--space-sm); text-align: left;">🏠 Hütte</th>
+
+                                <th style="padding: var(--space-sm); text-align: left;">Typ</th>
+
+                                <th style="padding: var(--space-sm); text-align: left;">🗺️ Verknüpfte Routen</th>
+
+                                <th style="padding: var(--space-sm); text-align: left;">📞 Kontakt</th>
+
+                            </tr>
+
+                        </thead>
+
+                        <tbody>
+
+                            <tr style="border-bottom: 1px solid rgba(139,94,60,0.1);">
+
+                                <td style="padding: var(--space-sm);"><strong>Schönfeldhütte</strong></td>
+
+                                <td style="padding: var(--space-sm);">Alpenvereinshütte</td>
+
+                                <td style="padding: var(--space-sm);"><a href="../wandern/hw-001-spitzingsattel-rottach.html">HW-001 Spitzingsattel→Rottach</a></td>
+
+                                <td style="padding: var(--space-sm);">+49 (0)8026 71264</td>
+
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid rgba(139,94,60,0.1);">
+
+                                <td style="padding: var(--space-sm);"><strong>Kreuzbergalm</strong></td>
+
+                                <td style="padding: var(--space-sm);">Alm (bewirtschaftet)</td>
+
+                                <td style="padding: var(--space-sm);"><a href="../wandern/hw-003-blauberge-spitzingsee.html">HW-003 Blauberge-Spitzingsee</a></td>
+
+                                <td style="padding: var(--space-sm);">—</td>
+
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid rgba(139,94,60,0.1);">
+
+                                <td style="padding: var(--space-sm);"><strong>Albert Link Hütte</strong></td>
+
+                                <td style="padding: var(--space-sm);">Alpenvereinshütte</td>
+
+                                <td style="padding: var(--space-sm);"><a href="../wandern/hw-003-blauberge-spitzingsee.html">HW-003 Blauberge Etappe 4–5</a></td>
+
+                                <td style="padding: var(--space-sm);">+49 (0)8026 71264</td>
+
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid rgba(139,94,60,0.1);">
+
+                                <td style="padding: var(--space-sm);"><strong>Taubensteinhaus</strong></td>
+
+                                <td style="padding: var(--space-sm);">Alpenvereinshütte</td>
+
+                                <td style="padding: var(--space-sm);"><a href="../klettern/taubenstein-klettersteig.html">Taubenstein-Klettersteig</a>, <a href="../wandern/rotwand.html">Rotwand</a></td>
+
+                                <td style="padding: var(--space-sm);">+49 (0)8026 7070</td>
+
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid rgba(139,94,60,0.1);">
+
+                                <td style="padding: var(--space-sm);"><strong>Berggasthof Untere Firstalm</strong></td>
+
+                                <td style="padding: var(--space-sm);">Berggasthof</td>
+
+                                <td style="padding: var(--space-sm);"><a href="../mtb/drei-seen-runde.html">Drei-Seen-Runde (MTB)</a>, <a href="../wandern/hw-001-spitzingsattel-rottach.html">HW-001</a></td>
+
+                                <td style="padding: var(--space-sm);">+49 (0)8026 7676</td>
+
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid rgba(139,94,60,0.1);">
+
+                                <td style="padding: var(--space-sm);"><strong>Bodenschneidhaus</strong></td>
+
+                                <td style="padding: var(--space-sm);">Alpenvereinshütte</td>
+
+                                <td style="padding: var(--space-sm);"><a href="../klettern/bodenschneid-gratkletterei.html">Bodenschneid-Gratkletterei</a>, <a href="../wandern/hw-001-spitzingsattel-rottach.html">HW-001</a></td>
+
+                                <td style="padding: var(--space-sm);">+49 (0)8085 3899998</td>
+
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid rgba(139,94,60,0.1);">
+
+                                <td style="padding: var(--space-sm);"><strong>Jagahüttn am Stümpfling</strong></td>
+
+                                <td style="padding: var(--space-sm);">Berggasthof</td>
+
+                                <td style="padding: var(--space-sm);"><a href="../wandern/hw-001-spitzingsattel-rottach.html">HW-001</a>, <a href="../wandern/hw-003-blauberge-spitzingsee.html">HW-003 Etappe 5</a></td>
+
+                                <td style="padding: var(--space-sm);">+49 (0)8026 925155</td>
+
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid rgba(139,94,60,0.1);">
+
+                                <td style="padding: var(--space-sm);"><strong>Obere Maxlraineralm</strong></td>
+
+                                <td style="padding: var(--space-sm);">Alm (bewirtschaftet)</td>
+
+                                <td style="padding: var(--space-sm);">—</td>
+
+                                <td style="padding: var(--space-sm);">+49 (0)8026 7382</td>
+
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid rgba(139,94,60,0.1);">
+
+                                <td style="padding: var(--space-sm);"><strong>Berggasthof Klausenhütte</strong></td>
+
+                                <td style="padding: var(--space-sm);">Berggasthof</td>
+
+                                <td style="padding: var(--space-sm);"><a href="../nordic-walking/eon-spitzingsee.html">E.ON Spitzingsee NW-Trail</a></td>
+
+                                <td style="padding: var(--space-sm);">+49 (0)8026 71807</td>
+
+                            </tr>
+
+                            <tr style="border-bottom: 1px solid rgba(139,94,60,0.1);">
+
+                                <td style="padding: var(--space-sm);"><strong>Berggasthof Obere Firstalm</strong></td>
+
+                                <td style="padding: var(--space-sm);">Berggasthof</td>
+
+                                <td style="padding: var(--space-sm);"><a href="../mtb/drei-seen-runde.html">Drei-Seen-Runde (MTB)</a>, <a href="../wandern/hw-001-spitzingsattel-rottach.html">HW-001</a></td>
+
+                                <td style="padding: var(--space-sm);">+49 (0)8026 7302</td>
+
+                            </tr>
+
+                            <tr>
+
+                                <td style="padding: var(--space-sm);"><strong>Berggasthof Blecksteinhaus</strong></td>
+
+                                <td style="padding: var(--space-sm);">Berggasthof</td>
+
+                                <td style="padding: var(--space-sm);"><a href="../nordic-walking/eon-spitzingsee.html">E.ON Spitzingsee NW-Trail</a></td>
+
+                                <td style="padding: var(--space-sm);">+49 (0)8026 71204</td>
+
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+                <p style="margin-top: var(--space-md); color: var(--color-text-light); font-size: 0.85rem; text-align: center;">Alle Hütten sind über die <a href="../praxis/oepnv-guide/index.html">ÖPNV-Anreise</a> oder die <a href="/region/spitzingsee/index.html">Region-Seite Spitzingsee</a> erreichbar. Gästekarte-Inhaber sparen bei Bergbahnen und ÖPNV.</p>
+
+            </div>
+
+        </section>
+
+        <!-- ===== HÜTTENGALERIE ===== -->
+        <section class="section" style="background: var(--color-bg-alt);">
+            <div class="container">
+                <header class="section-header" style="margin-bottom: var(--space-lg);">
+                    <span class="featured-badge">📸 Hüttenmomente</span>
+                    <h2 class="section-title">Eindrücke aus den Alpen</h2>
+                    <p class="section-desc">Ein kleiner Einblick in die Welt der Almhütten, Gipfel und
+                        kulinarischen Genüsse.</p>
+                </header>
+                <div class="grid grid--3col">
+                    <figure style="margin: 0; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-sm);">
+                        <img src="/images/haeuschen-alpen.jpg" alt="Häuschen in den Alpen – idyllische Berglandschaft"
+                            width="400" height="300" loading="lazy"
+                            style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/3;" />
+                        <figcaption style="padding: var(--space-sm); text-align: center; font-size: 0.85rem; color: var(--color-text-light);">
+                            🏔️ Idyllische Almhütte in den Bayerischen Alpen
+                        </figcaption>
+                    </figure>
+                    <figure style="margin: 0; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-sm);">
+                        <img src="/images/kleines-haeuschen.jpg" alt="Kleines Häuschen in der Berglandschaft"
+                            width="400" height="300" loading="lazy"
+                            style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/3;" />
+                        <figcaption style="padding: var(--space-sm); text-align: center; font-size: 0.85rem; color: var(--color-text-light);">
+                            🏡 Kleines Berghäuschen umgeben von alpiner Natur
+                        </figcaption>
+                    </figure>
+                    <figure style="margin: 0; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-sm);">
+                        <img src="/images/hero-panorama.jpg" alt="Gipfelbuch Eintrag – Erinnerungen an die Bergtour"
+                            width="400" height="300" loading="lazy"
+                            style="width: 100%; height: auto; display: block; object-fit: cover; aspect-ratio: 4/3;" />
+                        <figcaption style="padding: var(--space-sm); text-align: center; font-size: 0.85rem; color: var(--color-text-light);">
+                            📖 Gipfelbuch – jede Bergtour hinterlässt ihre Spuren
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CTA MONDSCHEINRODELN ===== -->
+
+        <section class="section section--alt" style="text-align: center;">
+
+            <div class="container">
+
+                <h2
+
+                    style="font-family: var(--font-display); color: var(--color-wood-dark); margin-bottom: var(--space-md);">
+
+                    🌙 Mondscheinrodeln in den Alpen</h2>
+
+                <p
+
+                    style="color: var(--color-text-light); margin-bottom: var(--space-lg); max-width: 600px; margin-left: auto; margin-right: auto;">
+
+                    Erlebe die Magie einer Nachtrodelpartie unter Sternenhimmel. Die Spitzingsee-Rodelbahn an der
+
+                    Obere Firstalm bietet regelmäßig Mondschein-Termine.
+
+                </p>
+
+                <a href="rodelpisten/index.html" class="btn btn--primary">🛷 Rodelpisten entdecken →</a>
+
+            </div>
+
+        </section>
+
+    <section style="padding: var(--space-2xl) 0;"><div class="container" style="max-width: var(--container-narrow);"><h2 style="text-align: center; margin-bottom: var(--space-lg);">Hüttenausrüstung & Übernachtung</h2><div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: var(--space-md);"><div style="background: linear-gradient(135deg, var(--color-glass), var(--color-surface)); border-radius: var(--radius-md); padding: var(--space-md); text-align: center;"><strong>Hüttenschlafsack</strong><p style="color: var(--color-text-light); font-size:0.85rem;">Pflicht auf jeder Hütte</p><a href="https://www.bergzeit.de/huettenschlafsack/" rel="nofollow sponsored" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); display: inline-block;">Bei Bergzeit</a></div><div style="background: linear-gradient(135deg, var(--color-glass), var(--color-surface)); border-radius: var(--radius-md); padding: var(--space-md); text-align: center;"><strong>Stirnlampe</strong><p style="color: var(--color-text-light); font-size:0.85rem;">Für den Sonnenaufgang</p><a href="https://www.bergfreunde.de/stirnlampen/" rel="nofollow sponsored" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); display: inline-block;">Bei Bergfreunde</a></div><div style="background: linear-gradient(135deg, var(--color-glass), var(--color-surface)); border-radius: var(--radius-md); padding: var(--space-md); text-align: center;"><strong>Wanderführer</strong><p style="color: var(--color-text-light); font-size:0.85rem;">60 Hüttentouren</p><a href="https://amzn.to/4aLbQg6" rel="nofollow sponsored" target="_blank" class="btn btn--primary" style="margin-top: var(--space-sm); display: inline-block;">Auf Amazon</a></div></div></div></section></main>
+    <!-- ===== NEWS-TICKER-CONTAINER (dynamisch via JS) ===== -->
+    <div id="news-ticker-container"></div>
+
+    <!-- ===== FEEDBACK-BOX (User-Engagement) ===== -->
+    <section class="feedback-box" style="margin: 3rem auto; max-width: var(--container-narrow); padding: 2rem; background: linear-gradient(135deg, var(--color-bg-alt), var(--color-surface)); border-radius: var(--radius-lg); text-align: center; border: 2px dashed var(--color-primary);">
+        <h3 style="color: var(--color-wood-dark); margin-bottom: 1rem;">💬 Deine Meinung zählt!</h3>
+        <p style="color: var(--color-text-light); margin-bottom: 1.5rem; font-size: 1.05rem;">
+            Warst du auf dieser Tour?<br />
+            <strong>Schreib uns, wie die ÖPNV-Verbindung geklappt hat!</strong>
+        </p>
+        <a href="mailto:info@alpenexperte.de?subject=Feedback%20-%20H%C3%BCttenf%C3%BChrer%20Alpen%20%E2%80%93%20Alpen-Experte"
+           class="btn btn-primary"
+           style="display: inline-block; padding: 0.75rem 2rem; background: var(--color-primary); color: var(--color-white); border-radius: var(--radius-md); text-decoration: none; font-weight: 600; transition: background 0.2s;">
+            ✉️ Feedback senden
+        </a>
+        <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--color-text-light);">
+            Deine Rückmeldung hilft anderen Wanderern bei der Planung.<br />
+            <a href="/impressum.html#datenschutz" style="color: var(--color-primary);">Datenschutz</a>
+        </p>
+    </section>
+
+    
+
+    <!-- ===== QUELLEN & EXPERTISE (E-E-A-T) ===== -->
+
+<!-- ===== LIVE-WETTER WIDGET (Schliersee / Spitzingsee) - INJIZIERT ===== -->
+<section class="section section--lounge" aria-labelledby="wetter-title" id="live-wetter-section">
+    <div class="container">
+        <header class="section-header">
+            <h2 id="wetter-title" class="section-title" style="font-size: 1.25rem;">Aktuelles Wetter - Schliersee / Spitzingsee</h2>
+            <p class="section-desc">Live-Daten der Region & 3-Tages-Prognose - aktualisiert bei jedem Seitenaufruf</p>
+        </header>
+        <div id="weather-widget" class="weather-widget">
+            <div class="weather-loading" style="text-align: center; padding: var(--space-lg); color: var(--color-text-light);">
+                <span class="weather-spinner" style="display: inline-block; animation: spin 1.5s ease-in-out infinite; font-size: 2rem;">...</span>
+                <p style="margin-top: var(--space-sm);">Wetterdaten werden geladen...</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== BRB ECHTZEIT-FAHRPLAN - INJIZIERT ===== -->
+<div class="brb-live-info" style="max-width: var(--container-narrow); margin: var(--space-lg) auto; padding: var(--space-md) var(--space-lg); background: var(--color-surface); border-radius: var(--radius-lg); border-left: 4px solid var(--color-secondary); box-shadow: var(--shadow-sm);">
+    <p style="margin-bottom: var(--space-xs); font-weight: 600; font-size: 1.05rem; display: flex; align-items: center; gap: var(--space-xs);">BRB Echtzeit-Fahrplan</p>
+    <p style="font-size: 0.85rem; color: var(--color-text-light); margin-bottom: var(--space-sm);">Aktuelle Abfahrten der Bayerischen Regiobahn (BRB) von Munchen nach Schliersee - inklusive Stormungsmeldungen, Verspatungen und Schienenersatzverkehr.</p>
+    <a href="https://www.bahnhof.de/schliersee" target="_blank" rel="noopener noreferrer" class="btn btn--primary" style="display: inline-flex; align-items: center; gap: var(--space-xs); font-size: 0.9rem; padding: var(--space-sm) var(--space-md);">
+        Aktuelle Fahrplanzustande & Live-Abfahrten der BRB (Munchen  Schliersee) prufen
+    </a>
+</div>
+    <section class="quellen-section" aria-labelledby="quellen-title-index">
+        <h2 id="quellen-title-index">Quellen & Expertise</h2>
+        <p>
+            Die Informationen auf dieser Seite basieren auf offiziellen Quellen,
+            langjähriger eigener Erfahrung in der Region sowie aktuellen Fahrplan-
+            und Betriebsdaten. Wir aktualisieren diese Angaben regelmässig,
+            können jedoch keine Gewähr für die Vollständigkeit und Richtigkeit
+            der externen Informationen übernehmen.
+        </p>
+        <ul class="quellen-list">
+            <li>
+                <a href="https://www.alpenbahnen-spitzingsee.de" target="_blank"
+                   rel="noopener noreferrer">Alpenbahnen Spitzingsee</a>
+                &mdash; Aktuelle Betriebszeiten, Ticketpreise & Sperrungen
+            </li>
+            <li>
+                <a href="https://www.schliersee.de" target="_blank"
+                   rel="noopener noreferrer">Schliersee Tourismus</a>
+                &mdash; Offizielle Tourist-Info der Gemeinde Schliersee
+            </li>
+            <li>
+                <a href="https://www.bayern.by" target="_blank"
+                   rel="noopener noreferrer">Bayern Tourismus</a>
+                &mdash; Offizielle Urlaubsregion Bayerische Alpen
+            </li>
+            <li>
+                <a href="https://www.brb.de" target="_blank"
+                   rel="noopener noreferrer">BRB Bayerische Regiobahn</a>
+                &mdash; Fahrplanauskunft & ÖPNV-Verbindungen
+            </li>
+        </ul>
+        <p style="margin-top: var(--space-sm); font-size: 0.8rem; color: var(--color-text-light);">
+            Stand: <span id="current-update-date"><!-- Dynamisch per JS --></span>. Alle Angaben ohne Gewähr.
+            <a href="/impressum.html" style="color: var(--color-primary);">Impressum & Datenschutz</a>
+        </p>
+    </section>
+
+<!-- ===== PARTNER-HUB-BOX (Allgemein) ===== --><!-- ===== PARTNER-HUB-BOX (Allgemein) ===== --><!-- ===== PARTNER-HUB-BOX (Allgemein) ===== --><!-- ===== PARTNER-HUB-BOX (Allgemein) ===== --><!-- ===== PARTNER-HUB-BOX (Allgemein) ===== --><!-- ===== PARTNER-HUB-BOX (Allgemein) ===== --><!-- ===== PARTNER-HUB-BOX (Allgemein) ===== -->
+<section class="partner-hub" aria-labelledby="partner-hub-title" style="margin-bottom: var(--space-3xl);">
+    <h2 id="partner-hub-title">🛍️ Partner & Empfehlungen</h2>
+    <p style="color: var(--color-text-light); margin-bottom: var(--space-md);">
+        Hier findest du unsere empfohlenen Partner-Shops und Dienstleister für deine Outdoor-Abenteuer:
+    </p>
+    <div style="display: flex; gap: var(--space-md); flex-wrap: wrap;">
+                <div class="silo-card" style="opacity: 1; animation: none; flex: 1; min-width: 180px;">
+            <div class="silo-card-body" style="text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: var(--space-xs);">🛒</div>
+                <h3 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: 1.1rem;">Amazon</h3>
+                <p style="color: var(--color-text-light); font-size: 0.85rem; margin-bottom: var(--space-sm);">Riesige Auswahl & schnelle Lieferung</p>
+                <a href="https://amzn.to/test-id-2026" class="btn btn--primary" rel="nofollow ugc sponsored" target="_blank" style="display: inline-block; padding: 0.4rem 1rem; font-size: 0.85rem; text-decoration: none;">Bei Amazon stöbern →</a>
+            </div>
+        </div>
+        <div class="silo-card" style="opacity: 1; animation: none; flex: 1; min-width: 180px;">
+            <div class="silo-card-body" style="text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: var(--space-xs);">🏷️</div>
+                <h3 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: 1.1rem;">eBay</h3>
+                <p style="color: var(--color-text-light); font-size: 0.85rem; margin-bottom: var(--space-sm);">Neu & Gebraucht – oft günstiger</p>
+                <a href="https://www.ebay.de/test-id-2026" class="btn btn--primary" rel="nofollow ugc sponsored" target="_blank" style="display: inline-block; padding: 0.4rem 1rem; font-size: 0.85rem; text-decoration: none;">Bei eBay stöbern →</a>
+            </div>
+        </div>
+        <div class="silo-card" style="opacity: 1; animation: none; flex: 1; min-width: 180px;">
+            <div class="silo-card-body" style="text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: var(--space-xs);">🥾</div>
+                <h3 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: 1.1rem;">Komoot</h3>
+                <p style="color: var(--color-text-light); font-size: 0.85rem; margin-bottom: var(--space-sm);">Routenplanung & Offline-Karten</p>
+                <a href="https://www.komoot.de/test-id-2026" class="btn btn--primary" rel="nofollow ugc sponsored" target="_blank" style="display: inline-block; padding: 0.4rem 1rem; font-size: 0.85rem; text-decoration: none;">Zu Komoot →</a>
+            </div>
+        </div>
+        <div class="silo-card" style="opacity: 1; animation: none; flex: 1; min-width: 180px;">
+            <div class="silo-card-body" style="text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: var(--space-xs);">⛰️</div>
+                <h3 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: 1.1rem;">Bergzeit</h3>
+                <p style="color: var(--color-text-light); font-size: 0.85rem; margin-bottom: var(--space-sm);">Outdoor-Ausrüstung & Bekleidung</p>
+                <a href="https://www.bergzeit.de/test-id-2026" class="btn btn--primary" rel="nofollow ugc sponsored" target="_blank" style="display: inline-block; padding: 0.4rem 1rem; font-size: 0.85rem; text-decoration: none;">Zu Bergzeit →</a>
+            </div>
+        </div>
+        <div class="silo-card" style="opacity: 1; animation: none; flex: 1; min-width: 180px;">
+            <div class="silo-card-body" style="text-align: center;">
+                <div style="font-size: 2rem; margin-bottom: var(--space-xs);">🚆</div>
+                <h3 style="margin-top: 0; margin-bottom: var(--space-xs); font-size: 1.1rem;">Deutsche Bahn</h3>
+                <p style="color: var(--color-text-light); font-size: 0.85rem; margin-bottom: var(--space-sm);">Bahnverbindungen & Sparpreise</p>
+                <a href="https://www.bahn.de/test-id-2026" class="btn btn--primary" rel="nofollow ugc sponsored" target="_blank" style="display: inline-block; padding: 0.4rem 1rem; font-size: 0.85rem; text-decoration: none;">Zur Bahn →</a>
+            </div>
+        </div>
+    </div>
+    <p style="font-size: 0.8rem; color: var(--color-text-light); margin-top: var(--space-sm);">
+        <small>* Als Amazon-Partner verdienen wir an qualifizierten Verkäufen. Auch für andere Partner-Shops erhalten wir bei Kauf eine kleine Provision – für dich entstehen keine Mehrkosten.
+        <a href="/rechtliches/affiliate-transparenz.html" style="color: var(--color-primary);">Mehr zu unseren Partner-Programmen</a></small>
+    </p>
+</section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="/images/logo.svg" alt="Alpen-Experte" width="160" height="42" loading="lazy">
+                    <p>Echte Alm-Praxis. Seit 2025.</p>
+                    <blockquote style="margin-top:var(--space-sm);font-style:italic;font-size:0.85rem;color:var(--color-text-light);border-left:2px solid var(--color-accent);padding-left:var(--space-sm);">&bdquo;Über d'Oim geht da Weg zua d'Sterndln und zruck zua d'Menschn.&ldquo; &ndash; Bayrische Weisheit</blockquote>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Aktivitäten</h4>
+                    <ul>
+                        <li><a href="/content/wandern/index.html">Wandern</a></li>
+                        <li><a href="/content/klettern/index.html">Klettern</a></li>
+                        <li><a href="/content/mtb/index.html">MTB-Touren</a></li>
+                        <li><a href="/content/winter/index.html">Winter-Guide</a></li>
+                        <li><a href="/content/huetten/rodelpisten/index.html">Rodelpisten</a></li>
+                    
+                        <li><a href="/huetten.html">H&uuml;tten &amp; Almen</a></li>
+                        <li><a href="/restaurants.html">Restaurants</a></li>
+                        <li><a href="/live-check.html">Wetter &amp; Webcams</a></li>
+                        <li><a href="/packlisten.html">Packlisten</a></li>
+                        <li><a href="/anreise.html">Anreise &amp; Parken</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Wissen & Kultur</h4>
+                    <ul>
+                        <li><a href="/content/kultur_geschichte/index.html">Kultur & Geschichte</a></li>
+                        <li><a href="/content/fauna/index.html">Fauna & Flora</a></li>
+                        <li><a href="/content/huetten/index.html">Hüttenführer</a></li>
+                        <li><a href="/content/regional/index.html">Regional-Seiten</a></li>
+
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Rechtliches</h4>
+                    <ul>
+                        <li><a href="/impressum.html">Impressum</a></li>
+                        <li><a href="/datenschutz.html">Datenschutz</a></li>
+                        <li><a href="/impressum.html#affiliate">Affiliate-Offenlegung</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025&ndash;2026 Alpen-Experte. Alle Rechte vorbehalten.</p>
+                <p class="footer-disclaimer">Diese Seite enthält Affiliate-Links. Bei Kauf über diese Links erhalten wir eine kleine Provision &ndash; für dich entstehen keine Mehrkosten.</p>
+                <p class="footer-updated" style="font-size:0.75rem;color:var(--color-text-light);margin-top:var(--space-xs);">Zuletzt aktualisiert: 7. Juni 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <script src="/js/main.js?v=20260608" defer></script>
+
+</body>
+
+</html>
+

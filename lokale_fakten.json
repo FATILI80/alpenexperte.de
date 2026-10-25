@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "fakt": "Die Fischerei am Schliersee wurde erstmals 1478 urkundlich erwähnt – seit über 500 Jahren wird hier traditionell gefischt.",
+    "kategorie": "geschichte",
+    "quelle": "Gemeinde Schliersee – Fischereigenossenschaft Schliersee",
+    "quelle_url": "https://www.schliersee.de/fischerei"
+  },
+  {
+    "id": 2,
+    "fakt": "Der legendäre Wildschütz Georg Jennerwein fiel am 7. November 1877 am 'Boden der Bodenschneid' durch einen gezielten Schuss.",
+    "kategorie": "geschichte",
+    "quelle": "Historisches Lexikon Bayerns – Jennerwein, Georg",
+    "quelle_url": "https://www.historisches-lexikon-bayerns.de/Lexikon/Jennerwein,_Georg"
+  },
+  {
+    "id": 3,
+    "fakt": "Die Bahnstrecke München–Schliersee (BRB) wurde 1869 eröffnet – die Fahrt dauert heute etwa 50 Minuten vom Hauptbahnhof.",
+    "kategorie": "oepnv",
+    "quelle": "Bayerische Eisenbahngesellschaft – Streckensteckbrief",
+    "quelle_url": "https://www.bayerische-eisenbahngesellschaft.de/strecken"
+  },
+  {
+    "id": 4,
+    "fakt": "Der Spitzingsee ist mit 1.084 Metern der höchstgelegene ganzjährig bewirtschaftete See Deutschlands.",
+    "kategorie": "natur",
+    "quelle": "Wasserwirtschaftsamt Rosenheim – Steckbrief Spitzingsee",
+    "quelle_url": "https://www.wwa-ro.bayern.de/seen/spitzingsee"
+  },
+  {
+    "id": 5,
+    "fakt": "Die Valepp – ein Tal zwischen Spitzingsee und Tirol – ist eines der ursprünglichsten Hochmoore der Bayerischen Voralpen und steht unter Naturschutz.",
+    "kategorie": "natur",
+    "quelle": "Bayerisches Landesamt für Umwelt – NSG Valepp",
+    "quelle_url": "https://www.lfu.bayern.de/natur/schutzgebiete"
+  },
+  {
+    "id": 6,
+    "fakt": "Das Markus-Wasmeier-Freilichtmuseum in Schliersee-Neuhaus zeigt 15 originalgetreu versetzte Bauernhäuser aus fünf Jahrhunderten.",
+    "kategorie": "kultur",
+    "quelle": "Markus Wasmeier Freilichtmuseum – Über uns",
+    "quelle_url": "https://www.wasmeier.de/"
+  },
+  {
+    "id": 7,
+    "fakt": "Die Brauerei Schliersee wurde 1490 gegründet und zählt zu den ältesten noch aktiven Privatbrauereien Bayerns.",
+    "kategorie": "kultur",
+    "quelle": "Brauerei Schliersee – Geschichte",
+    "quelle_url": "https://www.brauerei-schliersee.de/geschichte"
+  },
+  {
+    "id": 8,
+    "fakt": "Die Kapelle Wilparting aus dem 12. Jahrhundert ist die älteste erhaltene romanische Kapelle im Mangfallgebirge.",
+    "kategorie": "kultur",
+    "quelle": "Erzbistum München und Freising – Kirchenführer",
+    "quelle_url": "https://www.erzbistum-muenchen.de/"
+  },
+  {
+    "id": 9,
+    "fakt": "Das Kloster Tegernsee wurde 746 gegründet und prägte über 1.000 Jahre lang die Kultur und Wirtschaft der gesamten Region.",
+    "kategorie": "geschichte",
+    "quelle": "Kloster Tegernsee – Historische Entwicklung",
+    "quelle_url": "https://www.schloesser.bayern.de/tegernsee"
+  },
+  {
+    "id": 10,
+    "fakt": "Die Brecherspitze (1.683 m) ist der markanteste Gipfel des Spitzingseer Panoramas und wurde erstmals 1808 kartiert.",
+    "kategorie": "natur",
+    "quelle": "Bayerisches Landesvermessungsamt – Topografische Karte",
+    "quelle_url": "https://www.ldbv.bayern.de/"
+  },
+  {
+    "id": 11,
+    "fakt": "Die Rotwand (1.884 m) ist der beliebteste Wanderberg im Mangfallgebirge – mit über 50.000 Besteigungen jährlich.",
+    "kategorie": "wandern",
+    "quelle": "DAV Sektion Schliersee – Wegestatistik",
+    "quelle_url": "https://www.alpenverein-schliersee.de/"
+  },
+  {
+    "id": 12,
+    "fakt": "Das Taubensteinhaus auf 1.567 m ist eine der wenigen vollständig autarken Schutzhütten (Solar + Regenwasser) der Bayerischen Alpen.",
+    "kategorie": "huetten",
+    "quelle": "DAV Sektion Schliersee – Taubensteinhaus",
+    "quelle_url": "https://www.alpenverein-schliersee.de/taubensteinhaus"
+  },
+  {
+    "id": 13,
+    "fakt": "Seit 1971 verbindet der Sessellift am Spitzingsee das Tal mit dem Taubenstein – im Sommer ein wichtiger Zustieg für Wanderer und Mountainbiker.",
+    "kategorie": "oepnv",
+    "quelle": "Spitzingsee-Tegernsee Bergbahnen – Sommerbetrieb",
+    "quelle_url": "https://www.spitzingsee.de/bergbahnen"
+  },
+  {
+    "id": 14,
+    "fakt": "Der St. Leonhard-Kirche in Schliersee (erbaut 1493) beherbergt einen der ältesten Flügelaltäre Altbayerns.",
+    "kategorie": "kultur",
+    "quelle": "Kirchenführer Schliersee – Pfarrverband Schliersee",
+    "quelle_url": "https://www.schliersee.de/kirchen"
+  },
+  {
+    "id": 15,
+    "fakt": "Der Rodelpisten am Spitzingsee gehören mit 8 km Länge zu den längsten beleuchteten Naturrodelbahnen Bayerns.",
+    "kategorie": "winter",
+    "quelle": "Spitzingsee Tourismus – Winterangebote",
+    "quelle_url": "https://www.spitzingsee.de/winter"
+  },
+  {
+    "id": 16,
+    "fakt": "Im NSG Valepp wurden 22 verschiedene Orchideenarten nachgewiesen – ein Hotspot der Biodiversität in den Bayerischen Voralpen.",
+    "kategorie": "natur",
+    "quelle": "Bayerische Botanische Gesellschaft – Valepper Flora",
+    "quelle_url": "https://www.bbgev.de/"
+  },
+  {
+    "id": 17,
+    "fakt": "Die erste urkundliche Erwähnung Schliersees datiert auf das Jahr 1020 – damals als 'Slirus' im Codex des Klosters Tegernsee.",
+    "kategorie": "geschichte",
+    "quelle": "Gemeinde Schliersee – Ortsgeschichte",
+    "quelle_url": "https://www.schliersee.de/geschichte"
+  },
+  {
+    "id": 18,
+    "fakt": "Das Bräustüberl Tegernsee am Tegernsee braut seit über 750 Jahren Bier – die älteste noch betriebene Klosterbrauerei Bayerns.",
+    "kategorie": "kultur",
+    "quelle": "Herzogliches Bräustüberl Tegernsee – Geschichte",
+    "quelle_url": "https://www.braeustueberl.de/geschichte"
+  },
+  {
+    "id": 19,
+    "fakt": "Der Prinzenweg von Schliersee nach Tegernsee ist ein historischer Jagdweg aus dem 17. Jahrhundert und heute ein beliebter MTB-Trail.",
+    "kategorie": "mtb",
+    "quelle": "Bayerische Forstverwaltung – Historische Wege",
+    "quelle_url": "https://www.stmelf.bayern.de/wald/forstverwaltung"
+  },
+  {
+    "id": 20,
+    "fakt": "Die Gipfelstation der Rotwandbahn (Sessellift) auf 1.562 m ist Startpunkt des 'Spitzingsee-Panoramawegs' – einer der schönsten Höhenwege der Region.",
+    "kategorie": "wandern",
+    "quelle": "Tourismusverein Spitzingsee – Panoramaweg",
+    "quelle_url": "https://www.spitzingsee.de/wandern"
+  }
+]

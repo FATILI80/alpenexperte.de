@@ -1,0 +1,439 @@
+======================================================================
+BILD-INVENTAR alpenexperte.de
+Erstellt: Automatisch per generate_bild_inventar.py
+======================================================================
+
+──────────────────────────────────────────────────────────────────────
+TEIL 1: VERFÜGBARE BILDER IM /images/ ORDNER
+──────────────────────────────────────────────────────────────────────
+  Alpen.jpg  (2867.6 KB)
+  AlpenHerbst.jpg  (4217.1 KB)
+  AusblickWinterunterfirst.jpg  (3507.8 KB)
+  BahnhofNeuhaus.jpg  (2548.9 KB)
+  Berge.jpg  (2438.8 KB)
+  BlecksteinhausSchilderbaut1907.jpg  (3349.3 KB)
+  Blecksteinhausfrontansicht.jpg  (4524.6 KB)
+  Blecksteinhausseitenansicht.jpg  (4204.2 KB)
+  BlickvomBrecherspitzaufspitzingsee.jpg  (3914.7 KB)
+  Brechspitzspitzingsee.jpg  (4980.1 KB)
+  HäuschenindenAlpen.jpg  (490.0 KB)
+  KleinesHäuschen.jpg  (476.6 KB)
+  ObereFirstmitHerz.jpeg  (132.5 KB)
+  RichtungFreundreichalm.jpg  (2867.6 KB)
+  RodelnaufEisachtungglatteis.mp4  (94505.6 KB)
+  SchildBlecksteinhaus.jpg  (4673.2 KB)
+  Schliersbergalm.jpg  (2811.8 KB)
+  Schliersbergalmausblickschliersee.jpg  (2252.0 KB)
+  Schliersee.jpg  (3329.2 KB)
+  Screenshot20260605220218.png  (1462.2 KB)
+  Screenshot20260605220327.png  (2065.8 KB)
+  SovielSchnee.jpg  (366.6 KB)
+  Spitzingseeperfekt.jpg  (3051.3 KB)
+  Trautstein.jpg  (994.8 KB)
+  WanderpfadimNebel.jpeg  (193.6 KB)
+  Wanderwegmitgipfelkreuz.jpg  (2613.2 KB)
+  _image_map.json  (1.8 KB)
+  alpenkaese.jpg  (265.3 KB)
+  alpenpanorama.jpg  (236.1 KB)
+  altesforsthausvaleppschild.jpg  (4452.7 KB)
+  ausblickaufseevonfreundenreichalm.jpg  (4225.0 KB)
+  ausblickschliersbergalm.jpg  (2115.2 KB)
+  bergpanorama-see.jpg  (187.6 KB)
+  bergsee-spiegelung.jpg  (187.6 KB)
+  bergsee.jpg  (124.8 KB)
+  bergsee.webp  (124.8 KB)
+  favicon.svg  (0.6 KB)
+  featured-wanderstoecke.svg  (0.8 KB)
+  featuredwanderstoecke.svg  (0.8 KB)
+  fehlkauf-hero.jpg  (3329.2 KB)
+  felsformation.jpg  (153.1 KB)
+  felsformation.webp  (153.1 KB)
+  fitness-hero.jpg  (2438.8 KB)
+  forsthaus-valepp.jpg  (2436.3 KB)
+  forsthausvallep.jpg  (2436.3 KB)
+  gipfelbuch-eintrag.jpg  (3158.5 KB)
+  haeuschen-alpen.jpg  (2119.5 KB)
+  hero-panorama.jpg  (4217.1 KB)
+  heropanorama.jpg  (4217.1 KB)
+  heropanorama.webp  (580.3 KB)
+  huetten-hero.jpg  (2252.0 KB)
+  hutte-firstalm.jpg  (2811.8 KB)
+  hutte-jagahuettn.svg  (1.1 KB)
+  huttefirstalm.jpg  (2811.8 KB)
+  häuschenvonsennerin.jpg  (3780.8 KB)
+  infotafel.jpg  (3158.5 KB)
+  kaiserschmarrn.jpg  (265.3 KB)
+  kleines-haeuschen.jpg  (476.6 KB)
+  kleinessennerhäuschen.jpg  (2119.5 KB)
+  klettern-brecherspitz.jpg  (4980.1 KB)
+  klettern-hero.jpg  (3051.3 KB)
+  klettern-rotwand.jpg  (2613.2 KB)
+  klettern-taubenstein.jpg  (3251.7 KB)
+  kletternbrecherspitz.jpg  (4980.1 KB)
+  layering-hero.jpg  (366.6 KB)
+  layeringhero.jpg  (366.6 KB)
+  logo.svg  (1.1 KB)
+  logojagahüttn.jpg  (1578.0 KB)
+  natur.jpg  (156.7 KB)
+  natur.webp  (30.6 KB)
+  nordic-hero.jpg  (193.6 KB)
+  obere-first-mit-herz.jpg  (132.5 KB)
+  panorama-herbst.jpg  (236.1 KB)
+  panorama-sommer.jpg  (124.8 KB)
+  panoramaherbst.jpg  (236.1 KB)
+  praxis-hero.jpg  (236.1 KB)
+  regional-hero.jpg  (3329.2 KB)
+  rodelpiste.jpg  (366.6 KB)
+  schliersee-fischerei.jpg  (83.4 KB)
+  sicherheit-hero.jpg  (3507.8 KB)
+  sicherheithero.jpg  (3507.8 KB)
+  silo-ausruestung.svg  (0.8 KB)
+  silo-regional.jpg  (3329.2 KB)
+  siloausruestung.svg  (0.8 KB)
+  sternenhimmel-astro.jpg  (56.8 KB)
+  sternenhimmel-hero.jpg  (66.0 KB)
+  sternenhimmel-milchstrasse.jpg  (43.7 KB)
+  sternenhimmel-nacht.jpg  (34.2 KB)
+  sternenhimmel-standorte.jpg  (139.8 KB)
+  sternenhimmel-sterne.jpg  (122.6 KB)
+  sternenhimmel-teleskop.jpg  (73.7 KB)
+  tech-hero.jpg  (2548.9 KB)
+  untere-firstalm-hero.jpg  (132.5 KB)
+  valepp-hero.jpg  (2436.3 KB)
+  vonbrecherspitzausblickoberefirstalm.jpg  (3251.7 KB)
+  wald.jpg  (297.0 KB)
+  wald.webp  (297.0 KB)
+  wandern-alpen.jpg  (2867.6 KB)
+  wandern-aussicht.jpg  (3507.8 KB)
+  wandern-brecherspitz.jpg  (3914.7 KB)
+  wandern-einkehr.jpg  (265.3 KB)
+  wandern-natur.jpg  (156.7 KB)
+  wandern-panorama.jpg  (236.1 KB)
+  wandern-rotwand.jpg  (2438.8 KB)
+  wandern-taubenstein.jpg  (3251.7 KB)
+  wandernbrecherspitz.jpg  (3914.7 KB)
+  wanderneinkehr.jpg  (265.3 KB)
+  wandernpanorama.jpg  (236.1 KB)
+  wasmeier-freilichtmuseum.jpg  (92.9 KB)
+  websidebackup1.png  (39.7 KB)
+  websidebackup2.png  (107.1 KB)
+  wilparting-kapelle.jpg  (92.7 KB)
+  winter1.jpeg  (230.7 KB)
+
+  Gesamt: 113 Bilddateien
+
+──────────────────────────────────────────────────────────────────────
+TEIL 2: BILD-REFERENZEN IN HTML-SEITEN
+──────────────────────────────────────────────────────────────────────
+  [656 Seiten] /images/logo.svg
+      -> ROOT
+      -> cluster
+      -> cluster/bergtouren
+      -> cluster/familien-wandern
+      -> cluster/klettersteige
+      -> cluster/mtb-touren
+      -> cluster/winter-aktivitaeten
+      -> content/aktivitaeten
+      ... und 70 weitere
+  [44 Seiten] /images/alpenpanorama.jpg
+      -> content/almwirtschaft
+      -> content/alpinismus_sicherheit
+      -> content/botanik
+      -> content/forstwirtschaft
+      -> content/geologie
+      -> content/huetten/alm-restaurants
+      -> content/kultur_geschichte
+      -> content/limnologie
+      ... und 3 weitere
+  [26 Seiten] /images/bergpanorama-see.jpg
+      -> content/alpinismus_sicherheit
+      -> content/fehlkauf-vermeidung
+      -> content/fitness
+      -> content/forstwirtschaft
+      -> content/geologie
+      -> content/huetten
+      -> content/layering
+      -> content/limnologie
+      ... und 9 weitere
+  [23 Seiten] /images/bergsee.jpg
+      -> content/almwirtschaft
+      -> content/alpinismus_sicherheit
+      -> content/astronomie_geschichte
+      -> content/geologie
+      -> content/huetten
+      -> content/kultur_geschichte
+      -> content/limnologie
+      -> content/meteorologie
+      ... und 5 weitere
+  [22 Seiten] /images/bergsee-spiegelung.jpg
+      -> content/alpinismus_sicherheit
+      -> content/fehlkauf-vermeidung
+      -> content/fitness
+      -> content/geologie
+      -> content/huetten
+      -> content/layering
+      -> content/limnologie
+      -> content/meteorologie
+      ... und 8 weitere
+  [19 Seiten] /images/wald.jpg
+      -> ROOT
+      -> content/almwirtschaft
+      -> content/astronomie_geschichte
+      -> content/botanik
+      -> content/forstwirtschaft
+      -> content/geologie
+      -> content/kultur_geschichte
+      -> content/limnologie
+      ... und 2 weitere
+  [18 Seiten] /images/natur.jpg
+      -> ROOT
+      -> content/almwirtschaft
+      -> content/astronomie_geschichte
+      -> content/botanik
+      -> content/kultur_geschichte
+      -> content/limnologie
+      -> content/moore
+      -> content/regional
+      ... und 1 weitere
+  [17 Seiten] /images/felsformation.jpg
+      -> ROOT
+      -> content/almwirtschaft
+      -> content/alpinismus_sicherheit
+      -> content/botanik
+      -> content/geologie
+      -> content/limnologie
+      -> content/meteorologie
+      -> content/regional
+      ... und 1 weitere
+  [16 Seiten] /images/panorama-herbst.jpg
+      -> content/almwirtschaft
+      -> content/alpinismus_sicherheit
+      -> content/botanik
+      -> content/forstwirtschaft
+      -> content/geologie
+      -> content/limnologie
+      -> content/meteorologie
+      -> content/moore
+      ... und 2 weitere
+  [16 Seiten] ../assets/images/layout/alpenpanorama.jpg
+      -> content/fehlkauf-vermeidung/anfaengerfehler
+      -> content/fehlkauf-vermeidung/preis-leistung
+      -> content/fehlkauf-vermeidung/qualitaetsmerkmale
+      -> content/fitness/einsteiger
+      -> content/fitness/fortgeschrittene
+      -> content/mtb
+      -> content/praxis
+      -> content/praxis/jahreszeiten
+      ... und 5 weitere
+  [14 Seiten] /images/panorama-sommer.jpg
+      -> content/almwirtschaft
+      -> content/alpinismus_sicherheit
+      -> content/botanik
+      -> content/geologie
+      -> content/kultur_geschichte
+      -> content/limnologie
+      -> content/meteorologie
+      -> content/moore
+      ... und 2 weitere
+  [12 Seiten] ../assets/images/layout/felsformation.jpg
+      -> content/huetten/klettern
+      -> content/klettern
+  [11 Seiten] ../assets/images/layout/panorama-herbst.jpg
+      -> content/winter
+      -> content/winter/langlauf
+      -> content/winter/schneeschuh
+      -> content/winter/skigebiet
+      -> content/winter/skitouren
+  [6 Seiten] /images/hero-panorama.jpg
+      -> content/huetten/alm-restaurants
+      -> content/nordic-walking
+      -> region/schliersee
+  [3 Seiten] /images/hutte-firstalm.jpg
+      -> ROOT
+      -> content/huetten
+      -> content/huetten/alm-restaurants
+  [3 Seiten] /images/wandern-panorama.jpg
+      -> ROOT
+      -> content/aktivitaeten
+  [3 Seiten] /images/rodelpiste.jpg
+      -> content/huetten
+      -> content/huetten/rodelpisten
+  [3 Seiten] ../assets/images/layout/bergsee.jpg
+      -> content/mtb
+      -> content/regional
+
+──────────────────────────────────────────────────────────────────────
+TEIL 2b: KATEGORIE -> BILDER (nach Verzeichnis-Struktur)
+──────────────────────────────────────────────────────────────────────
+
+  [ROOT/]
+    /images/alpenkaese.jpg
+    /images/felsformation.jpg
+    /images/hutte-firstalm.jpg
+    /images/klettern-brecherspitz.jpg
+    /images/layering-hero.jpg
+    /images/logo.svg
+    /images/natur.jpg
+    /images/sicherheit-hero.jpg
+    /images/sternenhimmel-hero.jpg
+    /images/wald.jpg
+    /images/wandern-aussicht.jpg
+    /images/wandern-einkehr.jpg
+    /images/wandern-panorama.jpg
+    images/logo.svg
+
+  [cluster/]
+    /images/logo.svg
+
+  [content/]
+    /images/alpenkaese.jpg
+    /images/alpenpanorama.jpg
+    /images/bergpanorama-see.jpg
+    /images/bergsee-spiegelung.jpg
+    /images/bergsee.jpg
+    /images/featured-wanderstoecke.svg
+    /images/fehlkauf-hero.jpg
+    /images/felsformation.jpg
+    /images/fitness-hero.jpg
+    /images/gipfelbuch-eintrag.jpg
+    /images/haeuschen-alpen.jpg
+    /images/hero-panorama.jpg
+    /images/huetten-hero.jpg
+    /images/hutte-firstalm.jpg
+    /images/hutte-jagahuettn.svg
+    /images/kleines-haeuschen.jpg
+    /images/klettern-brecherspitz.jpg
+    /images/klettern-hero.jpg
+    /images/klettern-rotwand.jpg
+    /images/klettern-taubenstein.jpg
+    /images/layering-hero.jpg
+    /images/logo.svg
+    /images/natur.jpg
+    /images/nordic-hero.jpg
+    /images/obere-first-mit-herz.jpg
+    /images/panorama-herbst.jpg
+    /images/panorama-sommer.jpg
+    /images/praxis-hero.jpg
+    /images/regional-hero.jpg
+    /images/regional/kultur-geschichte/schliersee-fischerei.jpg
+    /images/regional/kultur-geschichte/wasmeier-freilichtmuseum.jpg
+    /images/regional/kultur-geschichte/wilparting-kapelle.jpg
+    /images/rodelpiste.jpg
+    /images/sicherheit-hero.jpg
+    /images/silo-ausruestung.svg
+    /images/sternenhimmel-astro.jpg
+    /images/sternenhimmel-hero.jpg
+    /images/sternenhimmel-milchstrasse.jpg
+    /images/sternenhimmel-nacht.jpg
+    /images/sternenhimmel-standorte.jpg
+    /images/sternenhimmel-sterne.jpg
+    /images/sternenhimmel-teleskop.jpg
+    /images/tech-hero.jpg
+    /images/wald.jpg
+    /images/wandern-alpen.jpg
+    /images/wandern-einkehr.jpg
+    /images/wandern-panorama.jpg
+    /images/wandern-rotwand.jpg
+
+  [rechtliches/]
+    /images/logo.svg
+
+  [region/]
+    /images/Trautstein.jpg
+    /images/hero-panorama.jpg
+    /images/logo.svg
+
+──────────────────────────────────────────────────────────────────────
+TEIL 3: _image_map.json (Kategorie-Bild-Zuordnung)
+──────────────────────────────────────────────────────────────────────
+  geologie: felsformation.jpg, alpenpanorama.jpg
+  limnologie: bergsee-spiegelung.jpg, bergpanorama-see.jpg
+  botanik: natur.jpg, wald.jpg
+  zoologie: natur.jpg, wald.jpg
+  forstwirtschaft: wald.jpg, natur.jpg
+  moore: natur.jpg, bergsee-spiegelung.jpg, alpenpanorama.jpg
+  almwirtschaft: alpenpanorama.jpg
+  kultur_geschichte: alpenpanorama.jpg, bergsee-spiegelung.jpg
+  meteorologie: alpenpanorama.jpg
+  alpinismus_sicherheit: felsformation.jpg
+
+  _layout: 23 mappings
+    hero-alpenpanorama -> alpenpanorama.jpg
+    hero-bergsee -> alpenpanorama.jpg
+    hero-bergwiese -> alpenpanorama.jpg
+    hero-sonnenuntergang -> alpenpanorama.jpg
+    hero-winterpanorama -> alpenpanorama.jpg
+    bg-alpen-nebel -> alpenpanorama.jpg
+    bg-alpen-dammerung -> alpenpanorama.jpg
+    bg-alpen-fruhling -> alpenpanorama.jpg
+    bg-alpen-sommer -> alpenpanorama.jpg
+    bg-alpen-herbst -> alpenpanorama.jpg
+
+──────────────────────────────────────────────────────────────────────
+TEIL 4: _bento_redesign.py (Startseiten-Bento-Cards)
+──────────────────────────────────────────────────────────────────────
+  Wandern                   -> /images/wandern-aussicht.jpg
+  Hutten & Einkehren        -> /images/hutte-firstalm.jpg
+  Klettern                  -> /images/klettern-brecherspitz.jpg
+  Ausrüstung                -> /images/layering-hero.jpg
+  Sicherheit                -> /images/sicherheit-hero.jpg
+  Fauna & Flora             -> /images/natur.jpg
+  Botanik                   -> /images/wald.jpg
+  Almwirtschaft             -> /images/alpenkaese.jpg
+  Almkultur                 -> /images/wandern-einkehr.jpg
+  Sternenhimmel             -> /images/sternenhimmel-hero.jpg
+  Touren-Cluster            -> /images/wandern-panorama.jpg
+  Region & Karte            -> /images/felsformation.jpg
+
+──────────────────────────────────────────────────────────────────────
+TEIL 5: PYTHON-GENERATOREN MIT BILD-REFERENZEN
+──────────────────────────────────────────────────────────────────────
+
+  [_all_tasks.py] (4 Bilder)
+    images/Trautstein.jpg
+    images/wandern-aussicht.jpg
+    images/wandern-panorama.jpg
+    images/wandern-rotwand.jpg
+
+  [generate_marschbefehl5.py] (3 Bilder)
+    images/favicon.svg
+    images/logo.svg
+    images/placeholder-route.svg
+
+  [generate_klettern_pages.py] (3 Bilder)
+    images/favicon.svg
+    images/logo.svg
+    images/placeholder-route.svg
+
+  [_generate_astro_pages.py] (2 Bilder)
+    images/favicon.svg
+    images/logo.svg
+
+  [_generate_missing_index.py] (2 Bilder)
+    images/favicon.svg
+    images/logo.svg
+
+  [_rebuild_homepage.py] (1 Bilder)
+    images/logo.svg
+
+  [_launch_prep.py] (4 Bilder)
+    images/hardshell-jacke.jpg
+    images/hero-panorama.jpg
+    images/trekkingschuh.jpg
+    images/wanderstock.jpg
+
+  [_launch_v2.py] (3 Bilder)
+    images/hardshell-jacke.jpg
+    images/trekkingschuh.jpg
+    images/wanderstock.jpg
+
+  [_restore_index.py] (1 Bilder)
+    images/logo.svg
+
+──────────────────────────────────────────────────────────────────────
+TEIL 6: BILDER DIE REFERENZIERT WERDEN ABER NICHT EXISTIEREN
+──────────────────────────────────────────────────────────────────────
+  MISSING: ../assets/images/layout/alpenpanorama.jpg  (ref in: content/fehlkauf-vermeidung/anfaengerfehler, content/fehlkauf-vermeidung/preis-leistung, content/fehlkauf-vermeidung/qualitaetsmerkmale)
+  MISSING: ../assets/images/layout/felsformation.jpg  (ref in: content/huetten/klettern, content/klettern)
+  MISSING: ../assets/images/layout/panorama-herbst.jpg  (ref in: content/winter, content/winter/langlauf, content/winter/schneeschuh)
+  MISSING: ../assets/images/layout/bergsee.jpg  (ref in: content/mtb, content/regional)

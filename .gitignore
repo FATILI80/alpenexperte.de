@@ -1,0 +1,65 @@
+# ============================================================
+# alpenexperte.de – .gitignore
+# Bilder laufen über Git LFS (.gitattributes) – NICHT ignorieren!
+# ============================================================
+
+# --- Node / Build-Umgebungen ---
+node_modules/
+alpenexperte-next-gen-temp/
+dist/
+build/
+.cache/
+.vercel/
+.turbo/
+
+# --- Backup-Ordner (nicht versionieren) ---
+website_backup/
+_backup_images_fix/
+_backup_routen_gravel_*/
+backup_hour/
+backup_maps/
+archive/
+
+# --- Große Video-/Archivdateien ---
+videos/
+*.mp4
+*.mov
+*.avi
+*.tar
+*.zip
+
+# --- Backup- und Sicherungsdateien ---
+*.backup
+*.backup-*
+*.monster-backup
+*.imgbak
+*.picsum_backup
+*.safe
+*_backup.html
+backup_*.html
+*.bak
+
+# --- Temporäre / Debug-Dateien ---
+debug.txt
+check_links_report.txt
+*.tmp
+*.log
+cluster/
+
+# --- Python-Caches ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# --- OS / Editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# --- Lokale Umgebungsvariablen (NIE committen) ---
+.env
+.env.local
+.env.*.local

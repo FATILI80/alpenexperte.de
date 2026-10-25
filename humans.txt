@@ -1,0 +1,40 @@
+# humans.txt – Alpen-Experte
+# https://www.alpenexperte.de/humans.txt
+#
+# Wir glauben an Transparenz – auch im Web.
+# Diese Datei ist der »Beipackzettel« unserer Website.
+
+/* TEAM */
+
+    Redaktion & Konzeption: Roo (AI-Assistent) & Projektleitung
+    Fachliche Beratung: Alpiner Sachverstand aus erster Hand
+    Stand: Juni 2026
+
+/* TECHNOLOGIE */
+
+    CMS: Statisches HTML (handgeschrieben)
+    Hosting: Konform mit deutschen Datenschutzbestimmungen
+    Analytics: Plausible (datenschutzkonform, ohne Cookies)
+    Fonts: System-Font-Stack (kein externer Font-Loader)
+    Validierung: W3C HTML5, Schema.org (JSON-LD)
+
+/* STANDORT */
+
+    Einsatzgebiet: Bayerische Alpen (Spitzingsee, Tegernsee, Schliersee,
+                    Rotwand, Brecherspitz, Taubenstein, Valepp)
+    Sprachen: Deutsch (de)
+
+/* QUELLEN & TRANSPARENZ */
+
+    Diese Website verwendet ausschließlich geprüfte Quellen:
+    – DAV (Deutscher Alpenverein)
+    – offizielle Gemeindeseiten (Spitzingsee, Tegernsee, Schliersee)
+    – Bayerische Vermessungsverwaltung
+    – eigene Recherchen vor Ort
+
+    Feedback: info@alpenexperte.de
+
+/* RECHTLICHES */
+
+    © 2026 Alpen-Experte. Alle Rechte vorbehalten.
+    Inhaltliche Verantwortung gemäß §55 RStV: Projektleitung Alpen-Experte
