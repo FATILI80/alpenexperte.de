@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <title>Gravel Biking im Mangfallgebirge - 50 Touren & Setup | Alpen-Experte</title>
+    <meta name="description" content="Gravel Biking zwischen Schliersee, Tegernsee, Valepp und Mangfallgebirge: 50 Gravel-Touren von Easy bis Epic plus Setup-Guide zu Reifen, Gepaeck und GPS." />
+    <link rel="stylesheet" href="css/style.css?v=20260608" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+    <link rel="canonical" href="https://www.alpenexperte.de/gravel.html" />
+    <meta property="og:title" content="Gravel Biking im Mangfallgebirge - 50 Touren & Setup | Alpen-Experte" />
+    <meta property="og:description" content="Gravel Biking zwischen Schliersee, Tegernsee, Valepp und Mangfallgebirge: 50 Gravel-Touren von Easy bis Epic plus Setup-Guide zu Reifen, Gepaeck und GPS." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.alpenexperte.de/gravel.html" />
+</head>
+<body>
+<a href="#main" class="skip-link">Zum Inhalt springen</a>
+<header class="site-header" role="banner">
+        <div class="container header-inner">
+            <a href="index.html" class="logo" aria-label="Alpen-Experte Startseite">
+                <img src="images/logo.svg" alt="Alpen-Experte" width="160" height="42">
+            </a>
+            <form class="header-search" role="search" action="https://www.google.com/search" method="get" target="_blank">
+                <input type="hidden" name="q" value="site:alpenexperte.de">
+                <label for="header-search-input" class="visually-hidden">Suche auf alpenexperte.de</label>
+                <input id="header-search-input" class="header-search-input" type="text" name="q2" placeholder="Suchen..." aria-label="Suchbegriff eingeben">
+                <button type="submit" class="header-search-btn" aria-label="Suche starten">&rsaquo;</button>
+            </form>
+            <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mainNav" aria-label="Navigation oeffnen/schliessen">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <nav id="mainNav" class="main-nav" aria-label="Hauptnavigation">
+                <ul class="nav-list">
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Aktivitaeten</button>
+                        <div class="nav-dropdown">
+                            <a href="content/wandern/index.html" class="megamenu-item">Wandern</a>
+                            <a href="content/klettern/index.html" class="megamenu-item">Klettern</a>
+                            <a href="content/mtb/index.html" class="megamenu-item">MTB-Touren</a>
+                            <a href="gravel.html" class="megamenu-item">Gravel Biking</a>
+                            <a href="content/winter/index.html" class="megamenu-item">Winter-Guide</a>
+                            <a href="content/nordic-walking/index.html" class="megamenu-item">Nordic Walking</a>
+                        </div>
+                    </li>
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Huetten &amp; Almen</button>
+                        <div class="nav-dropdown">
+                            <a href="huetten.html" class="megamenu-item">Huettenfuehrer (Bergwelt)</a>
+                            <a href="restaurants.html" class="megamenu-item">Restaurants (Tal)</a>
+                            <a href="content/huetten/rotwandhaus.html" class="megamenu-item">Rotwandhaus</a>
+                            <a href="content/huetten/tegernseer-huette.html" class="megamenu-item">Tegernseer Huette</a>
+                            <a href="content/huetten/albert-link-huette.html" class="megamenu-item">Albert-Link-Huette</a>
+                            <a href="content/huetten/schoenfeldhuette.html" class="megamenu-item">Schoenfeldhuette</a>
+                        </div>
+                    </li>
+                    <li><a href="restaurants.html" class="nav-link">Restaurants</a></li>
+                    <li><a href="live-check.html" class="nav-link">Wetter &amp; Webcams</a></li>
+                    <li><a href="packlisten.html" class="nav-link">Packlisten</a></li>
+                    <li><a href="anreise.html" class="nav-link">Anreise &amp; Parken</a></li>
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Wissensbibliothek</button>
+                        <div class="nav-dropdown megamenu">
+                            <div class="megamenu-grid">
+                                <a href="content/fauna/index.html" class="megamenu-item">Fauna & Flora</a>
+                                <a href="content/botanik/index.html" class="megamenu-item">Botanik</a>
+                                <a href="content/geologie/index.html" class="megamenu-item">Geologie</a>
+                                <a href="content/meteorologie/index.html" class="megamenu-item">Meteorologie</a>
+                                <a href="content/moore/index.html" class="megamenu-item">Moore</a>
+                                <a href="content/forstwirtschaft/index.html" class="megamenu-item">Forstwirtschaft</a>
+                                <a href="content/almwirtschaft/index.html" class="megamenu-item">Almwirtschaft</a>
+                                <a href="content/kultur_geschichte/index.html" class="megamenu-item">Kultur & Geschichte</a>
+                                <a href="content/sternenhimmel/index.html" class="megamenu-item">Sternenhimmel</a>
+                                <a href="content/almkultur/index.html" class="megamenu-item">Almkultur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="content/praxis/index.html" class="nav-link">Praxis</a></li>
+                    <li><a href="content/regional/index.html" class="nav-link">Regional</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<main id="main">
+        <article class="section">
+            <div class="container">
+                <nav class="breadcrumb" aria-label="Brotkrumen-Navigation">
+                    <ol>
+                        <li><a href="index.html">Start</a></li>
+                        <li><span aria-current="page">Gravel Biking</span></li>
+                    </ol>
+                </nav>
+                <header class="article-header" style="margin-bottom: var(--space-2xl);">
+                    <div class="card-image-wrapper" style="flex:none;min-height:0;border-radius:var(--radius-md);overflow:hidden;margin-bottom:var(--space-md);max-width:720px;"><img src="images/Gravel2.jpg" alt="Gravel Biking im Mangfallgebirge" loading="lazy" style="width:100%;height:280px;object-fit:cover;"></div>
+                    <h1>Gravel Biking im Mangfallgebirge</h1>
+                    <p style="font-size: var(--step-1); color: var(--color-text-light);">50 Gravel-Touren zwischen Schliersee, Tegernsee, Valepp und Mangfallgebirge &ndash; von flachen Talrunden bis zu epischen Bikepacking-Tagesetappen. Dazu das Setup fuer Reifen, Gepaeck und Navigation.</p>
+                </header>
+                <section id="setup" class="gravel-setup" aria-labelledby="setup-title" style="margin-bottom: var(--space-3xl);">
+                    <h2 id="setup-title">Das perfekte Gravel-Setup fuer die Alpen</h2>
+                    <p style="color: var(--color-text-light); margin-bottom: var(--space-lg);">Drei Dinge entscheiden im Mangfallgebirge darueber, ob eine Gravel-Tour Spass macht oder zum Kampf wird: die Reifen, das Gepaeck und die Navigation.</p>
+                    <div class="setup-grid">
+                        <div class="setup-card">
+                            <div class="card-image-wrapper" style="flex:none;min-height:0;border-radius:var(--radius-md);overflow:hidden;margin-bottom:var(--space-md);"><img src="images/Gravel.jpg" alt="Gravel-Reifen im Schotter" loading="lazy" style="width:100%;height:180px;object-fit:cover;"></div>
+                            <h3>1. Die richtigen Reifen</h3>
+                            <p>Auf den Valepp-Forstwegen triffst du groben Kalkschotter, Wurzeln und lose Steinpassagen. Unsere Empfehlung: <strong>mindestens 40&nbsp;mm Breite</strong> (besser 45-50&nbsp;mm) mit grobem Profil und echten Schulter-Stollen. Tubeless reduziert Durchschlaege deutlich.</p>
+                            <a href="packlisten.html" class="btn btn--primary setup-btn" data-partner="reifen" rel="nofollow sponsored">Gravel-Reifen bei Bergzeit ansehen</a>
+                        </div>
+                        <div class="setup-card">
+                            <div class="card-image-wrapper" style="flex:none;min-height:0;border-radius:var(--radius-md);overflow:hidden;margin-bottom:var(--space-md);"><img src="images/ausruestung-rucksack.jpg" alt="Bikepacking-Taschen und Gepaeck" loading="lazy" style="width:100%;height:180px;object-fit:cover;"></div>
+                            <h3>2. Bikepacking-Taschen</h3>
+                            <p>Fuer Mehrtagestouren setzen wir auf das Drei-Taschen-Setup: eine <strong>Arschrakete</strong> (Satteltasche) fuer Schlafsack und Kleidung, ein <strong>Framebag</strong> fuer Werkzeug und Proviant sowie eine <strong>Handlebar-Roll</strong> am Lenker.</p>
+                            <a href="packlisten.html" class="btn btn--primary setup-btn" data-partner="bikepacking" rel="nofollow sponsored">Bikepacking-Ausruestung shoppen</a>
+                        </div>
+                        <div class="setup-card">
+                            <div class="card-image-wrapper" style="flex:none;min-height:0;border-radius:var(--radius-md);overflow:hidden;margin-bottom:var(--space-md);"><img src="images/Gravel Aussicht.jpg" alt="GPS und Navigation auf der Gravel-Tour" loading="lazy" style="width:100%;height:180px;object-fit:cover;"></div>
+                            <h3>3. Navigation &amp; GPS</h3>
+                            <p>Im Mangfallgebirge hast du in den Taelern und auf vielen Forstwegen <strong>keinen Handyempfang</strong>. Ein dediziertes <strong>Wahoo oder Garmin</strong> mit Offline-Karten ist Pflicht. Route vorab als GPX laden.</p>
+                            <a href="packlisten.html" class="btn btn--primary setup-btn" data-partner="gps" rel="nofollow sponsored">GPS-Geraete ansehen</a>
+                        </div>
+                    </div>
+                </section>
+                <section id="touren" aria-labelledby="touren-title" style="margin-bottom: var(--space-3xl);">
+                    <h2 id="touren-title">50 Gravel-Touren in der Region</h2>
+                    <p style="color: var(--color-text-light);">Von der flachen Talrunde bis zur epischen Bikepacking-Etappe &ndash; alle Touren starten rund um Schliersee, Tegernsee, Valepp und das Mangfallgebirge. Mit echten Start-/Zielpunkten (BRB-Bahnhoefe, Spitzingsattel, Josefsthal) und Routenverlauf.</p>
+                    <section class="tours-category" aria-labelledby="cat-easy">
+                        <h2 id="cat-easy" class="tours-heading">Easy Gravel</h2>
+                        <p class="tours-sub">Talboden, flacher Schotter und Uferwege &ndash; ideal fuer den Einstieg und fuer Genussfahrer.</p>
+                        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:var(--space-lg);margin-bottom:var(--space-xl);">
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel.jpg" alt="Schliersee Seeumrundung - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Schliersee Seeumrundung</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">8 km 20 hm 0:45 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 60% Schotter / 40% Asphalt</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Schliersee%20Seeumrundung" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel2.jpg" alt="Valepp Rollout (bis zur Klause) - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Valepp Rollout (bis zur Klause)</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">20 km 250 hm 1:30 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% feiner Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Valepp%20Rollout%20(bis%20zur%20Klause)" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Pause.jpg" alt="Weissachau Flussrunde - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Weissachau Flussrunde</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">15 km 100 hm 1:15 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 90% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Weissachau%20Flussrunde" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Aussicht.jpg" alt="Leitzachtal Panoramarunde - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Leitzachtal Panoramarunde</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">35 km 300 hm 2:30 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 50% Schotter / 50% Asphalt</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Leitzachtal%20Panoramarunde" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Reise.jpg" alt="Mangfall-Radweg Miesbach - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Mangfall-Radweg Miesbach</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">25 km 150 hm 1:45 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Mangfall-Radweg%20Miesbach" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel an der Bank.jpg" alt="Tegernsee Ufer-Trail - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Tegernsee Ufer-Trail</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">14 km 120 hm 1:10 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 65% Schotter / 35% Asphalt</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Tegernsee%20Ufer-Trail" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/mtb-fahrer.jpg" alt="Brecherspitz Talrunde - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Brecherspitz Talrunde</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">18 km 200 hm 1:30 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 75% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Brecherspitz%20Talrunde" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Strasse Spitzingsee.jpg" alt="Schliersee-Miesbach Flachrunde - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Schliersee-Miesbach Flachrunde</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">22 km 180 hm 1:40 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Schliersee-Miesbach%20Flachrunde" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/wandern-bergweg.jpg" alt="Spitzingsee Ort-Loop - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Spitzingsee Ort-Loop</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">9 km 90 hm 0:50 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 60% Schotter / 40% Asphalt</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Spitzingsee%20Ort-Loop" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/bergpanorama-see.jpg" alt="Fischhausen Dorfrunde - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Fischhausen Dorfrunde</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">12 km 80 hm 1:00 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 85% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Fischhausen%20Dorfrunde" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/die-berge.jpg" alt="Mangfall-Ursprung Genussweg - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Mangfall-Ursprung Genussweg</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">16 km 110 hm 1:20 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Mangfall-Ursprung%20Genussweg" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/ausblickschliersbergalm.jpg" alt="Aurach-Tal Rollout - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Aurach-Tal Rollout</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">28 km 260 hm 2:10 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Aurach-Tal%20Rollout" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/obere-firstalm-terrasse.jpg" alt="Rottach Seerunde flach - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Rottach Seerunde flach</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">20 km 140 hm 1:35 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 65% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Rottach%20Seerunde%20flach" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/weg-zur-unteren-firstalm.jpg" alt="Bayrischzell Talboden-Loop - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Bayrischzell Talboden-Loop</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">17 km 130 hm 1:25 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 75% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Bayrischzell%20Talboden-Loop" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Bergaussicht.jpg" alt="Schlierachtal Familienrunde - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Schlierachtal Familienrunde</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">11 km 70 hm 0:55 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 85% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Schlierachtal%20Familienrunde" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                    </div>
+                    </section>
+                    <section class="tours-category" aria-labelledby="cat-alpine">
+                        <h2 id="cat-alpine" class="tours-heading">Alpine Gravel</h2>
+                        <p class="tours-sub">Mehr Hoehenmeter, grober Schotter und echte Anstiege &ndash; fuer ausdauernde Gravel-Fans.</p>
+                        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:var(--space-lg);margin-bottom:var(--space-xl);">
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/mtb.jpg" alt="Alte Spitzingstrasse Uphill - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Alte Spitzingstrasse Uphill</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">15 km 450 hm 1:30 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 100% grober Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Alte%20Spitzingstrasse%20Uphill" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/huette-berg.jpg" alt="Elendsgraben zur Wechsel-Alm - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Elendsgraben zur Wechsel-Alm</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">18 km 550 hm 2:00 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 90% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Elendsgraben%20zur%20Wechsel-Alm" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/wandern-alpen.jpg" alt="Sutten-Runde via Moni-Alm - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Sutten-Runde via Moni-Alm</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">22 km 600 hm 2:15 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter / 30% Asphalt</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Sutten-Runde%20via%20Moni-Alm" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel.jpg" alt="Gindelalm Bergsprint - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Gindelalm Bergsprint</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">12 km 500 hm 1:30 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% grober Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Gindelalm%20Bergsprint" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel2.jpg" alt="Blauberg-Gravel via Achenpass - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Blauberg-Gravel via Achenpass</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">45 km 800 hm 4:00 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 60% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Blauberg-Gravel%20via%20Achenpass" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Aussicht.jpg" alt="Valepp-Schlucht Gravel - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Valepp-Schlucht Gravel</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">26 km 620 hm 2:40 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 85% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Valepp-Schlucht%20Gravel" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel an der Bank.jpg" alt="Tegernseer Alm-Anstieg - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Tegernseer Alm-Anstieg</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">20 km 700 hm 2:30 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% grober Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Tegernseer%20Alm-Anstieg" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Pause.jpg" alt="Schoenfeld-Weg - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Schoenfeld-Weg</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">19 km 560 hm 2:10 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 75% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Schoenfeld-Weg" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Reise.jpg" alt="Aiplspitz Traverse Gravel - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Aiplspitz Traverse Gravel</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">24 km 640 hm 2:45 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Aiplspitz%20Traverse%20Gravel" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel.jpg" alt="Rotwand Vorstufen-Loop - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Rotwand Vorstufen-Loop</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">21 km 590 hm 2:20 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Rotwand%20Vorstufen-Loop" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel2.jpg" alt="Baumgartenschneid Runde - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Baumgartenschneid Runde</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">23 km 610 hm 2:35 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 75% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Baumgartenschneid%20Runde" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Pause.jpg" alt="Wallberg-Schotterrunde - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Wallberg-Schotterrunde</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">30 km 750 hm 3:15 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Wallberg-Schotterrunde" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Aussicht.jpg" alt="Hirschberg Forstweg - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Hirschberg Forstweg</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">25 km 580 hm 2:45 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 85% grober Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Hirschberg%20Forstweg" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Reise.jpg" alt="Sudelfeld Pass-Runde - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Sudelfeld Pass-Runde</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">34 km 820 hm 3:40 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 65% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Sudelfeld%20Pass-Runde" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel an der Bank.jpg" alt="Leitzachtal Hoehenweg - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Leitzachtal Hoehenweg</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">32 km 690 hm 3:20 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Leitzachtal%20Hoehenweg" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/obere-firstalm-terrasse.jpg" alt="Spitzingsee Waldtrail - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Spitzingsee Waldtrail</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">16 km 480 hm 1:50 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 90% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Spitzingsee%20Waldtrail" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/weg-zur-unteren-firstalm.jpg" alt="Firstalm Anstieg - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm Anstieg</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">13 km 520 hm 1:40 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 95% grober Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Firstalm%20Anstieg" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Bergaussicht.jpg" alt="Miesing Gravel-Loop - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Miesing Gravel-Loop</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">27 km 700 hm 3:00 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 75% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Miesing%20Gravel-Loop" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/mtb.jpg" alt="Achenpass Grenzrunde - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Achenpass Grenzrunde</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">40 km 880 hm 4:10 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 60% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Achenpass%20Grenzrunde" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/huette-berg.jpg" alt="Ursprungalm Kletterpartie - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Ursprungalm Kletterpartie</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">22 km 660 hm 2:30 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Ursprungalm%20Kletterpartie" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                    </div>
+                    </section>
+                    <section class="tours-category" aria-labelledby="cat-epic">
+                        <h2 id="cat-epic" class="tours-heading">Epic Bikepacking</h2>
+                        <p class="tours-sub">Ganztagesetappen und Mehrtagestouren quer durch das Mangfallgebirge &ndash; nur fuer trainierte Fahrer.</p>
+                        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:var(--space-lg);margin-bottom:var(--space-xl);">
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/wandern-alpen.jpg" alt="Rotwandhaus Uphill Challenge - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Rotwandhaus Uphill Challenge</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">24 km 950 hm 3:30 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 100% grober Alpinschotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Rotwandhaus%20Uphill%20Challenge" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel.jpg" alt="Drei-Seen-Gravel (Schliersee, Spitzingsee, Tegernsee) - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Drei-Seen-Gravel (Schliersee, Spitzingsee, Tegernsee)</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">55 km 1.200 hm 5:00 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Drei-Seen-Gravel%20(Schliersee%2C%20Spitzingsee%2C%20Tegernsee)" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel2.jpg" alt="Trans-Mangfallgebirge Epic - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Trans-Mangfallgebirge Epic</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">80 km 1.800 hm 7:30 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% Schotter / Trails</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Trans-Mangfallgebirge%20Epic" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Aussicht.jpg" alt="Rosskopf-Gipfelsturm - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Rosskopf-Gipfelsturm</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">16 km 800 hm 2:30 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 90% grober Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Rosskopf-Gipfelsturm" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel an der Bank.jpg" alt="Chiemgau-King Teilstueck - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Chiemgau-King Teilstueck</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">60 km 1.500 hm 5:30 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Chiemgau-King%20Teilstueck" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Pause.jpg" alt="Alpenrand-Megaloop - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Alpenrand-Megaloop</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">70 km 1.600 hm 6:30 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 75% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Alpenrand-Megaloop" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Reise.jpg" alt="Karwendel-Gravel-Etappe - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Karwendel-Gravel-Etappe</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">58 km 1.400 hm 5:15 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Karwendel-Gravel-Etappe" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/mtb-fahrer.jpg" alt="Bayerische-Voralpen-Bikepacking - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Bayerische-Voralpen-Bikepacking</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">85 km 1.900 hm 8:00 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% Schotter / Trails</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Bayerische-Voralpen-Bikepacking" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Strasse Spitzingsee.jpg" alt="Wendelstein-Umfahrung - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Wendelstein-Umfahrung</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">62 km 1.550 hm 5:40 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Wendelstein-Umfahrung" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/wandern-bergweg.jpg" alt="Tegernsee-Berge Doppelpack - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Tegernsee-Berge Doppelpack</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">48 km 1.300 hm 4:50 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 75% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Tegernsee-Berge%20Doppelpack" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/bergpanorama-see.jpg" alt="Spitzingsee Bikepacking-Overnighter - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Spitzingsee Bikepacking-Overnighter</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">52 km 1.350 hm 5:10 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Spitzingsee%20Bikepacking-Overnighter" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/die-berge.jpg" alt="Mangfall-Querung Extrem - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Mangfall-Querung Extrem</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">88 km 1.950 hm 8:15 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 78% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Mangfall-Querung%20Extrem" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/ausblickschliersbergalm.jpg" alt="Wallberg-Wendelstein Kombi - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Wallberg-Wendelstein Kombi</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">66 km 1.650 hm 6:00 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 72% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Wallberg-Wendelstein%20Kombi" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel.jpg" alt="Alpenranden Grossrunde - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Alpenranden Grossrunde</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">75 km 1.700 hm 6:45 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 74% Schotter</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Alpenranden%20Grossrunde" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel2.jpg" alt="Voralpen Monster-Etappe - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Voralpen Monster-Etappe</h3>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-xs);font-weight:600;">90 km 2.000 hm 8:30 Std.</p>
+                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% Schotter / Trails</p>
+                                
+                                <div style="margin-top:auto;"><a href="https://www.komoot.de/discover/tours?q=Mangfallgebirge%20Voralpen%20Monster-Etappe" target="_blank" rel="noopener" class="btn-primary" style="display: inline-block; text-align: center; text-decoration: none;">Routen-Details ansehen</a></div>
+                            </div>
+                        </article>
+                    </div>
+                    </section>
+                <section class="tours-category tours-category--grenzgaenger" aria-labelledby="cat-grenzgaenger" id="grenzgaenger">
+                    <h2 id="cat-grenzgaenger" class="tours-heading">&#128507; GrenzgÃ¤nger: Abenteuer ab Obere Firstalm nach Ã–sterreich</h2>
+                    <p class="tours-sub">Exklusive Grenzgaenger-Routen ab der Oberen Firstalm bzw. dem Spitzingsattel. Ueber das Sonnenwendjoch und den Ursprungpass fuehren diese 20 Gravel-Touren nach Tirol &ndash; zu Zielen wie Ellmau, Kufstein, Thiersee, Walchsee, dem Kaisertal mit Hinterbaerenbad, Rettenschoess und RÃ¼bezahlalm. Mit echten Forstwegen, Mautstrassen-Hinweisen, Schotter-Qualitaet und Einkehrtipps auf oesterreichischer Seite.</p>
+                    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:var(--space-lg);margin-bottom:var(--space-xl);">
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Aussicht.jpg" alt="Firstalm to Breitenstein-Sonnenwendjoch: Kaisertal-Grenzer - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Breitenstein-Sonnenwendjoch: Kaisertal-Grenzer</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 75% Schotter, teils grober Alpinschotter &middot; Schwierigkeit: Anspruchsvoll (S2+)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Der Sonnenwendjoch-Forstweg ist das Herzstueck: oben oeffnet sich ein 360-Grad-Panorama auf Wilden Kaiser (2.344 m) und Pendling. Einkehr auf der Ruebezahlalm oberhalb von Ellmau (Kaiserschmarrn) oder im Kaisertal (Anton-Karg-Haus). Fahrtechnisch fordert die Nordabfahrt grober Schotter mit Wurzelpassagen - Reifenbreite ab 45 mm empfohlen.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-breitenstein-sonnenwendjoch.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-breitenstein-sonnenwendjoch.gpx" class="btn-gpx" download data-gpx="firstalm-breitenstein-sonnenwendjoch" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Pause.jpg" alt="Firstalm to Thiersee-Umrundung: Jochpass-Gravel - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Thiersee-Umrundung: Jochpass-Gravel</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter / 30% Asphalt &middot; Schwierigkeit: Mittel (S1-S2)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Die Thiersee-Umrundung kombiniert den reizvollen See mit den Panorama-Forstwegen der Sonnenwendjoch-Nordseite. Tolle Einkehr im Gasthof Kirchbichl oder am Seeufer in Vorderthiersee. Asphalt-Anteil moderat, ideal fuer gemuetliche Grenzgaenger.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-thiersee-umrundung.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-thiersee-umrundung.gpx" class="btn-gpx" download data-gpx="firstalm-thiersee-umrundung" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Strasse Spitzingsee.jpg" alt="Firstalm to Kufstein: Festungsblick-Gravel - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Kufstein: Festungsblick-Gravel</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 65% Schotter / 35% Asphalt &middot; Schwierigkeit: Anspruchsvoll (S2)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Highlight ist der Blick auf die Festung Kufstein am Inn, nachdem man vom Sonnenwendjoch abgestiegen ist. Die Forstwege auf oesterreichischer Seite sind gut fahrbar, der Innradweg dient als Erholungsabschnitt. Kaffee-Stopp in der Altstadt Kufstein.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-kufstein-festungsblick.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-kufstein-festungsblick.gpx" class="btn-gpx" download data-gpx="firstalm-kufstein-festungsblick" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Bergaussicht.jpg" alt="Firstalm to Ruebezahlalm: Kaiserblick-Gravel - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Ruebezahlalm: Kaiserblick-Gravel</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% Schotter &middot; Schwierigkeit: Anspruchsvoll (S2)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Die Ruebezahlalm oberhalb von Ellmau ist der perfekte Einkehr-Klassiker mit Blick auf das 'Kaiser' -Wilder Kaiser-Massiv. Grober Schotter auf der Gipfelrampe, danach flowige Abfahrt. Kaiserschmarrn hier ein Muss.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-ruabezahlalm-ellmau.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-ruabezahlalm-ellmau.gpx" class="btn-gpx" download data-gpx="firstalm-ruabezahlalm-ellmau" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/die-berge.jpg" alt="Firstalm to Hinterbaerenbad: Kaisertal-Gravel - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Hinterbaerenbad: Kaisertal-Gravel</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 85% Schotter &middot; Schwierigkeit: Anspruchsvoll (S2+)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Hinterbaerenbad im Kaisertal liegt tief eingebettet zwischen Wildem Kaiser und Zahmem Kaiser - eine der abgelegensten Einkehrstellen Tirols. Die Forstwege sind steil und teilweise grob; technische FahrkÃ¼nste gefragt. Die Huette serviert Deftiges.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-hinterbaerenbad-kletterer.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-hinterbaerenbad-kletterer.gpx" class="btn-gpx" download data-gpx="firstalm-hinterbaerenbad-kletterer" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/bergpanorama-see.jpg" alt="Firstalm to Rettenschoess: Inntal-Durchstich - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Rettenschoess: Inntal-Durchstich</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 60% Schotter / 40% Asphalt &middot; Schwierigkeit: Mittel (S1-S2)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Ruhiger Inntal-Zielort mit schoener Flusspromenade. Die Kombination aus Joch-Traverse und flachem Inntal-Radweg macht die Tour abwechslungsreich. Genussradeln ab Thiersee.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-rettenschoess.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-rettenschoess.gpx" class="btn-gpx" download data-gpx="firstalm-rettenschoess" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/ausblickschliersbergalm.jpg" alt="Firstalm to Walchsee: Talschaft-Gravel - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Walchsee: Talschaft-Gravel</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter / 30% Asphalt &middot; Schwierigkeit: Anspruchsvoll (S2)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Walchsee liegt am Suedrand des Kaisergebirges und bietet Badesee-Feeling nach der Tour. Lange, aber landschaftlich grossartige Strecke. Empfehlung: frueh starten, Sonnenwendjoch vor der Mittagshitze.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-walchsee.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-walchsee.gpx" class="btn-gpx" download data-gpx="firstalm-walchsee" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/ausblick-von-der-obere-firstalm-auf-den-brecherspitz.jpg" alt="GrenzgÃ¤nger Kaiser-Rundloop: Sonnenwendjoch + Ellmau - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">GrenzgÃ¤nger Kaiser-Rundloop: Sonnenwendjoch + Ellmau</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% Schotter &middot; Schwierigkeit: Schwer (S3)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Der grosse Kaiser-Rundloop verbindet Sonnenwendjoch, Ruebezahlalm und Ellmau zu einer epischen Runde direkt unterhalb des Wilden Kaisers. Sehr viele Hoehenmeter, lange Anstiege auf grobem Schotter. Nur fuer konditionsstarke Grenzgaenger.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-kaiser-rundloop.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-kaiser-rundloop.gpx" class="btn-gpx" download data-gpx="firstalm-kaiser-rundloop" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/firstalmen.jpg" alt="Firstalm to Breitenstein-Grat: Sonnenwendjoch-Hoehenweg - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Breitenstein-Grat: Sonnenwendjoch-Hoehenweg</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 85% Schotter &middot; Schwierigkeit: Anspruchsvoll (S2+)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Der Sonnenwendjoch ist der Hohepunkt - Aussicht ueber Thiersee und zum Kaiser. Der Breitenstein-Forstweg ist grob und steil; auf der Hochflaeche oeffnet sich eine Almen-Welt mit Einkehr. Almpfand der Sonnenwendalm.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-breitenstein-grat-tour.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-breitenstein-grat-tour.gpx" class="btn-gpx" download data-gpx="firstalm-breitenstein-grat-tour" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/obere-firstalm-terrasse.jpg" alt="Firstalm to Thiersee See: Genuss-Grenzer - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Thiersee See: Genuss-Grenzer</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 60% Schotter / 40% Asphalt &middot; Schwierigkeit: Leicht (S1)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Die einfachste Thiersee-Variante fuer Genussfahrer. Einkehr direkt am See (CafÃ© am Thiersee), Schwimm-Stopp moeglich. Ideal fuer Einsteiger in die Grenzgaenger-Welt.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-thiersee-see-cafe.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-thiersee-see-cafe.gpx" class="btn-gpx" download data-gpx="firstalm-thiersee-see-cafe" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel Reise.jpg" alt="Firstalm to Kufstein-Ebbs: Inntal-Grenzrunde - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Kufstein-Ebbs: Inntal-Grenzrunde</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 65% Schotter / 35% Asphalt &middot; Schwierigkeit: Mittel (S1-S2)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Die Runde verbindet das Sonnenwendjoch mit dem lebendigen Ebbs und Kufstein. Blick auf Festung Kufstein und das Inntal. Einkehr in Ebbs oder Gasthof in Thiersee.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-kufstein-ebbs-rund.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-kufstein-ebbs-rund.gpx" class="btn-gpx" download data-gpx="firstalm-kufstein-ebbs-rund" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/Gravel.jpg" alt="Firstalm to Ursprungpass: Sonnenwendjoch-Direttissima - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Ursprungpass: Sonnenwendjoch-Direttissima</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 75% Schotter &middot; Schwierigkeit: Mittel (S1-S2)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Kompakte Grenzgaenger-Tour mit Sonnenwendjoch als Ziel. Der Meilerweg ist ein klassischer Alpinschotter-Anstieg mit Waldpassagen. Einkehr am Ursprungpass.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-ursprungpass-sonnenwend.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-ursprungpass-sonnenwend.gpx" class="btn-gpx" download data-gpx="firstalm-ursprungpass-sonnenwend" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/alpenblumen.jpg" alt="Firstalm to Ellmau-Going: Kaiser-Dorftour - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Ellmau-Going: Kaiser-Dorftour</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 75% Schotter &middot; Schwierigkeit: Anspruchsvoll (S2)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Zwei Kaiser-Doerfer in einer Tour: Ellmau und Going mit ihren urigen Gasthoefen. Die Forstwege am Goingberg sind flowig; der Sonnenwendjoch-Anstieg das Kraftpaket. Einkehr: Ruebezahlalm (Kaiserschmarrn).</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-ellmau-going.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-ellmau-going.gpx" class="btn-gpx" download data-gpx="firstalm-ellmau-going" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/huttefirstalm.jpg" alt="Firstalm to Hinterthiersee: Sonnenwendjoch-Schleife - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Hinterthiersee: Sonnenwendjoch-Schleife</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 75% Schotter &middot; Schwierigkeit: Mittel (S1-S2)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Hinterthiersee ist die ideale Grenz-Basis. Die Jochweg-Schleife zum Sonnenwendjoch ist kurz und knackig. Almen-Einkehr mit Blick ueber das Thierseer Tal.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-hinterthiersee-joch.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-hinterthiersee-joch.gpx" class="btn-gpx" download data-gpx="firstalm-hinterthiersee-joch" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/wandern-alpen.jpg" alt="Firstalm to Kufstein: Lebensraum-Inn-Gravel - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Kufstein: Lebensraum-Inn-Gravel</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 60% Schotter / 40% Asphalt &middot; Schwierigkeit: Anspruchsvoll (S2)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Kufstein ist Ziel dieser 'Lebensraum-Inn'-Tour - die Naturlandschaft am Inn und die Festung als Kulisse. Lange Forstweg-Anstiege fordern Kondition, Belohnung ist die Innpromenade.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-kufstein-lebensraum.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-kufstein-lebensraum.gpx" class="btn-gpx" download data-gpx="firstalm-kufstein-lebensraum" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/spitzingsee-perfekt.jpg" alt="Firstalm to Walchsee-Koessen: Grenz-Hochtour - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Walchsee-Koessen: Grenz-Hochtour</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter &middot; Schwierigkeit: Schwer (S3)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Epische Grenztour bis an die Tore des Kaisergebirges. Walchsee und Koessen liegen am Fusse der eindrucksvollen Felswaende. Sehr lange Distanz - Wasser und Verpflegung unbedingt planen.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-walchsee-koessen.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-walchsee-koessen.gpx" class="btn-gpx" download data-gpx="firstalm-walchsee-koessen" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/ausblickaufseevonfreundenreichalm.jpg" alt="Firstalm Ruebezahlalm + Sonnenwendjoch: Kaiser-Doppel - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm Ruebezahlalm + Sonnenwendjoch: Kaiser-Doppel</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% Schotter &middot; Schwierigkeit: Anspruchsvoll (S2+)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Kombination der beiden Highlights: Sonnenwendjoch und Ruebezahlalm oberhalb von Ellmau. Der Kaiserblick von der Ruebezahlalm ist grandios. Grober Schotter auf der Jochrampe, danach flÃ¼ssige Abfahrten.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-ruabezahl-sonnenwend-kombi.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-ruabezahl-sonnenwend-kombi.gpx" class="btn-gpx" download data-gpx="firstalm-ruabezahl-sonnenwend-kombi" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/schliersee-see.jpg" alt="Firstalm to Ebbs: Kaisertal-Anreise-Runde - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Ebbs: Kaisertal-Anreise-Runde</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 80% Schotter &middot; Schwierigkeit: Anspruchsvoll (S2)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Ebbs ist das Tor zum Kaisertal. Die Tour kombiniert Sonnenwendjoch mit dem Kaiser-Flair des Kaisertals. Einkehr in Ebbs (Dorfgasthof) und am Thiersee.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-ebbs-kaisertal.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-ebbs-kaisertal.gpx" class="btn-gpx" download data-gpx="firstalm-ebbs-kaisertal" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/see-klar.jpg" alt="Firstalm Sonnenwendjoch-Koenigsrunde: Grenz-Monster - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm Sonnenwendjoch-Koenigsrunde: Grenz-Monster</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 78% Schotter &middot; Schwierigkeit: Schwer (S3)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Die Koenigsrunde unter den Grenzgaengern: drei Kaiser-Taeler, zwei Joch-Querungen, riesige Distanz. Nur fuer sehr erfahrene, ausdauernde Gravelbiker, die tagfuellend unterwegs sein wollen.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-sonnenwend-koenigsrunde.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-sonnenwend-koenigsrunde.gpx" class="btn-gpx" download data-gpx="firstalm-sonnenwend-koenigsrunde" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                        <article class="silo-card" style="opacity:1;animation:none;display:flex;flex-direction:column;overflow:hidden;">
+                            <div style="height:170px;overflow:hidden;"><img src="images/wohnen-in-den-alpen.jpg" alt="Firstalm to Kaiserwinkel: Sonnenwend-Flow - Gravel-Tour" loading="lazy" style="width:100%;height:100%;object-fit:cover;"></div>
+                            <div class="silo-card-body" style="text-align:center;display:flex;flex-direction:column;flex:1;">
+                                <h3 style="color:var(--color-wood-dark);margin-bottom:var(--space-xs);font-size:1.15rem;">Firstalm to Kaiserwinkel: Sonnenwend-Flow</h3>
+                                                                <p style="color:var(--color-text-light);font-size:0.82rem;margin-bottom:var(--space-sm);">Untergrund: 70% Schotter / 30% Asphalt &middot; Schwierigkeit: Mittel (S1-S2)</p>
+                                <p style="color:#64748b;font-size:0.8rem;line-height:1.5;margin-bottom:var(--space-md);">Highlights &amp; Einkehr: Die Flow-Variante fuer Genussfahrer: sanfter Sonnenwendjoch-Anstieg, anschliessend flowige Abfahrt nach Vorderthiersee. Einkehr am See und Kaiserschmarrn im Tal. Gute Wahl fuer mittel erfahrene Grenzgaenger.</p>
+                                <div style="margin-top:auto;"><div style="display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;"><a href="content/gravel/firstalm-kaiserwinkel-genuss.html" class="btn-affiliate" rel="nofollow">&#128290; Touren-Details &amp; Setup</a> <a href="content/gravel/gpx/firstalm-kaiserwinkel-genuss.gpx" class="btn-gpx" download data-gpx="firstalm-kaiserwinkel-genuss" rel="nofollow">&#11015;&#65039; GPX-Download</a> </div></div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+
+                </section>
+            </div>
+        </article>
+    </main>
+<footer class="site-footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/logo.svg" alt="Alpen-Experte" width="160" height="42" loading="lazy">
+                    <p>Echte Alm-Praxis. Seit 2025.</p>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Essen &amp; Trinken</h4>
+                    <ul>
+                        <li><a href="huetten.html">Huetten & Almen</a></li>
+                        <li><a href="restaurants.html">Restaurants</a></li>
+                        <li><a href="live-check.html">Wetter & Webcams</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Aktivitaeten</h4>
+                    <ul>
+                        <li><a href="content/wandern/index.html">Wandern</a></li>
+                        <li><a href="gravel.html">Gravel Biking</a></li>
+                        <li><a href="content/mtb/index.html">MTB-Touren</a></li>
+                        <li><a href="content/winter/index.html">Winter-Guide</a></li>
+                        <li><a href="packlisten.html">Packlisten</a></li>
+                        <li><a href="anreise.html">Anreise & Parken</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4 class="footer-heading">Rechtliches</h4>
+                    <ul>
+                        <li><a href="impressum.html">Impressum</a></li>
+                        <li><a href="datenschutz.html">Datenschutz</a></li>
+                        <li><a href="impressum.html#affiliate">Affiliate-Offenlegung</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025&ndash;2026 Alpen-Experte. Alle Rechte vorbehalten.</p>
+                <p class="footer-disclaimer">Diese Seite enthaelt Affiliate-Links. Bei Kauf ueber diese Links erhalten wir eine kleine Provision &ndash; fuer dich entstehen keine Mehrkosten.</p>
+            </div>
+        </div>
+    </footer>
+<script src="js/main.js?v=20261025b" defer></script>
+</body>
+</html>

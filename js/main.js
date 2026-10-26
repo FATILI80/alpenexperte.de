@@ -36,30 +36,44 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainNav = document.getElementById('mainNav');
 
     if (navToggle && mainNav) {
-        navToggle.addEventListener('click', () => {
+        const closeNav = () => {
+            mainNav.classList.remove('is-open');
+            mainNav.classList.remove('open');
+            document.body.classList.remove('nav-open');
+            navToggle.setAttribute('aria-expanded', 'false');
+            navToggle.setAttribute('aria-label', 'MenÃ¼ Ã¶ffnen');
+        };
+
+        navToggle.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
             const isOpen = mainNav.classList.toggle('is-open');
+            mainNav.classList.toggle('open', isOpen);
             document.body.classList.toggle('nav-open', isOpen);
             navToggle.setAttribute('aria-expanded', isOpen);
-            navToggle.setAttribute('aria-label', isOpen ? 'Menü schließen' : 'Menü öffnen');
+            navToggle.setAttribute('aria-label', isOpen ? 'MenÃ¼ schlieÃŸen' : 'MenÃ¼ Ã¶ffnen');
         });
 
-        // Navigation schließen bei Klick auf einen Link (Mobile)
-        mainNav.querySelectorAll('.nav-link').forEach(link => {
+        // Navigation schlieÃŸen bei Klick auf einen echten Link (Mobile)
+        mainNav.querySelectorAll('a.nav-link, a.megamenu-item, .nav-dropdown a').forEach(link => {
             link.addEventListener('click', () => {
-                mainNav.classList.remove('is-open');
-                document.body.classList.remove('nav-open');
-                navToggle.setAttribute('aria-expanded', 'false');
-                navToggle.setAttribute('aria-label', 'Menü öffnen');
+                if (window.innerWidth <= 900) closeNav();
             });
         });
 
-        // Navigation schließen bei Escape
+        // Klick ausserhalb schliesst (Mobile)
+        document.addEventListener('click', (e) => {
+            if (window.innerWidth <= 900 && mainNav.classList.contains('is-open')) {
+                if (!mainNav.contains(e.target) && !navToggle.contains(e.target)) {
+                    closeNav();
+                }
+            }
+        });
+
+        // Navigation schlieÃŸen bei Escape
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape' && mainNav.classList.contains('is-open')) {
-                mainNav.classList.remove('is-open');
-                document.body.classList.remove('nav-open');
-                navToggle.setAttribute('aria-expanded', 'false');
-                navToggle.setAttribute('aria-label', 'Menü öffnen');
+                closeNav();
                 navToggle.focus();
             }
         });
@@ -70,9 +84,9 @@ document.addEventListener('DOMContentLoaded', () => {
         ========================================================= */
     document.querySelectorAll('.nav-dropdown-toggle').forEach(toggle => {
         toggle.addEventListener('click', (e) => {
-            // Nur auf mobilen Geräten togglen (Dropdown ist sichtbar)
-            if (window.innerWidth <= 768) {
+            if (window.innerWidth <= 900) {
                 e.preventDefault();
+                e.stopPropagation();
                 const dropdown = toggle.nextElementSibling;
                 if (dropdown && dropdown.classList.contains('nav-dropdown')) {
                     const isOpen = dropdown.classList.toggle('is-open');
@@ -80,23 +94,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         });
-
-        // Desktop: aria-expanded anpassen bei hover
-        const dropdown = toggle.nextElementSibling;
-        if (dropdown && dropdown.classList.contains('nav-dropdown')) {
-            toggle.parentElement.addEventListener('mouseenter', () => {
-                if (window.innerWidth > 768) {
-                    toggle.setAttribute('aria-expanded', 'true');
-                }
-            });
-            toggle.parentElement.addEventListener('mouseleave', () => {
-                if (window.innerWidth > 768) {
-                    toggle.setAttribute('aria-expanded', 'false');
-                }
-            });
-        }
     });
-
     /* =========================================================
         2. SMOOTH SCROLL FÜR ANCHOR-LINKS
        ========================================================= */
