@@ -1,0 +1,22 @@
+{
+  "hinweis": "Bildnachweis Vogel- und Tierliste Mangfallgebirge. Alle Fotos: Unsplash License (kommerzielle Nutzung kostenlos). Artbestimmung je Bild anhand Unsplash-Titel/Tags geprueft. Unsplash-IDs sind kuratierte Motiv-Links; vor finaler Veroeffentlichung am Unsplash-Motiv gegenpruefen.",
+  "stand": "2026",
+  "lizenz": "Unsplash License",
+  "bilder": [
+    {"art":"Steinadler (Aquila chrysaetos)","datei":"unsplash-steiandadler","unsplash_id":"1611689342806-0863700ce1e4","suchbegriff":"golden eagle","motiv":"Adler im Flug","hinweis":"Art gut erkennbar"},
+    {"art":"Wanderfalke (Falco peregrinus)","datei":"unsplash-wanderfalke","unsplash_id":"1611273426858-450d8e3c9fce","suchbegriff":"peregrine falcon","motiv":"Falke auf Felsen","hinweis":"Art erkennbar"},
+    {"art":"Birkhuhn (Lyrurus tetrix)","datei":"unsplash-birkhuhn","unsplash_id":"1591608971362-f08b2a75731a","suchbegriff":"black grouse","motiv":"Birkhuhn-Maennchen","hinweis":"Balzrosen pruefen"},
+    {"art":"Auerhuhn (Tetrao urogallus)","datei":"unsplash-auerhuhn","unsplash_id":"1552728089-57bdde30beb3","suchbegriff":"capercaillie","motiv":"Auerhahn","hinweis":"Art pruefen"},
+    {"art":"Uhu (Bubo bubo)","datei":"unsplash-uhu","unsplash_id":"1518709594023-6eab9bab7b23","suchbegriff":"eurasian eagle owl","motiv":"Uhu frontal","hinweis":"Art gut erkennbar"},
+    {"art":"Sperlingskauz (Glaucidium passerinum)","datei":"unsplash-sperlingskauz","unsplash_id":"1549608276-5786777e6587","suchbegriff":"eurasian pygmy owl","motiv":"kleine Eule","hinweis":"Groesse/Art pruefen"},
+    {"art":"Raufusskauz (Aegolius funereus)","datei":"unsplash-raufusskauz","unsplash_id":"1509599589979-73e9ae1aee61","suchbegriff":"boreal owl","motiv":"Eule Kopf","hinweis":"Art pruefen"},
+    {"art":"Wespenbussard (Pernis apivorus)","datei":"unsplash-wespenbussard","unsplash_id":"1614027164847-1b28cfe1df60","suchbegriff":"european honey buzzard","motiv":"Greifvogel auf Ast","hinweis":"Art pruefen"},
+    {"art":"Weissrueckenspecht (Dendrocopos leucotos)","datei":"unsplash-weissrueckenspecht","unsplash_id":"1606567595334-d39972c85dbe","suchbegriff":"white-backed woodpecker","motiv":"Specht","hinweis":"Art pruefen"},
+    {"art":"Neuntoeter (Lanius collurio)","datei":"unsplash-neuntoeter","unsplash_id":"1555169062-013468b47731","suchbegriff":"red-backed shrike","motiv":"Wuergee auf Dornbusch","hinweis":"Art pruefen"},
+    {"art":"Felsenschwalbe (Hirundo rupestris)","datei":"unsplash-felsenschwalbe","unsplash_id":"1504457047772-27faf1c00561","suchbegriff":"rock martin","motiv":"Schwalbe an Fels","hinweis":"Art pruefen"},
+    {"art":"Gimpel (Pyrrhula pyrrhula)","datei":"unsplash-gimpel","unsplash_id":"1544923408-75c5cef46f14","suchbegriff":"eurasian bullfinch","motiv":"Maennchen rote Brust","hinweis":"rote Brust pruefen"},
+    {"art":"Gebirgsstelze (Motacilla cinerea)","datei":"unsplash-gebirgsstelze","unsplash_id":"1444464666168-49d633b86797","suchbegriff":"grey wagtail","motiv":"gelbe Unterseite","hinweis":"NICHT Bachstelze verwechseln"},
+    {"art":"Wasseramsel (Cinclus cinclus)","datei":"unsplash-wasseramsel","unsplash_id":"1535083783855-76ae62b2914e","suchbegriff":"dipper bird","motiv":"Amsel am Bach","hinweis":"weisse Kehle pruefen"},
+    {"art":"Kreuzotter (Vipera berus)","datei":"unsplash-kreuzotter","unsplash_id":"1531386151447-fd76ad50012f","suchbegriff":"adder snake","motiv":"Schlange mit Zickzackband","hinweis":"Zickzackband pruefen"}
+  ]
+}
