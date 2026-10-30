@@ -1,28 +1,28 @@
-# Standardmäßig Zeilenenden normalisieren
+﻿# Standardmaessig Zeilenenden normalisieren
 * text=auto eol=lf
 
 # Windows-Skripte behalten CRLF
 *.bat text eol=crlf
 *.cmd text eol=crlf
 
-# === Git LFS: Große Mediendateien ===
-*.jpg  filter=lfs diff=lfs merge=lfs -text
-*.jpeg filter=lfs diff=lfs merge=lfs -text
-*.png  filter=lfs diff=lfs merge=lfs -text
-*.gif  filter=lfs diff=lfs merge=lfs -text
-*.webp filter=lfs diff=lfs merge=lfs -text
-*.avif filter=lfs diff=lfs merge=lfs -text
-*.bmp  filter=lfs diff=lfs merge=lfs -text
-*.tif  filter=lfs diff=lfs merge=lfs -text
-*.tiff filter=lfs diff=lfs merge=lfs -text
-*.mp4  filter=lfs diff=lfs merge=lfs -text
-*.mov  filter=lfs diff=lfs merge=lfs -text
-*.woff filter=lfs diff=lfs merge=lfs -text
-*.woff2 filter=lfs diff=lfs merge=lfs -text
-*.ttf  filter=lfs diff=lfs merge=lfs -text
+# Bilder werden als echte Binaerdateien in Git gespeichert (Vercel kann Git LFS NICHT aufloesen)
+*.jpg  -text
+*.jpeg -text
+*.png  -text
+*.gif  -text
+*.webp -text
+*.avif -text
+*.bmp  -text
+*.tif  -text
+*.tiff -text
 
 # Textdateien
 *.svg  text
 *.html text
 *.css  text
 *.js   text
+*.mp4  -text
+*.mov  -text
+*.woff  -text
+*.woff2 -text
+*.ttf   -text
