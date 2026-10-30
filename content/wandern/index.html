@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wanderrouten im Mangfallgebirge | Alpen-Experte</title>
-    <meta name="description" content="61 Wanderrouten zwischen Tegernsee, Schliersee, Spitzingsee und Valepp. Nach Schwierigkeit sortiert (T1-T4) â€“ mit Tourensteckbrief, Ã–PNV und HÃ¼ttentipps." />
+    <meta name="description" content="61 Wanderrouten zwischen Tegernsee, Schliersee, Spitzingsee und Valepp. Nach Schwierigkeit sortiert (T1-T4) – mit Tourensteckbrief, ÖPNV und Hüttentipps." />
     <style>
         /* ===== ROUTEN-GRID (3 Schwierigkeits-Abschnitte) ===== */
         .routen-section {
@@ -46,10 +46,10 @@
             flex-grow: 1;
         }
     </style>
-    <link rel="stylesheet" href="../../css/style.css?v=20260608" />
+    <link rel="stylesheet" href="../../css/style.css?v=20260612b" />
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
     <meta property="og:title" content="Wanderrouten im Mangfallgebirge | Alpen-Experte" />
-    <meta property="og:description" content="Wanderrouten mit Tourensteckbrief, Ã–PNV-Anbindung und HÃ¼ttentipps." />
+    <meta property="og:description" content="Wanderrouten mit Tourensteckbrief, ÖPNV-Anbindung und Hüttentipps." />
     <meta property="og:image" content="https://www.alpenexperte.de/images/wandern-motiv2.jpg" />
     <link rel="canonical" href="https://www.alpenexperte.de/content/wandern/index.html" />
 </head>
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded',function(){
     if(typeof L==='undefined'){s.innerHTML='âŒ Karte nicht geladen';return;}
     try{
         var m=L.map('route-map-content-wandern-index').setView([47.65,11.92],12);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'Â© OSM',maxZoom:19}).addTo(m);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OSM',maxZoom:19}).addTo(m);
         var r=L.polyline([[47.652,11.923],[47.645,11.93],[47.635,11.94],[47.62,11.92],[47.61,11.905]],{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker([47.652,11.923],{color:"#2ECC71",radius:10,fillOpacity:.8}).bindPopup("Spitzingsee").addTo(m);
         L.circleMarker([47.645,11.93],{color:"#E74C3C",radius:10,fillOpacity:.8}).bindPopup("Rotwand 1884m").addTo(m);
@@ -96,7 +96,7 @@ document.addEventListener('DOMContentLoaded',function(){
                 <span class="featured-badge" style="background: rgba(45,138,86,0.12); color: #2d8a56; display: inline-block; margin-bottom: var(--space-sm);">ðŸ¥¾ 61 Wanderrouten</span>
                 <span class="visually-hidden" id="routen-count-dynamic"></span>
                 <h1>Wanderrouten im Mangfallgebirge</h1>
-                <p style="font-size: var(--step-1); color: var(--color-text-light); max-width: 700px;">Von gemÃ¼tlichen See-Umrundungen (T1) bis zu anspruchsvollen GratÃ¼berschreitungen (T4) â€“ mit Tourensteckbrief, Ã–PNV-Anbindung und HÃ¼ttenempfehlungen.</p>
+                <p style="font-size: var(--step-1); color: var(--color-text-light); max-width: 700px;">Von gemütlichen See-Umrundungen (T1) bis zu anspruchsvollen Gratüberschreitungen (T4) – mit Tourensteckbrief, ÖPNV-Anbindung und Hüttenempfehlungen.</p>
 <div class="hero-image" style="margin:var(--space-lg) 0;"><img src="/images/wandern-motiv2.jpg" alt="Wandern Motiv2" style="width:100%;height:auto;border-radius:var(--radius-lg);" loading="eager" /></div>
 
             </header>
@@ -105,15 +105,15 @@ document.addEventListener('DOMContentLoaded',function(){
 
             <!-- ===== ðŸŸ¢ LEICHT (T1-T2) ===== -->
             <section class="routen-section" aria-labelledby="routen-leicht">
-                <h2 id="routen-leicht" class="routen-section-heading routen-section-heading--leicht">ðŸŸ¢ Leichte Wanderungen &amp; Familienrunden (T1â€“T2)</h2>
+                <h2 id="routen-leicht" class="routen-section-heading routen-section-heading--leicht">ðŸŸ¢ Leichte Wanderungen &amp; Familienrunden (T1–T2)</h2>
 <a href="schwierigkeit-t1.html" style="display:inline-block;margin:0 0 1rem;padding:0.3rem 0.9rem;background:#f4f6f8;border:1px solid #d5dde5;border-radius:20px;font-size:0.8rem;font-weight:600;color:#2d8a56;text-decoration:none;">Was bedeutet T1? &rarr;</a> <a href="schwierigkeit-t2.html" style="display:inline-block;margin:0 0 1rem;padding:0.3rem 0.9rem;background:#f4f6f8;border:1px solid #d5dde5;border-radius:20px;font-size:0.8rem;font-weight:600;color:#2d8a56;text-decoration:none;">Was bedeutet T2? &rarr;</a>
                 <div class="routen-grid">
 
                     <article class="silo-card">
                         <a href="spitzingsee-umrundung.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Spitzingsee-Umrundung (1.090 m) â€“ See-Runde</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">GemÃ¼tliche Runde um den idyllischen Spitzingsee â€“ ideal fÃ¼r Familien.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Spitzingsee-Umrundung (1.090 m) – See-Runde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Runde um den idyllischen Spitzingsee – ideal für Familien.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -121,8 +121,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="valepp-talwanderung.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Valepp-Talwanderung (900 m) â€“ Talwanderung</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">GemÃ¼tliche Talwanderung durch das wildromantische Valepptal.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Valepp-Talwanderung (900 m) – Talwanderung</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Talwanderung durch das wildromantische Valepptal.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -130,8 +130,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="untere-firstalm-runde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Untere Firstalm-Runde (1.400 m) â€“ Familienrunde</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Entspannte Runde zur Unteren Firstalm fÃ¼r die ganze Familie.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Untere Firstalm-Runde (1.400 m) – Familienrunde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Entspannte Runde zur Unteren Firstalm für die ganze Familie.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -139,8 +139,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="untere-firstalm.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Untere Firstalm â€“ Familienwanderung am Spitzingsee</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Leichte Almwanderung â€“ ideal fÃ¼r einen Familiensonntag.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Untere Firstalm – Familienwanderung am Spitzingsee</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Leichte Almwanderung – ideal für einen Familiensonntag.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -148,8 +148,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="blomberg.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Blomberg (1.248 m) â€“ Familienberg am Tegernsee</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der klassische Familienberg am Tegernsee â€“ auch mit Sesselbahn.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Blomberg (1.248 m) – Familienberg am Tegernsee</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der klassische Familienberg am Tegernsee – auch mit Sesselbahn.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="kirchlesberg-runde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Kirchlesberg-Runde (1.140 m) â€“ Spazierweg</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Kirchlesberg-Runde (1.140 m) – Spazierweg</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Leichte Runde mit Kapelle und Seeblick.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -166,8 +166,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="rottach-egern-seerunde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Rottach-Egern Seerunde (740 m) â€“ See-Runde</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Flache Runde entlang des SÃ¼dufers des Tegernsees.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rottach-Egern Seerunde (740 m) – See-Runde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Flache Runde entlang des Südufers des Tegernsees.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="teufelsgraben.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Teufelsgraben-Runde (920 m) â€“ Klammwanderung</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Teufelsgraben-Runde (920 m) – Klammwanderung</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Wilde Klammwanderung durch den Teufelsgraben.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="angerer-alm.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Angerer Alm (1.250 m) â€“ Familientour</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Angerer Alm (1.250 m) – Familientour</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Leichte Wanderung zur Angerer Alm.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="sulzbergalm-runde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Sulzbergalm-Runde (1.180 m) â€“ Genusstour</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Sulzbergalm-Runde (1.180 m) – Genusstour</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Entspannte Runde mit Alm-Einkehr.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -202,8 +202,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="ringsee-runde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Ringsee-Runde (1.100 m) â€“ Naturerlebnis</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">GemÃ¼tliche Runde zum stillen Ringsee.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Ringsee-Runde (1.100 m) – Naturerlebnis</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Runde zum stillen Ringsee.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -211,7 +211,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="stuibenalm-runde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Stuibenalm-Runde (1.320 m) â€“ Almrunde</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Stuibenalm-Runde (1.320 m) – Almrunde</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Leichte Almrunde mit Einkehr.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -220,8 +220,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="frillensee-runde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Frillensee-Runde (1.150 m) â€“ Naturerlebnis</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Runde zum geschÃ¼tzten Frillensee.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Frillensee-Runde (1.150 m) – Naturerlebnis</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Runde zum geschützten Frillensee.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="aueralm.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Aueralm (1.420 m) â€“ Almrunde</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Aueralm (1.420 m) – Almrunde</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Idyllische Almrunde im Schlierseer Gebirge.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -238,8 +238,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="schliersbergalm.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Schliersbergalm (1.061 m) â€“ Genusswanderung</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">GemÃ¼tliche Wanderung zur Schliersbergalm Ã¼ber dem See.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Schliersbergalm (1.061 m) – Genusswanderung</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Wanderung zur Schliersbergalm über dem See.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -247,7 +247,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="schoenmoosrunde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">SchÃ¶nmoosrunde (1.200 m) â€“ Rundweg</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Schönmoosrunde (1.200 m) – Rundweg</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Abwechslungsreiche Runde durch Wald und Moor.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -256,8 +256,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="himmelmoosalm.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Himmelmoosalm (1.340 m) â€“ Almziel</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">GemÃ¼tliche Almwanderung zur Himmelmoosalm.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Himmelmoosalm (1.340 m) – Almziel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Almwanderung zur Himmelmoosalm.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -265,8 +265,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="jaegerkamp-runde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">JÃ¤gerkamp-Runde (1.446 m) â€“ Rundweg</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundtour Ã¼ber JÃ¤gerkamp und Rinnerspitz-Sattel.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Jägerkamp-Runde (1.446 m) – Rundweg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundtour über Jägerkamp und Rinnerspitz-Sattel.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -274,7 +274,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="jaegerkamp.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">JÃ¤gerkamp (1.446 m) â€“ Kurze Wanderung am Spitzingsee</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Jägerkamp (1.446 m) – Kurze Wanderung am Spitzingsee</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Beliebte Halbtagestour mit Blick auf den Spitzingsee.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -283,7 +283,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="hintere-firstalm.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Hintere Firstalm (1.400 m) â€“ Almwandern</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Hintere Firstalm (1.400 m) – Almwandern</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Leichte Almwanderung zur urigen Hinteren Firstalm.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -292,8 +292,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="schoenfeldalm-runde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">SchÃ¶nfeldalm-Runde (1.360 m) â€“ Rundwanderung</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundweg Ã¼ber die SchÃ¶nfeldalm unterhalb der Rotwand.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Schönfeldalm-Runde (1.360 m) – Rundwanderung</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundweg über die Schönfeldalm unterhalb der Rotwand.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -301,7 +301,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="aibleck-rundweg.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Aibleck-Rundweg (1.520 m) â€“ Rundweg</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Aibleck-Rundweg (1.520 m) – Rundweg</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Abwechslungsreiche Rundtour um das Aibleck.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="kesselalm.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Kesselalm (1.280 m) â€“ Familienalm</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Kesselalm (1.280 m) – Familienalm</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Leichte Wanderung zur Kesselalm am Tegernsee.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -319,8 +319,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="spitzingsee-suesswasser.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">SÃ¼ÃŸwasseralm-Runde (1.380 m) â€“ Almrunde</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundwanderung zur SÃ¼ÃŸwasseralm.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Süßwasseralm-Runde (1.380 m) – Almrunde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundwanderung zur Süßwasseralm.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -328,7 +328,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="spitzingsee-bergwald.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Bergwald-Runde Spitzingsee (1.250 m) â€“ Waldtour</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Bergwald-Runde Spitzingsee (1.250 m) – Waldtour</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Stille Waldrunde abseits des Trubels.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -337,7 +337,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="miesing-runde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Miesing-Runde (1.300 m) â€“ Rundweg</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Miesing-Runde (1.300 m) – Rundweg</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Waldreiche Rundtour zur Miesingalm.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -346,8 +346,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="toter-mann-runde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Toter-Mann-Runde (1.400 m) â€“ Rundweg</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundtour Ã¼ber den RÃ¶telsteinsattel.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Toter-Mann-Runde (1.400 m) – Rundweg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundtour über den Rötelsteinsattel.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="krottentalalm.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Krottentalalm (1.350 m) â€“ Almrunde</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Krottentalalm (1.350 m) – Almrunde</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Ruhige Almwanderung im Krottental.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -364,8 +364,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="rottachalm.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Rottachalm (1.400 m) â€“ Almziel</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">GemÃ¼tliche Almwanderung mit Blick auf den See.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rottachalm (1.400 m) – Almziel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Almwanderung mit Blick auf den See.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -373,8 +373,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="holzeralm.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Holzer Alm (1.300 m) â€“ Familientour</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">GemÃ¼tliche Almwanderung, ideal mit Kindern.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Holzer Alm (1.300 m) – Familientour</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütliche Almwanderung, ideal mit Kindern.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -382,8 +382,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="kuempflalm.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">KÃ¼mpflalm (1.450 m) â€“ Almziel</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Halbtageswanderung zur einsamen KÃ¼mpflalm.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Kümpflalm (1.450 m) – Almziel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Halbtageswanderung zur einsamen Kümpflalm.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -391,7 +391,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="acher-blick-runde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Acher-Blick-Runde (1.100 m) â€“ Aussichtsrunde</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Acher-Blick-Runde (1.100 m) – Aussichtsrunde</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Runde mit Blick ins Achental.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -400,7 +400,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="hinterriss-runde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Hinterriss-Runde (1.500 m) â€“ Wildnis</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Hinterriss-Runde (1.500 m) – Wildnis</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Einsame Tour zur urigen Hinterriss-Alm.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -409,7 +409,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="oberaudorf-kaltental.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Kaltental-Runde (1.050 m) â€“ Talschlucht</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Kaltental-Runde (1.050 m) – Talschlucht</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Rundwanderung durch das wildromantische Kaltental.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -418,8 +418,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="tegernseer-hoehenweg.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Tegernseer HÃ¶henweg (1.200 m) â€“ HÃ¶henweg</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Aussichtsreicher HÃ¶henweg Ã¼ber dem Tegernsee.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Tegernseer Höhenweg (1.200 m) – Höhenweg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Aussichtsreicher Höhenweg über dem Tegernsee.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -427,8 +427,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="rauschberghuette.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Rauschberg-HÃ¶henweg (1.600 m) â€“ HÃ¶henweg</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Anspruchsvoller HÃ¶henweg mit Fernsicht.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rauschberg-Höhenweg (1.600 m) – Höhenweg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Anspruchsvoller Höhenweg mit Fernsicht.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -436,8 +436,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="schwarzenkopf.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Schwarzenkopf (1.520 m) â€“ Gipfelziel</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Ãœberschaubarer Gipfel mit weiter Sicht.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Schwarzenkopf (1.520 m) – Gipfelziel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Überschaubarer Gipfel mit weiter Sicht.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -456,8 +456,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="brecherspitz.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Brecherspitz (1.683 m) â€“ Klassischer Gipfel</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der berÃ¼hmte Aussichtsberg Ã¼ber dem Spitzingsee. Kurz, steil, grandios.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Brecherspitz (1.683 m) – Klassischer Gipfel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der berühmte Aussichtsberg über dem Spitzingsee. Kurz, steil, grandios.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -465,8 +465,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="bodenschneid.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Bodenschneid (1.668 m) â€“ Panorama-Grat</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gratweg Ã¼ber die Bodenschneid mit Blick auf Tegernsee und Spitzingsee.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Bodenschneid (1.668 m) – Panorama-Grat</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gratweg über die Bodenschneid mit Blick auf Tegernsee und Spitzingsee.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -474,8 +474,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="rinnerspitz.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Rinnerspitz (1.615 m) â€“ Einsamer Gipfel</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Ruhige Alternative zur Brecherspitz mit freiem GipfelgefÃ¼hl.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rinnerspitz (1.615 m) – Einsamer Gipfel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Ruhige Alternative zur Brecherspitz mit freiem Gipfelgefühl.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -483,8 +483,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="rossstein.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">RoÃŸstein (1.698 m) â€“ Gipfel mit HÃ¼tte</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">GemÃ¼tlicher Gipfel mit gleichnamiger HÃ¼tte am Grat.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Roßstein (1.698 m) – Gipfel mit Hütte</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gemütlicher Gipfel mit gleichnamiger Hütte am Grat.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -492,7 +492,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="buchstein.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Buchstein (1.701 m) â€“ Anspruchsvoll</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Buchstein (1.701 m) – Anspruchsvoll</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Alpine Felsenburg mit anspruchsvoller Kletterpassage.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -501,8 +501,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="aiplspitz.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Aiplspitz (1.827 m) â€“ Anspruchsvolle Wanderung</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Aussichtsreiche Wanderung auf den grasigen Gipfel Ã¼ber dem See.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Aiplspitz (1.827 m) – Anspruchsvolle Wanderung</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Aussichtsreiche Wanderung auf den grasigen Gipfel über dem See.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -510,8 +510,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="aiplspitz-runde.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Aiplspitz-Runde (1.827 m) â€“ Grasgipfel</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Hochtour auf den grasigen Aussichtsberg Ã¼ber dem See.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Aiplspitz-Runde (1.827 m) – Grasgipfel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Hochtour auf den grasigen Aussichtsberg über dem See.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -519,8 +519,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="rotwandhaus-aufstieg.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Rotwandhaus-Aufstieg (1.737 m) â€“ HÃ¼ttenziel</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Aufstieg zur hÃ¶chstgelegenen HÃ¼tte der Region.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rotwandhaus-Aufstieg (1.737 m) – Hüttenziel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Aufstieg zur höchstgelegenen Hütte der Region.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -528,8 +528,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="schoenfeldalm-rotwand.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">SchÃ¶nfeldalm zur Rotwand (1.884 m) â€“ Gipfeltour</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der klassische Rotwand-Aufstieg Ã¼ber die SchÃ¶nfeldalm.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Schönfeldalm zur Rotwand (1.884 m) – Gipfeltour</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der klassische Rotwand-Aufstieg über die Schönfeldalm.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -537,7 +537,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="hochmiesing.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Hochmiesing (1.883 m) â€“ KÃ¶nigsrunde am Spitzingsee</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Hochmiesing (1.883 m) – Königsrunde am Spitzingsee</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Lange, aussichtsreiche Rundtour auf den Hochmiesing.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -549,7 +549,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="wallberg.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Wallberg (1.722 m) â€“ Klassiker</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Wallberg (1.722 m) – Klassiker</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der Hausberg von Rottach-Egern mit grandioser Aussicht.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -558,8 +558,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="schinder.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Schinder (1.808 m) â€“ Gipfelziel</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Aussichtsreicher Gipfel mit Blick Ã¼ber das ganze Gebirge.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Schinder (1.808 m) – Gipfelziel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Aussichtsreicher Gipfel mit Blick über das ganze Gebirge.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -567,7 +567,7 @@ document.addEventListener('DOMContentLoaded',function(){
                                         <article class="silo-card">
                         <a href="plankenstein.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Plankenstein (1.760 m) â€“ Hochtour</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Plankenstein (1.760 m) – Hochtour</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Lohnende Hochtour mit Blick zur Zugspitze.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -576,8 +576,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="wendelstein.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Wendelstein (1.838 m) â€“ Aussichtsberg</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der berÃ¼hmte Aussichtsberg mit Panoramablick.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Wendelstein (1.838 m) – Aussichtsberg</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Der berühmte Aussichtsberg mit Panoramablick.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -585,7 +585,7 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="rotwand-rundtour.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Rotwand-Rundtour (1.884 m) â€“ GroÃŸe Runde</h3>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rotwand-Rundtour (1.884 m) – Große Runde</h3>
                                 <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Anspruchsvolle Ganztagestour zur Rotwand.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
@@ -594,8 +594,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="bleckstein.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Bleckstein (1.400 m) â€“ Ruhiger Gipfel</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Unbekannter Aussichtsgipfel Ã¼ber dem Valepptal.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Bleckstein (1.400 m) – Ruhiger Gipfel</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Unbekannter Aussichtsgipfel über dem Valepptal.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -603,8 +603,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="rettenscharten.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Rettenscharten (1.600 m) â€“ Alpine Runde</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Anspruchsvolle Runde in unberÃ¼hrter Natur.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Rettenscharten (1.600 m) – Alpine Runde</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Anspruchsvolle Runde in unberührter Natur.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -612,8 +612,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="brecherspitz-grat.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">Brecherspitz-Grat (1.683 m) â€“ GratÃ¼berschreitung</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">GratÃ¼berschreitung mit ausgesetzten Passagen.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">Brecherspitz-Grat (1.683 m) – Gratüberschreitung</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Gratüberschreitung mit ausgesetzten Passagen.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -622,7 +622,7 @@ document.addEventListener('DOMContentLoaded',function(){
                         <a href="bodenschneid-klettersteig.html" class="silo-card-link">
                             <div class="silo-card-body">
                                 <h3 class="silo-card-title" style="font-size: 1rem;">Bodenschneid-Klettersteig</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Klettersteig-Variante Ã¼ber die Bodenschneid.</p>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Klettersteig-Variante über die Bodenschneid.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -631,16 +631,16 @@ document.addEventListener('DOMContentLoaded',function(){
                 </div>
             </section>
 
-            <!-- ===== âšª MEHRTAGES-HÃœTTENWANDERUNGEN ===== -->
+            <!-- ===== âšª MEHRTAGES-HÜTTENWANDERUNGEN ===== -->
             <section class="routen-section" aria-labelledby="routen-huettentouren">
-                <h2 id="routen-huettentouren" class="routen-section-heading">âšª Mehrtages-HÃ¼ttenwanderungen</h2>
+                <h2 id="routen-huettentouren" class="routen-section-heading">âšª Mehrtages-Hüttenwanderungen</h2>
                 <div class="routen-grid">
 
                     <article class="silo-card">
                         <a href="hw-001-spitzingsattel-rottach.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">4-Tage-HÃ¼ttenwanderung: Spitzingsattel â†’ Rottach</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">ViertÃ¤gige HÃ¼ttentour durch das Mangfallgebirge nach Rottach-Egern.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">4-Tage-Hüttenwanderung: Spitzingsattel â†’ Rottach</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Viertägige Hüttentour durch das Mangfallgebirge nach Rottach-Egern.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -648,8 +648,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="hw-002-fischbachau-rotwand.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">4-Tage-HÃ¼ttenwanderung: Fischbachau â†’ Rotwand</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">ViertÃ¤gige HÃ¼ttentour von Fischbachau zur Rotwand.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">4-Tage-Hüttenwanderung: Fischbachau â†’ Rotwand</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Viertägige Hüttentour von Fischbachau zur Rotwand.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -657,8 +657,8 @@ document.addEventListener('DOMContentLoaded',function(){
                     <article class="silo-card">
                         <a href="hw-003-blauberge-spitzingsee.html" class="silo-card-link">
                             <div class="silo-card-body">
-                                <h3 class="silo-card-title" style="font-size: 1rem;">5-Tage-HÃ¼ttenwanderung: Blaubergeâ€“Spitzingsee</h3>
-                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">FÃ¼nftÃ¤gige HÃ¼ttentour Ã¼ber die Blauberge zum Spitzingsee.</p>
+                                <h3 class="silo-card-title" style="font-size: 1rem;">5-Tage-Hüttenwanderung: Blauberge–Spitzingsee</h3>
+                                <p class="silo-card-text" style="font-size:.85rem;color:var(--color-text-light);">Fünftägige Hüttentour über die Blauberge zum Spitzingsee.</p>
                                 <span class="silo-card-cta">Route ansehen â†’</span>
                             </div>
                         </a>
@@ -669,7 +669,7 @@ document.addEventListener('DOMContentLoaded',function(){
 
             <!-- ===== ðŸ›’ AFFILIATE PARTNER ===== -->
             <div style="background:rgba(196,167,111,.05);border-left:4px solid #c4a76f;padding:1.5rem;border-radius:8px;margin:2rem 0;">
-                <strong style="color:#1a472a;">ðŸ›’ AusrÃ¼stung &amp; Partner</strong>
+                <strong style="color:#1a472a;">ðŸ›’ Ausrüstung &amp; Partner</strong>
                 <p style="margin:.5rem 0;font-size:.875rem;color:#555;">â˜… Affiliate-Links: Bei Kauf erhalten wir eine Provision</p>
                 <div style="display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.75rem;">
                     <a href="https://www.bergzeit.de" target="_blank" rel="nofollow sponsored" style="background:#1a472a;color:#fff;padding:.5rem 1rem;border-radius:8px;text-decoration:none;font-weight:600;font-size:.8rem;">ðŸ¥¾ Bergzeit</a>
@@ -684,10 +684,36 @@ document.addEventListener('DOMContentLoaded',function(){
     </main>
     <footer class="site-footer" role="contentinfo">
         <div class="container" style="text-align: center; padding: var(--space-lg);">
-            <p>&copy; 2025â€“2026 Alpen-Experte. Alle Rechte vorbehalten.</p>
+            <p>&copy; 2025–2026 Alpen-Experte. Alle Rechte vorbehalten.</p>
         </div>
-    </footer>
-    <script src="../../js/main.js?v=20260608" defer></script>
+    
+<!-- URWAHN-AFFILIATE -->
+<aside class="urwahn-affiliate" style="max-width:1100px;margin:var(--space-2xl) auto var(--space-lg);padding:var(--space-lg);background:#1f2a20;color:#e8e2d6;border-radius:16px;display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-lg);">
+  <div style="flex:1 1 320px;min-width:260px;">
+    <span style="display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.12);padding:3px 8px;border-radius:6px;margin-bottom:8px;">Anzeige / Affiliate</span>
+    <h3 style="color:#fff;margin:0 0 .4rem;font-size:1.25rem;">Urwahn Bikes &ndash; E-Bikes made in Germany</h3>
+    <p style="margin:0 0 .8rem;font-size:.9rem;line-height:1.5;">Handgefertigte E-Bikes mit organischem Rahmen-Design &ndash; die nachhaltige Alternative fuer Alpen-Touren, Gravel &amp; Alltag. Ueber unseren Partner-Link entdecken.</p>
+    <a href="https://www.awin1.com/cread.php?awinmid=68034&amp;awinaffid=3134996&amp;clickref=Start&amp;ued=https%3A%2F%2Falpenexperte.de" target="_blank" rel="sponsored noopener nofollow" class="btn btn--primary" style="display:inline-block;">Urwahn Bikes ansehen &rarr;</a>
+  </div>
+  <a href="https://www.awin1.com/cread.php?awinmid=68034&amp;awinaffid=3134996&amp;clickref=Start&amp;ued=https%3A%2F%2Falpenexperte.de" target="_blank" rel="sponsored noopener nofollow" style="flex:0 0 auto;">
+    <img src="/images/qr-urwahn.png" alt="QR-Code: Urwahn Bikes" width="120" height="120" loading="lazy" style="background:#fff;padding:8px;border-radius:12px;display:block;">
+  </a>
+</aside>
+<!-- /URWAHN-AFFILIATE -->
+
+
+<!-- DS24-AFFILIATE -->
+<aside class="ds24-affiliate" style="max-width:1100px;margin:var(--space-lg) auto;padding:var(--space-lg);background:#22303a;color:#e8f0f4;border-radius:16px;display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-lg);">
+  <div style="flex:1 1 320px;min-width:260px;">
+    <span style="display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.12);padding:3px 8px;border-radius:6px;margin-bottom:8px;">Anzeige / Affiliate</span>
+    <h3 style="color:#fff;margin:0 0 .4rem;font-size:1.25rem;">Unser Touren-Partner</h3>
+    <p style="margin:0 0 .8rem;font-size:.9rem;line-height:1.5;">Ausr&uuml;stung, Touren &amp; Erlebnisse rund um Wandern, H&uuml;tten und Gravel &ndash; jetzt beim Partner entdecken.</p>
+    <a href="https://www.checkout-ds24.com/redir/749107/Bb8ozi/" target="_blank" rel="sponsored noopener nofollow" class="btn btn--primary" style="display:inline-block;">Zum Partner &rarr;</a>
+  </div>
+</aside>
+<!-- /DS24-AFFILIATE -->
+</footer>
+    <script src="../../js/main.js?v=20260612b" defer></script>
 
 
 

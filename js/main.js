@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
             mainNav.classList.remove('open');
             document.body.classList.remove('nav-open');
             navToggle.setAttribute('aria-expanded', 'false');
-            navToggle.setAttribute('aria-label', 'MenÃ¼ Ã¶ffnen');
+            navToggle.setAttribute('aria-label', 'Menü öffnen');
         };
 
         navToggle.addEventListener('click', (e) => {
@@ -51,10 +51,10 @@ document.addEventListener('DOMContentLoaded', () => {
             mainNav.classList.toggle('open', isOpen);
             document.body.classList.toggle('nav-open', isOpen);
             navToggle.setAttribute('aria-expanded', isOpen);
-            navToggle.setAttribute('aria-label', isOpen ? 'MenÃ¼ schlieÃŸen' : 'MenÃ¼ Ã¶ffnen');
+            navToggle.setAttribute('aria-label', isOpen ? 'Menü schließen' : 'Menü öffnen');
         });
 
-        // Navigation schlieÃŸen bei Klick auf einen echten Link (Mobile)
+        // Navigation schließen bei Klick auf einen echten Link (Mobile)
         mainNav.querySelectorAll('a.nav-link, a.megamenu-item, .nav-dropdown a').forEach(link => {
             link.addEventListener('click', () => {
                 if (window.innerWidth <= 900) closeNav();
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Navigation schlieÃŸen bei Escape
+        // Navigation schließen bei Escape
         document.addEventListener('keydown', (e) => {
             if (e.key === 'Escape' && mainNav.classList.contains('is-open')) {
                 closeNav();

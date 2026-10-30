@@ -1,6 +1,6 @@
 /* ===========================================================
-   ALPEN-EXPERTE â€” Design-System
-   "Rustikaler, aber moderner HÃ¼tten-Stil"
+   ALPEN-EXPERTE — Design-System
+   "Rustikaler, aber moderner Hütten-Stil"
    =========================================================== */
 
 /* ---- @font-face: Lokale Schriftarten (DSGVO-sicher, kein Google-Server) ---- */
@@ -310,7 +310,7 @@ ol {
 }
 
 /* ===========================================================
-   HEADER â€“ Glas-Navigation (BergfrÃ¼hling-Edelglas)
+   HEADER – Glas-Navigation (Bergfrühling-Edelglas)
    =========================================================== */
 .site-header {
     background: var(--color-glass);
@@ -1071,7 +1071,7 @@ ol {
 }
 
 /* ===========================================================
-   FEATURED â€“ Flaggschiff-Content
+   FEATURED – Flaggschiff-Content
    =========================================================== */
 .featured-layout {
     display: grid;
@@ -1247,7 +1247,7 @@ ol {
 }
 
 /* ===========================================================
-   FOOTER â€“ Farbenfrohe HÃ¼tten-Fusszeile
+   FOOTER – Farbenfrohe Hütten-Fusszeile
    =========================================================== */
 .site-footer {
     background: var(--color-bg-dark);
@@ -1292,7 +1292,7 @@ ol {
 }
 
 /* ===========================================================
-   SECTION-SEPARATOR â€” Bunte Regenbogen-Trennlinien
+   SECTION-SEPARATOR — Bunte Regenbogen-Trennlinien
    =========================================================== */
 .section-separator {
     position: relative;
@@ -1712,7 +1712,7 @@ ol {
 }
 
 /* ===========================================================
-   GLOBALE ANIMATIONEN â€“ fadeInUp, Partikel & Hero-Zoom
+   GLOBALE ANIMATIONEN – fadeInUp, Partikel & Hero-Zoom
    =========================================================== */
 @keyframes fadeInUp {
     from {
@@ -1736,7 +1736,7 @@ ol {
 }
 
 /* ===========================================================
-   PARTIKEL-EFFEKT â€“ Sternenstaub Ã¼ber dem Hero
+   PARTIKEL-EFFEKT – Sternenstaub über dem Hero
    =========================================================== */
 @keyframes particleFloat {
     0% {
@@ -1814,7 +1814,7 @@ ol {
 
 /* Scroll-Animation fuer Karten via JS IntersectionObserver (script.js) */
 /* ===========================================================
-   COOKIE-BANNER â€” DSGVO-konform, kein Tracking
+   COOKIE-BANNER — DSGVO-konform, kein Tracking
    =========================================================== */
 .cookie-banner {
     position: fixed;
@@ -2051,7 +2051,7 @@ ol {
 
 /* ===========================================================
    SIDEBAR + DROPDOWN NAVIGATION
-   FÃ¼r Regional-Hub-Seiten (seitliche Navigation)
+   Für Regional-Hub-Seiten (seitliche Navigation)
    =========================================================== */
 
 /* Seiten-Layout: Sidebar + Content */
@@ -2062,7 +2062,7 @@ ol {
     align-items: start;
 }
 
-/* Sidebar â€“ sticky, scrollt mit */
+/* Sidebar – sticky, scrollt mit */
 .sidebar {
     position: sticky;
     top: 80px;
@@ -2119,7 +2119,7 @@ ol {
     font-weight: 600;
 }
 
-/* Dropdown-Trigger (aufklappbare UntermenÃ¼s) */
+/* Dropdown-Trigger (aufklappbare Untermenüs) */
 .sidebar-has-dropdown {
     position: relative;
 }
@@ -2158,7 +2158,7 @@ ol {
     transform: rotate(90deg);
 }
 
-/* Dropdown-MenÃ¼ (Unterpunkte) */
+/* Dropdown-Menü (Unterpunkte) */
 .sidebar-dropdown {
     list-style: none;
     padding: 0;
@@ -2199,7 +2199,7 @@ ol {
     background: rgba(61, 140, 94, 0.06);
 }
 
-/* Sidebar auf mobilen GerÃ¤ten ausblenden */
+/* Sidebar auf mobilen Geräten ausblenden */
 @media (max-width: 768px) {
     .page-with-sidebar {
         grid-template-columns: 1fr;
@@ -2212,10 +2212,10 @@ ol {
 }
 
 /* ===========================================================
-   MARSCHBEFEHL 5 â€” Ã–PNV-Integration (Core Feature)
+   MARSCHBEFEHL 5 — ÖPNV-Integration (Core Feature)
    =========================================================== */
 
-/* Ã–PNV Standard-Block (auf allen Routen-Seiten) */
+/* ÖPNV Standard-Block (auf allen Routen-Seiten) */
 .oepnv-anleitung {
     margin: var(--space-2xl) 0;
     padding: var(--space-lg);
@@ -2265,7 +2265,7 @@ ol {
     color: var(--color-wood-dark);
 }
 
-/* Auto vs. Ã–PNV Vergleichstabelle */
+/* Auto vs. ÖPNV Vergleichstabelle */
 .oepnv-vergleich {
     margin: var(--space-xl) 0;
     overflow-x: auto;
@@ -2301,7 +2301,7 @@ ol {
     color: var(--color-alpine-green);
 }
 
-/* Affiliate-Button fÃ¼r Bayern-Ticket / Ã–PNV */
+/* Affiliate-Button für Bayern-Ticket / ÖPNV */
 .oepnv-affiliate-btn {
     display: inline-block;
     background: var(--color-alpine-green);
@@ -2333,7 +2333,7 @@ ol {
     color: var(--color-alpine-green);
 }
 
-/* Ã–PNV-Hub: Schnellinfos */
+/* ÖPNV-Hub: Schnellinfos */
 .oepnv-schnellinfo {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -2375,7 +2375,7 @@ ol {
 }
 
 /* ===========================================================
-   MARSCHBEFEHL 5 â€” Alpenaustausch (Sektion 8)
+   MARSCHBEFEHL 5 — Alpenaustausch (Sektion 8)
    =========================================================== */
 
 /* Community-Eintrag Karte */
@@ -2446,7 +2446,7 @@ ol {
     text-underline-offset: 2px;
 }
 
-/* Grid-Layout fÃ¼r Alpenaustausch-Karten */
+/* Grid-Layout für Alpenaustausch-Karten */
 .alp-austausch-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -2559,8 +2559,8 @@ ol {
 }
 
 /* ===========================================================
-   LOKALE DNA â€” Lokal-Fakt-Banner
-   "Wusstest du...?" â€” Wissens-Happen aus der Region
+   LOKALE DNA — Lokal-Fakt-Banner
+   "Wusstest du...?" — Wissens-Happen aus der Region
    =========================================================== */
 .lokal-fakt-banner {
     background: linear-gradient(135deg, #eaf4e8 0%, #d4e8d0 100%);
@@ -3142,7 +3142,7 @@ ol {
 }
 
 /* ===========================================================
-   BAVARISCHE SPRECHBLASEN â€“ Lustige SprÃ¼che aus Bayern
+   BAVARISCHE SPRECHBLASEN – Lustige Sprüche aus Bayern
    =========================================================== */
 .bavaria-speech-wrap {
     display: flex;
@@ -5344,3 +5344,28 @@ h3.section-title {
 html, body { max-width: 100%; overflow-x: hidden; }
 .silo-card, .directory-card, .card { box-sizing: border-box; }
 body.nav-open { overflow: hidden !important; }
+/* ============================================
+   MOBILE-UX-POLISH-2026 - Handy-Ansicht freundlicher
+   =========================================================== */
+@media (max-width: 768px) {
+    html { -webkit-text-size-adjust: 100%; }
+    body { overflow-x: hidden; }
+    .container { padding-left: 16px !important; padding-right: 16px !important; }
+    .hero-overlay { padding: 32px 16px !important; text-align: center; }
+    .hero-badge { display: inline-block; font-size: .8rem; line-height: 1.4; }
+    .hero-title { font-size: clamp(1.7rem, 8vw, 2.3rem) !important; margin-bottom: 12px !important; }
+    .hero-subtitle { font-size: 1rem !important; margin: 0 auto 20px !important; }
+    .hero-ctas { flex-direction: column !important; width: 100% !important; gap: 10px !important; }
+    .hero-ctas .btn { width: 100% !important; justify-content: center; text-align: center; padding: 14px 18px !important; }
+    section.section { padding-top: 32px !important; padding-bottom: 32px !important; }
+    .silo-grid, .bento-grid, .mountaincards, .card-grid { grid-template-columns: 1fr !important; gap: 16px !important; }
+    .section-title, .section-header h2 { font-size: clamp(1.4rem, 6vw, 1.9rem) !important; }
+    .urwahn-affiliate { flex-direction: column !important; text-align: center; }
+    .urwahn-affiliate > a { margin: 0 auto; }
+    .urwahn-affiliate img { width: 110px !important; height: 110px !important; }
+    img { max-width: 100% !important; height: auto; }
+}
+@media (max-width: 480px) {
+    .hero-title { font-size: 1.5rem !important; }
+    .hero-subtitle { font-size: .92rem !important; }
+}
