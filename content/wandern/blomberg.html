@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded',function(){
         var r=L.polyline([[47.78,11.52],[47.785,11.525],[47.79,11.53],[47.795,11.535]],{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker([47.78,11.52],{color:"#2ECC71",radius:10,fillOpacity:.8}).bindPopup("Bad Tölz").addTo(m);
         L.circleMarker([47.785,11.525],{color:"#E74C3C",radius:10,fillOpacity:.8}).bindPopup("Gipfel: Blomberg").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='✅ Blomberg 1248m';
     }catch(e){s.innerHTML='❌ Fehler: '+e.message;}
 });

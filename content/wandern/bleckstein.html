@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-bleckstein').setView([47.625,11.835],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.645, 11.86], [47.63859, 11.85516], [47.637, 11.8475], [47.62859, 11.83984], [47.625, 11.833], [47.62141, 11.82734], [47.613, 11.8225], [47.61141, 11.81766], [47.605, 11.81]];
+        var pts=[[47.645, 11.86], [47.64102, 11.85841], [47.64104, 11.85423], [47.63481, 11.84978], [47.63435, 11.84522], [47.63111, 11.84077], [47.62645, 11.83659], [47.6268, 11.8328], [47.62074, 11.82945], [47.61969, 11.82649], [47.61721, 11.8238], [47.61195, 11.8212], [47.61247, 11.81851], [47.60673, 11.81555], [47.605, 11.81]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Bleckstein").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Bleckstein';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

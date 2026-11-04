@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-acher-blick-runde').setView([47.705,11.71],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.72, 11.728], [47.71484, 11.72491], [47.7145, 11.719], [47.70734, 11.71309], [47.705, 11.708], [47.70266, 11.70409], [47.6955, 11.701], [47.69516, 11.69791], [47.69, 11.692]];
+        var pts=[[47.72, 11.728], [47.71673, 11.72741], [47.71747, 11.72423], [47.71195, 11.72078], [47.71221, 11.71722], [47.70969, 11.71377], [47.70574, 11.71059], [47.7068, 11.7078], [47.70145, 11.70545], [47.70111, 11.70349], [47.69935, 11.7018], [47.69481, 11.7002], [47.69604, 11.69851], [47.69102, 11.69655], [47.69, 11.692]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Acher-Blick-Runde").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Acher-Blick-Runde';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

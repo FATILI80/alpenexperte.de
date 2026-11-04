@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rossstein').setView([47.66,11.795],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.678, 11.815], [47.67209, 11.81141], [47.671, 11.805], [47.66309, 11.79859], [47.66, 11.793], [47.65691, 11.78859], [47.649, 11.785], [47.64791, 11.78141], [47.642, 11.775]];
+        var pts=[[47.678, 11.815], [47.67431, 11.81412], [47.67461, 11.81066], [47.66866, 11.80692], [47.6685, 11.80308], [47.66554, 11.79934], [47.66116, 11.79588], [47.6618, 11.7928], [47.65602, 11.79016], [47.65526, 11.78791], [47.65307, 11.78594], [47.64809, 11.78406], [47.6489, 11.78209], [47.64345, 11.77984], [47.642, 11.775]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rossstein").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Rossstein';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

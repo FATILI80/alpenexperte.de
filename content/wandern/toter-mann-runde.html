@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-toter-mann-runde').setView([47.648,11.868],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.665, 11.888], [47.65921, 11.88466], [47.65825, 11.8785], [47.65046, 11.87234], [47.6475, 11.867], [47.64454, 11.86284], [47.63675, 11.8595], [47.63579, 11.85616], [47.63, 11.85]];
+        var pts=[[47.665, 11.888], [47.66138, 11.88727], [47.66175, 11.88394], [47.65588, 11.88035], [47.65578, 11.87665], [47.6529, 11.87306], [47.64859, 11.86973], [47.6493, 11.8668], [47.64359, 11.8643], [47.6429, 11.8622], [47.64078, 11.86037], [47.63588, 11.85863], [47.63675, 11.8568], [47.63138, 11.8547], [47.63, 11.85]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Toter-Mann-Runde").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Toter-Mann-Runde';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

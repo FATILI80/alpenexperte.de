@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-wallberg').setView([47.685,11.74],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.705, 11.765], [47.69859, 11.76016], [47.697, 11.7525], [47.68859, 11.74484], [47.685, 11.738], [47.68141, 11.73234], [47.673, 11.7275], [47.67141, 11.72266], [47.665, 11.715]];
+        var pts=[[47.705, 11.765], [47.70102, 11.76341], [47.70104, 11.75923], [47.69481, 11.75478], [47.69435, 11.75022], [47.69111, 11.74577], [47.68645, 11.74159], [47.6868, 11.7378], [47.68074, 11.73445], [47.67969, 11.73149], [47.67721, 11.7288], [47.67195, 11.7262], [47.67247, 11.72351], [47.66673, 11.72055], [47.665, 11.715]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Wallberg").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Wallberg';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

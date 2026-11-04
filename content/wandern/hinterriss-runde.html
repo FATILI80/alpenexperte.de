@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-hinterriss-runde').setView([47.66,11.765],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.68, 11.795], [47.67334, 11.78954], [47.6715, 11.78125], [47.66284, 11.77296], [47.659, 11.7655], [47.65516, 11.75921], [47.6465, 11.75375], [47.64466, 11.74829], [47.638, 11.74]];
+        var pts=[[47.68, 11.795], [47.67588, 11.79305], [47.67575, 11.78851], [47.66938, 11.7837], [47.66878, 11.7788], [47.6654, 11.77399], [47.66059, 11.76945], [47.6608, 11.7653], [47.65459, 11.76159], [47.6534, 11.75827], [47.65078, 11.75522], [47.64538, 11.75228], [47.64575, 11.74923], [47.63988, 11.74591], [47.638, 11.74]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Hinterriss-Runde").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Hinterriss-Runde';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

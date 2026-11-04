@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-miesing-runde').setView([47.655,11.848],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.67, 11.868], [47.66459, 11.86466], [47.664, 11.8585], [47.65659, 11.85234], [47.654, 11.847], [47.65141, 11.84284], [47.644, 11.8395], [47.64341, 11.83616], [47.638, 11.83]];
+        var pts=[[47.67, 11.868], [47.66659, 11.86727], [47.66718, 11.86394], [47.66152, 11.86035], [47.66164, 11.85665], [47.65897, 11.85306], [47.65488, 11.84973], [47.6558, 11.8468], [47.65031, 11.8443], [47.64983, 11.8422], [47.64792, 11.84037], [47.64324, 11.83863], [47.64433, 11.8368], [47.63916, 11.8347], [47.638, 11.83]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Miesing-Runde").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Miesing-Runde';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schoenfeldalm-rotwand').setView([47.648,11.905],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.665, 11.925], [47.65921, 11.92141], [47.65825, 11.915], [47.65046, 11.90859], [47.6475, 11.903], [47.64454, 11.89859], [47.63675, 11.895], [47.63579, 11.89141], [47.63, 11.885]];
+        var pts=[[47.665, 11.925], [47.66138, 11.92412], [47.66175, 11.92066], [47.65588, 11.91692], [47.65578, 11.91308], [47.6529, 11.90934], [47.64859, 11.90588], [47.6493, 11.9028], [47.64359, 11.90016], [47.6429, 11.89791], [47.64078, 11.89594], [47.63588, 11.89406], [47.63675, 11.89209], [47.63138, 11.88984], [47.63, 11.885]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schoenfeldalm zur Rotwand").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Schoenfeldalm zur Rotwand';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-brecherspitz').setView([47.66,11.88],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.675, 11.895], [47.66984, 11.89204], [47.6695, 11.88625], [47.66234, 11.88046], [47.66, 11.8755], [47.65766, 11.87171], [47.6505, 11.86875], [47.65016, 11.86579], [47.645, 11.86]];
+        var pts=[[47.675, 11.895], [47.67173, 11.89448], [47.67247, 11.89137], [47.66695, 11.88799], [47.66721, 11.88451], [47.66469, 11.88113], [47.66074, 11.87802], [47.6618, 11.8753], [47.65645, 11.87302], [47.65611, 11.87113], [47.65435, 11.86951], [47.64981, 11.86799], [47.65104, 11.86637], [47.64602, 11.86448], [47.645, 11.86]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Brecherspitz").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Brecherspitz';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

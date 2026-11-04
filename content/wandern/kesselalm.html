@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-kesselalm').setView([47.698,11.76],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.712, 11.778], [47.70721, 11.77529], [47.70725, 11.76975], [47.70046, 11.76421], [47.6985, 11.7595], [47.69654, 11.75596], [47.68975, 11.75325], [47.68979, 11.75054], [47.685, 11.745]];
+        var pts=[[47.712, 11.778], [47.70895, 11.77762], [47.7099, 11.77466], [47.70459, 11.77142], [47.70507, 11.76808], [47.70276, 11.76484], [47.69902, 11.76188], [47.7003, 11.7593], [47.69516, 11.75716], [47.69504, 11.75541], [47.6935, 11.75394], [47.68916, 11.75256], [47.69061, 11.75109], [47.68581, 11.74934], [47.685, 11.745]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Kesselalm").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Kesselalm';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

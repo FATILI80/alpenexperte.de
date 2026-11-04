@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded',function(){
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OSM',maxZoom:19}).addTo(m);
         var r=L.polyline([[47.642,11.93],[47.64,11.932],[47.638,11.935]],{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker([47.642,11.93],{color:"#E74C3C",radius:10,fillOpacity:.8}).bindPopup("Taubenstein Klettersteig").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='✅ Taubenstein-Klettersteig';
     }catch(e){s.innerHTML='❌ Fehler: '+e.message;}
 });

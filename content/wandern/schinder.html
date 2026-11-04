@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schinder').setView([47.665,11.78],12);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.685, 11.808], [47.67821, 11.80279], [47.67625, 11.79475], [47.66746, 11.78671], [47.6635, 11.7795], [47.65954, 11.77346], [47.65075, 11.76825], [47.64879, 11.76304], [47.642, 11.755]];
+        var pts=[[47.685, 11.808], [47.68081, 11.8062], [47.68061, 11.8018], [47.67416, 11.79713], [47.6735, 11.79237], [47.67004, 11.7877], [47.66516, 11.7833], [47.6653, 11.7793], [47.65902, 11.77573], [47.65776, 11.77256], [47.65507, 11.76965], [47.64959, 11.76685], [47.6499, 11.76394], [47.64395, 11.76077], [47.642, 11.755]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schinder").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Schinder';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

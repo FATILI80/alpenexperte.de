@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded',function(){
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OSM',maxZoom:19}).addTo(m);
         var r=L.polyline([[47.68,11.86],[47.678,11.862],[47.676,11.865],[47.674,11.868]],{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker([47.68,11.86],{color:"#E74C3C",radius:10,fillOpacity:.8}).bindPopup("Fels: Leonhardstein").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='✅ Leonhardstein';
     }catch(e){s.innerHTML='❌ Fehler: '+e.message;}
 });

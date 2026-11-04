@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-sulzbergalm-runde').setView([47.7,11.835],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.715, 11.852], [47.70984, 11.84916], [47.7095, 11.8435], [47.70234, 11.83784], [47.7, 11.833], [47.69766, 11.82934], [47.6905, 11.8265], [47.69016, 11.82366], [47.685, 11.818]];
+        var pts=[[47.715, 11.852], [47.71173, 11.85155], [47.71247, 11.84851], [47.70695, 11.8452], [47.70721, 11.8418], [47.70469, 11.83849], [47.70074, 11.83545], [47.7018, 11.8328], [47.69645, 11.83059], [47.69611, 11.82877], [47.69435, 11.82722], [47.68981, 11.82578], [47.69104, 11.82423], [47.68602, 11.82241], [47.685, 11.818]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Sulzbergalm-Runde").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Sulzbergalm-Runde';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

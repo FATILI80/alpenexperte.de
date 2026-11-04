@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rauschberghuette').setView([47.698,12.035],12);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.718, 12.058], [47.71159, 12.05366], [47.71, 12.0465], [47.70159, 12.03934], [47.698, 12.033], [47.69441, 12.02784], [47.686, 12.0235], [47.68441, 12.01916], [47.678, 12.012]];
+        var pts=[[47.718, 12.058], [47.71402, 12.0567], [47.71404, 12.0528], [47.70781, 12.04863], [47.70735, 12.04437], [47.70411, 12.0402], [47.69945, 12.0363], [47.6998, 12.0328], [47.69374, 12.02973], [47.69269, 12.02706], [47.69021, 12.02465], [47.68495, 12.02235], [47.68547, 12.01994], [47.67973, 12.01727], [47.678, 12.012]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rauschberg-Hoehenweg").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Rauschberg-Hoehenweg';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

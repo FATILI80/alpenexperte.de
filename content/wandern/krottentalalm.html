@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-krottentalalm').setView([47.64,11.85],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.655, 11.87], [47.64946, 11.86666], [47.64875, 11.8605], [47.64121, 11.85434], [47.6385, 11.849], [47.63579, 11.84484], [47.62825, 11.8415], [47.62754, 11.83816], [47.622, 11.832]];
+        var pts=[[47.655, 11.87], [47.65152, 11.86927], [47.65204, 11.86594], [47.64631, 11.86235], [47.64635, 11.85865], [47.64361, 11.85506], [47.63945, 11.85173], [47.6403, 11.8488], [47.63474, 11.8463], [47.63419, 11.8442], [47.63221, 11.84237], [47.62745, 11.84063], [47.62847, 11.8388], [47.62323, 11.8367], [47.622, 11.832]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Krottentalalm").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Krottentalalm';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

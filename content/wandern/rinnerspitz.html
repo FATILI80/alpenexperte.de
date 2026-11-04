@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rinnerspitz').setView([47.662,11.893],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.678, 11.912], [47.67284, 11.90879], [47.6725, 11.90275], [47.66534, 11.89671], [47.663, 11.8915], [47.66066, 11.88746], [47.6535, 11.88425], [47.65316, 11.88104], [47.648, 11.875]];
+        var pts=[[47.678, 11.912], [47.67473, 11.91134], [47.67547, 11.90809], [47.66995, 11.90456], [47.67021, 11.90094], [47.66769, 11.89741], [47.66374, 11.89416], [47.6648, 11.8913], [47.65945, 11.88888], [47.65911, 11.88684], [47.65735, 11.88508], [47.65281, 11.88342], [47.65404, 11.88166], [47.64902, 11.87962], [47.648, 11.875]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rinnerspitz").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Rinnerspitz';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

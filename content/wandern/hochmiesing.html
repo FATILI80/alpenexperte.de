@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded',function(){
         var r=L.polyline([[47.652,11.923],[47.645,11.93],[47.638,11.935],[47.633,11.938],[47.63,11.94]],{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker([47.652,11.923],{color:"#2ECC71",radius:10,fillOpacity:.8}).bindPopup("Start: Spitzingsee").addTo(m);
         L.circleMarker([47.645,11.93],{color:"#E74C3C",radius:10,fillOpacity:.8}).bindPopup("Gipfel: Hochmiesing").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='✅ Hochmiesing 1883m';
     }catch(e){s.innerHTML='❌ Fehler: '+e.message;}
 });

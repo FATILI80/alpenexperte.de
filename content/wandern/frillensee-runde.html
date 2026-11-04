@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-frillensee-runde').setView([47.71,12.02],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.725, 12.038], [47.71984, 12.03529], [47.7195, 12.02975], [47.71234, 12.02421], [47.71, 12.0195], [47.70766, 12.01596], [47.7005, 12.01325], [47.70016, 12.01054], [47.695, 12.005]];
+        var pts=[[47.725, 12.038], [47.72173, 12.03762], [47.72247, 12.03466], [47.71695, 12.03142], [47.71721, 12.02808], [47.71469, 12.02484], [47.71074, 12.02188], [47.7118, 12.0193], [47.70645, 12.01716], [47.70611, 12.01541], [47.70435, 12.01394], [47.69981, 12.01256], [47.70104, 12.01109], [47.69602, 12.00934], [47.695, 12.005]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Frillensee-Runde").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Frillensee-Runde';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

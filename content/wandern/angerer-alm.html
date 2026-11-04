@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-angerer-alm').setView([47.705,11.775],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.72, 11.792], [47.71509, 11.78941], [47.715, 11.784], [47.70809, 11.77859], [47.706, 11.774], [47.70391, 11.77059], [47.697, 11.768], [47.69691, 11.76541], [47.692, 11.76]];
+        var pts=[[47.72, 11.792], [47.71688, 11.7917], [47.71775, 11.7888], [47.71238, 11.78563], [47.71278, 11.78237], [47.7104, 11.7792], [47.70659, 11.7763], [47.7078, 11.7738], [47.70259, 11.77173], [47.7024, 11.77006], [47.70078, 11.76865], [47.69638, 11.76735], [47.69775, 11.76594], [47.69288, 11.76427], [47.692, 11.76]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Angerer Alm").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Angerer Alm';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

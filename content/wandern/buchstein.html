@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-buchstein').setView([47.665,11.8],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.685, 11.82], [47.67859, 11.81641], [47.677, 11.81], [47.66859, 11.80359], [47.665, 11.798], [47.66141, 11.79359], [47.653, 11.79], [47.65141, 11.78641], [47.645, 11.78]];
+        var pts=[[47.685, 11.82], [47.68102, 11.81912], [47.68104, 11.81566], [47.67481, 11.81192], [47.67435, 11.80808], [47.67111, 11.80434], [47.66645, 11.80088], [47.6668, 11.7978], [47.66074, 11.79516], [47.65969, 11.79291], [47.65721, 11.79094], [47.65195, 11.78906], [47.65247, 11.78709], [47.64673, 11.78484], [47.645, 11.78]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Buchstein").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Buchstein';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

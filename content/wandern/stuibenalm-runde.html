@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-stuibenalm-runde').setView([47.685,11.85],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.7, 11.87], [47.69459, 11.86666], [47.694, 11.8605], [47.68659, 11.85434], [47.684, 11.849], [47.68141, 11.84484], [47.674, 11.8415], [47.67341, 11.83816], [47.668, 11.832]];
+        var pts=[[47.7, 11.87], [47.69659, 11.86927], [47.69718, 11.86594], [47.69152, 11.86235], [47.69164, 11.85865], [47.68897, 11.85506], [47.68488, 11.85173], [47.6858, 11.8488], [47.68031, 11.8463], [47.67983, 11.8442], [47.67792, 11.84237], [47.67324, 11.84063], [47.67433, 11.8388], [47.66916, 11.8367], [47.668, 11.832]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Stuibenalm-Runde").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Stuibenalm-Runde';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

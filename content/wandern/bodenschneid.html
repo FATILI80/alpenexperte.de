@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-bodenschneid').setView([47.67,11.83],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.685, 11.85], [47.67984, 11.84641], [47.6795, 11.84], [47.67234, 11.83359], [47.67, 11.828], [47.66766, 11.82359], [47.6605, 11.82], [47.66016, 11.81641], [47.655, 11.81]];
+        var pts=[[47.685, 11.85], [47.68173, 11.84912], [47.68247, 11.84566], [47.67695, 11.84192], [47.67721, 11.83808], [47.67469, 11.83434], [47.67074, 11.83088], [47.6718, 11.8278], [47.66645, 11.82516], [47.66611, 11.82291], [47.66435, 11.82094], [47.65981, 11.81906], [47.66104, 11.81709], [47.65602, 11.81484], [47.655, 11.81]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Bodenschneid").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Bodenschneid';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

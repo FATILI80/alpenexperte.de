@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded',function(){
         var r=L.polyline([[47.66,11.87],[47.655,11.868],[47.65,11.865],[47.645,11.862],[47.64,11.86]],{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker([47.66,11.87],{color:"#2ECC71",radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker([47.655,11.868],{color:"#F39C12",radius:10,fillOpacity:.8}).bindPopup("Untere Firstalm").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='✅ Untere Firstalm';
     }catch(e){s.innerHTML='❌ Fehler: '+e.message;}
 });

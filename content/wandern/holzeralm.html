@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-holzeralm').setView([47.678,11.88],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.69, 11.895], [47.68584, 11.89266], [47.6865, 11.8875], [47.68034, 11.88234], [47.679, 11.878], [47.67766, 11.87484], [47.6715, 11.8725], [47.67216, 11.87016], [47.668, 11.865]];
+        var pts=[[47.69, 11.895], [47.68731, 11.89484], [47.68861, 11.89209], [47.68366, 11.88906], [47.6845, 11.88594], [47.68254, 11.88291], [47.67916, 11.88016], [47.6808, 11.8778], [47.67602, 11.87588], [47.67626, 11.87434], [47.67507, 11.87308], [47.67109, 11.87192], [47.6729, 11.87066], [47.66845, 11.86912], [47.668, 11.865]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Holzer Alm").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Holzer Alm';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

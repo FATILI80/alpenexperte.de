@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schoenmoosrunde').setView([47.7,11.84],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.718, 11.862], [47.71209, 11.85816], [47.711, 11.8515], [47.70309, 11.84484], [47.7, 11.839], [47.69691, 11.83434], [47.689, 11.8305], [47.68791, 11.82666], [47.682, 11.82]];
+        var pts=[[47.718, 11.862], [47.71431, 11.86098], [47.71461, 11.85737], [47.70866, 11.85349], [47.7085, 11.84951], [47.70554, 11.84563], [47.70116, 11.84202], [47.7018, 11.8388], [47.69602, 11.83602], [47.69526, 11.83363], [47.69307, 11.83151], [47.68809, 11.82949], [47.6889, 11.82737], [47.68345, 11.82498], [47.682, 11.82]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schoenmoosrunde").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Schoenmoosrunde';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

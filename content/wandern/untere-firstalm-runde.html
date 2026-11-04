@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-untere-firstalm-runde').setView([47.665,11.872],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.678, 11.888], [47.67309, 11.88566], [47.673, 11.8805], [47.66609, 11.87534], [47.664, 11.871], [47.66191, 11.86784], [47.655, 11.8655], [47.65491, 11.86316], [47.65, 11.858]];
+        var pts=[[47.678, 11.888], [47.67488, 11.88784], [47.67575, 11.88509], [47.67038, 11.88206], [47.67078, 11.87894], [47.6684, 11.87591], [47.66459, 11.87316], [47.6658, 11.8708], [47.66059, 11.86888], [47.6604, 11.86734], [47.65878, 11.86608], [47.65438, 11.86492], [47.65575, 11.86366], [47.65088, 11.86212], [47.65, 11.858]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Untere Firstalm-Runde").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Untere Firstalm-Runde';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

@@ -132,7 +132,7 @@ document.addEventListener('DOMContentLoaded',function(){
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OSM',maxZoom:19}).addTo(m);
         var r=L.polyline([[47.645,11.96],[47.643,11.962],[47.641,11.964],[47.639,11.966]],{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker([47.645,11.96],{color:"#E74C3C",radius:10,fillOpacity:.8}).bindPopup("Fels: Blankenstein").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='✅ Blankenstein';
     }catch(e){s.innerHTML='❌ Fehler: '+e.message;}
 });

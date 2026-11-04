@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-aueralm').setView([47.69,11.825],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.705, 11.845], [47.69946, 11.84179], [47.69875, 11.83575], [47.69121, 11.82971], [47.6885, 11.8245], [47.68579, 11.82046], [47.67825, 11.81725], [47.67754, 11.81404], [47.672, 11.808]];
+        var pts=[[47.705, 11.845], [47.70152, 11.84434], [47.70204, 11.84109], [47.69631, 11.83756], [47.69635, 11.83394], [47.69361, 11.83041], [47.68945, 11.82716], [47.6903, 11.8243], [47.68474, 11.82188], [47.68419, 11.81984], [47.68221, 11.81808], [47.67745, 11.81642], [47.67847, 11.81466], [47.67323, 11.81262], [47.672, 11.808]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Aueralm").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Aueralm';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

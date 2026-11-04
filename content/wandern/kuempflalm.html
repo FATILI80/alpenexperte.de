@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-kuempflalm').setView([47.648,11.895],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.662, 11.912], [47.65721, 11.90916], [47.65725, 11.9035], [47.65046, 11.89784], [47.6485, 11.893], [47.64654, 11.88934], [47.63975, 11.8865], [47.63979, 11.88366], [47.635, 11.878]];
+        var pts=[[47.662, 11.912], [47.65895, 11.91155], [47.6599, 11.90851], [47.65459, 11.9052], [47.65507, 11.9018], [47.65276, 11.89849], [47.64902, 11.89545], [47.6503, 11.8928], [47.64516, 11.89059], [47.64504, 11.88877], [47.6435, 11.88722], [47.63916, 11.88578], [47.64061, 11.88423], [47.63581, 11.88241], [47.635, 11.878]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Kuempflalm").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Kuempflalm';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

@@ -176,7 +176,7 @@ document.addEventListener('DOMContentLoaded',function(){
         L.circleMarker([47.66,11.91],{color:"#2ECC71",radius:10,fillOpacity:.8}).bindPopup("Spitzingsattel").addTo(m);
         L.circleMarker([47.645,11.92],{color:"#E74C3C",radius:10,fillOpacity:.8}).bindPopup("Aiplspitz").addTo(m);
         L.circleMarker([47.635,11.93],{color:"#F39C12",radius:10,fillOpacity:.8}).bindPopup("Brecherspitz").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='✅ Klettersteige & Felswände';
     }catch(e){s.innerHTML='❌ Fehler: '+e.message;}
 });

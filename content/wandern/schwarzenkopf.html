@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schwarzenkopf').setView([47.622,11.818],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.64, 11.842], [47.63384, 11.83754], [47.6325, 11.83025], [47.62434, 11.82296], [47.621, 11.8165], [47.61766, 11.81121], [47.6095, 11.80675], [47.60816, 11.80229], [47.602, 11.795]];
+        var pts=[[47.64, 11.842], [47.63616, 11.84062], [47.63633, 11.83666], [47.63024, 11.83242], [47.62992, 11.82808], [47.62683, 11.82384], [47.62231, 11.81988], [47.6228, 11.8163], [47.61688, 11.81316], [47.61597, 11.81041], [47.61364, 11.80794], [47.60852, 11.80556], [47.60918, 11.80309], [47.60359, 11.80034], [47.602, 11.795]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schwarzenkopf").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Schwarzenkopf';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-spitzingsee-suesswasser').setView([47.652,11.882],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.668, 11.9], [47.66246, 11.89704], [47.66175, 11.89125], [47.65421, 11.88546], [47.6515, 11.8805], [47.64879, 11.87671], [47.64125, 11.87375], [47.64054, 11.87079], [47.635, 11.865]];
+        var pts=[[47.668, 11.9], [47.66452, 11.89948], [47.66504, 11.89637], [47.65931, 11.89299], [47.65935, 11.88951], [47.65661, 11.88613], [47.65245, 11.88302], [47.6533, 11.8803], [47.64774, 11.87802], [47.64719, 11.87613], [47.64521, 11.87451], [47.64045, 11.87299], [47.64147, 11.87137], [47.63623, 11.86948], [47.635, 11.865]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Suesswasseralm-Runde").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Suesswasseralm-Runde';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

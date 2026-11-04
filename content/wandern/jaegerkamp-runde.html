@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-jaegerkamp-runde').setView([47.66,11.888],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.678, 11.908], [47.67209, 11.90441], [47.671, 11.898], [47.66309, 11.89159], [47.66, 11.886], [47.65691, 11.88159], [47.649, 11.878], [47.64791, 11.87441], [47.642, 11.868]];
+        var pts=[[47.678, 11.908], [47.67431, 11.90712], [47.67461, 11.90366], [47.66866, 11.89992], [47.6685, 11.89608], [47.66554, 11.89234], [47.66116, 11.88888], [47.6618, 11.8858], [47.65602, 11.88316], [47.65526, 11.88091], [47.65307, 11.87894], [47.64809, 11.87706], [47.6489, 11.87509], [47.64345, 11.87284], [47.642, 11.868]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Jaegerkamp-Runde").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Jaegerkamp-Runde';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

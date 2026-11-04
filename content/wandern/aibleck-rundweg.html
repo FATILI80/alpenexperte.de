@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-aibleck-rundweg').setView([47.655,11.87],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.672, 11.892], [47.66596, 11.88816], [47.66475, 11.8815], [47.65671, 11.87484], [47.6535, 11.869], [47.65029, 11.86434], [47.64225, 11.8605], [47.64104, 11.85666], [47.635, 11.85]];
+        var pts=[[47.672, 11.892], [47.66823, 11.89098], [47.66847, 11.88737], [47.66245, 11.88349], [47.66221, 11.87951], [47.65919, 11.87563], [47.65474, 11.87202], [47.6553, 11.8688], [47.64945, 11.86602], [47.64861, 11.86363], [47.64635, 11.86151], [47.64131, 11.85949], [47.64204, 11.85737], [47.63652, 11.85498], [47.635, 11.85]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Aibleck-Rundweg").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Aibleck-Rundweg';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

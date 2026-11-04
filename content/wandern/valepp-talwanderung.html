@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-valepp-talwanderung').setView([47.615,11.86],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.64, 11.89], [47.63234, 11.88391], [47.6295, 11.875], [47.61984, 11.86609], [47.615, 11.858], [47.61016, 11.85109], [47.6005, 11.845], [47.59766, 11.83891], [47.59, 11.83]];
+        var pts=[[47.64, 11.89], [47.63531, 11.8877], [47.63461, 11.8828], [47.62766, 11.87763], [47.6265, 11.87237], [47.62254, 11.8672], [47.61716, 11.8623], [47.6168, 11.8578], [47.61002, 11.85373], [47.60826, 11.85006], [47.60507, 11.84665], [47.59909, 11.84335], [47.5989, 11.83994], [47.59245, 11.83627], [47.59, 11.83]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Valepp-Talwanderung").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Valepp-Talwanderung';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

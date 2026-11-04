@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded',function(){
         var r=L.polyline([[47.652,11.923],[47.645,11.93],[47.635,11.94],[47.62,11.92],[47.61,11.905]],{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker([47.652,11.923],{color:"#2ECC71",radius:10,fillOpacity:.8}).bindPopup("Spitzingsee").addTo(m);
         L.circleMarker([47.645,11.93],{color:"#E74C3C",radius:10,fillOpacity:.8}).bindPopup("Rotwand 1884m").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='âœ… Wanderrouten Mangfallgebirge';
     }catch(e){s.innerHTML='âŒ Fehler: '+e.message;}
 });

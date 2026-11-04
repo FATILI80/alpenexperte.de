@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded',function(){
         var r=L.polyline([[48.137,11.575],[48.05,11.74],[47.99,11.81],[47.9,11.83],[47.78,11.85],[47.723,11.856],[47.652,11.923]],{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker([48.137,11.575],{color:"#2ECC71",radius:10,fillOpacity:.8}).bindPopup("München").addTo(m);
         L.circleMarker([48.05,11.74],{color:"#E74C3C",radius:10,fillOpacity:.8}).bindPopup("Spitzingsee").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='✅ München → Spitzingsee MTB';
     }catch(e){s.innerHTML='❌ Fehler: '+e.message;}
 });

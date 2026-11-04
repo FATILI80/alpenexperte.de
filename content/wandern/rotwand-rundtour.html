@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rotwand-rundtour').setView([47.645,11.905],12);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.67, 11.94], [47.66234, 11.93266], [47.6595, 11.9225], [47.64984, 11.91234], [47.645, 11.903], [47.64016, 11.89484], [47.6305, 11.8875], [47.62766, 11.88016], [47.62, 11.87]];
+        var pts=[[47.67, 11.94], [47.66531, 11.93698], [47.66461, 11.93137], [47.65766, 11.92549], [47.6565, 11.91951], [47.65254, 11.91363], [47.64716, 11.90802], [47.6468, 11.9028], [47.64002, 11.89802], [47.63826, 11.89363], [47.63507, 11.88951], [47.62909, 11.88549], [47.6289, 11.88137], [47.62245, 11.87698], [47.62, 11.87]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rotwand-Rundtour").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Rotwand-Rundtour';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

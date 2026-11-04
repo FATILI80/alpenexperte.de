@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-spitzingsee-bergwald').setView([47.66,11.868],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.675, 11.885], [47.67021, 11.88204], [47.67025, 11.87625], [47.66346, 11.87046], [47.6615, 11.8655], [47.65954, 11.86171], [47.65275, 11.85875], [47.65279, 11.85579], [47.648, 11.85]];
+        var pts=[[47.675, 11.885], [47.67195, 11.88448], [47.6729, 11.88137], [47.66759, 11.87799], [47.66807, 11.87451], [47.66576, 11.87113], [47.66202, 11.86802], [47.6633, 11.8653], [47.65816, 11.86302], [47.65804, 11.86113], [47.6565, 11.85951], [47.65216, 11.85799], [47.65361, 11.85637], [47.64881, 11.85448], [47.648, 11.85]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Bergwald-Runde Spitzingsee").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Bergwald-Runde Spitzingsee';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

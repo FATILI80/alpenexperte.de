@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-himmelmoosalm').setView([47.695,11.845],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.712, 11.862], [47.70634, 11.85916], [47.7055, 11.8535], [47.69784, 11.84784], [47.695, 11.843], [47.69216, 11.83934], [47.6845, 11.8365], [47.68366, 11.83366], [47.678, 11.828]];
+        var pts=[[47.712, 11.862], [47.70845, 11.86155], [47.7089, 11.85851], [47.70309, 11.8552], [47.70307, 11.8518], [47.70026, 11.84849], [47.69602, 11.84545], [47.6968, 11.8428], [47.69116, 11.84059], [47.69054, 11.83877], [47.6885, 11.83722], [47.68366, 11.83578], [47.68461, 11.83423], [47.67931, 11.83241], [47.678, 11.828]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Himmelmoosalm").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Himmelmoosalm';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

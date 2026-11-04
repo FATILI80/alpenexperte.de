@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rotwandhaus-aufstieg').setView([47.65,11.9],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.668, 11.925], [47.66209, 11.92079], [47.661, 11.91375], [47.65309, 11.90671], [47.65, 11.9005], [47.64691, 11.89546], [47.639, 11.89125], [47.63791, 11.88704], [47.632, 11.88]];
+        var pts=[[47.668, 11.925], [47.66431, 11.92377], [47.66461, 11.91994], [47.65866, 11.91585], [47.6585, 11.91165], [47.65554, 11.90756], [47.65116, 11.90373], [47.6518, 11.9003], [47.64602, 11.8973], [47.64526, 11.8947], [47.64307, 11.89237], [47.63809, 11.89013], [47.6389, 11.8878], [47.63345, 11.8852], [47.632, 11.88]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rotwandhaus-Aufstieg").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Rotwandhaus-Aufstieg';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

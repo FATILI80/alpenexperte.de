@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded',function(){
         L.circleMarker([47.715,11.85],{color:"#E74C3C",radius:10,fillOpacity:.8}).bindPopup("Ziel: Spitzingsee").addTo(m);
         L.circleMarker([47.712,11.8234],{color:"#3498db",radius:10,fillOpacity:.8}).bindPopup("Tegernsee").addTo(m);
         L.circleMarker([47.7645,11.7654],{color:"#F39C12",radius:10,fillOpacity:.8}).bindPopup("Gindelalm").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='✅ Drei-Seen-Runde (E-Bike)';
     }catch(e){s.innerHTML='❌ Fehler: '+e.message;}
 });

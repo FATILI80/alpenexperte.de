@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rottachalm').setView([47.67,11.885],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.685, 11.902], [47.67984, 11.89916], [47.6795, 11.8935], [47.67234, 11.88784], [47.67, 11.883], [47.66766, 11.87934], [47.6605, 11.8765], [47.66016, 11.87366], [47.655, 11.868]];
+        var pts=[[47.685, 11.902], [47.68173, 11.90155], [47.68247, 11.89851], [47.67695, 11.8952], [47.67721, 11.8918], [47.67469, 11.88849], [47.67074, 11.88545], [47.6718, 11.8828], [47.66645, 11.88059], [47.66611, 11.87877], [47.66435, 11.87722], [47.65981, 11.87578], [47.66104, 11.87423], [47.65602, 11.87241], [47.655, 11.868]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rottachalm").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Rottachalm';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

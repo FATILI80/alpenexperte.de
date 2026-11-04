@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-plankenstein').setView([47.7,12.005],12);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.72, 12.03], [47.71334, 12.02516], [47.7115, 12.0175], [47.70284, 12.00984], [47.699, 12.003], [47.69516, 11.99734], [47.6865, 11.9925], [47.68466, 11.98766], [47.678, 11.98]];
+        var pts=[[47.72, 12.03], [47.71588, 12.02841], [47.71575, 12.02423], [47.70938, 12.01978], [47.70878, 12.01522], [47.7054, 12.01077], [47.70059, 12.00659], [47.7008, 12.0028], [47.69459, 11.99945], [47.6934, 11.99649], [47.69078, 11.9938], [47.68538, 11.9912], [47.68575, 11.98851], [47.67988, 11.98555], [47.678, 11.98]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Plankenstein").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Plankenstein';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });

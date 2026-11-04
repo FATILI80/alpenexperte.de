@@ -146,11 +146,11 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rettenscharten').setView([47.63,11.855],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.65, 11.882], [47.64334, 11.87691], [47.6415, 11.869], [47.63284, 11.86109], [47.629, 11.854], [47.62516, 11.84809], [47.6165, 11.843], [47.61466, 11.83791], [47.608, 11.83]];
+        var pts=[[47.65, 11.882], [47.64588, 11.88027], [47.64575, 11.87594], [47.63938, 11.87135], [47.63878, 11.86665], [47.6354, 11.86206], [47.63059, 11.85773], [47.6308, 11.8538], [47.62459, 11.8503], [47.6234, 11.8472], [47.62078, 11.84437], [47.61538, 11.84163], [47.61575, 11.8388], [47.60988, 11.8357], [47.608, 11.83]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rettenscharten").addTo(m);
-        m.fitBounds(r.getBounds());
+        m.fitBounds(r.getBounds(), {padding: [40, 40]});
         s.innerHTML='Rettenscharten';
     }catch(e){s.innerHTML='Fehler: '+e.message;}
 });
