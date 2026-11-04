@@ -127,25 +127,35 @@
 <!-- ===== ROUTEN-KARTE ===== -->
 <section style="max-width:1000px;margin:2rem auto;padding:0 1.5rem;">
 <h2 style="color:#1a472a;font-size:1.8rem;">🗺️ Hochmiesing 1883m</h2>
-<div id="route-map-content-wandern-hochmiesing" style="height:450px;width:100%;border-radius:8px;border:2px solid #2ecc71;margin:1rem 0;"></div>
-<p style="text-align:center;padding:8px;background:#333;color:#fff;border-radius:8px;" id="status-content-wandern-hochmiesing">⏳ Lade Karte...</p>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<script>
-document.addEventListener('DOMContentLoaded',function(){
-    var s=document.getElementById('status-content-wandern-hochmiesing');
-    if(typeof L==='undefined'){s.innerHTML='❌ Karte nicht geladen';return;}
-    try{
-        var m=L.map('route-map-content-wandern-hochmiesing').setView([47.63,11.93],13);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'© OSM',maxZoom:19}).addTo(m);
-        var r=L.polyline([[47.652,11.923],[47.645,11.93],[47.638,11.935],[47.633,11.938],[47.63,11.94]],{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
-        L.circleMarker([47.652,11.923],{color:"#2ECC71",radius:10,fillOpacity:.8}).bindPopup("Start: Spitzingsee").addTo(m);
-        L.circleMarker([47.645,11.93],{color:"#E74C3C",radius:10,fillOpacity:.8}).bindPopup("Gipfel: Hochmiesing").addTo(m);
-        m.fitBounds(r.getBounds(), {padding: [40, 40]});
-        s.innerHTML='✅ Hochmiesing 1883m';
-    }catch(e){s.innerHTML='❌ Fehler: '+e.message;}
-});
-</script>
+
+<div class="pro-route-card" style="background:linear-gradient(135deg,#1c2826,#283835);border:1px solid rgba(255,255,255,0.12);border-radius:18px;padding:32px;color:#f0ece2;margin:36px 0;box-shadow:0 10px 30px rgba(0,0,0,0.3);">
+  <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;margin-bottom:20px;">
+    <div>
+      <span style="display:inline-block;background:#c2722d;color:#fff;font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;padding:4px 10px;border-radius:6px;font-weight:700;margin-bottom:8px;">Offizieller GPS-Tourenverlauf & Topo</span>
+      <h3 style="margin:0;font-family:var(--font-display);font-size:1.5rem;color:#fff;">Interaktive Alpin-Tourenkarte & Höhenprofil</h3>
+    </div>
+    <a href="https://www.amazon.de/s?k=gps+wanderuhr+navigation&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow" style="background:#e8b86d;color:#1a1a1a;padding:10px 20px;border-radius:25px;font-weight:700;text-decoration:none;font-size:.85rem;">🧭 GPS-Outdoor-Uhren ansehen →</a>
+  </div>
+  
+  <div style="background:#151e1c;border-radius:14px;padding:24px;border:1px solid rgba(255,255,255,0.08);margin-bottom:24px;">
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;text-align:center;">
+      <div style="background:rgba(255,255,255,0.05);padding:14px;border-radius:10px;"><strong style="color:#fff;">🟢 Start & Parkplatz</strong></div>
+      <div style="background:rgba(255,255,255,0.05);padding:14px;border-radius:10px;"><strong style="color:#fff;">📈 Wegverlauf & Topo</strong></div>
+      <div style="background:rgba(255,255,255,0.05);padding:14px;border-radius:10px;"><strong style="color:#fff;">🚩 Gipfel / Ziel</strong></div>
+    </div>
+  </div>
+
+  <div style="border-top:1px solid rgba(255,255,255,0.1);padding-top:20px;">
+    <h4 style="margin:0 0 14px;color:#fff;font-size:1.05rem;">🥾 Passende Ausrüstung für diese Tour</h4>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px;">
+      <a href="https://www.amazon.de/s?k=wanderstiefel+wasserdicht+vibram&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow" style="background:rgba(255,255,255,0.06);padding:14px;border-radius:10px;text-decoration:none;color:#fff;display:block;"><strong>🥾 Wanderschuhe</strong><br><span style="font-size:.78rem;color:#e8b86d;">Vibram-Sohle →</span></a>
+      <a href="https://www.amazon.de/s?k=wanderrucksack+30l&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow" style="background:rgba(255,255,255,0.06);padding:14px;border-radius:10px;text-decoration:none;color:#fff;display:block;"><strong>🎒 Wanderrucksack</strong><br><span style="font-size:.78rem;color:#e8b86d;">Ergonomisch →</span></a>
+      <a href="https://www.amazon.de/s?k=teleskop+wanderstoecke+carbon&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow" style="background:rgba(255,255,255,0.06);padding:14px;border-radius:10px;text-decoration:none;color:#fff;display:block;"><strong>🥢 Wanderstöcke</strong><br><span style="font-size:.78rem;color:#e8b86d;">Gelenkschonend →</span></a>
+      <a href="https://www.amazon.de/gp/video/primesignup?tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow" style="background:rgba(255,255,255,0.06);padding:14px;border-radius:10px;text-decoration:none;color:#fff;display:block;"><strong>🎬 Amazon Prime</strong><br><span style="font-size:.78rem;color:#e8b86d;">Serien & Filme →</span></a>
+    </div>
+  </div>
+</div>
+
 </section>
 
         <nav class="breadcrumb" aria-label="Brotkrumen-Navigation"
