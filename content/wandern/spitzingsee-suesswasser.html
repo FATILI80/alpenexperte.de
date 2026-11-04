@@ -58,37 +58,52 @@
 
 
 
+
 <section style="max-width:1000px;margin:2rem auto;padding:0 1.5rem;">
-<div style="background:#1c2826;border-radius:16px;padding:24px;border:1px solid rgba(255,255,255,0.12);color:#f0ece2;box-shadow:0 10px 25px rgba(0,0,0,0.2);">
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;flex-wrap:wrap;gap:10px;">
-    <h3 style="margin:0;color:#fff;font-family:var(--font-display);font-size:1.3rem;">🗺️ Interaktive Topografische Karte & GPS-Wegverlauf</h3>
-    <span style="background:#2ecc71;color:#111;padding:3px 10px;border-radius:16px;font-size:.75rem;font-weight:700;">Live OpenStreetMap Topo</span>
-  </div>
+<div style="background:#1c2826;border-radius:16px;padding:24px;border:1px solid rgba(255,255,255,0.12);color:#f0ece2;">
+  <h3 style="margin:0 0 10px;color:#fff;font-size:1.3rem;">🗺️ Topografische Karte & GPS-Wegverlauf</h3>
   
-  <div style="background:#151e1c;border-radius:8px;padding:12px;margin-bottom:12px;font-size:0.85rem;">
-    <strong style="display:block;margin-bottom:4px;text-transform:uppercase;letter-spacing:.05em;color:#e8b86d;">Karten-Legende:</strong>
-    <div style="display:flex;flex-wrap:wrap;gap:14px;color:rgba(255,255,255,0.9);">
+  <div style="background:#151e1c;border-radius:10px;padding:12px;margin-bottom:12px;font-size:0.85rem;">
+    <strong style="display:block;margin-bottom:4px;text-transform:uppercase;letter-spacing:.05em;">Karten-Legende:</strong>
+    <div style="display:flex;flex-wrap:wrap;gap:14px;">
       <span>🟢 <strong>Start & Parkplatz</strong> (Ausgangspunkt)</span>
       <span>📈 <strong>GPS-Tourenverlauf & Topo</strong> (OpenStreetMap-Pfad)</span>
       <span>🚩 <strong>Gipfel / Ziel / Alm</strong> (z.B. Obere Firstalm)</span>
     </div>
   </div>
 
-  <div style="border-radius:10px;overflow:hidden;border:2px solid #2ecc71;box-shadow:0 4px 15px rgba(0,0,0,0.3);margin-bottom:16px;background:#fff;">
-    <iframe width="100%" height="420" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=11.75%2C47.60%2C11.95%2C47.70&amp;layer=mapnik&amp;marker=47.65%2C11.85" style="display:block;"></iframe>
-  </div>
+  <div id="leaflet-spitzingsee-suesswasser" style="height:400px;width:100%;border-radius:10px;border:2px solid #2ecc71;margin-bottom:14px;"></div>
+  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+  <script>
+  window.addEventListener('DOMContentLoaded', function() {
+      setTimeout(function() {
+          if(typeof L === 'undefined') return;
+          try {
+              var m = L.map('leaflet-spitzingsee-suesswasser').setView([47.65, 11.88], 13);
+              L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19}).addTo(m);
+              var pts = [[47.66, 11.87], [47.655, 11.885], [47.65, 11.89], [47.645, 11.895], [47.64, 11.9]];
+              var poly = L.polyline(pts, {color: '#FF6B35', weight: 4, opacity: 0.85}).addTo(m);
+              L.circleMarker(pts[0], {color: '#2ECC71', radius: 10, fillOpacity: 0.9}).bindPopup("<b>Start & Parkplatz</b>").addTo(m);
+              L.circleMarker(pts[pts.length-1], {color: '#E74C3C', radius: 10, fillOpacity: 0.9}).bindPopup("<b>Gipfel / Ziel / Alm</b>").addTo(m);
+              m.fitBounds(poly.getBounds(), {padding: [30, 30]});
+          } catch(e) {}
+      }, 250);
+  });
+  </script>
 
   <div style="border-top:1px solid rgba(255,255,255,0.1);padding-top:16px;">
     <h4 style="margin:0 0 10px;color:#fff;font-size:1rem;">🥾 Passende Ausrüstung für diese Tour</h4>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;">
       <a href="https://www.amazon.de/s?k=wanderstiefel+wasserdicht+vibram&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow" style="background:rgba(255,255,255,0.06);padding:12px;border-radius:8px;text-decoration:none;color:#fff;display:block;">
-        <strong>🥾 Wanderschuhe</strong><br><span style="font-size:.75rem;color:rgba(255,255,255,0.7);">Mit griffiger Vibram-Sohle</span><br><span style="color:#e8b86d;font-weight:700;font-size:.8rem;">Jetzt bei Amazon ansehen →</span>
+        <strong>🥾 Wanderschuhe</strong><br><span style="font-size:.75rem;color:rgba(255,255,255,0.7);">Mit griffiger Vibram-Sohle</span><br><span style="color:#e8b86d;font-weight:700;font-size:.8rem;">Jetzt ansehen →</span>
       </a>
       <a href="https://www.amazon.de/s?k=wanderrucksack+30l+atmungsaktiv&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow" style="background:rgba(255,255,255,0.06);padding:12px;border-radius:8px;text-decoration:none;color:#fff;display:block;">
-        <strong>🎒 Wanderrucksack</strong><br><span style="font-size:.75rem;color:rgba(255,255,255,0.7);">Ergonomisch & atmungsaktiv</span><br><span style="color:#e8b86d;font-weight:700;font-size:.8rem;">Jetzt bei Amazon ansehen →</span>
+        <strong>🎒 Wanderrucksack</strong><br><span style="font-size:.75rem;color:rgba(255,255,255,0.7);">Ergonomisch & atmungsaktiv</span><br><span style="color:#e8b86d;font-weight:700;font-size:.8rem;">Jetzt ansehen →</span>
       </a>
       <a href="https://www.amazon.de/s?k=teleskop+wanderstoecke+carbon&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow" style="background:rgba(255,255,255,0.06);padding:12px;border-radius:8px;text-decoration:none;color:#fff;display:block;">
-        <strong>🥢 Wanderstöcke</strong><br><span style="font-size:.75rem;color:rgba(255,255,255,0.7);">Gelenkschonend für Abstieg</span><br><span style="color:#e8b86d;font-weight:700;font-size:.8rem;">Jetzt bei Amazon ansehen →</span>
+        <strong>🥢 Wanderstöcke</strong><br><span style="font-size:.75rem;color:rgba(255,255,255,0.7);">Gelenkschonend für Abstieg</span><br><span style="color:#e8b86d;font-weight:700;font-size:.8rem;">Jetzt ansehen →</span>
       </a>
       <a href="https://www.amazon.de/gp/video/primesignup?tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow" style="background:rgba(255,255,255,0.06);padding:12px;border-radius:8px;text-decoration:none;color:#fff;display:block;">
         <strong>🎬 Amazon Prime</strong><br><span style="font-size:.75rem;color:rgba(255,255,255,0.7);">Für Filme & Serien</span><br><span style="color:#e8b86d;font-weight:700;font-size:.8rem;">Ansehen →</span>
@@ -97,6 +112,7 @@
   </div>
 </div>
 </section>
+
 
 
 
