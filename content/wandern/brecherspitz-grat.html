@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-brecherspitz-grat').setView([47.658,11.882],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.675, 11.9], [47.66906, 11.89669], [47.66846, 11.88847], [47.66031, 11.88719], [47.6575, 11.881], [47.65469, 11.87481], [47.64654, 11.87353], [47.64594, 11.86531], [47.64, 11.862]];
+        var pts=[[47.675, 11.9], [47.66921, 11.89666], [47.66825, 11.8905], [47.66046, 11.88434], [47.6575, 11.879], [47.65454, 11.87484], [47.64675, 11.8715], [47.64579, 11.86816], [47.64, 11.862]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Brecherspitz-Grat").addTo(m);

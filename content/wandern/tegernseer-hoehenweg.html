@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-tegernseer-hoehenweg').setView([47.7,11.77],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.72, 11.795], [47.71356, 11.79003], [47.71289, 11.78068], [47.70406, 11.77753], [47.701, 11.77], [47.69794, 11.76247], [47.68911, 11.75932], [47.68844, 11.74997], [47.682, 11.745]];
+        var pts=[[47.72, 11.795], [47.71384, 11.79016], [47.7125, 11.7825], [47.70434, 11.77484], [47.701, 11.768], [47.69766, 11.76234], [47.6895, 11.7575], [47.68816, 11.75266], [47.682, 11.745]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Tegernseer Hoehenweg").addTo(m);

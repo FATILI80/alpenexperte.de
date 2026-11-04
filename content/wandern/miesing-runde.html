@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-miesing-runde').setView([47.655,11.848],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.67, 11.868], [47.66438, 11.86462], [47.66429, 11.85657], [47.65638, 11.85512], [47.654, 11.849], [47.65162, 11.84288], [47.64371, 11.84143], [47.64362, 11.83338], [47.638, 11.83]];
+        var pts=[[47.67, 11.868], [47.66459, 11.86466], [47.664, 11.8585], [47.65659, 11.85234], [47.654, 11.847], [47.65141, 11.84284], [47.644, 11.8395], [47.64341, 11.83616], [47.638, 11.83]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Miesing-Runde").addTo(m);

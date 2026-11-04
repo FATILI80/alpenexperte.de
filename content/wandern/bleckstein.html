@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-bleckstein').setView([47.625,11.835],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.645, 11.86], [47.63834, 11.85508], [47.63734, 11.84563], [47.62834, 11.84258], [47.625, 11.835], [47.62166, 11.82742], [47.61266, 11.82437], [47.61166, 11.81492], [47.605, 11.81]];
+        var pts=[[47.645, 11.86], [47.63859, 11.85516], [47.637, 11.8475], [47.62859, 11.83984], [47.625, 11.833], [47.62141, 11.82734], [47.613, 11.8225], [47.61141, 11.81766], [47.605, 11.81]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Bleckstein").addTo(m);

@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-toter-mann-runde').setView([47.648,11.868],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.665, 11.888], [47.65906, 11.88469], [47.65846, 11.87647], [47.65031, 11.87519], [47.6475, 11.869], [47.64469, 11.86281], [47.63654, 11.86153], [47.63594, 11.85331], [47.63, 11.85]];
+        var pts=[[47.665, 11.888], [47.65921, 11.88466], [47.65825, 11.8785], [47.65046, 11.87234], [47.6475, 11.867], [47.64454, 11.86284], [47.63675, 11.8595], [47.63579, 11.85616], [47.63, 11.85]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Toter-Mann-Runde").addTo(m);

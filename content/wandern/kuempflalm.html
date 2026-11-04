@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-kuempflalm').setView([47.648,11.895],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.662, 11.912], [47.65696, 11.90907], [47.6576, 11.90163], [47.65021, 11.90057], [47.6485, 11.895], [47.64679, 11.88943], [47.6394, 11.88837], [47.64004, 11.88093], [47.635, 11.878]];
+        var pts=[[47.662, 11.912], [47.65721, 11.90916], [47.65725, 11.9035], [47.65046, 11.89784], [47.6485, 11.893], [47.64654, 11.88934], [47.63975, 11.8865], [47.63979, 11.88366], [47.635, 11.878]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Kuempflalm").addTo(m);

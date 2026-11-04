@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schinder').setView([47.665,11.78],12);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.685, 11.808], [47.67798, 11.80271], [47.67658, 11.79286], [47.66723, 11.78946], [47.6635, 11.7815], [47.65977, 11.77354], [47.65042, 11.77014], [47.64902, 11.76029], [47.642, 11.755]];
+        var pts=[[47.685, 11.808], [47.67821, 11.80279], [47.67625, 11.79475], [47.66746, 11.78671], [47.6635, 11.7795], [47.65954, 11.77346], [47.65075, 11.76825], [47.64879, 11.76304], [47.642, 11.755]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schinder").addTo(m);

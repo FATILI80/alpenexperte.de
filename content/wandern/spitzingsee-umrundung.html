@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-spitzingsee-umrundung').setView([47.665,11.89],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.68, 11.91], [47.67455, 11.90627], [47.6749, 11.8982], [47.66705, 11.89627], [47.665, 11.89], [47.66295, 11.88373], [47.6551, 11.8818], [47.65545, 11.87373], [47.65, 11.87]];
+        var pts=[[47.68, 11.91], [47.67484, 11.90641], [47.6745, 11.9], [47.66734, 11.89359], [47.665, 11.888], [47.66266, 11.88359], [47.6555, 11.88], [47.65516, 11.87641], [47.65, 11.87]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Spitzingsee-Umrundung").addTo(m);

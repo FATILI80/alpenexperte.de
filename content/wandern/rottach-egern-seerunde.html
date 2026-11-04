@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rottach-egern-seerunde').setView([47.69,11.75],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.705, 11.768], [47.69968, 11.7653], [47.69972, 11.75773], [47.69218, 11.75705], [47.69, 11.7515], [47.68782, 11.74595], [47.68028, 11.74527], [47.68032, 11.7377], [47.675, 11.735]];
+        var pts=[[47.705, 11.768], [47.69984, 11.76529], [47.6995, 11.75975], [47.69234, 11.75421], [47.69, 11.7495], [47.68766, 11.74596], [47.6805, 11.74325], [47.68016, 11.74054], [47.675, 11.735]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rottach-Egern Seerunde").addTo(m);

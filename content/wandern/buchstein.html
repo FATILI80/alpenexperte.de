@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-buchstein').setView([47.665,11.8],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.685, 11.82], [47.6785, 11.8165], [47.67712, 11.80788], [47.6685, 11.8065], [47.665, 11.8], [47.6615, 11.7935], [47.65288, 11.79212], [47.6515, 11.7835], [47.645, 11.78]];
+        var pts=[[47.685, 11.82], [47.67859, 11.81641], [47.677, 11.81], [47.66859, 11.80359], [47.665, 11.798], [47.66141, 11.79359], [47.653, 11.79], [47.65141, 11.78641], [47.645, 11.78]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Buchstein").addTo(m);

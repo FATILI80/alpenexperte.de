@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-aibleck-rundweg').setView([47.655,11.87],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.672, 11.892], [47.66578, 11.88815], [47.665, 11.87952], [47.65653, 11.87765], [47.6535, 11.871], [47.65047, 11.86435], [47.642, 11.86248], [47.64122, 11.85385], [47.635, 11.85]];
+        var pts=[[47.672, 11.892], [47.66596, 11.88816], [47.66475, 11.8815], [47.65671, 11.87484], [47.6535, 11.869], [47.65029, 11.86434], [47.64225, 11.8605], [47.64104, 11.85666], [47.635, 11.85]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Aibleck-Rundweg").addTo(m);

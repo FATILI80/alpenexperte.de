@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schliersbergalm').setView([47.72,11.86],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.735, 11.88], [47.72933, 11.87708], [47.72893, 11.86919], [47.72108, 11.86833], [47.7185, 11.8625], [47.71592, 11.85667], [47.70807, 11.85581], [47.70767, 11.84792], [47.702, 11.845]];
+        var pts=[[47.735, 11.88], [47.72946, 11.87704], [47.72875, 11.87125], [47.72121, 11.86546], [47.7185, 11.8605], [47.71579, 11.85671], [47.70825, 11.85375], [47.70754, 11.85079], [47.702, 11.845]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schliersbergalm").addTo(m);

@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-wallberg').setView([47.685,11.74],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.705, 11.765], [47.69834, 11.76008], [47.69734, 11.75063], [47.68834, 11.74758], [47.685, 11.74], [47.68166, 11.73242], [47.67266, 11.72937], [47.67166, 11.71992], [47.665, 11.715]];
+        var pts=[[47.705, 11.765], [47.69859, 11.76016], [47.697, 11.7525], [47.68859, 11.74484], [47.685, 11.738], [47.68141, 11.73234], [47.673, 11.7275], [47.67141, 11.72266], [47.665, 11.715]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Wallberg").addTo(m);

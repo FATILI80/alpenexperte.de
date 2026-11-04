@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schoenfeldalm-runde').setView([47.645,11.91],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.662, 11.93], [47.65613, 11.92637], [47.65579, 11.91806], [47.64763, 11.91637], [47.645, 11.91], [47.64237, 11.90363], [47.63421, 11.90194], [47.63387, 11.89363], [47.628, 11.89]];
+        var pts=[[47.662, 11.93], [47.65634, 11.92641], [47.6555, 11.92], [47.64784, 11.91359], [47.645, 11.908], [47.64216, 11.90359], [47.6345, 11.9], [47.63366, 11.89641], [47.628, 11.89]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schoenfeldalm-Runde").addTo(m);

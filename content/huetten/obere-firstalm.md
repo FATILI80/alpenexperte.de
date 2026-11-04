@@ -1,191 +1,24 @@
-﻿<!DOCTYPE html>
-<html lang="de">
-<head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Obere Firstalm (1.375 m) - Lage, Kueche &amp; Touren | Alpen-Experte</title>
-<meta name="description" content="Obere Firstalm auf 1.375 m bei Spitzingsee: Lage, Zustieg, Kueche, Uebernachtung und Touren in der Umgebung. Echte Angaben aus eigener Begehung." />
-<link rel="stylesheet" href="../../css/style.css?v=20260612b" />
-<link rel="icon" type="image/svg+xml" href="../../images/favicon.svg" />
-<link rel="canonical" href="https://www.alpenexperte.de/content/huetten/obere-firstalm.html" />
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "TouristAttraction",
-  "name": "Obere Firstalm",
-  "description": "Obere Firstalm auf 1.375 m bei Spitzingsee.",
-  "geo": { "@type": "GeoCoordinates", "latitude": 47.66, "longitude": 11.875 },
-  "address": { "@type": "PostalAddress", "addressRegion": "Bayern", "addressCountry": "DE" }
-}
-</script>
-<meta property="og:title" content="Obere Firstalm (1.375 m) | Alpen-Experte" />
-<meta property="og:description" content="Obere Firstalm bei Spitzingsee: Lage, Kueche, Uebernachtung und Touren." />
-<meta property="og:image" content="https://www.alpenexperte.de/images/obere-firstalm.jpg" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://www.alpenexperte.de/content/huetten/obere-firstalm.html" />
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-</head>
-<body>
-<header class="site-header" role="banner">
-    <div class="container header-inner">
-        <a href="../../index.html" class="logo" aria-label="Alpen-Experte Startseite"><img src="../../images/logo.svg" alt="Alpen-Experte" width="160" height="42"></a>
-        <form class="header-search" role="search" action="https://www.google.com/search" method="get" target="_blank">
-            <input type="hidden" name="q" value="site:alpenexperte.de">
-            <input class="header-search-input" type="text" name="q2" placeholder="Suchen..." aria-label="Suchbegriff eingeben">
-            <button type="submit" class="header-search-btn" aria-label="Suche starten">&rsaquo;</button>
-        </form>
-        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mainNav" aria-label="Navigation oeffnen">
-            <span class="hamburger-line"></span><span class="hamburger-line"></span><span class="hamburger-line"></span>
-        </button>
-        <nav id="mainNav" class="main-nav" aria-label="Hauptnavigation">
-            <ul class="nav-list">
-                    <li><a href="/shopping.html" class="nav-link">Shopping</a></li>
-                <li><a href="../../content/wandern/index.html" class="nav-link">Wandern</a></li>
-                <li><a href="../../content/klettern/index.html" class="nav-link">Klettern</a></li>
-                <li><a href="../../content/mtb/index.html" class="nav-link">MTB-Touren</a></li>
-                <li><a href="../../gravel.html" class="nav-link">Gravel</a></li>
-                <li><a href="../../content/winter/index.html" class="nav-link">Winter</a></li>
-                <li><a href="../../huetten.html" class="nav-link">Huetten</a></li>
-                <li><a href="../../restaurants.html" class="nav-link">Restaurants</a></li>
-                <li><a href="../../live-check.html" class="nav-link">Wetter &amp; Webcams</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-<a href="#main" class="skip-link">Zum Inhalt springen</a>
-<main id="main">
-<nav class="breadcrumb" aria-label="Breadcrumb" style="padding:var(--space-md) 0;font-size:.85rem;">
-    <div class="container">
-        <a href="../../index.html">Home</a> <span>&rsaquo;</span>
-        <a href="../../huetten.html">Huetten &amp; Almen</a> <span>&rsaquo;</span>
-        <span>Obere Firstalm</span>
-    </div>
-</nav>
-<section class="section">
-    <div class="container" style="max-width:var(--container-narrow);">
-        <header class="article-header" style="margin-bottom:var(--space-2xl);">
-            <span class="featured-badge" style="display:inline-block;margin:0 var(--space-xs) var(--space-sm) 0;">Bewirtschaftete Alm</span>
-            <span class="featured-badge" style="display:inline-block;margin:0 var(--space-xs) var(--space-sm) 0;">Familienfreundlich</span>
-            <span class="featured-badge" style="display:inline-block;margin:0 var(--space-xs) var(--space-sm) 0;">E-Bike-tauglich</span>
-            <h1>Obere Firstalm (1.375 m)</h1>
-            <div style="margin-top:var(--space-md);color:var(--color-text-light);font-size:.9rem;">
-                <span>Region Spitzingsee</span> &middot; <span>Hoehe 1.375 m</span> &middot; <span>Mangfallgebirge</span>
-            </div>
-        </header>
-        <figure style="margin-bottom:var(--space-2xl);">
-            <img src="../../images/obere-firstalm.jpg" alt="Obere Firstalm am Spitzingsee" width="800" height="450" style="width:100%;height:auto;border-radius:12px;" loading="eager" />
-            <figcaption style="margin-top:var(--space-xs);font-size:.85rem;color:var(--color-text-light);">Obere Firstalm am Spitzingsee.</figcaption>
-        </figure>
-        <p style="font-size:1.05rem;color:var(--color-text-light);line-height:1.7;margin-bottom:var(--space-2xl);">Die Obere Firstalm liegt sonnig ueber dem Spitzingsee und ist eine der bekanntesten Almen der Region. Sie ist mit dem Auto ueber die Mautstrasse oder zu Fuss erreichbar und ganzjaehrig geoeffnet - im Sommer ein beliebtes Wander- und Bikertreff, im Winter direkt an der Skipiste.</p>
+---
+title: "Obere Firstalm (1.370 m) – Der Prio 1 Star-Hütte am Spitzingsee"
+slug: "obere-firstalm"
+elevation: "1.370 m"
+region: "Spitzingsee / Mangfallgebirge"
+priority: 1
+---
+# Obere Firstalm (1.370 m) – Die Nr. 1 am Spitzingsee
+- **Anschrift:** Obere Firstalm, 83727 Spitzingsee (1.370 m)
+- **Telefon:** +49 (0)8026 - 7302 | **Reservierung:** firstalm.de/tischreservierung
+- **Öffnungszeiten:** Täglich bis 22:00 Uhr. Frühstücksbuffet 8:00–10:00 Uhr, Warme Küche 11:00–20:00 Uhr.
 
-        <div id="huette-map" style="height:420px;width:100%;border-radius:12px;border:2px solid #2ecc71;margin:0 0 var(--space-2xl) 0;"></div>
+## Kulinarik (Auswahl ohne Preise)
+- Rote Linsensuppe (mit Kokosmilch & Brezencroutons), Frische Salate.
+- Power Bowl, Teriyaki Lachs Bowl, Gebratener Ziegenkäse mit Waldhonig.
+- Schweineschnitzel Wiener Art, Spinatknödel, Kalbfleischpflanzerl, Entenkeule.
+- Pildinger Weißwürste, Riesencurrywurst, Bayerischer Wurstsalat, Hüttn Brettl.
+- Hausgemachte Kuchen, Kaiserschmarrn (Apfel-/Zwetschgenkompott), Apfelkücherl.
+- Hacker-Pschorr Hell, Paulaner Hefe-Weißbier, alkoholfreie Spezialitäten.
 
-        <section style="margin-bottom:var(--space-3xl);">
-            <h2>Lage</h2>
-            <p style="color:var(--color-text-light);line-height:1.7;">Die Alm thront auf 1.375 m an der Suedflanke des Spitzingsattels, nur wenige Gehminuten unterhalb der Bergstation. Vom Spitzingsattel fuehren breite Wanderwege heran. Ueber die Spitzingsee-Mautstrasse gelangt man mit dem Pkw bis zum grossen Parkplatz unmittelbar an der Alm.</p>
-        </section>
-
-        <section style="margin-bottom:var(--space-3xl);">
-            <h2>Zustieg</h2>
-            <p style="color:var(--color-text-light);line-height:1.7;">Option 1 (Fussweg): vom Parkplatz Spitzingsattel auf breitem Schotterweg. Option 2: mit dem Pkw ueber die mautpflichtige Spitzingsee-Strasse bis zum Parkplatz an der Alm. Option 3: mit dem E-Bike ueber den offiziellen Forstweg.</p>
-        </section>
-
-        <section style="margin-bottom:var(--space-3xl);">
-            <h2>Kueche &amp; Spezialitaeten</h2>
-            <p style="color:var(--color-text-light);line-height:1.7;">Der Sonnenterrassen-Klassiker ist der Kaiserschmarrn. Ebenfalls am haeufigsten bestellt: Kaspressknoedel in der Suppe und die Brotzeitplatte mit Bergkaese aus der Region.</p>
-        </section>
-
-        <section style="margin-bottom:var(--space-3xl);">
-            <h2>Uebernachtung &amp; Oeffnungszeiten</h2>
-            <p style="color:var(--color-text-light);line-height:1.7;">Ja - Zimmer und Lager sind ganzjaehrig buchbar. Reservierung an Wochenenden empfohlen.</p>
-            <p style="color:var(--color-text-light);line-height:1.7;margin-top:var(--space-sm);"><strong>Anreise/Parken:</strong> Grosser Parkplatz direkt an der Mautstrasse.</p>
-        </section>
-
-        <section style="margin-bottom:var(--space-3xl);">
-            <h2>Obere Firstalm auf einen Blick</h2>
-            <div style="overflow-x:auto;margin-top:var(--space-md);">
-                <table style="width:100%;border-collapse:collapse;font-size:.9rem;">
-                    <tbody>
-                        <tr style="border-bottom:1px solid rgba(139,94,60,.1);"><td style="padding:var(--space-md);font-weight:600;white-space:nowrap;">Hoehe</td><td style="padding:var(--space-md);color:var(--color-text-light);">1.375 m ue. NN</td></tr>
-                        <tr style="border-bottom:1px solid rgba(139,94,60,.1);"><td style="padding:var(--space-md);font-weight:600;white-space:nowrap;">Region</td><td style="padding:var(--space-md);color:var(--color-text-light);">Mangfallgebirge / Spitzingsee</td></tr>
-                        <tr style="border-bottom:1px solid rgba(139,94,60,.1);"><td style="padding:var(--space-md);font-weight:600;white-space:nowrap;">Erreichbarkeit</td><td style="padding:var(--space-md);color:var(--color-text-light);">Mautstrasse oder Fussweg</td></tr>
-                        <tr style="border-bottom:1px solid rgba(139,94,60,.1);"><td style="padding:var(--space-md);font-weight:600;white-space:nowrap;">Zustieg</td><td style="padding:var(--space-md);color:var(--color-text-light);">ca. 45 Min. ab Spitzingsattel</td></tr>
-                        <tr style="border-bottom:1px solid rgba(139,94,60,.1);"><td style="padding:var(--space-md);font-weight:600;white-space:nowrap;">Kueche</td><td style="padding:var(--space-md);color:var(--color-text-light);">Kaiserschmarrn, Kaspressknoedel</td></tr>
-                        <tr style="border-bottom:1px solid rgba(139,94,60,.1);"><td style="padding:var(--space-md);font-weight:600;white-space:nowrap;">Uebernachtung</td><td style="padding:var(--space-md);color:var(--color-text-light);">Ja · 15 Zimmer, 60 Betten</td></tr>
-                        <tr style="border-bottom:1px solid rgba(139,94,60,.1);"><td style="padding:var(--space-md);font-weight:600;white-space:nowrap;">Oeffnungszeiten</td><td style="padding:var(--space-md);color:var(--color-text-light);">Taeglich bis 22 Uhr · Kueche 11–20 Uhr</td></tr><tr style="border-bottom:1px solid rgba(139,94,60,.1);"><td style="padding:var(--space-md);font-weight:600;white-space:nowrap;">Tagungen</td><td style="padding:var(--space-md);color:var(--color-text-light);">Konferenzraum vorhanden</td></tr><tr style="border-bottom:1px solid rgba(139,94,60,.1);"><td style="padding:var(--space-md);font-weight:600;white-space:nowrap;">Winter</td><td style="padding:var(--space-md);color:var(--color-text-light);">Gluehweinstand</td></tr>
-                        <tr style="border-bottom:1px solid rgba(139,94,60,.1);"><td style="padding:var(--space-md);font-weight:600;white-space:nowrap;">Familientauglich</td><td style="padding:var(--space-md);color:var(--color-text-light);">Ja</td></tr>
-                    </tbody>
-                </table>
-            </div>
-        </section>
-
-        <section style="margin-bottom:var(--space-3xl);">
-            <h2>Aktivitaeten rund um die Obere Firstalm</h2>
-            <ul style="list-style:disc;padding-left:var(--space-lg);">
-                <li style="padding:var(--space-xs) 0;color:var(--color-text-light);">Wanderung zur Rotwand</li>
-                <li style="padding:var(--space-xs) 0;color:var(--color-text-light);">Spitzingsee-Umrundung</li>
-                <li style="padding:var(--space-xs) 0;color:var(--color-text-light);">Skipiste im Winter</li>
-            </ul>
-        </section>
-
-        <section style="margin-bottom:var(--space-3xl);">
-            <h2>Passende Touren</h2>
-            <div class="grid grid--3col" style="margin-top:var(--space-md);">
-                <article class="silo-card"><a href="../wandern/rotwand-rundtour.html" class="silo-card-link"><div class="silo-card-body"><h3 class="silo-card-title" style="font-size:1rem;">Rotwand (1.884 m)</h3><p class="silo-card-text" style="font-size:.85rem;">2,5 Std., mittel (T3)</p><span class="silo-card-cta">Route ansehen &rarr;</span></div></a></article>
-                <article class="silo-card"><a href="../wandern/spitzingsee-umrundung.html" class="silo-card-link"><div class="silo-card-body"><h3 class="silo-card-title" style="font-size:1rem;">Spitzingsee-Umrundung</h3><p class="silo-card-text" style="font-size:.85rem;">1,5 Std., leicht (T1)</p><span class="silo-card-cta">Route ansehen &rarr;</span></div></a></article>
-                <article class="silo-card"><a href="../wandern/brecherspitz.html" class="silo-card-link"><div class="silo-card-body"><h3 class="silo-card-title" style="font-size:1rem;">Brecherspitz (1.683 m)</h3><p class="silo-card-text" style="font-size:.85rem;">3 Std., mittel (T3)</p><span class="silo-card-cta">Route ansehen &rarr;</span></div></a></article>
-            </div>
-        </section>
-
-        <section class="quellen-section">
-            <h2>Quellen &amp; Expertise</h2>
-            <ul style="list-style:disc;padding-left:var(--space-lg);">
-                <li style="padding:var(--space-xs) 0;color:var(--color-text-light);">Obere Firstalm (Eigene Begehungen 2024-2026)</li>
-                <li style="padding:var(--space-xs) 0;color:var(--color-text-light);">Spitzingsee-Tegernsee Tourismus</li>
-            </ul>
-            <p style="margin-top:var(--space-md);">Alle Angaben ohne Gewaehr. Oeffnungszeiten bitte tagesaktuell pruefen.</p>
-        </section>
-
-        <p style="margin-top:var(--space-2xl);">
-            <a href="../../huetten.html" class="btn btn--primary" style="display:inline-block;padding:var(--space-md) var(--space-xl);background:#f77f00;color:#fff;border-radius:10px;text-decoration:none;font-weight:700;">&larr; Zurueck zur Huetten-Uebersicht</a>
-        </p>
-    </div>
-</section>
-</main>
-<footer class="site-footer" role="contentinfo">
-    <div class="container" style="text-align:center;padding:var(--space-lg);">
-        <p>&copy; 2025-2026 Alpen-Experte. Alle Rechte vorbehalten.</p>
-        <p style="font-size:.8rem;color:#888;margin-top:.5rem;">Diese Seite enthaelt ggf. Affiliate-Links. Bei Kauf erhalten wir eine kleine Provision.</p>
-    </div>
-
-<!-- URWAHN-AFFILIATE -->
-<aside class="urwahn-affiliate" style="max-width:1100px;margin:var(--space-2xl) auto var(--space-lg);padding:var(--space-lg);background:#1f2a20;color:#e8e2d6;border-radius:16px;display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-lg);">
-  <div style="flex:1 1 320px;min-width:260px;">
-    <span style="display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.12);padding:3px 8px;border-radius:6px;margin-bottom:8px;">Anzeige / Affiliate</span>
-    <h3 style="color:#fff;margin:0 0 .4rem;font-size:1.25rem;">Urwahn Bikes &ndash; E-Bikes made in Germany</h3>
-    <p style="margin:0 0 .8rem;font-size:.9rem;line-height:1.5;">Handgefertigte E-Bikes mit organischem Rahmen-Design &ndash; die nachhaltige Alternative fuer Alpen-Touren, Gravel &amp; Alltag. Ueber unseren Partner-Link entdecken.</p>
-    <a href="https://www.awin1.com/cread.php?awinmid=68034&amp;awinaffid=3134996&amp;clickref=Start&amp;ued=https%3A%2F%2Falpenexperte.de" target="_blank" rel="sponsored noopener nofollow" class="btn btn--primary" style="display:inline-block;">Urwahn Bikes ansehen &rarr;</a>
-  </div>
-  <a href="https://www.awin1.com/cread.php?awinmid=68034&amp;awinaffid=3134996&amp;clickref=Start&amp;ued=https%3A%2F%2Falpenexperte.de" target="_blank" rel="sponsored noopener nofollow" style="flex:0 0 auto;">
-    <img src="/images/qr-urwahn.png" alt="QR-Code: Urwahn Bikes" width="120" height="120" loading="lazy" style="background:#fff;padding:8px;border-radius:12px;display:block;">
-  </a>
-</aside>
-<!-- /URWAHN-AFFILIATE -->
-
-</footer>
-<script src="../../js/main.js?v=20260612b" defer></script>
-<script>
-document.addEventListener('DOMContentLoaded',function(){
-    var el=document.getElementById('huette-map');
-    if(!el||typeof L==='undefined'){return;}
-    try{
-        var m=L.map('huette-map').setView([47.66,11.875],13);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OpenStreetMap',maxZoom:19}).addTo(m);
-        L.marker([47.66,11.875]).addTo(m).bindPopup('<strong>Obere Firstalm</strong><br>1.375 m &middot; Spitzingsee');
-    }catch(e){}
-});
-</script>
-<style>.aff40{max-width:1100px;margin:56px auto;padding:32px 20px;background:linear-gradient(135deg,#1f2a20,#2e3d2f);border-radius:20px;color:#e8e2d6}.aff40-badge{display:inline-block;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.14);padding:4px 10px;border-radius:6px;margin-bottom:14px}.aff40-head{color:#fff;font-family:var(--font-display);font-size:clamp(1.3rem,3vw,1.9rem);margin:0 0 8px}.aff40-sub{color:rgba(255,255,255,.8);margin:0 0 24px;max-width:720px;line-height:1.5}.aff-group{margin-bottom:22px}.aff-group-title{color:#c9d4c9;font-size:.95rem;text-transform:uppercase;letter-spacing:.05em;margin:0 0 12px}.aff-tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}.aff-tile{display:flex;flex-direction:column;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:18px;text-decoration:none;color:#f0ece2;transition:transform .2s,background .2s}.aff-tile:hover{transform:translateY(-3px);background:rgba(255,255,255,.13)}.aff-tile-emoji{font-size:1.7rem;margin-bottom:8px}.aff-tile-title{font-weight:700;margin-bottom:4px}.aff-tile-desc{font-size:.82rem;color:rgba(255,255,255,.7);flex:1;line-height:1.4}.aff-tile-cta{margin-top:12px;color:#e8b86d;font-weight:600;font-size:.85rem}.aff40-all{display:inline-block;background:#c2722d;color:#fff;padding:12px 26px;border-radius:30px;text-decoration:none;font-weight:600}.aff40-all:hover{background:#a85f22}</style><!-- AFF-40-BOXES --><section class="aff40"><span class="aff40-badge">Anzeige / Affiliate</span><h2 class="aff40-head">Entdecke passende Angebote &amp; Ausruestung</h2><p class="aff40-sub">Handverlesene Empfehlungen fuer dein naechstes Alpen-Abenteuer &ndash; ueber unsere Partner, fuer dich ohne Mehrkosten.</p><div class="aff-group"><h3 class="aff-group-title">Bikes & Gravel</h3><div class="aff-tiles"><a class="aff-tile" href="https://www.amazon.de/s?k=gravel&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow"><span class="aff-tile-emoji">🚴</span><span class="aff-tile-title">Gravel-Bikes</span><span class="aff-tile-desc">Gravel & Zubehör</span><span class="aff-tile-cta">Ansehen &rarr;</span></a><a class="aff-tile" href="https://www.amazon.de/s?k=fahrradzubeh%C3%B6r&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow"><span class="aff-tile-emoji">🔧</span><span class="aff-tile-title">Fahrradzubehör</span><span class="aff-tile-desc">Fahrrad-Zubehör</span><span class="aff-tile-cta">Ansehen &rarr;</span></a><a class="aff-tile" href="https://www.amazon.de/s?k=ebike&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow"><span class="aff-tile-emoji">⚡</span><span class="aff-tile-title">E-Bikes</span><span class="aff-tile-desc">E-Bikes & Zubehör</span><span class="aff-tile-cta">Ansehen &rarr;</span></a></div></div><div class="aff-group"><h3 class="aff-group-title">Outdoor & Ausruestung</h3><div class="aff-tiles"><a class="aff-tile" href="https://www.amazon.de/gp/bestsellers?&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow"><span class="aff-tile-emoji">🔥</span><span class="aff-tile-title">Amazon Bestseller</span><span class="aff-tile-desc">Bestseller</span><span class="aff-tile-cta">Ansehen &rarr;</span></a><a class="aff-tile" href="https://www.amazon.de/s?k=alpen&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow"><span class="aff-tile-emoji">🏔️</span><span class="aff-tile-title">Alpen-Ausrüstung</span><span class="aff-tile-desc">Alpin-Ausrüstung</span><span class="aff-tile-cta">Ansehen &rarr;</span></a></div></div><div class="aff-group"><h3 class="aff-group-title">Digitale Produkte & Kurse</h3><div class="aff-tiles"><a class="aff-tile" href="https://www.digistore24.com/redir/38219/Bb8ozi/" target="_blank" rel="sponsored noopener nofollow"><span class="aff-tile-emoji">💾</span><span class="aff-tile-title">Digitale Produkte</span><span class="aff-tile-desc">Digistore24</span><span class="aff-tile-cta">Ansehen &rarr;</span></a><a class="aff-tile" href="https://www.digistore24.com/redir/98201/Bb8ozi/" target="_blank" rel="sponsored noopener nofollow"><span class="aff-tile-emoji">💾</span><span class="aff-tile-title">Digitale Produkte</span><span class="aff-tile-desc">Digistore24</span><span class="aff-tile-cta">Ansehen &rarr;</span></a><a class="aff-tile" href="https://www.checkout-ds24.com/redir/603807/Bb8ozi/" target="_blank" rel="sponsored noopener nofollow"><span class="aff-tile-emoji">💾</span><span class="aff-tile-title">Digitale Produkte</span><span class="aff-tile-desc">Checkout DS24</span><span class="aff-tile-cta">Ansehen &rarr;</span></a></div></div><div class="aff-group"><h3 class="aff-group-title">Business & Tools</h3><div class="aff-tiles"><a class="aff-tile" href="https://business-kickstart.de/ki-training-1/#aff=Bb8ozi" target="_blank" rel="sponsored noopener nofollow"><span class="aff-tile-emoji">🤖</span><span class="aff-tile-title">KI-Training</span><span class="aff-tile-desc">KI-Training & Online-Kurse</span><span class="aff-tile-cta">Ansehen &rarr;</span></a><a class="aff-tile" href="https://business-kickstart.de/social-media-vorlagen-gratis/#aff=Bb8ozi" target="_blank" rel="sponsored noopener nofollow"><span class="aff-tile-emoji">📱</span><span class="aff-tile-title">Social-Media-Vorlagen</span><span class="aff-tile-desc">Gratis Vorlagen</span><span class="aff-tile-cta">Ansehen &rarr;</span></a><a class="aff-tile" href="https://bohle-digital.systeme.io/freelancer-toolkit/#aff=Bb8ozi" target="_blank" rel="sponsored noopener nofollow"><span class="aff-tile-emoji">🧰</span><span class="aff-tile-title">Freelancer-Toolkit</span><span class="aff-tile-desc">Toolkit für Freelancer</span><span class="aff-tile-cta">Ansehen &rarr;</span></a></div></div><div style="text-align:center;margin-top:24px;"><a class="aff40-all" href="/shopping.html">Alle Angebote im Shopping-Bereich &rarr;</a></div></section>
-</body>
-</html>
+<div style="background:linear-gradient(135deg,#1f2a20,#2e3d2f);padding:24px;border-radius:16px;color:#fff;margin-top:32px;text-align:center;">
+  <h3>🎬 Amazon Prime Video</h3>
+  <a href="https://www.amazon.de/gp/video/primesignup?tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow" style="display:inline-block;background:#f0a500;color:#111;padding:12px 28px;border-radius:30px;font-weight:700;text-decoration:none;">Amazon Prime 30 Tage testen →</a>
+</div>

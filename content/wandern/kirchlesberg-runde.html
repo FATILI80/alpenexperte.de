@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-kirchlesberg-runde').setView([47.73,11.87],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.745, 11.888], [47.73968, 11.8853], [47.73972, 11.87773], [47.73218, 11.87705], [47.73, 11.8715], [47.72782, 11.86595], [47.72028, 11.86527], [47.72032, 11.8577], [47.715, 11.855]];
+        var pts=[[47.745, 11.888], [47.73984, 11.88529], [47.7395, 11.87975], [47.73234, 11.87421], [47.73, 11.8695], [47.72766, 11.86596], [47.7205, 11.86325], [47.72016, 11.86054], [47.715, 11.855]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Kirchlesberg-Runde").addTo(m);

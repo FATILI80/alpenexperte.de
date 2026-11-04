@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-acher-blick-runde').setView([47.705,11.71],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.72, 11.728], [47.71462, 11.72486], [47.7148, 11.71708], [47.70712, 11.71586], [47.705, 11.71], [47.70288, 11.70414], [47.6952, 11.70292], [47.69538, 11.69514], [47.69, 11.692]];
+        var pts=[[47.72, 11.728], [47.71484, 11.72491], [47.7145, 11.719], [47.70734, 11.71309], [47.705, 11.708], [47.70266, 11.70409], [47.6955, 11.701], [47.69516, 11.69791], [47.69, 11.692]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Acher-Blick-Runde").addTo(m);

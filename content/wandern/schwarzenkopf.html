@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schwarzenkopf').setView([47.622,11.818],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.64, 11.842], [47.6336, 11.83746], [47.63283, 11.82836], [47.6241, 11.82571], [47.621, 11.8185], [47.6179, 11.81129], [47.60917, 11.80864], [47.6084, 11.79954], [47.602, 11.795]];
+        var pts=[[47.64, 11.842], [47.63384, 11.83754], [47.6325, 11.83025], [47.62434, 11.82296], [47.621, 11.8165], [47.61766, 11.81121], [47.6095, 11.80675], [47.60816, 11.80229], [47.602, 11.795]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schwarzenkopf").addTo(m);
