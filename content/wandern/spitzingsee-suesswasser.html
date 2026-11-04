@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-spitzingsee-suesswasser').setView([47.652,11.882],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.6680,11.9000],[47.6515,11.8825],[47.6350,11.8650]];
+        var pts=[[47.668, 11.9], [47.6626, 11.8945], [47.6515, 11.8825], [47.6406, 11.8732], [47.635, 11.865]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Suesswasseralm-Runde").addTo(m);

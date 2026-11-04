@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rottachalm').setView([47.67,11.885],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.6850,11.9020],[47.6700,11.8850],[47.6550,11.8680]];
+        var pts=[[47.685, 11.902], [47.6802, 11.8967], [47.67, 11.885], [47.660000000000004, 11.876000000000001], [47.655, 11.868]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rottachalm").addTo(m);

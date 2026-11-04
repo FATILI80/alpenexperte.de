@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-aueralm').setView([47.69,11.825],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.7050,11.8450],[47.6885,11.8265],[47.6720,11.8080]];
+        var pts=[[47.705, 11.845], [47.69959999999999, 11.8391], [47.6885, 11.8265], [47.6776, 11.816600000000001], [47.672, 11.808]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Aueralm").addTo(m);

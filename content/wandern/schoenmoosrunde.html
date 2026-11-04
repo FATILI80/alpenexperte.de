@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schoenmoosrunde').setView([47.7,11.84],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.7180,11.8620],[47.7000,11.8410],[47.6820,11.8200]];
+        var pts=[[47.718, 11.862], [47.712, 11.8551], [47.7, 11.841], [47.6882, 11.8296], [47.682, 11.82]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schoenmoosrunde").addTo(m);

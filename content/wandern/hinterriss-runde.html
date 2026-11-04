@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-hinterriss-runde').setView([47.66,11.765],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.6800,11.7950],[47.6590,11.7675],[47.6380,11.7400]];
+        var pts=[[47.68, 11.795], [47.672799999999995, 11.785499999999999], [47.659, 11.7675], [47.6454, 11.7522], [47.638, 11.74]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Hinterriss-Runde").addTo(m);

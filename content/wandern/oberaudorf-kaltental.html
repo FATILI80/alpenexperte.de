@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-oberaudorf-kaltental').setView([47.69,12.045],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.7080,12.0620],[47.6900,12.0450],[47.6720,12.0280]];
+        var pts=[[47.708, 12.062], [47.702, 12.0567], [47.69, 12.045], [47.6782, 12.036000000000001], [47.672, 12.028]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Kaltental-Runde").addTo(m);

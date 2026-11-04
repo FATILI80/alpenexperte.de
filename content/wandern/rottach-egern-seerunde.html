@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rottach-egern-seerunde').setView([47.69,11.75],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.7050,11.7680],[47.6900,11.7515],[47.6750,11.7350]];
+        var pts=[[47.705, 11.768], [47.700199999999995, 11.762900000000002], [47.69, 11.7515], [47.68, 11.7428], [47.675, 11.735]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rottach-Egern Seerunde").addTo(m);

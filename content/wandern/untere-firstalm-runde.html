@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-untere-firstalm-runde').setView([47.665,11.872],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.6780,11.8880],[47.6640,11.8730],[47.6500,11.8580]];
+        var pts=[[47.678, 11.888], [47.67359999999999, 11.8835], [47.664, 11.873], [47.6546, 11.865200000000002], [47.65, 11.858]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Untere Firstalm-Runde").addTo(m);

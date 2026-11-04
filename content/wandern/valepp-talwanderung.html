@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-valepp-talwanderung').setView([47.615,11.86],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.6400,11.8900],[47.6150,11.8600],[47.5900,11.8300]];
+        var pts=[[47.64, 11.89], [47.6312, 11.8795], [47.615, 11.86], [47.59900000000001, 11.8432], [47.59, 11.83]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Valepp-Talwanderung").addTo(m);

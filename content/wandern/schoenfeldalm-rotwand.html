@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schoenfeldalm-rotwand').setView([47.648,11.905],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.6650,11.9250],[47.6475,11.9050],[47.6300,11.8850]];
+        var pts=[[47.665, 11.925], [47.6592, 11.9185], [47.6475, 11.905], [47.636, 11.8942], [47.63, 11.885]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schoenfeldalm zur Rotwand").addTo(m);

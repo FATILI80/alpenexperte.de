@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rinnerspitz').setView([47.662,11.893],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.6780,11.9120],[47.6630,11.8935],[47.6480,11.8750]];
+        var pts=[[47.678, 11.912], [47.673199999999994, 11.9061], [47.663, 11.8935], [47.653000000000006, 11.883600000000001], [47.648, 11.875]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rinnerspitz").addTo(m);

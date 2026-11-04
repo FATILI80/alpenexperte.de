@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-sulzbergalm-runde').setView([47.7,11.835],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.7150,11.8520],[47.7000,11.8350],[47.6850,11.8180]];
+        var pts=[[47.715, 11.852], [47.7102, 11.846700000000002], [47.7, 11.835], [47.690000000000005, 11.826], [47.685, 11.818]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Sulzbergalm-Runde").addTo(m);

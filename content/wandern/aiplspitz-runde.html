@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-aiplspitz-runde').setView([47.665,11.905],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.6850,11.9300],[47.6650,11.9050],[47.6450,11.8800]];
+        var pts=[[47.685, 11.93], [47.6782, 11.921499999999998], [47.665, 11.905], [47.652, 11.891200000000001], [47.645, 11.88]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Aiplspitz-Runde").addTo(m);

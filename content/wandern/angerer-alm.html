@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-angerer-alm').setView([47.705,11.775],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.7200,11.7920],[47.7060,11.7760],[47.6920,11.7600]];
+        var pts=[[47.72, 11.792], [47.715599999999995, 11.787099999999999], [47.706, 11.776], [47.696600000000004, 11.767600000000002], [47.692, 11.76]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Angerer Alm").addTo(m);
