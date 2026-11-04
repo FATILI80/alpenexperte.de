@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wendelstein (1.838 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-wendelstein').setView([47.705,12.013],12);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.725, 12.04], [47.7176, 12.031500000000001], [47.7035, 12.015], [47.689600000000006, 12.0012], [47.682, 11.99]];
+        var pts=[[47.725, 12.04], [47.71802, 12.03513], [47.71652, 12.02554], [47.70727, 12.02263], [47.7035, 12.015], [47.69973, 12.00737], [47.69048, 12.00446], [47.68898, 11.99487], [47.682, 11.99]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Wendelstein").addTo(m);

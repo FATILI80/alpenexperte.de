@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wallberg (1.722 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-wallberg').setView([47.685,11.74],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.705, 11.765], [47.6982, 11.7565], [47.685, 11.74], [47.672000000000004, 11.726200000000002], [47.665, 11.715]];
+        var pts=[[47.705, 11.765], [47.69834, 11.76008], [47.69734, 11.75063], [47.68834, 11.74758], [47.685, 11.74], [47.68166, 11.73242], [47.67266, 11.72937], [47.67166, 11.71992], [47.665, 11.715]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Wallberg").addTo(m);

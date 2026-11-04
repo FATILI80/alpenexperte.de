@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stuibenalm-Runde (1.320 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-stuibenalm-runde').setView([47.685,11.85],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.7, 11.87], [47.6948, 11.8639], [47.684, 11.851], [47.6734, 11.840800000000002], [47.668, 11.832]];
+        var pts=[[47.7, 11.87], [47.69438, 11.86662], [47.69429, 11.85857], [47.68638, 11.85712], [47.684, 11.851], [47.68162, 11.84488], [47.67371, 11.84343], [47.67362, 11.83538], [47.668, 11.832]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Stuibenalm-Runde").addTo(m);

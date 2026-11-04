@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rottachalm (1.400 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rottachalm').setView([47.67,11.885],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.685, 11.902], [47.6802, 11.8967], [47.67, 11.885], [47.660000000000004, 11.876000000000001], [47.655, 11.868]];
+        var pts=[[47.685, 11.902], [47.67966, 11.89915], [47.67975, 11.89152], [47.67216, 11.89065], [47.67, 11.885], [47.66784, 11.87935], [47.66025, 11.87848], [47.66034, 11.87085], [47.655, 11.868]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rottachalm").addTo(m);

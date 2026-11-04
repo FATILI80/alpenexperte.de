@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Schoenmoosrunde (1.200 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schoenmoosrunde').setView([47.7,11.84],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.718, 11.862], [47.712, 11.8551], [47.7, 11.841], [47.6882, 11.8296], [47.682, 11.82]];
+        var pts=[[47.718, 11.862], [47.71189, 11.85813], [47.71128, 11.84955], [47.70289, 11.84763], [47.7, 11.841], [47.69711, 11.83437], [47.68872, 11.83245], [47.68811, 11.82387], [47.682, 11.82]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schoenmoosrunde").addTo(m);

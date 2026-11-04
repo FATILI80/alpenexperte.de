@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hinterriss-Runde (1.500 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-hinterriss-runde').setView([47.66,11.765],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.68, 11.795], [47.672799999999995, 11.785499999999999], [47.659, 11.7675], [47.6454, 11.7522], [47.638, 11.74]];
+        var pts=[[47.68, 11.795], [47.67306, 11.78941], [47.67188, 11.77943], [47.66256, 11.77566], [47.659, 11.7675], [47.65544, 11.75934], [47.64612, 11.75557], [47.64494, 11.74559], [47.638, 11.74]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Hinterriss-Runde").addTo(m);

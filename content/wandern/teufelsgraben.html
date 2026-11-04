@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Teufelsgraben-Runde (920 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-teufelsgraben').setView([47.715,12.005],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.73, 12.022], [47.724799999999995, 12.0167], [47.714, 12.005], [47.7034, 11.996], [47.698, 11.988]];
+        var pts=[[47.73, 12.022], [47.72446, 12.0192], [47.72418, 12.01144], [47.71646, 12.0107], [47.714, 12.005], [47.71154, 11.9993], [47.70382, 11.99856], [47.70354, 11.9908], [47.698, 11.988]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Teufelsgraben-Runde").addTo(m);

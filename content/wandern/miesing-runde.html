@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Miesing-Runde (1.300 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-miesing-runde').setView([47.655,11.848],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.67, 11.868], [47.6648, 11.8619], [47.654, 11.849], [47.64340000000001, 11.8388], [47.638, 11.83]];
+        var pts=[[47.67, 11.868], [47.66438, 11.86462], [47.66429, 11.85657], [47.65638, 11.85512], [47.654, 11.849], [47.65162, 11.84288], [47.64371, 11.84143], [47.64362, 11.83338], [47.638, 11.83]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Miesing-Runde").addTo(m);

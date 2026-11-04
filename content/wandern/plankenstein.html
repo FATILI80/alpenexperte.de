@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plankenstein (1.760 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-plankenstein').setView([47.7,12.005],12);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.72, 12.03], [47.712799999999994, 12.0215], [47.699, 12.005], [47.685399999999994, 11.991200000000001], [47.678, 11.98]];
+        var pts=[[47.72, 12.03], [47.71313, 12.02511], [47.7118, 12.01557], [47.70263, 12.01261], [47.699, 12.005], [47.69537, 11.99739], [47.6862, 11.99443], [47.68487, 11.98489], [47.678, 11.98]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Plankenstein").addTo(m);

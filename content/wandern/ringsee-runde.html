@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ringsee-Runde (1.100 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-ringsee-runde').setView([47.605,11.87],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.625, 11.89], [47.618199999999995, 11.883500000000002], [47.605, 11.87], [47.592, 11.859200000000001], [47.585, 11.85]];
+        var pts=[[47.625, 11.89], [47.6185, 11.8865], [47.61712, 11.87788], [47.6085, 11.8765], [47.605, 11.87], [47.6015, 11.8635], [47.59288, 11.86212], [47.5915, 11.8535], [47.585, 11.85]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Ringsee-Runde").addTo(m);

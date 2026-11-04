@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tegernseer Hoehenweg (1.200 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-tegernseer-hoehenweg').setView([47.7,11.77],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.72, 11.795], [47.7136, 11.7865], [47.701, 11.77], [47.6886, 11.7562], [47.682, 11.745]];
+        var pts=[[47.72, 11.795], [47.71356, 11.79003], [47.71289, 11.78068], [47.70406, 11.77753], [47.701, 11.77], [47.69794, 11.76247], [47.68911, 11.75932], [47.68844, 11.74997], [47.682, 11.745]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Tegernseer Hoehenweg").addTo(m);

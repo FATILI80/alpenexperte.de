@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sulzbergalm-Runde (1.180 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-sulzbergalm-runde').setView([47.7,11.835],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.715, 11.852], [47.7102, 11.846700000000002], [47.7, 11.835], [47.690000000000005, 11.826], [47.685, 11.818]];
+        var pts=[[47.715, 11.852], [47.70966, 11.84915], [47.70975, 11.84152], [47.70216, 11.84065], [47.7, 11.835], [47.69784, 11.82935], [47.69025, 11.82848], [47.69034, 11.82085], [47.685, 11.818]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Sulzbergalm-Runde").addTo(m);

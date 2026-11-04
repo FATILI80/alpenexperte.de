@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jaegerkamp-Runde (1.446 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-jaegerkamp-runde').setView([47.66,11.888],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.678, 11.908], [47.672, 11.901499999999999], [47.66, 11.888], [47.6482, 11.877200000000002], [47.642, 11.868]];
+        var pts=[[47.678, 11.908], [47.67192, 11.90442], [47.67123, 11.89599], [47.66292, 11.89442], [47.66, 11.888], [47.65708, 11.88158], [47.64877, 11.88001], [47.64808, 11.87158], [47.642, 11.868]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Jaegerkamp-Runde").addTo(m);

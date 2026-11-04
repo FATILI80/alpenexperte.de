@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kesselalm (1.280 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-kesselalm').setView([47.698,11.76],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.712, 11.778], [47.707800000000006, 11.7729], [47.6985, 11.7615], [47.689400000000006, 11.7528], [47.685, 11.745]];
+        var pts=[[47.712, 11.778], [47.70698, 11.77522], [47.70757, 11.76785], [47.70023, 11.76697], [47.6985, 11.7615], [47.69677, 11.75603], [47.68943, 11.75515], [47.69002, 11.74778], [47.685, 11.745]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Kesselalm").addTo(m);

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Valepp-Talwanderung (900 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-valepp-talwanderung').setView([47.615,11.86],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.64, 11.89], [47.6312, 11.8795], [47.615, 11.86], [47.59900000000001, 11.8432], [47.59, 11.83]];
+        var pts=[[47.64, 11.89], [47.63212, 11.88386], [47.6298, 11.87308], [47.61962, 11.86886], [47.615, 11.86], [47.61038, 11.85114], [47.6002, 11.84692], [47.59788, 11.83614], [47.59, 11.83]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Valepp-Talwanderung").addTo(m);

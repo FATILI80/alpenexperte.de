@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Schinder (1.808 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schinder').setView([47.665,11.78],12);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.685, 11.808], [47.6776, 11.7989], [47.6635, 11.7815], [47.6496, 11.7668], [47.642, 11.755]];
+        var pts=[[47.685, 11.808], [47.67798, 11.80271], [47.67658, 11.79286], [47.66723, 11.78946], [47.6635, 11.7815], [47.65977, 11.77354], [47.65042, 11.77014], [47.64902, 11.76029], [47.642, 11.755]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schinder").addTo(m);

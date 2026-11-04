@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Schoenfeldalm zur Rotwand (1.884 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schoenfeldalm-rotwand').setView([47.648,11.905],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.665, 11.925], [47.6592, 11.9185], [47.6475, 11.905], [47.636, 11.8942], [47.63, 11.885]];
+        var pts=[[47.665, 11.925], [47.65903, 11.9214], [47.65851, 11.91302], [47.65028, 11.9114], [47.6475, 11.905], [47.64472, 11.8986], [47.63649, 11.89698], [47.63597, 11.8886], [47.63, 11.885]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schoenfeldalm zur Rotwand").addTo(m);

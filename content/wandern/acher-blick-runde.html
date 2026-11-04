@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Acher-Blick-Runde (1.100 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-acher-blick-runde').setView([47.705,11.71],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.72, 11.728], [47.715199999999996, 11.7223], [47.705, 11.71], [47.695, 11.700400000000002], [47.69, 11.692]];
+        var pts=[[47.72, 11.728], [47.71462, 11.72486], [47.7148, 11.71708], [47.70712, 11.71586], [47.705, 11.71], [47.70288, 11.70414], [47.6952, 11.70292], [47.69538, 11.69514], [47.69, 11.692]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Acher-Blick-Runde").addTo(m);

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bergwald-Runde Spitzingsee (1.250 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-spitzingsee-bergwald').setView([47.66,11.868],14);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.675, 11.885], [47.67079999999999, 11.8795], [47.6615, 11.8675], [47.65240000000001, 11.8582], [47.648, 11.85]];
+        var pts=[[47.675, 11.885], [47.66995, 11.88192], [47.67063, 11.87442], [47.6632, 11.87317], [47.6615, 11.8675], [47.6598, 11.86183], [47.65237, 11.86058], [47.65305, 11.85308], [47.648, 11.85]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Bergwald-Runde Spitzingsee").addTo(m);

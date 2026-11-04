@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rinnerspitz (1.615 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rinnerspitz').setView([47.662,11.893],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.678, 11.912], [47.673199999999994, 11.9061], [47.663, 11.8935], [47.653000000000006, 11.883600000000001], [47.648, 11.875]];
+        var pts=[[47.678, 11.912], [47.6726, 11.90871], [47.67283, 11.90086], [47.6651, 11.89946], [47.663, 11.8935], [47.6609, 11.88754], [47.65317, 11.88614], [47.6534, 11.87829], [47.648, 11.875]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rinnerspitz").addTo(m);

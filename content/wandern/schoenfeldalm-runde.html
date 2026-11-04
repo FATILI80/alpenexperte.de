@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Schoenfeldalm-Runde (1.360 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-schoenfeldalm-runde').setView([47.645,11.91],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.662, 11.93], [47.6564, 11.9235], [47.645, 11.91], [47.6338, 11.8992], [47.628, 11.89]];
+        var pts=[[47.662, 11.93], [47.65613, 11.92637], [47.65579, 11.91806], [47.64763, 11.91637], [47.645, 11.91], [47.64237, 11.90363], [47.63421, 11.90194], [47.63387, 11.89363], [47.628, 11.89]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schoenfeldalm-Runde").addTo(m);

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rotwandhaus-Aufstieg (1.737 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-rotwandhaus-aufstieg').setView([47.65,11.9],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.668, 11.925], [47.66199999999999, 11.9175], [47.65, 11.9025], [47.6382, 11.8902], [47.632, 11.88]];
+        var pts=[[47.668, 11.925], [47.66184, 11.9207], [47.66134, 11.91188], [47.65284, 11.90945], [47.65, 11.9025], [47.64716, 11.89555], [47.63866, 11.89312], [47.63816, 11.8843], [47.632, 11.88]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Rotwandhaus-Aufstieg").addTo(m);

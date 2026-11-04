@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Krottentalalm (1.350 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-krottentalalm').setView([47.64,11.85],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.655, 11.87], [47.6496, 11.8639], [47.6385, 11.851], [47.62760000000001, 11.840800000000002], [47.622, 11.832]];
+        var pts=[[47.655, 11.87], [47.64927, 11.86664], [47.64902, 11.85853], [47.64102, 11.85714], [47.6385, 11.851], [47.63598, 11.84486], [47.62798, 11.84347], [47.62773, 11.83536], [47.622, 11.832]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Krottentalalm").addTo(m);

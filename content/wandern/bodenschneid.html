@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+    <meta charset="UTF-8">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bodenschneid (1.668 m) - Wanderung | Alpen-Experte</title>
@@ -145,7 +146,7 @@ document.addEventListener('DOMContentLoaded',function(){
     try{
         var m=L.map('route-map-content-wandern-bodenschneid').setView([47.67,11.83],13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.685, 11.85], [47.6802, 11.843499999999999], [47.67, 11.83], [47.660000000000004, 11.819200000000002], [47.655, 11.81]];
+        var pts=[[47.685, 11.85], [47.67955, 11.84627], [47.6799, 11.8382], [47.67205, 11.83627], [47.67, 11.83], [47.66795, 11.82373], [47.6601, 11.8218], [47.66045, 11.81373], [47.655, 11.81]];
         var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
         L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
         L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Bodenschneid").addTo(m);
