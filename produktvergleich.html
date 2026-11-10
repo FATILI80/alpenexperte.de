@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Live Produktvergleich | Alpen-Experte</title>
+<link rel="stylesheet" href="css/style.css?v=20260612b">
+<style>
+.comp-hero{background:linear-gradient(135deg,#1f2a20,#2e3d2f);color:#fff;padding:60px 20px;text-align:center;}
+.comp-hero h1{font-family:var(--font-display);font-size:2.5rem;margin:0 0 10px;}
+.comp-wrap{max-width:1200px;margin:40px auto;padding:0 20px;}
+.comp-bar{display:flex;justify-content:space-between;align-items:center;background:#fff;padding:20px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05);margin-bottom:30px;}
+.comp-input{padding:12px 16px;width:100%;max-width:350px;border:1px solid #ddd;border-radius:8px;}
+.comp-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:24px;}
+.comp-item{background:#fff;border:1px solid #e0d8cc;border-radius:12px;padding:20px;display:flex;flex-direction:column;box-shadow:0 2px 8px rgba(0,0,0,0.04);}
+.comp-img{width:100%;height:160px;object-fit:contain;background:#f9f9f9;border-radius:6px;margin-bottom:12px;}
+.comp-tag{font-size:0.75rem;text-transform:uppercase;color:#888;font-weight:700;margin-bottom:4px;}
+.comp-name{font-weight:700;font-size:1rem;color:#1a252c;margin:0 0 8px;}
+.comp-desc{font-size:0.85rem;color:#666;flex:1;margin-bottom:14px;}
+.comp-foot{display:flex;justify-content:space-between;align-items:center;border-top:1px solid #eee;padding-top:12px;margin-top:auto;}
+.comp-pr{font-weight:700;color:#2d8a56;}
+.comp-a{background:#c2722d;color:#fff;padding:8px 16px;border-radius:20px;text-decoration:none;font-weight:600;font-size:0.85rem;}
+.comp-a:hover{background:#a85f22;}
+</style>
+</head>
+<body>
+<header class="site-header" role="banner"><div class="container header-inner">
+<a href="/index.html" class="logo"><img src="/images/logo.svg" alt="Alpen-Experte" width="160" height="42"></a>
+<nav class="main-nav"><ul class="nav-list">
+<li><a href="/index.html" class="nav-link">Home</a></li>
+<li><a href="/shopping.html" class="nav-link">Shopping</a></li>
+<li><a href="/produktvergleich.html" class="nav-link" style="color:var(--color-primary);font-weight:700;">Produktvergleich</a></li>
+</ul></nav>
+</div></header>
+<main>
+<section class="comp-hero"><h1>Live Produktvergleich</h1><p>Hunderte Outdoor- und Sportprodukte direkt aus dem Webgains-Feed.</p></section>
+<div class="comp-wrap">
+<div class="comp-bar">
+<input type="text" id="sInput" class="comp-input" placeholder="Suche nach Produkt oder Marke..." onkeyup="doSearch()">
+<div id="pCount" style="font-weight:600;color:#555;">Lade...</div>
+</div>
+<div id="pGrid" class="comp-grid"></div>
+</div>
+</main>
+<footer class="site-footer" role="contentinfo"><div class="container"><div class="footer-bottom">
+<p>&copy; 2025–2026 Alpen-Experte. Affiliate-Links mit rel="sponsored noopener nofollow".</p>
+</div></div></footer>
+<script>
+let items = [];
+async function init() {
+    try {
+        const r = await fetch('/data/products.json');
+        items = await r.json();
+        show(items);
+    } catch(e) {
+        document.getElementById('pGrid').innerHTML = '<p style="grid-column:1/-1;text-align:center;">Fehler beim Laden.</p>';
+    }
+}
+function show(arr) {
+    document.getElementById('pCount').innerText = `${arr.length} Produkte`;
+    const g = document.getElementById('pGrid');
+    if(arr.length === 0) { g.innerHTML = '<p style="grid-column:1/-1;text-align:center;">Keine Produkte.</p>'; return; }
+    g.innerHTML = arr.map(p => `
+        <div class="comp-item">
+            <img src="${p.imageUrl}" alt="${p.title}" class="comp-img" loading="lazy" onerror="this.src='/images/bergpanorama-see.jpg'">
+            <div class="comp-tag">${p.brand}</div>
+            <h3 class="comp-name">${p.title}</h3>
+            <div class="comp-desc">${p.description}</div>
+            <div class="comp-foot">
+                <span class="comp-pr">${p.price}</span>
+                <a href="${p.affiliateUrl}" target="_blank" rel="sponsored noopener nofollow" class="comp-a">Ansehen →</a>
+            </div>
+        </div>
+    `).join('');
+}
+function doSearch() {
+    const q = document.getElementById('sInput').value.toLowerCase();
+    show(items.filter(p => p.title.toLowerCase().includes(q) || p.brand.toLowerCase().includes(q)));
+}
+document.addEventListener('DOMContentLoaded', init);
+</script>
+</body>
+</html>
