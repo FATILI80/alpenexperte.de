@@ -4640,51 +4640,18 @@ h3.section-title {
     .site-header .logo { max-width: 120px; }
     .site-header .header-inner { justify-content: space-between; }
     .nav-toggle { display: flex !important; }
-    .mobile-bottom-nav { display: flex !important; }
+    
 }
 @media (min-width: 769px) {
-    .mobile-bottom-nav { display: none !important; }
+    
     .site-header .nav-list { display: flex; }
     .site-header .header-search { display: flex; }
     .nav-toggle { display: none !important; }
 }
-.mobile-bottom-nav {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(255,255,255,0.96);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-top: 1px solid #eee;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: var(--space-xs, 8px) 0;
-    z-index: 9999;
-    box-shadow: 0 -2px 12px rgba(0,0,0,0.04);
-}
-.mobile-bottom-nav a {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-decoration: none;
-    color: var(--color-text-light, #6b7a6b);
-    font-size: 0.7rem;
-    font-weight: 500;
-    padding: var(--space-xs, 6px) var(--space-sm, 10px);
-    border-radius: 8px;
-    transition: color 0.15s ease;
-    gap: 2px;
-}
-.mobile-bottom-nav a:hover,
-.mobile-bottom-nav a:active {
-    color: var(--color-primary, #4a7c59);
-}
-.mobile-bottom-nav a .nav-icon {
-    font-size: 1.3rem;
-    line-height: 1;
-}
+
+
+
+
 /* ===========================================================
    MOUNTAINCARDS - Alpine Themenkarten (Grid-Layout)
    =========================================================== */
