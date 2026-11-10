@@ -3031,7 +3031,7 @@ ol {
     gap: var(--space-xs, 0.5rem);
 }
 .quellen-section h2::before {
-    content: "ðŸ“š";
+    content: "📚";
     font-size: 1.3rem;
 }
 .quellen-section p {
