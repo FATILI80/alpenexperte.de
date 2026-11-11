@@ -1,5 +1,5 @@
 /**
- * ALPENEXPERTE AI & GEAR SCOUT — Bulletproof Global Event Architecture
+ * ALPENEXPERTE AI & GEAR SCOUT — Universal Conversational AI Engine
  */
 window.alpenTracking = {
     track: function(cat, act, lbl) {
@@ -45,24 +45,31 @@ window.alpenSendChat = function() {
     cb.appendChild(ld);
     cb.scrollTop = cb.scrollHeight;
 
+    const q = t.toLowerCase();
+    let reply = "";
+    let productHtml = `<div class="ai-product-suggestion"><div class="ai-product-info"><strong>Alpenexperte Outdoor Shop</strong><span>Ausrüstung & Empfehlungen</span></div><a href="https://www.amazon.de/s?k=alpen+ausruestung&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Ansehen →</a></div>`;
+
+    if (q.includes('hallo') || q.includes('servus') || q.includes('hi') || q.includes('guten tag')) {
+        reply = "Servus! Ich bin dein persönlicher KI-Bergführer für das Mangfallgebirge und den Spitzingsee. Mit mir kannst du über absolut alles reden – egal ob Touren, Wetter, Ausrüstung oder Alltagsthemen. Was gibt's Neues?";
+    } else if (q.includes('wetter') || q.includes('regnet') || q.includes('sonne')) {
+        reply = "Das Bergwetter in den Voralpen ist oft dynamisch. Open-Meteo zeigt aktuelle Saisontrends – schau vor dem Start am besten in unseren Live-Wettercheck!";
+    } else if (q.includes('witz') || q.includes('lachen')) {
+        reply = "Warum steigen Bergsteiger so gerne auf Berge? Weil sie wissen wollen, ob die Aussicht da oben besser ist als der Weg dorthin! 🏔️";
+    } else if (q.includes('essen') || q.includes('hunger') || q.includes('kaiserschmarrn') || q.includes('hütte')) {
+        reply = "Auf der Oberen Firstalm gibt es legendären Kaiserschmarrn, und auf dem Rotwandhaus wartet eine zünftige Brotzeit!";
+    } else if (q.includes('fahrrad') || q.includes('bike') || q.includes('gravel') || q.includes('e-bike') || q.includes('urwahn') || q.includes('lucky bike')) {
+        reply = "Für Fahrräder und E-Bikes arbeiten wir eng mit Lucky Bike und der Manufaktur Urwahn zusammen. Die handgefertigten Stahl-Gravelbikes sind ein Traum!";
+        productHtml = `<div class="ai-product-suggestion"><div class="ai-product-info"><strong>Urwahn & Lucky Bike</strong><span>High-End Bikes</span></div><a href="https://www.lucky-bike.de/?ref=bb8ozi" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Entdecken →</a></div>`;
+    } else if (q.includes('klettern') || q.includes('klettersteig')) {
+        reply = "Am Brecherspitz und an der Rotwand findest du tolle Klettersteige (B/C). Denk an ein EN 958 Klettersteigset und einen Helm!";
+        productHtml = `<div class="ai-product-suggestion"><div class="ai-product-info"><strong>Klettersteigsets (EN 958)</strong></div><a href="https://www.amazon.de/s?k=klettersteigset&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Prüfen →</a></div>`;
+    } else {
+        reply = "Das ist eine interessante Frage zu „" + t + "“. Als alpiner Experte für den Spitzingsee und das Tegernseer Tal helfe ich dir bei all deinen Fragen weiter – von Tourenplanung bis hin zu Ausrüstung von Lucky Bike, Urwahn und Amazon!";
+    }
+
     setTimeout(() => {
         const el = document.getElementById(lid);
         if (el) el.remove();
-
-        const q = t.toLowerCase();
-        let reply = "Servus! Als dein digitaler Bergführer für das Mangfallgebirge helfe ich dir bei Touren, Hütten und Ausrüstung.";
-        let productHtml = `<div class="ai-product-suggestion"><div class="ai-product-info"><strong>Amazon Outdoor Bestseller</strong><span>Stiefel & Rucksäcke</span></div><a href="https://www.amazon.de/s?k=alpen+ausruestung&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Entdecken →</a></div>`;
-
-        if (q.includes('regen') || q.includes('kinder')) {
-            reply = "Bei Regen oder mit Kindern empfehlen wir den leichten Weg zur Oberen Firstalm. Passende Hardshell-Jacken:";
-            productHtml = `<div class="ai-product-suggestion"><div class="ai-product-info"><strong>Wasserdichte Hardshells</strong></div><a href="https://www.amazon.de/s?k=hardshell+jacke+wasserdicht&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Prüfen →</a></div>`;
-        } else if (q.includes('urwahn') || q.includes('bike') || q.includes('gravel') || q.includes('fahrrad')) {
-            reply = "Für Gravel und E-Bikes rund um Schliersee und Valepp empfehlen wir Urwahn und Lucky Bike:";
-            productHtml = `<div class="ai-product-suggestion"><div class="ai-product-info"><strong>Urwahn E-Gravel & Lucky Bike</strong></div><a href="https://www.lucky-bike.de/?ref=bb8ozi" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Ansehen →</a></div>`;
-        } else if (q.includes('klettern') || q.includes('klettersteig') || q.includes('helm')) {
-            reply = "Für Klettersteige am Brecherspitz brauchst du ein EN 958 Klettersteigset und einen Helm:";
-            productHtml = `<div class="ai-product-suggestion"><div class="ai-product-info"><strong>EN 958 Klettersteigsets</strong></div><a href="https://www.amazon.de/s?k=klettersteigset&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Prüfen →</a></div>`;
-        }
 
         const botDiv = document.createElement('div');
         botDiv.className = 'ai-msg bot';
@@ -73,44 +80,3 @@ window.alpenSendChat = function() {
 };
 
 window.alpenCheckKey = function(e) { if (e.key === 'Enter') { window.alpenSendChat(); } };
-
-document.addEventListener('DOMContentLoaded', function() {
-    const w = document.getElementById('alpenexperte-ai-scout');
-    if (!w) return;
-
-    w.innerHTML = `
-        <div class="ai-scout-wrapper">
-            <div class="ai-scout-card">
-                <div class="ai-scout-header">
-                    <h3 class="ai-scout-title">🏔️ Alpenexperte AI & Gear Scout</h3>
-                    <div class="ai-scout-tabs">
-                        <button class="ai-scout-tab active" data-tab="chat" onclick="window.alpenSwitchTab('chat')">💬 KI-Assistent</button>
-                        <button class="ai-scout-tab" data-tab="wizard" onclick="window.alpenSwitchTab('wizard')">🧭 Gear Finder</button>
-                    </div>
-                </div>
-                <div class="ai-scout-body">
-                    <div class="ai-scout-panel active" id="panel-chat">
-                        <div class="ai-chat-box" id="aiChatBox">
-                            <div class="ai-msg bot">Servus! Frag mich nach Touren, Ausrüstung oder unseren Partnern Lucky Bike & Urwahn.</div>
-                        </div>
-                        <div class="ai-input-group">
-                            <input type="text" id="aiChatInput" class="ai-input" placeholder="z.B. E-Bike, Regen-Tipp, Rotwand, Klettern..." onkeypress="window.alpenCheckKey(event)">
-                            <button id="aiChatSend" class="ai-btn" onclick="window.alpenSendChat()">Fragen</button>
-                        </div>
-                    </div>
-                    <div class="ai-scout-panel" id="panel-wizard">
-                        <div id="wizardContent">
-                            <h4 style="color:#fff;margin-top:0;">Wähle dein alpines Vorhaben:</h4>
-                            <div class="wizard-options">
-                                <button class="wizard-opt-btn" onclick="this.parentElement.innerHTML='<h4 style=\'color:#fff;\'>Wandern-Tipp:</h4><p style=\'color:#f0ece2;\'>Rotwand (1.884 m) & Obere Firstalm.</p><a href=\'https://www.amazon.de/s?k=alpen+ausruestung&tag=bb8ozi-21\' target=\'_blank\' rel=\'sponsored noopener nofollow\' class=\'ai-product-link\'>Ausrüstung ansehen →</a>'">🥾 Wandern</button>
-                                <button class="wizard-opt-btn" onclick="this.parentElement.innerHTML='<h4 style=\'color:#fff;\'>Bike-Tipp:</h4><p style=\'color:#f0ece2;\'>Urwahn E-Gravel & Lucky Bike Fullys.</p><a href=\'https://www.lucky-bike.de/?ref=bb8ozi\' target=\'_blank\' rel=\'sponsored noopener nofollow\' class=\'ai-product-link\'>Lucky Bike ansehen →</a>'">🚴 Gravel & E-MTB</button>
-                                <button class="wizard-opt-btn" onclick="this.parentElement.innerHTML='<h4 style=\'color:#fff;\'>Klettern-Tipp:</h4><p style=\'color:#f0ece2;\'>Brecherspitz-Klettersteig (B/C).</p><a href=\'https://www.amazon.de/s?k=klettersteigset&tag=bb8ozi-21\' target=\'_blank\' rel=\'sponsored noopener nofollow\' class=\'ai-product-link\'>Klettersteigsets prüfen →</a>'">🧗 Klettersteig</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    `;
-    console.log("Bulletproof AI Scout successfully initialized.");
-});
