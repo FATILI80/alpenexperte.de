@@ -35,7 +35,7 @@ jobs:
                           'id': row.get('id', f'p-{i}'),
                           'title': title[:120],
                           'description': (row.get('description') or 'Outdoor & Sport')[:200],
-                          'price': row.get('price') or row.get('sale_price') or 'Auf Anfrage',
+                          'price': row.get('sale_price') or row.get('special_price') or row.get('price') or 'Auf Anfrage',
                           'category': row.get('product_type') or 'Outdoor',
                           'imageUrl': row.get('image_link') or row.get('image') or '/images/bergpanorama-see.jpg',
                           'affiliateUrl': link,
