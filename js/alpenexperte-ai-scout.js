@@ -1,5 +1,5 @@
 /**
- * ALPENEXPERTE AI & GEAR SCOUT — Widget with API Chat & Tracking
+ * ALPENEXPERTE AI & GEAR SCOUT — Robust Hybrid AI Engine
  */
 window.alpenTracking = {
     track: function(cat, act, lbl) {
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="ai-msg bot">Servus! Frag mich nach Touren, Ausrüstung oder unseren Partnern Lucky Bike & Urwahn.</div>
                         </div>
                         <div class="ai-input-group">
-                            <input type="text" id="aiChatInput" class="ai-input" placeholder="z.B. E-Bike, Regen-Tipp, Spitzingsee...">
+                            <input type="text" id="aiChatInput" class="ai-input" placeholder="z.B. E-Bike, Regen-Tipp, Rotwand, Klettern...">
                             <button id="aiChatSend" class="ai-btn">Fragen</button>
                         </div>
                     </div>
@@ -42,6 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
                             <div class="wizard-options">
                                 <button class="wizard-opt-btn" data-step="1" data-val="wandern">🥾 Wandern</button>
                                 <button class="wizard-opt-btn" data-step="1" data-val="bike">🚴 Gravel & E-MTB</button>
+                                <button class="wizard-opt-btn" data-step="1" data-val="klettern">🧗 Klettersteig</button>
                             </div>
                         </div>
                     </div>
@@ -72,6 +73,24 @@ document.addEventListener('DOMContentLoaded', function() {
         cb.scrollTop = cb.scrollHeight;
     }
 
+    function getAI(query) {
+        const q = query.toLowerCase();
+        let reply = "Servus! Als dein digitaler Bergführer für das Mangfallgebirge helfe ich dir bei Touren, Hütten und Ausrüstung.";
+        let productHtml = `<div class="ai-product-suggestion"><div class="ai-product-info"><strong>Amazon Outdoor</strong><span>Stiefel & Rucksäcke</span></div><a href="https://www.amazon.de/s?k=alpen+ausruestung&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Entdecken →</a></div>`;
+
+        if (q.includes('regen') || q.includes('kinder')) {
+            reply = "Bei Regen oder mit Kindern empfehlen wir die Obere Firstalm. Passende Hardshell-Jacken:";
+            productHtml = `<div class="ai-product-suggestion"><div class="ai-product-info"><strong>Wasserdichte Hardshells</strong></div><a href="https://www.amazon.de/s?k=hardshell+jacke+wasserdicht&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Prüfen →</a></div>`;
+        } else if (q.includes('urwahn') || q.includes('bike') || q.includes('gravel')) {
+            reply = "Für Gravel und E-Bikes empfehlen wir Urwahn und Lucky Bike:";
+            productHtml = `<div class="ai-product-suggestion"><div class="ai-product-info"><strong>Urwahn E-Gravel</strong></div><a href="https://www.lucky-bike.de/?ref=bb8ozi" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Ansehen →</a></div>`;
+        } else if (q.includes('klettern') || q.includes('klettersteig')) {
+            reply = "Für Klettersteige am Brecherspitz brauchst du ein EN 958 Klettersteigset:";
+            productHtml = `<div class="ai-product-suggestion"><div class="ai-product-info"><strong>Klettersteigsets</strong></div><a href="https://www.amazon.de/s?k=klettersteigset&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Prüfen →</a></div>`;
+        }
+        return { reply, productHtml };
+    }
+
     async function sendChat() {
         const t = ci.value.trim();
         if (!t) return;
@@ -84,19 +103,32 @@ document.addEventListener('DOMContentLoaded', function() {
         ld.className = 'ai-msg bot'; ld.id = lid; ld.innerHTML = '<em>Denke nach...</em>';
         cb.appendChild(ld); cb.scrollTop = cb.scrollHeight;
 
-        try {
-            const res = await fetch('/api/chat', { method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({ message: t }) });
-            const d = await res.json();
+        setTimeout(() => {
             document.getElementById(lid).remove();
-            addMsg(d.reply, 'bot', d.productHtml);
-        } catch(e) {
-            document.getElementById(lid).remove();
-            addMsg("Servus! Schau dir unsere Routen und das Lucky Bike Sortiment an.", 'bot', `<div class="ai-product-suggestion"><div class="ai-product-info"><strong>Lucky Bike E-Bikes</strong></div><a href="https://www.lucky-bike.de/?ref=bb8ozi" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Ansehen →</a></div>`);
-        }
+            const res = getAI(t);
+            addMsg(res.reply, 'bot', res.productHtml);
+        }, 300);
     }
 
     cs.addEventListener('click', sendChat);
     ci.addEventListener('keypress', (e) => { if (e.key === 'Enter') sendChat(); });
+
+    let wc = w.querySelector('#wizardContent');
+    if (wc) {
+        wc.addEventListener('click', (e) => {
+            if (!e.target.classList.contains('wizard-opt-btn')) return;
+            const val = e.target.dataset.val;
+            if (val === 'wandern') {
+                wc.innerHTML = `<h4 style="color:#fff;margin-top:0;">Wandern:</h4><p style="color:#f0ece2;">Rotwand (1.884 m).</p><div class="ai-product-suggestion"><div class="ai-product-info"><strong>Wanderstöcke</strong></div><a href="https://www.amazon.de/s?k=wanderstoecke&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Ansehen →</a></div><br><button class="ai-btn" id="wRes">Neu</button>`;
+            } else if (val === 'bike') {
+                wc.innerHTML = `<h4 style="color:#fff;margin-top:0;">Bike:</h4><p style="color:#f0ece2;">Urwahn & Lucky Bike.</p><div class="ai-product-suggestion"><div class="ai-product-info"><strong>Lucky Bike</strong></div><a href="https://www.lucky-bike.de/?ref=bb8ozi" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Ansehen →</a></div><br><button class="ai-btn" id="wRes">Neu</button>`;
+            } else {
+                wc.innerHTML = `<h4 style="color:#fff;margin-top:0;">Klettern:</h4><p style="color:#f0ece2;">Brecherspitz-Klettersteig.</p><div class="ai-product-suggestion"><div class="ai-product-info"><strong>Klettersteigsets</strong></div><a href="https://www.amazon.de/s?k=klettersteigset&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow" class="ai-product-link">Prüfen →</a></div><br><button class="ai-btn" id="wRes">Neu</button>`;
+            }
+            const rb = document.getElementById('wRes');
+            if (rb) rb.addEventListener('click', () => location.reload());
+        });
+    }
 
     document.addEventListener('click', (e) => {
         const a = e.target.closest('a');
