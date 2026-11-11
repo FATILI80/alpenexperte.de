@@ -1,5 +1,5 @@
 /**
- * ALPENEXPERTE.DE — Brand New Clean AI Chat Widget
+ * ALPENEXPERTE.DE — Real Generative AI AlpenChat Widget
  */
 (function() {
     function initAlpenChat() {
@@ -12,11 +12,11 @@
             <button class="alpen-chat-toggle" id="alpenChatToggle" aria-label="Alpen-KI öffnen">💬</button>
             <div class="alpen-chat-box-container" id="alpenChatBoxContainer">
                 <div class="alpen-chat-header">
-                    <h4>🏔️ Alpenexperte KI-Assistent</h4>
+                    <h4>🏔️ Alpenexperte KI-Assistent (Echte KI)</h4>
                     <button class="alpen-chat-close" id="alpenChatClose">✕</button>
                 </div>
                 <div class="alpen-chat-messages" id="alpenChatMessages">
-                    <div class="alpen-msg bot">Servus! Ich bin dein alpiner KI-Assistent. Frag mich nach Touren, Ausrüstung, Wetter oder unseren Partnern Lucky Bike & Urwahn!</div>
+                    <div class="alpen-msg bot">Servus! Ich bin deine echte generative KI für das Mangfallgebirge. Frag mich über absolut alles (Touren, Wetter, Ausrüstung, Weltgeschehen...)!</div>
                 </div>
                 <div class="alpen-chat-input-area">
                     <input type="text" class="alpen-chat-input" id="alpenChatInput" placeholder="Frag mich über alles...">
@@ -44,7 +44,7 @@
             msgs.scrollTop = msgs.scrollHeight;
         }
 
-        function handleSend() {
+        async function handleSend() {
             const t = input.value.trim();
             if (!t) return;
             addMessage(t, 'user');
@@ -54,33 +54,47 @@
             const ldiv = document.createElement('div');
             ldiv.className = 'alpen-msg bot';
             ldiv.id = lid;
-            ldiv.innerHTML = '<em>Denke nach...</em>';
+            ldiv.innerHTML = '<em>Generiere echte KI-Antwort...</em>';
             msgs.appendChild(ldiv);
             msgs.scrollTop = msgs.scrollHeight;
 
-            setTimeout(() => {
-                const el = document.getElementById(lid);
-                if (el) el.remove();
+            try {
+                // Try serverless function first, fallback directly to public free LLM API if serverless fails
+                let reply = "";
+                let productHtml = `<div class="alpen-product-card"><strong>📦 Amazon Outdoor Shop</strong><br><a href="https://www.amazon.de/s?k=alpen+ausruestung&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow">Ausrüstung ansehen →</a></div>`;
 
-                const q = t.toLowerCase();
-                let reply = "Das ist eine spannende Frage! Als alpiner Experte für das Mangfallgebirge und den Spitzingsee helfe ich dir bei allen Touren und Fragen weiter.";
-                let productHtml = `<div class="alpen-product-card"><strong>📦 Amazon Outdoor Shop</strong><br><span>Entdecke Rucksäcke & Stiefel</span><br><a href="https://www.amazon.de/s?k=alpen+ausruestung&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow">Jetzt ansehen →</a></div>`;
+                try {
+                    const res = await fetch('/api/chat', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ message: t })
+                    });
+                    if (res.ok) {
+                        const data = await res.json();
+                        reply = data.reply;
+                        if (data.productHtml) productHtml = data.productHtml;
+                    }
+                } catch(err) {}
 
-                if (q.includes('hallo') || q.includes('servus') || q.includes('hi')) {
-                    reply = "Servus! Wie kann ich dir heute bei deiner Tourenplanung in den Bayerischen Voralpen helfen?";
-                } else if (q.includes('regen') || q.includes('schlechtwetter') || q.includes('kinder')) {
-                    reply = "Bei Regen oder mit Kindern empfehlen wir den leichten Weg zur Oberen Firstalm oder den Gasthof Terofal.";
-                    productHtml = `<div class="alpen-product-card"><strong>Wasserdichte Hardshells</strong><br><a href="https://www.amazon.de/s?k=hardshell+jacke+wasserdicht&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow">Prüfen →</a></div>`;
-                } else if (q.includes('urwahn') || q.includes('bike') || q.includes('gravel') || q.includes('fahrrad')) {
-                    reply = "Für Gravel und E-Bikes rund um Schliersee und Valepp empfehlen wir Urwahn und Lucky Bike!";
-                    productHtml = `<div class="alpen-product-card"><strong>Urwahn E-Gravel & Lucky Bike</strong><br><a href="https://www.lucky-bike.de/?ref=bb8ozi" target="_blank" rel="sponsored noopener nofollow">Ansehen →</a></div>`;
-                } else if (q.includes('klettern') || q.includes('klettersteig')) {
-                    reply = "Für Klettersteige am Brecherspitz brauchst du ein EN 958 Klettersteigset und einen Helm.";
-                    productHtml = `<div class="alpen-product-card"><strong>Klettersteigsets (EN 958)</strong><br><a href="https://www.amazon.de/s?k=klettersteigset&tag=bb8ozi-21" target="_blank" rel="sponsored noopener nofollow">Prüfen →</a></div>`;
+                if (!reply) {
+                    const prompt = `Du bist ein alpiner Bergführer für Alpenexperte.de. Antworte auf Deutsch auf: ${t}`;
+                    const directRes = await fetch(`https://text.pollinations.ai/${encodeURIComponent(prompt)}`);
+                    if (directRes.ok) {
+                        reply = await directRes.text();
+                    } else {
+                        reply = "Servus! Als dein digitaler Bergführer helfe ich dir bei allen Touren und Fragen rund um den Spitzingsee weiter.";
+                    }
                 }
 
+                const el = document.getElementById(lid);
+                if (el) el.remove();
                 addMessage(reply, 'bot', productHtml);
-            }, 350);
+
+            } catch (e) {
+                const el = document.getElementById(lid);
+                if (el) el.remove();
+                addMessage("Servus! Ich stehe dir jederzeit für Touren, Hütten und Ausrüstung zur Seite. Was möchtest du wissen?", 'bot', `<div class="alpen-product-card"><strong>Lucky Bike & Amazon</strong><br><a href="https://www.lucky-bike.de/?ref=bb8ozi" target="_blank" rel="sponsored noopener nofollow">Entdecken →</a></div>`);
+            }
         }
 
         send.addEventListener('click', handleSend);
