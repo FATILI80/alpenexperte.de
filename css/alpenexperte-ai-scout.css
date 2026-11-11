@@ -220,3 +220,62 @@
 .ai-product-link:hover {
     background: #d4764f;
 }
+
+/* ===========================================================
+   MOBILE RESPONSIVE & TOUCH OPTIMIZATION (WCAG / iOS / Android)
+   =========================================================== */
+@media (max-width: 768px) {
+    .ai-scout-wrapper {
+        padding: 0 10px;
+        margin: 20px auto;
+    }
+    .ai-scout-header {
+        flex-direction: column;
+        align-items: stretch;
+        padding: 18px 20px;
+    }
+    .ai-scout-tabs {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+    .ai-scout-tab {
+        padding: 12px 8px;
+        font-size: 0.8rem;
+        text-align: center;
+        min-height: 46px;
+    }
+    .ai-scout-body {
+        padding: 20px 16px;
+    }
+    .ai-input-group {
+        flex-direction: column;
+    }
+    .ai-btn {
+        width: 100%;
+        min-height: 48px;
+    }
+    .ai-input {
+        min-height: 48px;
+    }
+    .ai-product-suggestion {
+        flex-direction: column;
+        align-items: stretch;
+        text-align: left;
+        gap: 12px;
+    }
+    .ai-product-link {
+        text-align: center;
+        min-height: 46px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wizard-options {
+        grid-template-columns: 1fr;
+    }
+    .wizard-opt-btn {
+        min-height: 48px;
+    }
+}
+
