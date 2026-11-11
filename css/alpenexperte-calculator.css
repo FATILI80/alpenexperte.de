@@ -1,0 +1,171 @@
+/* ===========================================================
+   ALPENEXPERTE.DE — Interaktiver Touren-, Konditions- & Hardware-Rechner
+   Alpine Dark Mode, Responsive Design, High-End UI
+   =========================================================== */
+
+.calc-wrapper {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+    font-family: var(--font-sans, system-ui, sans-serif);
+}
+
+.calc-card {
+    background: linear-gradient(135deg, #1c2826 0%, #243532 100%);
+    border: 1px solid rgba(46, 204, 113, 0.35);
+    border-radius: 20px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+    color: #f0ece2;
+    overflow: hidden;
+}
+
+.calc-header {
+    padding: 24px 30px;
+    background: rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.calc-title {
+    font-family: var(--font-display, serif);
+    font-size: 1.5rem;
+    color: #fff;
+    margin: 0 0 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.calc-subtitle {
+    font-size: 0.92rem;
+    color: rgba(240, 236, 226, 0.8);
+    margin: 0;
+}
+
+.calc-body {
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .calc-body {
+        grid-template-columns: 1fr;
+        padding: 20px 16px;
+    }
+}
+
+.calc-inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.calc-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.calc-label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.calc-label span {
+    color: #2ecc71;
+    font-weight: 700;
+}
+
+.calc-input, .calc-select {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 12px 16px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 0.95rem;
+}
+
+.calc-input:focus, .calc-select:focus {
+    outline: none;
+    border-color: #2ecc71;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.calc-results {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.calc-metrics-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.calc-metric-box {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 14px;
+    border-left: 3px solid #2ecc71;
+}
+
+.calc-metric-title {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: rgba(240, 236, 226, 0.7);
+    margin-bottom: 4px;
+}
+
+.calc-metric-value {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+.calc-hardware-box {
+    background: rgba(45, 138, 86, 0.12);
+    border: 1px solid rgba(46, 204, 113, 0.3);
+    border-radius: 10px;
+    padding: 16px;
+}
+
+.calc-hardware-title {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #2ecc71;
+    margin-bottom: 6px;
+}
+
+.calc-hardware-text {
+    font-size: 0.85rem;
+    color: rgba(240, 236, 226, 0.9);
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.calc-btn-link {
+    background: #c2722d;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.85rem;
+    display: inline-block;
+    transition: background 0.2s;
+}
+
+.calc-btn-link:hover {
+    background: #d4764f;
+}
