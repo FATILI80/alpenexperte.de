@@ -17,34 +17,46 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Ingest Webgains CSV Feed
+      - name: Ingest Webgains CSV Feed with Fallback
         run: |
           python -c "
           import urllib.request, csv, json, os, io
           url = 'https://platform-api.webgains.com/auth/publishers/1427224/campaigns/1751362/feeds/products?format=csv'
-          req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-          with urllib.request.urlopen(req, timeout=30) as resp:
-              csv_text = resp.read().decode('utf-8', errors='ignore')
-          reader = csv.DictReader(io.StringIO(csv_text))
           products = []
-          for i, row in enumerate(reader):
-              title, link = row.get('title') or row.get('name'), row.get('link') or row.get('deeplink')
-              if title and link:
-                  products.append({
-                      'id': row.get('id', f'p-{i}'),
-                      'title': title[:120],
-                      'description': (row.get('description') or 'Outdoor & Sport')[:200],
-                      'price': row.get('price') or row.get('sale_price') or 'Auf Anfrage',
-                      'category': row.get('product_type') or 'Outdoor',
-                      'imageUrl': row.get('image_link') or row.get('image') or '/images/bergpanorama-see.jpg',
-                      'affiliateUrl': link,
-                      'brand': row.get('brand') or row.get('program_name') or 'Partner'
-                  })
-              if len(products) >= 200: break
-          os.makedirs('data', exist_ok=True)
-          with open('data/products.json', 'w', encoding='utf-8') as f:
-              json.dump(products, f, ensure_ascii=False, indent=2)
-          print(f'Ingested {len(products)} products.')
+          try:
+              req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+              with urllib.request.urlopen(req, timeout=20) as resp:
+                  csv_text = resp.read().decode('utf-8', errors='ignore')
+              reader = csv.DictReader(io.StringIO(csv_text))
+              for i, row in enumerate(reader):
+                  title, link = row.get('title') or row.get('name'), row.get('link') or row.get('deeplink')
+                  if title and link:
+                      products.append({
+                          'id': row.get('id', f'p-{i}'),
+                          'title': title[:120],
+                          'description': (row.get('description') or 'Outdoor & Sport')[:200],
+                          'price': row.get('price') or row.get('sale_price') or 'Auf Anfrage',
+                          'category': row.get('product_type') or 'Outdoor',
+                          'imageUrl': row.get('image_link') or row.get('image') or '/images/bergpanorama-see.jpg',
+                          'affiliateUrl': link,
+                          'brand': row.get('brand') or row.get('program_name') or 'Partner'
+                      })
+                  if len(products) >= 200: break
+          except Exception as e:
+              print(f'Warning: Could not fetch live Webgains feed ({e}), using fallback...')
+          
+          if not products and os.path.exists('data/products.json'):
+              print('Keeping existing products.json data.')
+          else:
+              if not products:
+                  products = [
+                      {'id': 'fb-1', 'title': 'Urwahn Platzhirsch E-Gravel Bike', 'description': 'Edles E-Bike made in Germany mit 3D-Druck Stahlrahmen.', 'price': '4.499 €', 'category': 'E-Bikes', 'imageUrl': '/images/bergpanorama-see.jpg', 'affiliateUrl': 'https://www.awin1.com/cread.php?awinmid=68034&awinaffid=3134996&clickref=Fallback&ued=https%3A%2F%2Falpenexperte.de', 'brand': 'Urwahn'},
+                      {'id': 'fb-2', 'title': 'Ortlieb Rahmentasche Bikepacking', 'description': 'Wasserdichte Rahmentasche für lange Alpentouren.', 'price': '119 €', 'category': 'Zubehör', 'imageUrl': '/images/ausruestung-rucksack.jpg', 'affiliateUrl': 'https://www.amazon.de/s?k=ortlieb+rahmentasche&tag=bb8ozi-21', 'brand': 'Ortlieb'}
+                  ]
+              os.makedirs('data', exist_ok=True)
+              with open('data/products.json', 'w', encoding='utf-8') as f:
+                  json.dump(products, f, ensure_ascii=False, indent=2)
+              print(f'Successfully wrote {len(products)} products to data/products.json.')
           "
 
       - name: Commit and push if changed
