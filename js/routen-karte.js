@@ -49,7 +49,7 @@ const ROUTEN_DATEN = [
     { id:'R042', name:'Rotwand–Auerspitz–Hochmiesing Runde', km:18.0, stunden:'7:30', schwierigkeit:'T4', lat:47.6500, lng:11.9167 },
     { id:'R043', name:'Stolzeneck–Rosskopf–Stümpfling Grat', km:14.0, stunden:'5:30', schwierigkeit:'T4', lat:47.6580, lng:11.8780 },
     { id:'R044', name:'Wendelstein ab Brannenburg', km:12.0, stunden:'5:00', schwierigkeit:'T4', lat:47.7050, lng:12.0100 },
-    { id:'R045', name:'Rotwand Nordwand Alpinweg', km:10.0, stunden:'5:00', schwierigkeit:'T5', lat:47.6420, lng:11.9350 },
+    
     { id:'R046', name:'Brecherspitz Ostgrat', km:11.0, stunden:'4:30', schwierigkeit:'T4', lat:47.6595, lng:11.8855 },
     { id:'R047', name:'Sonnwendjoch ab Valepp', km:14.0, stunden:'5:30', schwierigkeit:'T4', lat:47.6500, lng:11.9167 },
     { id:'R048', name:'Benediktenwand ab Benediktbeuern', km:13.0, stunden:'5:00', schwierigkeit:'T4', lat:47.6300, lng:11.4000 },
