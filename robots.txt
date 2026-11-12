@@ -27,7 +27,7 @@ Disallow: /*.json$
 Disallow: /*.md$
 
 # === SITEMAP ===
-Sitemap: https://www.alpenexperte.de/sitemap.xml
+Sitemap: https://alpenexperte.de/sitemap.xml
 
 # === CRAWL-DELAY (für rücksichtsvolle Crawler) ===
 Crawl-Delay: 10
