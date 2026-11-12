@@ -6,4 +6,6 @@
 - **Batch 4 (Themen D33–D42):** Vollständig ausgearbeitet & integriert (Outdoor-Ausrüstung).
 - **Batch 5 (Themen E43–E50):** Vollständig ausgearbeitet & integriert (Gravelbike, E-Bike, Bikepacking).
 - **Gesamtstatus aller 50 Themen:** 100% lokal umgesetzt und verifiziert.
+- **Growth Sprint 1 (Live-Qualität, Search Console, Datenkonsistenz):** Abgeschlossen (100%) – Routenzahlen auf 49 verifizierte Routen konsolidiert, Canonical-Bug behoben, ungedeckte Praxistest-Claims korrigiert, Testsuite (82/82 PASSED) erfolgreich ausgeführt.
+
 
