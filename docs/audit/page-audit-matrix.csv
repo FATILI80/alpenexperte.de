@@ -1,0 +1,3 @@
+URL,Dateipfad,Kategorie,Seitentyp,Canonical_Ist,Canonical_Soll,Routing_Typ,HTTP_Status,Quellenstatus,Priorität,Prüfstatus,Offene_Punkte
+https://alpenexperte.de/,index.html,Home,Hub,https://alpenexperte.de/index.html,https://alpenexperte.de/,Klasse A,200,Verified,P1,PASS_VERIFIED,None
+https://alpenexperte.de/content/botanik/flechten-moose-alpen.html,content/botanik/flechten-moose-alpen.html,Botanik,Artikel,https://alpenexperte.de/content/botanik/flechten-moose-alpen.html,https://alpenexperte.de/content/botanik/flechten-moose-alpen.html,Klasse A,200,Verified,P1,FIXED_TESTED,None

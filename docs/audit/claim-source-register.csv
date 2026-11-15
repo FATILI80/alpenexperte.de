@@ -1,0 +1,2 @@
+Claim_ID,Datei,URL,Textabschnitt,Behauptung_Bisher,Primärquelle_Name,Primärquelle_URL,Herausgeber,Gültigkeitszeitraum,Abrufdatum,Geografischer_Geltungsbereich,Bewertung,Korrekturtext,Status
+CLM-001,content/botanik/flechten-moose-alpen.html,https://alpenexperte.de/content/botanik/flechten-moose-alpen.html,Flechten als Bioindikatoren,Bartflechten zeigen Reinluft,Biomonitoring,https://www.lfu.bayern.de,LfU Bayern,2026,2026-11-15,Bayerische Voralpen,Zu pauschal,Differenzierung zwischen Schwefeldioxid-Empfindlichkeit und nitrophilen Flechten,FIXED_TESTED
