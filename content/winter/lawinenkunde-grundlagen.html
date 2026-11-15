@@ -28,26 +28,13 @@
             <div class="container" style="max-width:850px;">
                 <h1 style="font-family:var(--font-display);color:#1a2a1a;">Lawinenkunde, Schneephysik & Risikomanagement</h1>
                 <p>Wissenschaftliche Lawinenkunde für das Mangfallgebirge: Schneedecken-Metamorphose, EAWS-Gefahrenstufen, Triebschnee, Gleitschnee und LVS-Notfallmanagement. <strong>100% werbefrei.</strong> Notruf: 112 (Bergwacht Bayern).</p>
-print("=== UPDATING FLORA GUIDE IMAGES ===")
-flora_pages = [
-    'content/fauna/flora/edelweiss.html',
-    'content/fauna/flora/arnika.html',
-    'content/fauna/flora/enzian.html',
-    'content/fauna/flora/orchideen-wildblumen.html'
-]
-for p in flora_pages:
-    if os.path.exists(p):
-        with open(p, 'r', encoding='utf-8', errors='ignore') as f:
-            code = f.read()
-        code = code.replace('https://alpenexperte.de/images/vogel-adler.jpg', 'https://alpenexperte.de/images/alpenblumen.jpg')
-        code = code.replace('/images/vogel-adler.jpg', '/images/alpenblumen.jpg')
-        with open(p, 'w', encoding='utf-8', newline='
-') as f:
-            f.write(code)
-        print(f"Fixed image in flora page: {p}")
-
             </div>
         </article>
     </main>
+    <footer class="site-footer" role="contentinfo" style="margin-top:60px;">
+        <div class="container" style="text-align:center;color:#666;font-size:0.85rem;">
+            <p>&copy; 2025–2026 alpenexperte.de – Lawinenkunde.</p>
+        </div>
+    </footer>
 </body>
 </html>
