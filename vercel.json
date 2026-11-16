@@ -56,12 +56,17 @@
     },
     {
       "source": "/content/huetten/wanderwege/stuempfling-klassiker.html",
-      "destination": "/content/wandern/stuempfling-klassiker.html",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/stuempfling-klassiker.html",
+      "destination": "/content/wandern/index.html",
       "permanent": true
     },
     {
       "source": "/content/huetten/huetten-karte/",
-      "destination": "/content/huetten/huetten-karte.html",
+      "destination": "/content/huetten/huetten-karte/index.html",
       "permanent": true
     },
     {
