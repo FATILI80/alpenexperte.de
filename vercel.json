@@ -55,6 +55,21 @@
       "permanent": true
     },
     {
+      "source": "/content/huetten/wanderwege/stuempfling-klassiker.html",
+      "destination": "/content/wandern/stuempfling-klassiker.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/huetten-karte/",
+      "destination": "/content/huetten/huetten-karte.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/bodenschneid-klettersteig.html",
+      "destination": "/content/klettern/bodenschneid-klettersteig.html",
+      "permanent": true
+    },
+    {
       "source": "/content/wandern/hintere-firstalm.html",
       "destination": "/content/wandern/untere-firstalm.html",
       "permanent": false
