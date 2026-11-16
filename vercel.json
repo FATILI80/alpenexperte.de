@@ -1,88 +1,93 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "cleanUrls": false,
-  "trailingSlash": false,
-  "headers": [
-    {
-      "source": "/images/(.*)",
-      "headers": [
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "cleanUrls": false,
+    "trailingSlash": false,
+    "headers": [
         {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/css/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/js/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
-      ]
-    },
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
+            "source": "/images/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=31536000, immutable"
+                }
+            ]
         },
         {
-          "key": "X-Frame-Options",
-          "value": "SAMEORIGIN"
+            "source": "/css/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=31536000, immutable"
+                }
+            ]
         },
         {
-          "key": "Referrer-Policy",
-          "value": "strict-origin-when-cross-origin"
+            "source": "/js/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=31536000, immutable"
+                }
+            ]
+        },
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "X-Content-Type-Options",
+                    "value": "nosniff"
+                },
+                {
+                    "key": "X-Frame-Options",
+                    "value": "SAMEORIGIN"
+                },
+                {
+                    "key": "Referrer-Policy",
+                    "value": "strict-origin-when-cross-origin"
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "redirects": [
-    {
-      "source": "/startseite",
-      "destination": "/",
-      "permanent": true
-    },
-    {
-      "source": "/content/huetten/wanderwege/stuempfling-klassiker.html",
-      "destination": "/content/wandern/index.html",
-      "permanent": true
-    },
-    {
-      "source": "/content/wandern/stuempfling-klassiker.html",
-      "destination": "/content/wandern/index.html",
-      "permanent": true
-    },
-    {
-      "source": "/content/huetten/huetten-karte/",
-      "destination": "/content/huetten/huetten-karte/index.html",
-      "permanent": true
-    },
-    {
-      "source": "/content/wandern/bodenschneid-klettersteig.html",
-      "destination": "/content/klettern/bodenschneid-klettersteig.html",
-      "permanent": true
-    },
-    {
-      "source": "/content/wandern/hintere-firstalm.html",
-      "destination": "/content/wandern/untere-firstalm.html",
-      "permanent": false
-    },
-    {
-      "source": "/content/wandern/hintere-firstalm",
-      "destination": "/content/wandern/untere-firstalm.html",
-      "permanent": false
-    }
-  ]
+    ],
+    "redirects": [
+        {
+            "source": "/wandern.html",
+            "destination": "/content/wandern/",
+            "permanent": true
+        },
+        {
+            "source": "/startseite",
+            "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/content/huetten/wanderwege/stuempfling-klassiker.html",
+            "destination": "/content/wandern/index.html",
+            "permanent": true
+        },
+        {
+            "source": "/content/wandern/stuempfling-klassiker.html",
+            "destination": "/content/wandern/index.html",
+            "permanent": true
+        },
+        {
+            "source": "/content/huetten/huetten-karte/",
+            "destination": "/content/huetten/huetten-karte/index.html",
+            "permanent": true
+        },
+        {
+            "source": "/content/wandern/bodenschneid-klettersteig.html",
+            "destination": "/content/klettern/bodenschneid-klettersteig.html",
+            "permanent": true
+        },
+        {
+            "source": "/content/wandern/hintere-firstalm.html",
+            "destination": "/content/wandern/untere-firstalm.html",
+            "permanent": false
+        },
+        {
+            "source": "/content/wandern/hintere-firstalm",
+            "destination": "/content/wandern/untere-firstalm.html",
+            "permanent": false
+        }
+    ]
 }
