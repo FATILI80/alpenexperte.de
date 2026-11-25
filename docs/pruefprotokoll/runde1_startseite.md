@@ -1,0 +1,33 @@
+# Prüfprotokoll Runde 1: Startseite und Gravelseite (Stand 2026-11-25)
+
+Status: OFFEN = noch kein Beleg. BELEGT = Quelle geprüft. WIDERSPRUCH = Seite sagt etwas anderes als die Quelle. Entfernen, wenn kein Beleg kommt.
+
+## index.html (Startseite)
+| Angabe | Status | Hinweis |
+|---|---|---|
+| Kaiserschmarrn Untere Firstalm 12,90 € | OFFEN | Widerspruch zu den Preisen am selben Ort: 14,50 € auf der Schönfeldhütte, Preis im Abschnitt geprüft |
+| Parkplatz Spitzingsee 6 €/Tag | OFFEN | Gebühr laut Gemeinde oder Betreiber prüfen |
+| Bayern-Ticket ab 25 €, BRB-Gruppen 10 € pro Person | WIDERSPRUCH | Vorher (Ski-Datenbasis) als 39 € bzw. 10 € vermerkt, Tarif prüfen |
+| Schönfeldhütte Kaiserschmarrn 14,50 € | OFFEN | Preis beim Betreiber prüfen |
+| Bernhard-Kirche Sonnenaufgang 06:30 Uhr Sommer | OFFEN | Sinnvoll nur als Tipp, keine Zeit ohne Beleg |
+| Balzzeit März–Mai, 3–6 Uhr, nur mit Führung | OFFEN | Schutzstatus und Führungspflicht prüfen |
+| Spitzingsattel, Rotwandhaus, ~3,5 Std, ~760 Hm (T2) | OFFEN | Mit BRouter-Lauf oder Quelle prüfen |
+| Valepp, ~4–4,5 Std, ~880 Hm (T3) | OFFEN | dito |
+| Parkplatz am Wochenende ab 07:30 "restlos überfüllt" | OFFEN | Beobachtung, nicht belegbar, streichen |
+
+## gravel.html (Gravelseite)
+| Angabe | Status | Hinweis |
+|---|---|---|
+| Brenner–Bozen 96 km (53 + 43 km) | OFFEN | Radweg-Angaben beim Land Tirol oder Südtirol prüfen |
+| Donauwörth–Altino 717 km | OFFEN | Summe aus Teilstrecken, Quelle nötig |
+| Verona–Florenz 686 km | OFFEN | Quelle nötig |
+| Thiersee-Runde 34,7 km / 520 Hm | OFFEN | Mit BRouter prüfen |
+| Dreibrunnenjoch 4,6 km / 240 Hm, Radverbindung 2026 | OFFEN | Neue Verbindung: Bauzustand bestätigen |
+| Reifenbreite 42–45 mm, Einkehr-Angaben | OFFEN | Herstellerwerte und Einkehr-Angaben prüfen |
+| Ca. 60 Tourenkarten mit identischen Stufen (z. B. 20 km / 250 hm, 20 km / 140 hm) | OFFEN | Auffällig: sehr ähnliche Werte. Vor Veröffentlichung über BRouter nachrechnen |
+| Routen "verifiziert, 48,9 km, +1.308 Hm" | OFFEN | Verifikation nachweisen oder Begriff streichen |
+
+## Nächster Schritt
+- Jede OFFEN-Zeile belegen (URL, Datum des Abrufs) oder streichen.
+- Gravel-Routen über BRouter nachrechnen (routing/route.py), bevor Werte stehen bleiben.
+- Widersprüche zuerst klären.
