@@ -31,3 +31,8 @@ Status: OFFEN = noch kein Beleg. BELEGT = Quelle geprüft. WIDERSPRUCH = Seite s
 - Jede OFFEN-Zeile belegen (URL, Datum des Abrufs) oder streichen.
 - Gravel-Routen über BRouter nachrechnen (routing/route.py), bevor Werte stehen bleiben.
 - Widersprüche zuerst klären.
+
+## Änderungen nach Nutzer-Angaben (2026-11-25)
+- Parkplatz Spitzingsattel: 8 € pro Tag (Nutzer-Angabe, Betreiber noch zu belegen). Text geändert auf "meist recht voll" statt "restlos überfüllt". Unbelegte Uhrzeit (07:00) entfernt.
+- Bayern-Ticket-Karte und FAQ-Absatz entfernt (Nutzer-Angabe: wird weggelassen).
+- Kaiserschmarrn: Preisvergleich entfernt, bis geklärt ist, welcher Preis zu welcher Hütte gehört. Nutzer nannte 15,50 €. Ob das Untere Firstalm oder Schönfeldhütte betrifft, ist offen. "Sieger 2026" entfernt (unbelegt).
