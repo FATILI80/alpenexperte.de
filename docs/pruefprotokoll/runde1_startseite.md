@@ -68,3 +68,16 @@ Regeln: Nur Fakten übernehmen, Quelle angeben, keine Texte kopieren.
 - Mehrere Höhen und Zeiten sind belegt. Die Liste ist nicht vollständig.
 - Ein Widerspruch (Via Claudia Augusta, 717 vs. 740 km) und eine Korrektur (Bodenschneid 1.669 m) sind festgehalten.
 - Viele Gipfelhöhen und die Transalp-Kilometer sind offen. Sie kommen erst auf den Stand, wenn eine Quelle sie bestätigt oder der BRouter-Lauf vorliegt.
+
+## Gipfel-Nachprüfung (Stand 2026-11-25)
+| Gipfel | Status | Quelle |
+|---|---|---|
+| Rotwand 1.884 m | BELEGT | muenchen.de (Höhe 1884 m); hoehenrausch.de/berge/rotwand |
+| Rotwandhaus 1.737 m | BELEGT | hoehenrausch.de/berge/rotwand |
+| Hochmiesing 1.883 m | BELEGT | hoehenrausch.de/berge/hochmiesing |
+| Taubenstein 1.692 m | BELEGT, Abweichung | hoehenrausch.de nennt 1.692 m und 1.693 m; summitpost nennt 1.692 m |
+| Stümpfling 1.506 m | BELEGT | Wikipedia (Stümpfling) |
+| Jägerkamp 1.746 m, Tanzeck 1.703 m | BELEGT | hoehenrausch.de/wandern/deutschland/schliersee (Liste mit Höhen) |
+| Aiplspitz 1.759 m | BELEGT | hoehenrausch.de/wandern/deutschland/bayrischzell |
+| Roßkopf 1.580 m | BELEGT | komoot.com/smarttour/41981736 |
+Markierungen "Angabe prüfen" bei diesen Gipfeln entfernt.
