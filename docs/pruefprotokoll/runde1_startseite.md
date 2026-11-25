@@ -36,3 +36,8 @@ Status: OFFEN = noch kein Beleg. BELEGT = Quelle geprüft. WIDERSPRUCH = Seite s
 - Parkplatz Spitzingsattel: 8 € pro Tag (Nutzer-Angabe, Betreiber noch zu belegen). Text geändert auf "meist recht voll" statt "restlos überfüllt". Unbelegte Uhrzeit (07:00) entfernt.
 - Bayern-Ticket-Karte und FAQ-Absatz entfernt (Nutzer-Angabe: wird weggelassen).
 - Kaiserschmarrn: Preisvergleich entfernt, bis geklärt ist, welcher Preis zu welcher Hütte gehört. Nutzer nannte 15,50 €. Ob das Untere Firstalm oder Schönfeldhütte betrifft, ist offen. "Sieger 2026" entfernt (unbelegt).
+
+## Routen-Tiefenprüfung (Stand 2026-11-25)
+- Nicht möglich in der Sandbox: BRouter (brouter.de) und Nominatim sind gesperrt (HTTP 403). Die Nachrechnung braucht den lokalen BRouter-Lauf (routing/route.py) auf deinem Rechner.
+- Offline geprüft: 41 Angaben "km · hm" in content/ und gravel.html. Die Werte sind überwiegend unterschiedlich. Die Vermutung "identische Vorlagen" aus Runde 1 wird damit korrigiert: nicht bestätigt.
+- 7 Dateien tragen das Wort "verifiziert". Dort fehlt der Nachweis. Diese Seiten bleiben OFFEN, bis der BRouter-Lauf vorliegt.
