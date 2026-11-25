@@ -41,3 +41,30 @@ Status: OFFEN = noch kein Beleg. BELEGT = Quelle geprüft. WIDERSPRUCH = Seite s
 - Nicht möglich in der Sandbox: BRouter (brouter.de) und Nominatim sind gesperrt (HTTP 403). Die Nachrechnung braucht den lokalen BRouter-Lauf (routing/route.py) auf deinem Rechner.
 - Offline geprüft: 41 Angaben "km · hm" in content/ und gravel.html. Die Werte sind überwiegend unterschiedlich. Die Vermutung "identische Vorlagen" aus Runde 1 wird damit korrigiert: nicht bestätigt.
 - 7 Dateien tragen das Wort "verifiziert". Dort fehlt der Nachweis. Diese Seiten bleiben OFFEN, bis der BRouter-Lauf vorliegt.
+
+## Quellenabgleich Touren ab Oberer Firstalm und Transalp (Stand 2026-11-25)
+Regeln: Nur Fakten übernehmen, Quelle angeben, keine Texte kopieren.
+
+| Angabe | Status | Quelle (Abruf 2026-11-25) |
+|---|---|---|
+| Obere Firstalm 1.375 m | BELEGT | bergwelten.com/h/obere-firstalm; hoehenrausch.de/huetten/obere-firstalm |
+| Spitzingsattel → Obere Firstalm: 40–45 min, ca. 246–250 Hm | BELEGT | hoehenrausch.de/huetten/obere-firstalm (Aufstieg 45 min, 250 Hm); bergwelten.com/t/w/38247 (1:00 h, 2,6 km) |
+| Brecherspitz 1.683 m | BELEGT | hoehenrausch.de/berge/brecherspitz (Höhe), bergtour-online.de (Gehzeit Spitzingsattel → Gipfel ca. 2:00 h) |
+| Brecherspitz ab Oberer Firstalm: 308 Hm (1.683 − 1.375) | BELEGT (aus den Höhen abgeleitet) | Höhen oben |
+| Brecherspitz ab Oberer Firstalm: 2,2 km, 1:15 Std. | OFFEN | Länge nicht gefunden. Gehzeit nur abgeleitet |
+| Bodenschneid 1.668 m | KORREKTUR | hoehenrausch.de nennt 1.669 m. Auf der Seite auf 1.669 m ändern |
+| Roßkopf 1.580 m | BELEGT | hoehenrausch.de/huetten/obere-firstalm (Verweis Roßkopf 1580 m) |
+| Rotwand 1.884 m, Hochmiesing 1.883 m, Taubenstein 1.692 m, Stümpfling 1.506 m, Jägerkamp 1.746 m, Tanzeck 1.703 m, Aiplspitz 1.759 m, Rotwandhaus 1.737 m | OFFEN | Nicht in den geprüften Quellen gefunden |
+| Untere Firstalm 1.318 m | BELEGT | hoehenrausch.de/berge/brecherspitz (1.318 m) |
+| Brecherspitz 8,5 km, 560 Hm (Kurvenlift) | BELEGT | hoehenrausch.de/berge/brecherspitz |
+| Obere Firstalm – Spitzingsattel Rundtour: 2:30 h, 300 Hm | BELEGT | bergtour-online.de (leicht, 300 hm, 2:30 h) |
+| Donauwörth–Altino 717 km (Via Claudia Augusta) | WIDERSPRUCH | biketrailspfannenstiel.ch nennt ca. 740 km für Donauwörth–Ostiglia. Strecke muss gleich sein |
+| Brenner–Bozen 96 km (53 + 43 km) | OFFEN | Nicht gefunden. Quellen nennen keine Teilkilometer |
+| Verona–Florenz 686 km, Ciclovia del Sole | OFFEN | Nicht gefunden |
+| Gardasee-Radroute ab Brenner, wenig Höhenmeter | BELEGT | bergwelten.com/t/m/51562 (Dolce-Vita-Tour Brenner–Riva) |
+| Thiersee-Runde 34,7 km / 520 Hm | OFFEN | Nicht gefunden |
+
+## Ergebnis
+- Mehrere Höhen und Zeiten sind belegt. Die Liste ist nicht vollständig.
+- Ein Widerspruch (Via Claudia Augusta, 717 vs. 740 km) und eine Korrektur (Bodenschneid 1.669 m) sind festgehalten.
+- Viele Gipfelhöhen und die Transalp-Kilometer sind offen. Sie kommen erst auf den Stand, wenn eine Quelle sie bestätigt oder der BRouter-Lauf vorliegt.
