@@ -1,0 +1,118 @@
+[
+  {
+    "kennung": "GG-IT-01",
+    "name": "Transalp Venedig",
+    "zwischenpunkte": [
+      {
+        "name": "Achenpass",
+        "treffer": "Achenpass, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland"
+      },
+      {
+        "name": "Brenner",
+        "treffer": "Brenner - Brennero, Wipptal - Alta Vall'Isarco, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39041, Italia"
+      },
+      {
+        "name": "Sterzing",
+        "treffer": "Sterzing - Vipiteno, Wipptal - Alta Vall'Isarco, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, Italia"
+      },
+      {
+        "name": "Brixen",
+        "treffer": "Brixen - Bressanone, Eisacktal - Valle Isarco, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39042, Italia"
+      },
+      {
+        "name": "Bruneck",
+        "treffer": "Bruneck - Brunico, Pustertal - Val Pusteria, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39031, Italia"
+      },
+      {
+        "name": "Toblach",
+        "treffer": "Toblach - Dobbiaco, Pustertal - Val Pusteria, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39034, Italia"
+      },
+      {
+        "name": "Cortina d'Ampezzo",
+        "treffer": "Cortina d'Ampezzo, Belluno, Veneto, 32043, Italia"
+      },
+      {
+        "name": "Belluno",
+        "treffer": "Belluno, Veneto, Italia"
+      },
+      {
+        "name": "Venedig Markusplatz",
+        "treffer": "Piazza San Marco, San Marco, Venezia-Murano-Burano, Lido, Venezia, Veneto, 30124, Italia"
+      }
+    ],
+    "laenge_km_brouter": 541.2,
+    "laenge_km_geometrie": 540.49,
+    "hm_aufstieg": 8640
+  },
+  {
+    "kennung": "GG-IT-02",
+    "name": "Transalp Gardasee & Verona",
+    "zwischenpunkte": [
+      {
+        "name": "Brenner",
+        "treffer": "Brenner - Brennero, Wipptal - Alta Vall'Isarco, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39041, Italia"
+      },
+      {
+        "name": "Bozen",
+        "treffer": "Bolzano - Bozen, Trentino-Alto Adige/Südtirol, Italia"
+      },
+      {
+        "name": "Trient",
+        "treffer": "Trento, Territorio Val d'Adige, Provincia di Trento, Trentino-Alto Adige/Südtirol, Italia"
+      },
+      {
+        "name": "Verona Arena",
+        "treffer": "Arena di Verona, Via Anfiteatro, Città antica, Centro storico, Verona, Veneto, 37121, Italia"
+      }
+    ],
+    "laenge_km_brouter": 447.12,
+    "laenge_km_geometrie": 446.64,
+    "hm_aufstieg": 6368
+  },
+  {
+    "kennung": "GG-IT-03",
+    "name": "Via Claudia Augusta bis Ostiglia",
+    "zwischenpunkte": [
+      {
+        "name": "Telfs",
+        "treffer": "Telfs, Bezirk Innsbruck-Land, Tirol, 6410, Österreich"
+      },
+      {
+        "name": "Landeck",
+        "treffer": "Landeck, Bezirk Landeck, Tirol, 6500, Österreich"
+      },
+      {
+        "name": "Reschenpass",
+        "treffer": "Reschenpass - Passo Resia, Froi - Froia, Graun - Curon Venosta, Vinschgau - Val Venosta, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39027, Italia"
+      },
+      {
+        "name": "Mals",
+        "treffer": "Mals - Malles Venosta, Vinschgau - Val Venosta, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39024, Italia"
+      },
+      {
+        "name": "Meran",
+        "treffer": "Meran - Merano, Burggrafenamt - Burgraviato, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39012, Italia"
+      },
+      {
+        "name": "Bozen",
+        "treffer": "Bolzano - Bozen, Trentino-Alto Adige/Südtirol, Italia"
+      },
+      {
+        "name": "Mantua",
+        "treffer": "Mantova, Lombardia, Italia"
+      },
+      {
+        "name": "Ostiglia",
+        "treffer": "Ostiglia, Mantova, Lombardia, 46035, Italia"
+      }
+    ],
+    "laenge_km_brouter": 621.01,
+    "laenge_km_geometrie": 620.29,
+    "hm_aufstieg": 4427
+  },
+  {
+    "kennung": "GG-IT-04",
+    "name": "Ciclovia del Sole bis Rom",
+    "fehler": "HTTP Error 400: Bad Request"
+  }
+]
