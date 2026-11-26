@@ -1,0 +1,426 @@
+[
+  {
+    "kennung": "F01",
+    "ziel": "München Isartor",
+    "geocoding": {
+      "lat": 48.135105,
+      "lon": 11.58204,
+      "treffer": "Isartor, Tal, Graggenauerviertel, Altstadt-Lehel, München, Bayern, 80331, Deutschland"
+    },
+    "gravel": {
+      "laenge_km_brouter": 75.91,
+      "laenge_km_geometrie": 75.83,
+      "hm_aufstieg": 382,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 1
+    },
+    "trekking": {
+      "laenge_km_brouter": 68.23,
+      "laenge_km_geometrie": 68.17,
+      "hm_aufstieg": 118,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 1
+    }
+  },
+  {
+    "kennung": "F02",
+    "ziel": "Schliersee Bahnhof",
+    "geocoding": {
+      "lat": 47.7355828,
+      "lon": 11.8597632,
+      "treffer": "Schliersee, Bahnhofstraße, Kreit, Kalkgraben, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    },
+    "gravel": {
+      "laenge_km_brouter": 14.37,
+      "laenge_km_geometrie": 14.36,
+      "hm_aufstieg": 61,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 14
+    },
+    "trekking": {
+      "laenge_km_brouter": 11.5,
+      "laenge_km_geometrie": 11.48,
+      "hm_aufstieg": 17,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 14
+    }
+  },
+  {
+    "kennung": "F03",
+    "ziel": "Fischhausen-Neuhaus Bahnhof",
+    "geocoding": {
+      "lat": 47.7060006,
+      "lon": 11.874571,
+      "treffer": "Fischhausen-Neuhaus, Bahnhof, Wendelsteinstraße, Fischhausen, Neuhaus, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    },
+    "gravel": {
+      "laenge_km_brouter": 8.57,
+      "laenge_km_geometrie": 8.56,
+      "hm_aufstieg": 34,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 3
+    },
+    "trekking": {
+      "laenge_km_brouter": 7.61,
+      "laenge_km_geometrie": 7.6,
+      "hm_aufstieg": 13,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 0
+    }
+  },
+  {
+    "kennung": "F04",
+    "ziel": "Tegernsee Bahnhof",
+    "geocoding": {
+      "lat": 47.7147811,
+      "lon": 11.7567142,
+      "treffer": "Bahnhof Tegernsee, Tegernsee, Landkreis Miesbach, Bayern, Deutschland"
+    },
+    "gravel": {
+      "laenge_km_brouter": 20.99,
+      "laenge_km_geometrie": 20.94,
+      "hm_aufstieg": 396,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 6
+    },
+    "trekking": {
+      "laenge_km_brouter": 12.51,
+      "laenge_km_geometrie": 12.49,
+      "hm_aufstieg": 55,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 6
+    }
+  },
+  {
+    "kennung": "F05",
+    "ziel": "Rottach-Egern",
+    "geocoding": {
+      "lat": 47.6909599,
+      "lon": 11.7707109,
+      "treffer": "Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
+    },
+    "gravel": {
+      "laenge_km_brouter": 17.75,
+      "laenge_km_geometrie": 17.7,
+      "hm_aufstieg": 355,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 3
+    },
+    "trekking": {
+      "laenge_km_brouter": 9.43,
+      "laenge_km_geometrie": 9.4,
+      "hm_aufstieg": 14,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 3
+    }
+  },
+  {
+    "kennung": "F06",
+    "ziel": "Kreuth",
+    "fehler": "kein Geocoding-Treffer"
+  },
+  {
+    "kennung": "F07",
+    "ziel": "Achenpass",
+    "geocoding": {
+      "lat": 47.5975082,
+      "lon": 11.6361469,
+      "treffer": "Achenpass, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland"
+    },
+    "gravel": {
+      "laenge_km_brouter": 36.37,
+      "laenge_km_geometrie": 36.3,
+      "hm_aufstieg": 591,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 0
+    },
+    "trekking": {
+      "laenge_km_brouter": 28.32,
+      "laenge_km_geometrie": 28.27,
+      "hm_aufstieg": 234,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 0
+    }
+  },
+  {
+    "kennung": "F08",
+    "ziel": "Ochsenalm Valepp",
+    "fehler": "kein Geocoding-Treffer"
+  },
+  {
+    "kennung": "F09",
+    "ziel": "Elendsattel",
+    "geocoding": {
+      "lat": 47.6244228,
+      "lon": 11.9290563,
+      "treffer": "Elendsattel, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    },
+    "gravel": {
+      "laenge_km_brouter": 16.32,
+      "laenge_km_geometrie": 16.29,
+      "hm_aufstieg": 288,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 0
+    },
+    "trekking": {
+      "laenge_km_brouter": 15.22,
+      "laenge_km_geometrie": 15.2,
+      "hm_aufstieg": 288,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 0
+    }
+  },
+  {
+    "kennung": "F10",
+    "ziel": "Vorderthiersee",
+    "geocoding": {
+      "lat": 47.5948303,
+      "lon": 12.1180112,
+      "treffer": "Vorderthiersee, Thiersee, Bezirk Kufstein, Tirol, 6335, Österreich"
+    },
+    "gravel": {
+      "laenge_km_brouter": 45.86,
+      "laenge_km_geometrie": 45.77,
+      "hm_aufstieg": 778,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 10
+    },
+    "trekking": {
+      "laenge_km_brouter": 36.49,
+      "laenge_km_geometrie": 36.42,
+      "hm_aufstieg": 140,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 10
+    }
+  },
+  {
+    "kennung": "F11",
+    "ziel": "Thiersee",
+    "geocoding": {
+      "lat": 47.5806574,
+      "lon": 12.0299151,
+      "treffer": "Thiersee, Bezirk Kufstein, Tirol, 6335, Österreich"
+    },
+    "gravel": {
+      "laenge_km_brouter": 37.73,
+      "laenge_km_geometrie": 37.67,
+      "hm_aufstieg": 494,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 4
+    },
+    "trekking": {
+      "laenge_km_brouter": 30.89,
+      "laenge_km_geometrie": 30.84,
+      "hm_aufstieg": 297,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 4
+    }
+  },
+  {
+    "kennung": "F12",
+    "ziel": "Kufstein Bahnhof",
+    "geocoding": {
+      "lat": 47.5826841,
+      "lon": 12.1659298,
+      "treffer": "Bahnhof Kufstein, 3, Südtiroler Platz, Zell, Kufstein, Bezirk Kufstein, Tirol, 6330, Österreich"
+    },
+    "gravel": {
+      "laenge_km_brouter": 61.4,
+      "laenge_km_geometrie": 61.33,
+      "hm_aufstieg": 124,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 8
+    },
+    "trekking": {
+      "laenge_km_brouter": 58.15,
+      "laenge_km_geometrie": 58.09,
+      "hm_aufstieg": 136,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 8
+    }
+  },
+  {
+    "kennung": "F13",
+    "ziel": "Walchsee",
+    "geocoding": {
+      "lat": 47.6512311,
+      "lon": 12.3186415,
+      "treffer": "Walchsee, Bezirk Kufstein, Tirol, 6344, Österreich"
+    },
+    "gravel": {
+      "laenge_km_brouter": 63.48,
+      "laenge_km_geometrie": 63.38,
+      "hm_aufstieg": 329,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 4
+    },
+    "trekking": {
+      "laenge_km_brouter": 59.56,
+      "laenge_km_geometrie": 59.47,
+      "hm_aufstieg": 356,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 4
+    }
+  },
+  {
+    "kennung": "F14",
+    "ziel": "Bayrischzell Bahnhof",
+    "geocoding": {
+      "lat": 47.6751725,
+      "lon": 12.0115917,
+      "treffer": "Bahnhof, 6, Bahnhofstraße, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    },
+    "gravel": {
+      "laenge_km_brouter": 18.95,
+      "laenge_km_geometrie": 18.93,
+      "hm_aufstieg": 78,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 9
+    },
+    "trekking": {
+      "laenge_km_brouter": 17.22,
+      "laenge_km_geometrie": 17.19,
+      "hm_aufstieg": 56,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 9
+    }
+  },
+  {
+    "kennung": "F15",
+    "ziel": "Sudelfeld",
+    "geocoding": {
+      "lat": 47.6779882,
+      "lon": 12.0364639,
+      "treffer": "Sudelfeld, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    },
+    "gravel": {
+      "laenge_km_brouter": 21.34,
+      "laenge_km_geometrie": 21.32,
+      "hm_aufstieg": 400,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 7
+    },
+    "trekking": {
+      "laenge_km_brouter": 19.83,
+      "laenge_km_geometrie": 19.79,
+      "hm_aufstieg": 353,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 7
+    }
+  },
+  {
+    "kennung": "F16",
+    "ziel": "Oberaudorf Bahnhof",
+    "geocoding": {
+      "lat": 47.6526185,
+      "lon": 12.1752506,
+      "treffer": "Oberaudorf, Bahnhofplatz, Hoffeld, Oberaudorf, Landkreis Rosenheim, Bayern, 83080, Deutschland"
+    },
+    "gravel": {
+      "laenge_km_brouter": 50.61,
+      "laenge_km_geometrie": 50.54,
+      "hm_aufstieg": 116,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 9
+    },
+    "trekking": {
+      "laenge_km_brouter": 45.55,
+      "laenge_km_geometrie": 45.48,
+      "hm_aufstieg": 144,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 9
+    }
+  },
+  {
+    "kennung": "F17",
+    "ziel": "Fischbachau",
+    "geocoding": {
+      "lat": 47.7294772,
+      "lon": 11.9549987,
+      "treffer": "Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland"
+    },
+    "gravel": {
+      "laenge_km_brouter": 14.87,
+      "laenge_km_geometrie": 14.86,
+      "hm_aufstieg": 72,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 14
+    },
+    "trekking": {
+      "laenge_km_brouter": 12.76,
+      "laenge_km_geometrie": 12.74,
+      "hm_aufstieg": 66,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 14
+    }
+  },
+  {
+    "kennung": "F18",
+    "ziel": "Miesbach Bahnhof",
+    "geocoding": {
+      "lat": 47.7907904,
+      "lon": 11.8307819,
+      "treffer": "Miesbach, Bahnhofplatz, Straß, Miesbach, Landkreis Miesbach, Bayern, 83714, Deutschland"
+    },
+    "gravel": {
+      "laenge_km_brouter": 20.61,
+      "laenge_km_geometrie": 20.58,
+      "hm_aufstieg": 67,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 10
+    },
+    "trekking": {
+      "laenge_km_brouter": 19.39,
+      "laenge_km_geometrie": 19.36,
+      "hm_aufstieg": 36,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 10
+    }
+  },
+  {
+    "kennung": "F19",
+    "ziel": "Holzkirchen Bahnhof",
+    "geocoding": {
+      "lat": 47.8844678,
+      "lon": 11.6973194,
+      "treffer": "Holzkirchen, Bahnhofplatz, Maitz, Föching, Holzkirchen, Landkreis Miesbach, Bayern, 83607, Deutschland"
+    },
+    "gravel": {
+      "laenge_km_brouter": 41.46,
+      "laenge_km_geometrie": 41.41,
+      "hm_aufstieg": 381,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 4
+    },
+    "trekking": {
+      "laenge_km_brouter": 38.91,
+      "laenge_km_geometrie": 38.86,
+      "hm_aufstieg": 128,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 4
+    }
+  },
+  {
+    "kennung": "F20",
+    "ziel": "Ellmau",
+    "geocoding": {
+      "lat": 47.5136972,
+      "lon": 12.3024747,
+      "treffer": "Ellmau, Bezirk Kufstein, Tirol, Österreich"
+    },
+    "gravel": {
+      "laenge_km_brouter": 81.08,
+      "laenge_km_geometrie": 80.97,
+      "hm_aufstieg": 554,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 7
+    },
+    "trekking": {
+      "laenge_km_brouter": 77.88,
+      "laenge_km_geometrie": 77.77,
+      "hm_aufstieg": 567,
+      "start_abweichung_m": 12,
+      "ziel_abweichung_m": 7
+    }
+  }
+]
