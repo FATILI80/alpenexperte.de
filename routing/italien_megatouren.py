@@ -31,7 +31,7 @@ TOUREN = [
 
 
 def geocode(anfrage):
-    q = urllib.parse.urlencode({"q": anfrage + ", Italien OR Österreich OR Deutschland", "format": "json", "limit": 1})
+    q = urllib.parse.urlencode({"q": anfrage, "format": "json", "limit": 1, "countrycodes": "de,at,it"})
     req = urllib.request.Request(f"{NOMINATIM}?{q}", headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=60) as r:
         t = json.loads(r.read().decode("utf-8"))
