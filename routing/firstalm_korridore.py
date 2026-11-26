@@ -63,9 +63,15 @@ def main():
                 eintrag = {"kennung": kennung, "ziel": name, "fehler": "kein Geocoding-Treffer"}
             else:
                 eintrag = {"kennung": kennung, "ziel": name, "geocoding": ziel}
+                ziel_obj = {"name": name, **ziel}
                 for profil in route.PROFILE:
-                    m = route.messen(route.brouter(start, {"name": name, **ziel}, profil), start, {"name": name, **ziel})
-                    eintrag[profil] = m
+                    geo = route.brouter(start, ziel_obj, profil)
+                    eintrag[profil] = route.messen(geo, start, ziel_obj)
+                    # Geometrie für die Karte speichern (Leaflet lädt diese Datei)
+                    geo_dir = HIER / "geojson"
+                    geo_dir.mkdir(exist_ok=True)
+                    (geo_dir / f"{kennung}_{profil}.geojson").write_text(
+                        json.dumps(geo, ensure_ascii=False), encoding="utf-8")
         except Exception as e:
             eintrag = {"kennung": kennung, "ziel": name, "fehler": str(e)}
         print(json.dumps(eintrag, ensure_ascii=False), flush=True)
