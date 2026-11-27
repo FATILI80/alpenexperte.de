@@ -100,10 +100,9 @@
   },
   {
     "kennung": "M11",
-    "name": "Firstalm-Runde: Wallbergmoos & Enteralm",
+    "name": "Firstalm-Runde: Wallbergmoosalm",
     "wegpunkte": [
-      "Wallbergmoosalm",
-      "Enteralm"
+      "Wallbergmoosalm"
     ],
     "quelle": "bisherige Tourenseite content/mtb/",
     "alt": "bestehende Tour"
@@ -163,12 +162,12 @@
   },
   {
     "kennung": "M17",
-    "name": "Firstalm-Runde: Wildbad Kreuth & Schwaigeralm",
+    "name": "Firstalm-Runde: Söllbachtal & Bauer in der Au",
     "wegpunkte": [
-      "Wildbad Kreuth",
-      "Schwaigeralm@11.68,47.66,11.80,47.58"
+      "Bad Wiessee",
+      "Bauer in der Au@11.66,47.70,11.76,47.64"
     ],
-    "quelle": "almenrausch.at (Bayralm-Tour über die Schwaigeralm)",
+    "quelle": "almenrausch.at (Schwarzentenn-Runde: Forstweg zum Bauer in der Au, Söllbachtal)",
     "alt": "neu"
   },
   {
