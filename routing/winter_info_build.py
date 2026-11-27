@@ -88,23 +88,39 @@ RODEL = page('Rodelbahn Obere Firstalm', '🛷 Rodelbahn Obere Firstalm',
           ('bergwelten.com – Obere Firstalm (1.375 m), Gehzeit 40 min, Alternative über Untere Firstalm','https://www.bergwelten.com/h/obere-firstalm')]))
 
 RODELN = page('Rodeln', '🛷 Rodeln am Spitzingsee &amp; Tegernsee',
- 'Am Spitzingsee gibt es eine offizielle Familien-Rodelbahn – die an der Oberen Firstalm. Eine Taubenstein- oder „Rotwandbahn“-Rodelbahn gibt es nicht. Für längere Abfahrten lohnt der Blick ins Tegernseer Tal.',
- H2('🏔️ Am Spitzingsee')+tab([
-   ('Obere Firstalm','ca. 2,5 km','leicht','Aufstieg 40–45 min vom Spitzingsattel, bis 22:30 Uhr beleuchtet, Schlitten 7 € an der Alm'),
+ 'Die Familien-Rodelbahn am Spitzingsee ist die an der Oberen Firstalm – leicht, schneesicher und abends beleuchtet. Darunter alle weiteren belegten Bahnen der Region, vom kurzen Stück an der Unteren Firstalm bis zur 6,5 km langen Wallberg-Bahn.',
+ '<div style="background:linear-gradient(135deg,#14532d,#2d8a56);color:#fff;border-radius:14px;padding:20px 22px;margin:0 0 22px;">'
+ '<div style="font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;opacity:.9;">Unsere Hausbahn · Familien-Tipp</div>'
+ '<h2 style="color:#fff;margin:6px 0 8px;">⭐ Rodelbahn Obere Firstalm</h2>'
+ '<ul style="margin:0 0 12px 18px;line-height:1.7;"><li>ca. 2,5 km, leicht – auch mit kleinen Kindern</li><li>Aufstieg ca. 40–45 min vom Spitzingsattel, rund 250 Hm</li>'
+ '<li>Mondscheinrodeln ab 27.11.2026 – Bahn bis 22:30 Uhr beleuchtet</li><li>Schlitten-Verleih an der Alm: 7 €</li>'
+ '<li>Hütte täglich 11–22 Uhr, Küche 11–21 Uhr, Frühstück 8–10 Uhr (17,50 € p. P.)</li><li>Bus 362 bis Spitzingsattel · Parken am Sattel 8 €</li></ul>'
+ '<a href="/content/winter/firstalm-rodelbahn.html" style="display:inline-block;background:#fff;color:#14532d;font-weight:700;padding:9px 16px;border-radius:8px;text-decoration:none;">Alle Infos zur Firstalm-Rodelbahn →</a></div>'+
+ H2('🏔️ Weitere Bahnen am Spitzingsee &amp; Schliersee')+tab([
+   ('Untere Firstalm','ca. 1,5 km','leicht','geräumter Fahrweg hinab Richtung Spitzingsee'),
    ('Rotwandhaus','ca. 4,5 km','mittel','keine offizielle Rodelbahn, Forststraße nicht präpariert, kein Verleih – nur mit eigenem Schlitten bei guter Schneelage')],
    kopf=['Bahn','Länge','Anspruch','Hinweis'])+
- '<p><a href="/content/winter/firstalm-rodelbahn.html">→ Rodelbahn Obere Firstalm mit allen Eckdaten</a></p>'+
  H2('🌊 Tegernseer Tal')+tab([
-   ('Wallberg (Rottach-Egern)','ca. 6,5 km','sportlich','Naturrodelbahn ab Bergstation der Wallbergbahn (1.620 m), rund 825 Hm, eine der längsten Deutschlands; nicht für Kleinkinder'),
-   ('Hirschberg (Kreuth)','ca. 4,4–5 km','anspruchsvoll','Start Ortsteil Scharling, kein Lifttransport'),
-   ('Aueralm (Bad Wiessee)','ca. 4,5 km','mittel','Aufstieg ca. 1,5 h')],
+   ('Neureuth → Tegernsee','ca. 2,1 km','für Fortgeschrittene','ab Berggasthof Neureuth (1.259 m), 363 Hm Abfahrt, steile Passagen und enge Kurven; Aufstieg ca. 1 h ab Parkplatz Neureuthstraße'),
+   ('Neureuth → Gmund (Oberbuchberg)','ca. 3,7 km','nur für Geübte','schnelle Geraden, enge Kurven'),
+   ('Riederstein','ca. 1,7 km','mittel','Start auf 1.062 m, 264 Hm Abfahrt'),
+   ('Galaun (Tegernsee)','ca. 2 km','leicht bis mittel','Aufstieg gut 1 h'),
+   ('Aueralm (Bad Wiessee)','ca. 4,3–4,5 km','mittel','Aufstieg ca. 1,5 h'),
+   ('Hirschberg (Kreuth)','ca. 4,5–5 km','anspruchsvoll','Start Ortsteil Scharling, für geübte Rodler'),
+   ('Wallberg (Rottach-Egern)','ca. 6,5 km','sportlich','mit der Wallbergbahn auf 1.620 m, rund 825 Hm; nicht für Kleinkinder')],
    kopf=['Bahn','Länge','Anspruch','Hinweis'])+
  H2('⚠️ Sicher rodeln')+'<ul style="line-height:1.7;color:#1f2933;"><li>Helm, vor allem für Kinder.</li><li>Beim Aufstieg am Rand gehen – Rodelbahnen sind oft zugleich der Aufstiegsweg.</li><li>Abstand halten, nicht im Auslauf stehen bleiben.</li><li>Zustand der Bahn vorab beim Betreiber oder der Hütte erfragen.</li></ul>'+
- quellen([('bergtour-online.de – Obere Firstalm Rodeln','https://www.bergtour-online.de/bergtouren/wintertouren/rodeltouren/obere-firstalm-rodeln/'),
-          ('DAV – Schlemmen und Rodeln (Rotwandhaus 4,5 km, nicht präpariert; Hirschberghaus 4,4 km)','https://www.alpenverein.de/artikel/schlemmen-und-rodeln_0248a1d2-9810-4987-8e1c-ad83a741c8e8'),
-          ('ADAC – Naturrodelbahn am Wallberg, 6,5 km','https://maps.adac.de/poi/naturrodelbahn-am-wallberg-rottach-egern'),
-          ('karwendel-urlaub.de – Wallberg: 6,5 km, ca. 825 Hm, Start 1.620 m','https://www.karwendel-urlaub.de/?p=2832'),
-          ('karwendel-urlaub.de – Rodeln Tegernsee: Aueralm 4,5 km, Hirschberg rund 5 km','https://www.karwendel-urlaub.de/umgebung/tegernsee/rodeln/')]))
+ quellen([('Obere Firstalm – Öffnungszeiten, Preise, Mondscheinrodeln (Angabe der Hütte, 27.11.2026)','/content/winter/firstalm-rodelbahn.html'),
+          ('bergtour-online.de – Obere Firstalm: ca. 2,5 km, Rodelverleih an der Alm','https://www.bergtour-online.de/bergtouren/wintertouren/rodeltouren/schoenste-rodeltouren-bayerische-alpen/'),
+          ('in-muenchen.de – Firstalm: beleuchtet bis 22:30 Uhr, schneesicher','https://www.in-muenchen.de/stadtleben/schlittenfahren-rodeln.html'),
+          ('karwendel-urlaub.de – Untere Firstalm ca. 1,5 km; Neureuth, Galaun, Aueralm, Hirschberg','https://www.karwendel-urlaub.de/umgebung/tegernsee/rodeln/'),
+          ('bergwelten.com – Von der Neureuth nach Tegernsee: 2,1 km','https://www.bergwelten.com/t/r/7559'),
+          ('bergwelten.com – Von der Neureuth nach Gmund: 3,7 km','https://www.bergwelten.com/t/r/7560'),
+          ('bergwelten.com – Riederstein: 1,7 km','https://www.bergwelten.com/t/r/7562'),
+          ('bergwelten.com – Aueralm: 4,3 km','https://www.bergwelten.com/touren/aueralm'),
+          ('bergwelten.com – Vom Hirschberg nach Kreuth-Scharling: 4,5 km','https://www.bergwelten.com/t/r/7563'),
+          ('DAV – Schlemmen und Rodeln (Rotwandhaus nicht präpariert)','https://www.alpenverein.de/artikel/schlemmen-und-rodeln_0248a1d2-9810-4987-8e1c-ad83a741c8e8'),
+          ('karwendel-urlaub.de – Wallberg: 6,5 km, ca. 825 Hm','https://www.karwendel-urlaub.de/?p=2832')]))
 
 EINSTEIGER = page('Skitouren für Einsteiger', '🎿 Skitouren für Einsteiger am Spitzingsee',
  'Wer sicher Parallelschwung fährt, kann am Spitzingsee mit kurzen, leichten Touren beginnen. Lawinenwissen und Notfallausrüstung gehören von Anfang an dazu – am besten lernt man beides in einem Kurs, etwa bei einer DAV-Sektion.',
@@ -146,7 +162,7 @@ LAWINE = page('Lawinenkunde', '⚠️ Lawinenkunde – die Grundlagen',
 for f,body,title,desc in [
   ('content/winter/skigebiet/index.html',SKI,'Skigebiet Spitzingsee-Tegernsee – Lifte, Pisten, Skipass','Skigebiet Spitzingsee-Tegernsee: 983–1.570 m, 10 Lifte, 14–20 km Pisten, Nachtskilauf Do/Fr, Skipass und Anreise – mit Quellen.'),
   ('content/winter/firstalm-rodelbahn.html',RODEL,'Rodelbahn Obere Firstalm – 2,5 km, beleuchtet','Rodelbahn Obere Firstalm am Spitzingsee: ca. 2,5 km, 250 Hm, abends beleuchtet, Rodelverleih an der Alm – Eckdaten mit Quellen.'),
-  ('content/winter/rodeln-familie.html',RODELN,'Rodeln am Spitzingsee & Tegernsee – Bahnen im Überblick','Rodelbahnen am Spitzingsee und im Tegernseer Tal: Obere Firstalm 2,5 km, Rotwandhaus, Wallberg 6,5 km, Hirschberg, Aueralm – mit Quellen.'),
+  ('content/winter/rodeln-familie.html',RODELN,'Rodeln am Spitzingsee & Tegernsee – Bahnen im Überblick','Rodeln am Spitzingsee: Familien-Rodelbahn Obere Firstalm (2,5 km, bis 22:30 Uhr beleuchtet) – dazu Neureuth, Riederstein, Aueralm, Hirschberg, Wallberg mit Quellen.'),
   ('content/winter/skitouren-anfaenger.html',EINSTEIGER,'Skitouren für Einsteiger am Spitzingsee','Leichte Einstiegs-Skitouren am Spitzingsee: Brecherspitz-Westgipfel, Taubenstein, Rotwand – plus Checkliste vor der ersten Tour, mit Quellen.'),
   ('content/winter/lawinenkunde-grundlagen.html',LAWINE,'Lawinenkunde – Gefahrenstufen und Lagebericht','Lawinenkunde-Grundlagen: die fünf europäischen Gefahrenstufen, Aufbau des Lawinenlageberichts Bayern, Notfallausrüstung und Notruf – mit Quellen.'),
   ('content/winter/langlauf/index.html',LL,'Langlauf am Spitzingsee & Schliersee – Loipen','Loipen am Spitzingsee und Schliersee: Valepper-Almen-Loipe 6,5 km, Langlaufzentrum Albert-Link-Hütte, Loipen in Neuhaus und Schliersee – mit Quellen.')]:
