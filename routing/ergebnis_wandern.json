@@ -1,0 +1,537 @@
+[
+  {
+    "kennung": "R25",
+    "name": "Firstalm-Runde: Wildfeldalm",
+    "alt": "21 km · 590 hm",
+    "treffer": [
+      "Wildfeldalm, Hermann-Kleber-Weg, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 17.64,
+    "laenge_km_geometrie": 17.59,
+    "hm_aufstieg": 791,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 791
+  },
+  {
+    "kennung": "R36",
+    "name": "Firstalm-Runde: Spitzingsee & Rotwandhaus",
+    "alt": "24 km · 950 hm",
+    "treffer": [
+      "Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Rotwandhaus, 3, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 19.68,
+    "laenge_km_geometrie": 19.63,
+    "hm_aufstieg": 1066,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1066
+  },
+  {
+    "kennung": "R44",
+    "name": "Firstalm-Runde: Bayrischzell & Wendelsteinhaus",
+    "alt": "62 km · 1.550 hm",
+    "treffer": [
+      "Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland",
+      "Wendelsteinhaus, 1, Panoramaweg, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 41.08,
+    "laenge_km_geometrie": 41.0,
+    "hm_aufstieg": 2243,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2243
+  },
+  {
+    "kennung": "R47",
+    "name": "Firstalm-Runde: Hochmiesing & Wendelsteinhaus",
+    "alt": "88 km · 1.950 hm",
+    "treffer": [
+      "Hochmiesing, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland",
+      "Wendelsteinhaus, 1, Panoramaweg, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 42.13,
+    "laenge_km_geometrie": 42.06,
+    "hm_aufstieg": 2449,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2449
+  },
+  {
+    "kennung": "W01",
+    "name": "Brecherspitz (1.683 m) ab Oberer Firstalm",
+    "alt": "Wanderseite: T3",
+    "treffer": [
+      "Brecherspitz, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 3.57,
+    "laenge_km_geometrie": 3.55,
+    "hm_aufstieg": 373,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 373
+  },
+  {
+    "kennung": "W02",
+    "name": "Bodenschneid (1.669 m) ab Oberer Firstalm",
+    "alt": "Wanderseite: T2–T3",
+    "treffer": [
+      "Bodenschneid, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 3.41,
+    "laenge_km_geometrie": 3.4,
+    "hm_aufstieg": 296,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 296
+  },
+  {
+    "kennung": "W03",
+    "name": "Jägerkamp (1.746 m) via Spitzingsattel",
+    "alt": "Wanderseite: T3",
+    "treffer": [
+      "Jägerkamp, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 13.1,
+    "laenge_km_geometrie": 13.07,
+    "hm_aufstieg": 847,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 847
+  },
+  {
+    "kennung": "W04",
+    "name": "Tanzeck (1.703 m) & Schnittlauchmoosalm",
+    "alt": "Wanderseite: T2–T3",
+    "treffer": [
+      "Tanzeck, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland",
+      "Schnittlauchmoosalm, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 13.19,
+    "laenge_km_geometrie": 13.15,
+    "hm_aufstieg": 868,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 868
+  },
+  {
+    "kennung": "W05",
+    "name": "Firstalm-Runde: Spitzingsee & Wurzhütte",
+    "alt": "frühere Unterseite spitzingsee-umrundung.html",
+    "treffer": [
+      "Wurzhütte, Unterweißenbach, Vilseck, Landkreis Amberg-Sulzbach, Bayern, 92249, Deutschland",
+      "Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 528.03,
+    "laenge_km_geometrie": 527.75,
+    "hm_aufstieg": 4908,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 4908
+  },
+  {
+    "kennung": "W07",
+    "name": "Große Firstalm – Untere Firstalm – Spitzingsee-Runde",
+    "alt": "frühere Unterseite untere-firstalm.html",
+    "treffer": [
+      "Untere Firstalm, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 7.7,
+    "laenge_km_geometrie": 7.69,
+    "hm_aufstieg": 281,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 281
+  },
+  {
+    "kennung": "W09",
+    "name": "Firstalm-Runde: Ringsee am Tegernsee",
+    "alt": "frühere Unterseite ringsee-runde.html",
+    "treffer": [
+      "Ringsee, Südost, Ingolstadt, Bayern, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 286.96,
+    "laenge_km_geometrie": 286.84,
+    "hm_aufstieg": 2340,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2340
+  },
+  {
+    "kennung": "W10",
+    "name": "Firstalm-Runde: Aueralm (1.268 m)",
+    "alt": "frühere Unterseite aueralm.html",
+    "treffer": [
+      "Aueralm, Bad Wiesseer Höhenstraße, Bad Wiessee, Landkreis Miesbach, Bayern, 83707, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 38.61,
+    "laenge_km_geometrie": 38.53,
+    "hm_aufstieg": 1272,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1272
+  },
+  {
+    "kennung": "W12",
+    "name": "Schönfeldalm & Schnittlauchmoos-Runde",
+    "alt": "frühere Unterseite schoenfeldalm-runde.html",
+    "treffer": [
+      "Untere Schönfeldalm, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Schnittlauchmoosalm, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 12.97,
+    "laenge_km_geometrie": 12.94,
+    "hm_aufstieg": 797,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 797
+  },
+  {
+    "kennung": "W13",
+    "name": "Firstalm-Runde: Kesselalm",
+    "alt": "frühere Unterseite kesselalm.html",
+    "treffer": [
+      "Kesselalm, 2, Kesselalm, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 29.38,
+    "laenge_km_geometrie": 29.36,
+    "hm_aufstieg": 1153,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1153
+  },
+  {
+    "kennung": "W14",
+    "name": "Firstalm-Runde: Holzeralm",
+    "alt": "frühere Unterseite holzeralm.html",
+    "treffer": [
+      "Holzeralm, Gmund, Landkreis Miesbach, Bayern, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 39.27,
+    "laenge_km_geometrie": 39.18,
+    "hm_aufstieg": 1174,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1174
+  },
+  {
+    "kennung": "W15",
+    "name": "Firstalm-Runde: Rinnerspitz (1.615 m)",
+    "alt": "frühere Unterseite rinnerspitz.html",
+    "treffer": [
+      "Rinnerspitz, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 5.61,
+    "laenge_km_geometrie": 5.59,
+    "hm_aufstieg": 449,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 449
+  },
+  {
+    "kennung": "W16",
+    "name": "Firstalm-Runde: Roßstein (1.698 m)",
+    "alt": "frühere Unterseite rossstein.html",
+    "treffer": [
+      "Roßstein, Lenggries, Landkreis Bad Tölz-Wolfratshausen, Bayern, 83661, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 46.25,
+    "laenge_km_geometrie": 46.17,
+    "hm_aufstieg": 2143,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2143
+  },
+  {
+    "kennung": "W17",
+    "name": "Firstalm-Runde: Buchstein (1.701 m)",
+    "alt": "frühere Unterseite buchstein.html",
+    "treffer": [
+      "Buchstein, Bayreuth, Bayern, 95447, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 603.58,
+    "laenge_km_geometrie": 603.17,
+    "hm_aufstieg": 5912,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 5912
+  },
+  {
+    "kennung": "W18",
+    "name": "Aiplspitz (1.759 m)",
+    "alt": "frühere Unterseite aiplspitz.html",
+    "treffer": [
+      "Aiplspitz, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 15.71,
+    "laenge_km_geometrie": 15.66,
+    "hm_aufstieg": 1149,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1149
+  },
+  {
+    "kennung": "W19",
+    "name": "Hochmiesing (1.883 m)",
+    "alt": "frühere Unterseite hochmiesing.html",
+    "treffer": [
+      "Hochmiesing, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 18.82,
+    "laenge_km_geometrie": 18.78,
+    "hm_aufstieg": 1225,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1225
+  },
+  {
+    "kennung": "W20",
+    "name": "Wallberg (1.722 m)",
+    "alt": "frühere Unterseite wallberg.html",
+    "treffer": [
+      "Wallberg, Sommerweg, Trinis, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 19.43,
+    "laenge_km_geometrie": 19.4,
+    "hm_aufstieg": 1350,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1350
+  },
+  {
+    "kennung": "W21",
+    "name": "Firstalm-Runde: Schinder (1.808 m)",
+    "alt": "frühere Unterseite schinder.html",
+    "treffer": [
+      "Schinder, Oberaudorf, Landkreis Rosenheim, Bayern, 83080, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 56.76,
+    "laenge_km_geometrie": 56.65,
+    "hm_aufstieg": 3048,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 3048
+  },
+  {
+    "kennung": "W22",
+    "name": "Firstalm-Runde: Risserkogel (1.826 m)",
+    "alt": "frühere Unterseite plankenstein.html",
+    "treffer": [
+      "Risserkogel, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 16.35,
+    "laenge_km_geometrie": 16.34,
+    "hm_aufstieg": 1440,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1440
+  },
+  {
+    "kennung": "W23",
+    "name": "Rotwand über Rotwandhaus",
+    "alt": "frühere Unterseite rotwand-rundtour.html",
+    "treffer": [
+      "Rotwandhaus, 3, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Rotwand, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 18.65,
+    "laenge_km_geometrie": 18.61,
+    "hm_aufstieg": 1129,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1129
+  },
+  {
+    "kennung": "W24",
+    "name": "Firstalm-Runde: Blecksteinhaus",
+    "alt": "frühere Unterseite bleckstein.html",
+    "treffer": [
+      "Blecksteinhaus, 1, Bleckstein, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 11.14,
+    "laenge_km_geometrie": 11.12,
+    "hm_aufstieg": 343,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 343
+  },
+  {
+    "kennung": "W25",
+    "name": "Taubenstein (1.692 m)",
+    "alt": "Karte auf content/wandern/index.html",
+    "treffer": [
+      "Taubenstein, Bayrischzell, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 13.33,
+    "laenge_km_geometrie": 13.29,
+    "hm_aufstieg": 799,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 799
+  },
+  {
+    "kennung": "W26",
+    "name": "Stümpfling & Suttenstein",
+    "alt": "Karte auf content/wandern/index.html",
+    "treffer": [
+      "Stümpfling, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Suttenstein, Weihersmühle, Wallersberg, Weismain, Landkreis Lichtenfels, Bayern, 96260, Deutschland"
+    ],
+    "fehler": "HTTP Error 400: Bad Request"
+  },
+  {
+    "kennung": "W27",
+    "name": "Roßkopf & Grünsee",
+    "alt": "Karte auf content/wandern/index.html",
+    "treffer": [
+      "Roßkopf, Waldershof, Landkreis Tirschenreuth, Bayern, 95679, Deutschland",
+      "Grünsee, Schönau am Königssee, Landkreis Berchtesgadener Land, Bayern, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 786.74,
+    "laenge_km_geometrie": 785.98,
+    "hm_aufstieg": 8769,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 8769
+  },
+  {
+    "kennung": "W28",
+    "name": "Setzberg (1.706 m)",
+    "alt": "Karte auf content/wandern/index.html",
+    "treffer": [
+      "Setzberg, Adelshofen, Rothenburg ob der Tauber (VGem), Landkreis Ansbach, Bayern, 91587, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 570.08,
+    "laenge_km_geometrie": 569.4,
+    "hm_aufstieg": 3970,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 3970
+  },
+  {
+    "kennung": "W29",
+    "name": "Firstalm → Bodenschneidhaus → Bahnhof Neuhaus",
+    "alt": "Karte auf content/wandern/index.html",
+    "treffer": [
+      "Bodenschneidhaus, 1, Bodenschneid, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Fischhausen-Neuhaus, Bahnhof, Wendelsteinstraße, Fischhausen, Neuhaus, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": true,
+    "laenge_km_brouter": 7.01,
+    "laenge_km_geometrie": 6.99,
+    "hm_aufstieg": 120,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 0,
+    "hm_abstieg": 683
+  },
+  {
+    "kennung": "W30",
+    "name": "Firstalm → Sutten → Enterrottach",
+    "alt": "Karte auf content/wandern/index.html",
+    "treffer": [
+      "Sutten, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland",
+      "Enterrottach, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
+    ],
+    "strecke": true,
+    "laenge_km_brouter": 6.54,
+    "laenge_km_geometrie": 6.53,
+    "hm_aufstieg": 95,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 3,
+    "hm_abstieg": 674
+  },
+  {
+    "kennung": "W31",
+    "name": "Firstalm → Schliersbergalm → Bahnhof Schliersee",
+    "alt": "Karte auf content/wandern/index.html",
+    "treffer": [
+      "Hotel Schliersbergalm, Dekan-Maier-Weg, Kreit, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Schliersee, Bahnhofstraße, Kreit, Kalkgraben, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": true,
+    "laenge_km_brouter": 13.7,
+    "laenge_km_geometrie": 13.67,
+    "hm_aufstieg": 336,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 14,
+    "hm_abstieg": 920
+  },
+  {
+    "kennung": "W32",
+    "name": "Firstalm → Valepp → Moni-Alm → Rottach-Egern",
+    "alt": "Karte auf content/wandern/index.html",
+    "treffer": [
+      "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Moni-Alm, 42, Sutten, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland",
+      "Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
+    ],
+    "strecke": true,
+    "laenge_km_brouter": 24.14,
+    "laenge_km_geometrie": 24.1,
+    "hm_aufstieg": 189,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 3,
+    "hm_abstieg": 825
+  },
+  {
+    "kennung": "W33",
+    "name": "Firstalm → Spitzingsattel → Josefsthaler Wasserfälle",
+    "alt": "Karte auf content/wandern/index.html",
+    "treffer": [
+      "Spitzingsattel, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Josefsthaler Wasserfälle, Neuhaus, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": true,
+    "laenge_km_brouter": 4.62,
+    "laenge_km_geometrie": 4.61,
+    "hm_aufstieg": 0,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 8,
+    "hm_abstieg": 508
+  },
+  {
+    "kennung": "W34",
+    "name": "Sutten-Almrunde",
+    "alt": "Karte auf content/wandern/index.html",
+    "treffer": [
+      "Sutten, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 5.47,
+    "laenge_km_geometrie": 5.47,
+    "hm_aufstieg": 421,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 421
+  }
+]
