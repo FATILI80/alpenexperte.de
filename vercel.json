@@ -1188,6 +1188,146 @@
       "source": "/content/wandern/hintere-firstalm",
       "destination": "/content/wandern/untere-firstalm.html",
       "permanent": false
+    },
+    {
+      "source": "/content/skitouren/index.html",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/skitouren/index",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/skitouren/firstalm-rodelbahn.html",
+      "destination": "/content/winter/firstalm-rodelbahn.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/skitouren/firstalm-rodelbahn",
+      "destination": "/content/winter/firstalm-rodelbahn.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/skitouren/rosskopf-stuempfling-skitour.html",
+      "destination": "/content/winter/skigebiet/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/skitouren/rosskopf-stuempfling-skitour",
+      "destination": "/content/winter/skigebiet/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/skitouren/vogelsang-sudelfeld-skitour.html",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/skitouren/vogelsang-sudelfeld-skitour",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/skitouren/wallberg-skitour.html",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/skitouren/wallberg-skitour",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/skitouren/wendelstein-skitour.html",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/skitouren/wendelstein-skitour",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/rosskopf-stuempfling-skitour.html",
+      "destination": "/content/winter/skigebiet/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/rosskopf-stuempfling-skitour",
+      "destination": "/content/winter/skigebiet/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/vogelsang-sudelfeld-skitour.html",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/vogelsang-sudelfeld-skitour",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/wallberg-skitour.html",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/wallberg-skitour",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/wendelstein-skitour.html",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/wendelstein-skitour",
+      "destination": "/content/winter/skitouren/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/rotwand-reibn-skitouren.html",
+      "destination": "/content/winter/skitouren/rotwand.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/rotwand-reibn-skitouren",
+      "destination": "/content/winter/skitouren/rotwand.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiete/spitzingsee-stuempfling.html",
+      "destination": "/content/winter/skigebiet/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiete/spitzingsee-stuempfling",
+      "destination": "/content/winter/skigebiet/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/winterkalender.html",
+      "destination": "/content/winter/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/winterkalender",
+      "destination": "/content/winter/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/winterwandern-groedel.html",
+      "destination": "/content/winter/schneeschuh/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/winterwandern-groedel",
+      "destination": "/content/winter/schneeschuh/index.html",
+      "permanent": true
     }
   ]
 }
