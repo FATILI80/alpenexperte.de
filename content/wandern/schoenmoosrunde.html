@@ -23,8 +23,6 @@
     <meta property="og:image" content="https://alpenexperte.de/images/wandern-motiv2.jpg" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://alpenexperte.de/content/wandern/schoenmoosrunde.html" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
 
 
@@ -73,37 +71,12 @@
 
 <section style="max-width:1000px;margin:2rem auto;padding:0 1.5rem;">
 <div style="background:#1c2826;border-radius:16px;padding:24px;border:1px solid rgba(255,255,255,0.12);color:#f0ece2;">
-  <h3 style="margin:0 0 10px;color:#fff;font-size:1.3rem;">🗺️ Topografische Karte & GPS-Wegverlauf</h3>
   
-  <div style="background:#151e1c;border-radius:10px;padding:12px;margin-bottom:12px;font-size:0.85rem;">
-    <strong style="display:block;margin-bottom:4px;text-transform:uppercase;letter-spacing:.05em;">Karten-Legende:</strong>
-    <div style="display:flex;flex-wrap:wrap;gap:14px;">
-      <span>🟢 <strong>Start & Parkplatz</strong> (Ausgangspunkt)</span>
-      <span>📈 <strong>GPS-Tourenverlauf & Topo</strong> (OpenStreetMap-Pfad)</span>
-      <span>🚩 <strong>Gipfel / Ziel / Alm</strong> (z.B. Obere Firstalm)</span>
-    </div>
-  </div>
+  
 
-  <div id="leaflet-schoenmoosrunde" style="height:400px;width:100%;border-radius:10px;border:2px solid #2ecc71;margin-bottom:14px;"></div>
   
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
-  <script>
-  window.addEventListener('DOMContentLoaded', function() {
-      setTimeout(function() {
-          if(typeof L === 'undefined') return;
-          try {
-              var m = L.map('leaflet-schoenmoosrunde').setView([47.65, 11.88], 13);
-              L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {maxZoom: 19}).addTo(m);
-              var pts = [[47.66, 11.87], [47.655, 11.885], [47.65, 11.89], [47.645, 11.895], [47.64, 11.9]];
-              var poly = L.polyline(pts, {color: '#FF6B35', weight: 4, opacity: 0.85}).addTo(m);
-              L.circleMarker(pts[0], {color: '#2ECC71', radius: 10, fillOpacity: 0.9}).bindPopup("<b>Start & Parkplatz</b>").addTo(m);
-              L.circleMarker(pts[pts.length-1], {color: '#E74C3C', radius: 10, fillOpacity: 0.9}).bindPopup("<b>Gipfel / Ziel / Alm</b>").addTo(m);
-              m.fitBounds(poly.getBounds(), {padding: [30, 30]});
-          } catch(e) {}
-      }, 250);
-  });
-  </script>
+  
+  
 
   <div style="border-top:1px solid rgba(255,255,255,0.1);padding-top:16px;">
     <h4 style="margin:0 0 10px;color:#fff;font-size:1rem;">🥾 Passende Ausrüstung für diese Tour</h4>
@@ -402,22 +375,7 @@
 
 </footer>
 <script src="/js/main.js?v=20260612b" defer></script>
-<script>
-document.addEventListener('DOMContentLoaded',function(){
-    var s=document.getElementById('status-content-wandern-schoenmoosrunde');
-    if(typeof L==='undefined'){s.innerHTML='Karte nicht geladen';return;}
-    try{
-        var m=L.map('route-map-content-wandern-schoenmoosrunde').setView([47.7,11.84],13);
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{attribution:'&copy; OSM',maxZoom:19}).addTo(m);
-        var pts=[[47.718, 11.862], [47.71431, 11.86098], [47.71461, 11.85737], [47.70866, 11.85349], [47.7085, 11.84951], [47.70554, 11.84563], [47.70116, 11.84202], [47.7018, 11.8388], [47.69602, 11.83602], [47.69526, 11.83363], [47.69307, 11.83151], [47.68809, 11.82949], [47.6889, 11.82737], [47.68345, 11.82498], [47.682, 11.82]];
-        var r=L.polyline(pts,{color:'#FF6B35',weight:4,opacity:.8}).addTo(m);
-        L.circleMarker(pts[0],{color:'#2ECC71',radius:10,fillOpacity:.8}).bindPopup("Start").addTo(m);
-        L.circleMarker(pts[pts.length-1],{color:'#E74C3C',radius:10,fillOpacity:.8}).bindPopup("Schoenmoosrunde").addTo(m);
-        m.fitBounds(r.getBounds(), {padding: [40, 40]});
-        s.innerHTML='Schoenmoosrunde';
-    }catch(e){s.innerHTML='Fehler: '+e.message;}
-});
-</script>
+
 <style>.aff40{max-width:1100px;margin:56px auto;padding:32px 20px;background:linear-gradient(135deg,#1f2a20,#2e3d2f);border-radius:20px;color:#e8e2d6}.aff40-badge{display:inline-block;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;background:rgba(255,255,255,.14);padding:4px 10px;border-radius:6px;margin-bottom:14px}.aff40-head{color:#fff;font-family:var(--font-display);font-size:clamp(1.3rem,3vw,1.9rem);margin:0 0 8px}.aff40-sub{color:rgba(255,255,255,.8);margin:0 0 24px;max-width:720px;line-height:1.5}.aff-group{margin-bottom:22px}.aff-group-title{color:#c9d4c9;font-size:.95rem;text-transform:uppercase;letter-spacing:.05em;margin:0 0 12px}.aff-tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}.aff-tile{display:flex;flex-direction:column;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:18px;text-decoration:none;color:#f0ece2;transition:transform .2s,background .2s}.aff-tile:hover{transform:translateY(-3px);background:rgba(255,255,255,.13)}.aff-tile-emoji{font-size:1.7rem;margin-bottom:8px}.aff-tile-title{font-weight:700;margin-bottom:4px}.aff-tile-desc{font-size:.82rem;color:rgba(255,255,255,.7);flex:1;line-height:1.4}.aff-tile-cta{margin-top:12px;color:#e8b86d;font-weight:600;font-size:.85rem}.aff40-all{display:inline-block;background:#c2722d;color:#fff;padding:12px 26px;border-radius:30px;text-decoration:none;font-weight:600}.aff40-all:hover{background:#a85f22}</style>
 </body>
 </html>
