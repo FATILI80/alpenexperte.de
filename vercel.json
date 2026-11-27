@@ -50,6 +50,36 @@
   ],
   "redirects": [
     {
+      "source": "/content/gravel/firstalm-anstieg",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-anstieg.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/tegernseer-alm-anstieg",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/tegernseer-alm-anstieg.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/valepp-schlucht-gravel",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/valepp-schlucht-gravel.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
       "source": "/content/gravel/schliersee-seeumrundung",
       "destination": "/gravel.html",
       "permanent": true
