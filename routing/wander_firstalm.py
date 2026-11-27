@@ -1,0 +1,65 @@
+#!/usr/bin/env python3
+"""Wanderrouten ab Oberer Firstalm als Rundtour rechnen (BRouter, Profil hiking-mountain).
+
+Jede Tour: Firstalm -> Wegpunkte (wander_touren.json) -> Firstalm.
+Voraussetzung: BRouter-Server läuft auf localhost:17777, Internet für Nominatim.
+Koordinaten "lat,lon" werden direkt verwendet, Ortsnamen über Nominatim geocodiert.
+Ausgabe: routing/ergebnis_wandern.json und content/wandern/geojson/{Kennung}_wandern.geojson
+Gefundene Orte stehen in der Ausgabe und müssen geprüft werden.
+"""
+import json
+import urllib.parse
+import urllib.request
+from pathlib import Path
+
+import route
+import regional_firstalm as rf
+
+HIER = Path(__file__).resolve().parent
+PROFIL = "hiking-mountain"
+
+
+def kette_brouter(punkte):
+    lonlats = "|".join(f"{p['lon']},{p['lat']}" for p in punkte)
+    q = urllib.parse.urlencode({"lonlats": lonlats, "profile": PROFIL, "format": "geojson"})
+    with urllib.request.urlopen(f"{route.BROUTER}?{q}", timeout=300) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+
+def main():
+    start = json.loads((HIER / "start.json").read_text(encoding="utf-8"))
+    touren = json.loads((HIER / "wander_touren.json").read_text(encoding="utf-8"))
+    geo_dir = HIER.parent / "content" / "wandern" / "geojson"
+    geo_dir.mkdir(parents=True, exist_ok=True)
+    cache = {}
+    ergebnisse = []
+    for t in touren:
+        eintrag = {"kennung": t["kennung"], "name": t["name"], "alt": t["alt"]}
+        try:
+            orte = [rf.geocode(o, cache) for o in t["wegpunkte"]]
+            fehlend = [o for o, g in zip(t["wegpunkte"], orte) if g is None]
+            if fehlend:
+                eintrag["fehler"] = f"Kein Treffer: {', '.join(fehlend)}"
+                ergebnisse.append(eintrag)
+                print(eintrag["kennung"], eintrag["fehler"])
+                continue
+            eintrag["treffer"] = [g["treffer"] for g in orte]
+            punkte = [start] + orte + [start]
+            geo = kette_brouter(punkte)
+            m = route.messen(geo, start, start)
+            eintrag.update(m)
+            eintrag["pruefung"] = route.pruefen(m) if hasattr(route, "pruefen") else None
+            (geo_dir / f"{t['kennung']}_wandern.geojson").write_text(
+                json.dumps(geo, ensure_ascii=False), encoding="utf-8")
+            print(f"{t['kennung']}: {m['laenge_km_brouter']} km · {m['hm_aufstieg']} Hm "
+                  f"(Start-Abweichung {m['start_abweichung_m']} m)")
+        except Exception as e:
+            eintrag["fehler"] = str(e)
+            print(f"{t['kennung']}: Fehler: {e}")
+        ergebnisse.append(eintrag)
+    (HIER / "ergebnis_wandern.json").write_text(
+        json.dumps(ergebnisse, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+if __name__ == "__main__":
+    main()

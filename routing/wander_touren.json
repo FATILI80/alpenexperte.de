@@ -1,0 +1,41 @@
+[
+  {
+    "kennung": "R25",
+    "name": "Firstalm-Runde: Wildfeldalm",
+    "alt": "21 km · 590 hm",
+    "wegpunkte": [
+      "Wildfeldalm"
+    ],
+    "quelle": "regional_touren.json (bisherige Tourentexte)"
+  },
+  {
+    "kennung": "R36",
+    "name": "Firstalm-Runde: Spitzingsee & Rotwandhaus",
+    "alt": "24 km · 950 hm",
+    "wegpunkte": [
+      "Spitzingsee",
+      "Rotwandhaus"
+    ],
+    "quelle": "regional_touren.json (bisherige Tourentexte)"
+  },
+  {
+    "kennung": "R44",
+    "name": "Firstalm-Runde: Bayrischzell & Wendelsteinhaus",
+    "alt": "62 km · 1.550 hm",
+    "wegpunkte": [
+      "Bayrischzell",
+      "Wendelsteinhaus"
+    ],
+    "quelle": "regional_touren.json (bisherige Tourentexte)"
+  },
+  {
+    "kennung": "R47",
+    "name": "Firstalm-Runde: Hochmiesing & Wendelsteinhaus",
+    "alt": "88 km · 1.950 hm",
+    "wegpunkte": [
+      "Hochmiesing",
+      "Wendelsteinhaus"
+    ],
+    "quelle": "regional_touren.json (bisherige Tourentexte)"
+  }
+]
