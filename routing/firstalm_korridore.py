@@ -23,7 +23,7 @@ KORRIDORE = [
     ("F03", "Fischhausen-Neuhaus Bahnhof", "Bahnhof Fischhausen-Neuhaus"),
     ("F04", "Tegernsee Bahnhof", "Bahnhof Tegernsee"),
     ("F05", "Rottach-Egern", "Rottach-Egern"),
-    ("F06", "Kreuth", "Kreuth, Oberbayern"),
+    ("F06", "Tegernseer Hütte (Kreuth)", "Tegernseer Hütte, Kreuth"),
     ("F07", "Achenpass", "Achenpass"),
     ("F08", "Ochsenalm Valepp", "Ochsenalm, Valepp"),
     ("F09", "Elendsattel", "Elendsattel"),
@@ -39,6 +39,14 @@ KORRIDORE = [
     ("F19", "Holzkirchen Bahnhof", "Bahnhof Holzkirchen"),
     ("F20", "Ellmau", "Ellmau, Tirol"),
 ]
+
+
+# Feste Koordinaten, wenn die Suche den falschen Ort liefert.
+# F06: Startpunkt der Hüttenwanderung zur Tegernseer Hütte (1.650 m, Gemeinde Kreuth).
+# Quelle: via-ferrata.de, Angabe "GPS Koordinaten Startpunkt". Nicht amtlich.
+FESTE_ZIELE = {
+    "F06": {"lat": 47.632818, "lon": 11.678277, "treffer": "Startpunkt Tegernseer Hütte (via-ferrata.de)"},
+}
 
 
 def geocode(anfrage):
@@ -58,7 +66,7 @@ def main():
     ergebnisse = []
     for kennung, name, anfrage in KORRIDORE:
         try:
-            ziel = geocode(anfrage)
+            ziel = FESTE_ZIELE.get(kennung) or geocode(anfrage)
             if ziel is None:
                 eintrag = {"kennung": kennung, "ziel": name, "fehler": "kein Geocoding-Treffer"}
             else:
