@@ -1448,6 +1448,21 @@
       "source": "/content/mtb/mountainbiken-tegernsee-touren",
       "destination": "/content/mtb/index.html",
       "permanent": true
+    },
+    {
+      "source": "/content/huetten/rodelpisten/index.html",
+      "destination": "/content/winter/rodeln-familie.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/rodelpisten/",
+      "destination": "/content/winter/rodeln-familie.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/rodelpisten",
+      "destination": "/content/winter/rodeln-familie.html",
+      "permanent": true
     }
   ]
 }
