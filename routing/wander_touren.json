@@ -37,5 +37,42 @@
       "Wendelsteinhaus"
     ],
     "quelle": "regional_touren.json (bisherige Tourentexte)"
+  },
+  {
+    "kennung": "W01",
+    "name": "Brecherspitz (1.683 m) ab Oberer Firstalm",
+    "alt": "Wanderseite: T3",
+    "wegpunkte": [
+      "Brecherspitz"
+    ],
+    "quelle": "Titel der Karte auf content/wandern/index.html (Gipfelname, Ort per Nominatim prüfen)"
+  },
+  {
+    "kennung": "W02",
+    "name": "Bodenschneid (1.669 m) ab Oberer Firstalm",
+    "alt": "Wanderseite: T2–T3",
+    "wegpunkte": [
+      "Bodenschneid"
+    ],
+    "quelle": "Titel der Karte auf content/wandern/index.html (Gipfelname, Ort per Nominatim prüfen)"
+  },
+  {
+    "kennung": "W03",
+    "name": "Jägerkamp (1.746 m) via Spitzingsattel",
+    "alt": "Wanderseite: T3",
+    "wegpunkte": [
+      "Jägerkamp"
+    ],
+    "quelle": "Titel der Karte auf content/wandern/index.html (Gipfelname, Ort per Nominatim prüfen)"
+  },
+  {
+    "kennung": "W04",
+    "name": "Tanzeck (1.703 m) & Schnittlauchmoosalm",
+    "alt": "Wanderseite: T2–T3",
+    "wegpunkte": [
+      "Tanzeck",
+      "Schnittlauchmoosalm"
+    ],
+    "quelle": "Titel der Karte auf content/wandern/index.html (Gipfel und Alm, Ort per Nominatim prüfen)"
   }
 ]
