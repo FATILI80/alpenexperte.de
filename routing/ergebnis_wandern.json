@@ -128,16 +128,16 @@
     "name": "Firstalm-Runde: Spitzingsee & Wurzhütte",
     "alt": "frühere Unterseite spitzingsee-umrundung.html",
     "treffer": [
-      "Wurzhütte, Unterweißenbach, Vilseck, Landkreis Amberg-Sulzbach, Bayern, 92249, Deutschland",
+      "Neue Wurzhütte, 2, Valepper Straße, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
       "Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
     ],
     "strecke": false,
-    "laenge_km_brouter": 528.03,
-    "laenge_km_geometrie": 527.75,
-    "hm_aufstieg": 4908,
+    "laenge_km_brouter": 8.18,
+    "laenge_km_geometrie": 8.17,
+    "hm_aufstieg": 281,
     "start_abweichung_m": 12,
     "ziel_abweichung_m": 12,
-    "hm_abstieg": 4908
+    "hm_abstieg": 281
   },
   {
     "kennung": "W07",
@@ -160,15 +160,15 @@
     "name": "Firstalm-Runde: Ringsee am Tegernsee",
     "alt": "frühere Unterseite ringsee-runde.html",
     "treffer": [
-      "Ringsee, Südost, Ingolstadt, Bayern, Deutschland"
+      "Ringsee, Kreuth, Landkreis Miesbach, Bayern, 83707, Deutschland"
     ],
     "strecke": false,
-    "laenge_km_brouter": 286.96,
-    "laenge_km_geometrie": 286.84,
-    "hm_aufstieg": 2340,
+    "laenge_km_brouter": 26.79,
+    "laenge_km_geometrie": 26.72,
+    "hm_aufstieg": 679,
     "start_abweichung_m": 12,
     "ziel_abweichung_m": 12,
-    "hm_abstieg": 2340
+    "hm_abstieg": 679
   },
   {
     "kennung": "W10",
@@ -190,16 +190,16 @@
     "name": "Schönfeldalm & Schnittlauchmoos-Runde",
     "alt": "frühere Unterseite schoenfeldalm-runde.html",
     "treffer": [
-      "Untere Schönfeldalm, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Schönfeldalm, Thiersee, Bezirk Kufstein, Tirol, 6335, Österreich",
       "Schnittlauchmoosalm, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
     ],
     "strecke": false,
-    "laenge_km_brouter": 12.97,
-    "laenge_km_geometrie": 12.94,
-    "hm_aufstieg": 797,
+    "laenge_km_brouter": 50.99,
+    "laenge_km_geometrie": 50.9,
+    "hm_aufstieg": 2428,
     "start_abweichung_m": 12,
     "ziel_abweichung_m": 12,
-    "hm_abstieg": 797
+    "hm_abstieg": 2428
   },
   {
     "kennung": "W13",
@@ -266,15 +266,15 @@
     "name": "Firstalm-Runde: Buchstein (1.701 m)",
     "alt": "frühere Unterseite buchstein.html",
     "treffer": [
-      "Buchstein, Bayreuth, Bayern, 95447, Deutschland"
+      "Buchstein, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland"
     ],
     "strecke": false,
-    "laenge_km_brouter": 603.58,
-    "laenge_km_geometrie": 603.17,
-    "hm_aufstieg": 5912,
+    "laenge_km_brouter": 45.79,
+    "laenge_km_geometrie": 45.71,
+    "hm_aufstieg": 2102,
     "start_abweichung_m": 12,
     "ziel_abweichung_m": 12,
-    "hm_abstieg": 5912
+    "hm_abstieg": 2102
   },
   {
     "kennung": "W18",
@@ -326,15 +326,15 @@
     "name": "Firstalm-Runde: Schinder (1.808 m)",
     "alt": "frühere Unterseite schinder.html",
     "treffer": [
-      "Schinder, Oberaudorf, Landkreis Rosenheim, Bayern, 83080, Deutschland"
+      "Österreichischer Schinder, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
     ],
     "strecke": false,
-    "laenge_km_brouter": 56.76,
-    "laenge_km_geometrie": 56.65,
-    "hm_aufstieg": 3048,
+    "laenge_km_brouter": 29.07,
+    "laenge_km_geometrie": 29.03,
+    "hm_aufstieg": 1419,
     "start_abweichung_m": 12,
     "ziel_abweichung_m": 12,
-    "hm_abstieg": 3048
+    "hm_abstieg": 1419
   },
   {
     "kennung": "W22",
@@ -403,40 +403,46 @@
     "alt": "Karte auf content/wandern/index.html",
     "treffer": [
       "Stümpfling, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
-      "Suttenstein, Weihersmühle, Wallersberg, Weismain, Landkreis Lichtenfels, Bayern, 96260, Deutschland"
+      "Suttenstein, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
     ],
-    "fehler": "HTTP Error 400: Bad Request"
+    "strecke": false,
+    "laenge_km_brouter": 3.4,
+    "laenge_km_geometrie": 3.4,
+    "hm_aufstieg": 237,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 237
   },
   {
     "kennung": "W27",
     "name": "Roßkopf & Grünsee",
     "alt": "Karte auf content/wandern/index.html",
     "treffer": [
-      "Roßkopf, Waldershof, Landkreis Tirschenreuth, Bayern, 95679, Deutschland",
-      "Grünsee, Schönau am Königssee, Landkreis Berchtesgadener Land, Bayern, Deutschland"
+      "Roßkopf, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Grünsee, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
     ],
     "strecke": false,
-    "laenge_km_brouter": 786.74,
-    "laenge_km_geometrie": 785.98,
-    "hm_aufstieg": 8769,
+    "laenge_km_brouter": 6.6,
+    "laenge_km_geometrie": 6.59,
+    "hm_aufstieg": 538,
     "start_abweichung_m": 12,
     "ziel_abweichung_m": 12,
-    "hm_abstieg": 8769
+    "hm_abstieg": 538
   },
   {
     "kennung": "W28",
     "name": "Setzberg (1.706 m)",
     "alt": "Karte auf content/wandern/index.html",
     "treffer": [
-      "Setzberg, Adelshofen, Rothenburg ob der Tauber (VGem), Landkreis Ansbach, Bayern, 91587, Deutschland"
+      "Setzberg, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland"
     ],
     "strecke": false,
-    "laenge_km_brouter": 570.08,
-    "laenge_km_geometrie": 569.4,
-    "hm_aufstieg": 3970,
+    "laenge_km_brouter": 18.74,
+    "laenge_km_geometrie": 18.71,
+    "hm_aufstieg": 1324,
     "start_abweichung_m": 12,
     "ziel_abweichung_m": 12,
-    "hm_abstieg": 3970
+    "hm_abstieg": 1324
   },
   {
     "kennung": "W29",
