@@ -15,9 +15,9 @@
     "name": "Firstalm-Runde: Prinzenweg & Kreuzbergalm",
     "wegpunkte": [
       "Schliersee",
-      "Kreuzbergalm"
+      "Kreuzbergalm@11.76,47.76,11.86,47.69"
     ],
-    "quelle": "biketrailspfannenstiel.ch",
+    "quelle": "bergwelten.com, hoehenrausch.de (MTB-Auffahrt Prinzenweg/Alpbachtal)",
     "alt": "neu"
   },
   {
@@ -102,7 +102,7 @@
     "kennung": "M11",
     "name": "Firstalm-Runde: Wallbergmoos & Enteralm",
     "wegpunkte": [
-      "Wallbergmoos",
+      "Wallbergmoosalm",
       "Enteralm"
     ],
     "quelle": "bisherige Tourenseite content/mtb/",
@@ -163,12 +163,12 @@
   },
   {
     "kennung": "M17",
-    "name": "Firstalm-Runde: Ackernalm & Steinkaseralm",
+    "name": "Firstalm-Runde: Wildbad Kreuth & Schwaigeralm",
     "wegpunkte": [
-      "Ackernalm",
-      "Steinkaseralm"
+      "Wildbad Kreuth",
+      "Schwaigeralm@11.68,47.66,11.80,47.58"
     ],
-    "quelle": "almenrausch.at",
+    "quelle": "almenrausch.at (Bayralm-Tour über die Schwaigeralm)",
     "alt": "neu"
   },
   {
@@ -230,9 +230,10 @@
   },
   {
     "kennung": "M24",
-    "name": "Firstalm-Runde: Freudenreichalm",
+    "name": "Firstalm-Runde: Freudenreichsattel & Breitenbach",
     "wegpunkte": [
-      "Freudenreichalm"
+      "Freudenreich-Alm",
+      "Breitenbach@11.83,47.75,11.90,47.70"
     ],
     "quelle": "DAV München-Oberland, Biketouren-Broschüre",
     "alt": "neu"
@@ -257,12 +258,11 @@
   },
   {
     "kennung": "M27",
-    "name": "Firstalm-Runde: Schilchental & Breitenbach",
+    "name": "Firstalm-Runde: Schliersbergalm",
     "wegpunkte": [
-      "Breitenbach",
-      "Schilchental"
+      "Schliersbergalm"
     ],
-    "quelle": "DAV München-Oberland, Biketouren-Broschüre",
+    "quelle": "wildganz.com / Alpenregion Tegernsee Schliersee (Rund um die Schliersbergalm), bike-x.de",
     "alt": "neu"
   },
   {

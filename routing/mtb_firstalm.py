@@ -4,7 +4,7 @@
 Jede Tour: Firstalm -> Wegpunkte (mtb_touren.json) -> Firstalm.
 Voraussetzung: BRouter-Server läuft auf localhost:17777, Internet für Nominatim.
 Koordinaten "lat,lon" werden direkt verwendet, Ortsnamen über Nominatim geocodiert.
-Ausgabe: routing/ergebnis_mtb.json und content/wandern/geojson/{Kennung}_mtb.geojson
+Ausgabe: routing/ergebnis_mtb.json und content/mtb/geojson/{Kennung}_mtb.geojson
 Gefundene Orte stehen in der Ausgabe und müssen geprüft werden.
 """
 import json
@@ -31,8 +31,10 @@ def geocode_region(ort, cache):
         return rf.geocode(ort, cache)
     if ort in cache:
         return cache[ort]
-    q = urllib.parse.urlencode({"q": ort, "format": "json", "limit": 1, "countrycodes": "de,at",
-                                "viewbox": VIEWBOX, "bounded": 1})
+    # "Name@lon1,lat1,lon2,lat2" = engeres Suchfenster für mehrdeutige Namen
+    name, box = (ort.split("@", 1) + [VIEWBOX])[:2] if "@" in ort else (ort, VIEWBOX)
+    q = urllib.parse.urlencode({"q": name, "format": "json", "limit": 1, "countrycodes": "de,at",
+                                "viewbox": box, "bounded": 1})
     req = urllib.request.Request(f"{rf.NOMINATIM}?{q}", headers={"User-Agent": rf.UA})
     with urllib.request.urlopen(req, timeout=60) as r:
         treffer = json.loads(r.read().decode("utf-8"))
