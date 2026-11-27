@@ -109,6 +109,11 @@ RODELN = page('Rodeln', '🛷 Rodeln am Spitzingsee &amp; Tegernsee',
    ('Hirschberg (Kreuth)','ca. 4,5–5 km','anspruchsvoll','Start Ortsteil Scharling, für geübte Rodler'),
    ('Wallberg (Rottach-Egern)','ca. 6,5 km','sportlich','mit der Wallbergbahn auf 1.620 m, rund 825 Hm; nicht für Kleinkinder')],
    kopf=['Bahn','Länge','Anspruch','Hinweis'])+
+ H2('🏞️ Tölzer Land')+tab([
+   ('Blomberg (Bad Tölz-Wackersberg)','eine der längsten Naturrodelbahnen Deutschlands','mittel','rund 550 Hm; hinauf mit der Blombergbahn oder zu Fuß; Nachtrodeln in der Regel samstags; Bus 9612/9591 ab Bahnhof Bad Tölz bis „Blombergbahn“'),
+   ('Blomberg Blitz','Ganzjahres-Rodelbahn (Schienenbahn)','leicht','läuft auch im Winter – keine Naturrodelbahn')],
+   kopf=['Bahn','Länge','Anspruch','Hinweis'])+
+ P('Für die Naturrodelbahn am Blomberg nennen die Quellen keine einheitliche Länge; die Bergbahn meldet den aktuellen Zustand unter blombergbahn.de.')+
  H2('⚠️ Sicher rodeln')+'<ul style="line-height:1.7;color:#1f2933;"><li>Helm, vor allem für Kinder.</li><li>Beim Aufstieg am Rand gehen – Rodelbahnen sind oft zugleich der Aufstiegsweg.</li><li>Abstand halten, nicht im Auslauf stehen bleiben.</li><li>Zustand der Bahn vorab beim Betreiber oder der Hütte erfragen.</li></ul>'+
  quellen([('Obere Firstalm – Öffnungszeiten, Preise, Mondscheinrodeln (Angabe der Hütte, 27.11.2026)','/content/winter/firstalm-rodelbahn.html'),
           ('bergtour-online.de – Obere Firstalm: ca. 2,5 km, Rodelverleih an der Alm','https://www.bergtour-online.de/bergtouren/wintertouren/rodeltouren/schoenste-rodeltouren-bayerische-alpen/'),
@@ -120,7 +125,10 @@ RODELN = page('Rodeln', '🛷 Rodeln am Spitzingsee &amp; Tegernsee',
           ('bergwelten.com – Aueralm: 4,3 km','https://www.bergwelten.com/touren/aueralm'),
           ('bergwelten.com – Vom Hirschberg nach Kreuth-Scharling: 4,5 km','https://www.bergwelten.com/t/r/7563'),
           ('DAV – Schlemmen und Rodeln (Rotwandhaus nicht präpariert)','https://www.alpenverein.de/artikel/schlemmen-und-rodeln_0248a1d2-9810-4987-8e1c-ad83a741c8e8'),
-          ('karwendel-urlaub.de – Wallberg: 6,5 km, ca. 825 Hm','https://www.karwendel-urlaub.de/?p=2832')]))
+          ('karwendel-urlaub.de – Wallberg: 6,5 km, ca. 825 Hm','https://www.karwendel-urlaub.de/?p=2832'),
+          ('muenchen.de – Blomberg: eine der längsten Naturrodelbahnen Deutschlands, Bus 9612/9591','https://www.muenchen.de/freizeit/skigebiete/blombergbahn'),
+          ('bergtour-online.de – Rodelbahn am Blomberg: rund 550 Hm, Blombergbahn oder zu Fuß','https://www.bergtour-online.de/bergtouren/wintertouren/rodeltouren/schoenste-rodeltouren-bayerische-alpen/'),
+          ('kindaling.de – Nachtrodeln am Blomberg meist samstags, Blomberg Blitz ganzjährig','https://www.kindaling.de/sonstiges-stadtleben-ausfluege/nachtrodeln-blombergbahn/wackersberg')]))
 
 EINSTEIGER = page('Skitouren für Einsteiger', '🎿 Skitouren für Einsteiger am Spitzingsee',
  'Wer sicher Parallelschwung fährt, kann am Spitzingsee mit kurzen, leichten Touren beginnen. Lawinenwissen und Notfallausrüstung gehören von Anfang an dazu – am besten lernt man beides in einem Kurs, etwa bei einer DAV-Sektion.',
@@ -162,7 +170,7 @@ LAWINE = page('Lawinenkunde', '⚠️ Lawinenkunde – die Grundlagen',
 for f,body,title,desc in [
   ('content/winter/skigebiet/index.html',SKI,'Skigebiet Spitzingsee-Tegernsee – Lifte, Pisten, Skipass','Skigebiet Spitzingsee-Tegernsee: 983–1.570 m, 10 Lifte, 14–20 km Pisten, Nachtskilauf Do/Fr, Skipass und Anreise – mit Quellen.'),
   ('content/winter/firstalm-rodelbahn.html',RODEL,'Rodelbahn Obere Firstalm – 2,5 km, beleuchtet','Rodelbahn Obere Firstalm am Spitzingsee: ca. 2,5 km, 250 Hm, abends beleuchtet, Rodelverleih an der Alm – Eckdaten mit Quellen.'),
-  ('content/winter/rodeln-familie.html',RODELN,'Rodeln am Spitzingsee & Tegernsee – Bahnen im Überblick','Rodeln am Spitzingsee: Familien-Rodelbahn Obere Firstalm (2,5 km, bis 22:30 Uhr beleuchtet) – dazu Neureuth, Riederstein, Aueralm, Hirschberg, Wallberg mit Quellen.'),
+  ('content/winter/rodeln-familie.html',RODELN,'Rodeln am Spitzingsee & Tegernsee – Bahnen im Überblick','Rodeln am Spitzingsee: Familien-Rodelbahn Obere Firstalm (2,5 km, bis 22:30 Uhr beleuchtet) – dazu Neureuth, Riederstein, Aueralm, Hirschberg, Wallberg und Blomberg mit Quellen.'),
   ('content/winter/skitouren-anfaenger.html',EINSTEIGER,'Skitouren für Einsteiger am Spitzingsee','Leichte Einstiegs-Skitouren am Spitzingsee: Brecherspitz-Westgipfel, Taubenstein, Rotwand – plus Checkliste vor der ersten Tour, mit Quellen.'),
   ('content/winter/lawinenkunde-grundlagen.html',LAWINE,'Lawinenkunde – Gefahrenstufen und Lagebericht','Lawinenkunde-Grundlagen: die fünf europäischen Gefahrenstufen, Aufbau des Lawinenlageberichts Bayern, Notfallausrüstung und Notruf – mit Quellen.'),
   ('content/winter/langlauf/index.html',LL,'Langlauf am Spitzingsee & Schliersee – Loipen','Loipen am Spitzingsee und Schliersee: Valepper-Almen-Loipe 6,5 km, Langlaufzentrum Albert-Link-Hütte, Loipen in Neuhaus und Schliersee – mit Quellen.')]:
