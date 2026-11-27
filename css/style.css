@@ -5308,7 +5308,7 @@ h3.section-title {
     .tours-category .btn-primary { width: 100% !important; display: block !important; }
     .silo-card, .tours-category, .directory-card { overflow-wrap: break-word; word-wrap: break-word; }
 }
-html, body { max-width: 100%; overflow-x: hidden; }
+html, body { max-width: 100%; overflow-x: clip; }
 .silo-card, .directory-card, .card { box-sizing: border-box; }
 body.nav-open { overflow: hidden !important; }
 /* ============================================
@@ -5316,7 +5316,7 @@ body.nav-open { overflow: hidden !important; }
    =========================================================== */
 @media (max-width: 768px) {
     html { -webkit-text-size-adjust: 100%; }
-    body { overflow-x: hidden; }
+    body { overflow-x: clip; }
     .container { padding-left: 16px !important; padding-right: 16px !important; }
     .hero-overlay { padding: 32px 16px !important; text-align: center; }
     .hero-badge { display: inline-block; font-size: .8rem; line-height: 1.4; }
@@ -5338,3 +5338,7 @@ body.nav-open { overflow: hidden !important; }
 }
 
 .pruefhinweis{font-size:.75rem;color:#8a6d00;font-style:italic;white-space:nowrap;}
+
+/* Kategorie-Sprungmenü (Gravel, Wandern): klebt unter dem Header über die ganze Seite */
+.kat-nav{position:sticky!important;top:78px!important;z-index:900!important;box-shadow:0 4px 14px rgba(0,0,0,.25);}
+@media (max-width:768px){.kat-nav{top:58px!important;}}
