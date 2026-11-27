@@ -50,6 +50,476 @@
   ],
   "redirects": [
     {
+      "source": "/content/gravel/schliersee-seeumrundung",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/valepp-rollout-bis-zur-klause",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/weissachau-flussrunde",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/leitzachtal-panoramarunde",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/mangfall-radweg-miesbach",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/tegernsee-ufer-trail",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/brecherspitz-talrunde",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/schliersee-miesbach-flachrunde",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/spitzingsee-ort-loop",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/fischhausen-dorfrunde",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/mangfall-ursprung-genussweg",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/aurach-tal-rollout",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/rottach-seerunde-flach",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/bayrischzell-talboden-loop",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/schlierachtal-familienrunde",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/alte-spitzingstrasse-uphill",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/elendsgraben-zur-wechsel-alm",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/sutten-runde-via-moni-alm",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gindelalm-bergsprint",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/blauberg-gravel-via-achenpass",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/schoenfeld-weg",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/aiplspitz-traverse-gravel",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/rotwand-vorstufen-loop",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/baumgartenschneid-runde",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/wallberg-schotterrunde",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/hirschberg-forstweg",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/sudelfeld-pass-runde",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/leitzachtal-hoehenweg",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/spitzingsee-waldtrail",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/miesing-gravel-loop",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/achenpass-grenzrunde",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/ursprungalm-kletterpartie",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/rotwandhaus-uphill-challenge",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/drei-seen-gravel-schliersee-spitzingsee-tegernsee",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/trans-mangfallgebirge-epic",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/rosskopf-gipfelsturm",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/chiemgau-king-teilstueck",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/alpenrand-megaloop",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/karwendel-gravel-etappe",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/bayerische-voralpen-bikepacking",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/wendelstein-umfahrung",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/tegernsee-berge-doppelpack",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/spitzingsee-bikepacking-overnighter",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/mangfall-querung-extrem",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/wallberg-wendelstein-kombi",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/alpenranden-grossrunde",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/voralpen-monster-etappe",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/schliersee-seeumrundung.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/valepp-rollout-bis-zur-klause.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/weissachau-flussrunde.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/leitzachtal-panoramarunde.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/mangfall-radweg-miesbach.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/tegernsee-ufer-trail.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/brecherspitz-talrunde.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/schliersee-miesbach-flachrunde.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/spitzingsee-ort-loop.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/fischhausen-dorfrunde.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/mangfall-ursprung-genussweg.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/aurach-tal-rollout.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/rottach-seerunde-flach.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/bayrischzell-talboden-loop.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/schlierachtal-familienrunde.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/alte-spitzingstrasse-uphill.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/elendsgraben-zur-wechsel-alm.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/sutten-runde-via-moni-alm.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gindelalm-bergsprint.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/blauberg-gravel-via-achenpass.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/schoenfeld-weg.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/aiplspitz-traverse-gravel.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/rotwand-vorstufen-loop.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/baumgartenschneid-runde.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/wallberg-schotterrunde.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/hirschberg-forstweg.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/sudelfeld-pass-runde.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/leitzachtal-hoehenweg.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/spitzingsee-waldtrail.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/miesing-gravel-loop.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/achenpass-grenzrunde.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/ursprungalm-kletterpartie.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/rotwandhaus-uphill-challenge.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/drei-seen-gravel-schliersee-spitzingsee-tegernsee.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/trans-mangfallgebirge-epic.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/rosskopf-gipfelsturm.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/chiemgau-king-teilstueck.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/alpenrand-megaloop.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/karwendel-gravel-etappe.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/bayerische-voralpen-bikepacking.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/wendelstein-umfahrung.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/tegernsee-berge-doppelpack.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/spitzingsee-bikepacking-overnighter.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/mangfall-querung-extrem.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/wallberg-wendelstein-kombi.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/alpenranden-grossrunde.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/voralpen-monster-etappe.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
       "source": "/content/gravel/firstalm-breitenstein-grat-tour",
       "destination": "/gravel.html",
       "permanent": true
