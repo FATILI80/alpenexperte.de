@@ -1,0 +1,307 @@
+[
+  {
+    "kennung": "M01",
+    "name": "Firstalm-Runde: Drei-Seen-Runde",
+    "wegpunkte": [
+      "Schliersee",
+      "Tegernsee",
+      "Spitzingsee"
+    ],
+    "quelle": "bisherige Tourenseite content/mtb/",
+    "alt": "bestehende Tour"
+  },
+  {
+    "kennung": "M02",
+    "name": "Firstalm-Runde: Prinzenweg & Kreuzbergalm",
+    "wegpunkte": [
+      "Schliersee",
+      "Kreuzbergalm@11.76,47.76,11.86,47.69"
+    ],
+    "quelle": "bergwelten.com, hoehenrausch.de (MTB-Auffahrt Prinzenweg/Alpbachtal)",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M03",
+    "name": "Firstalm-Runde: Rotwandhaus",
+    "wegpunkte": [
+      "Rotwandhaus"
+    ],
+    "quelle": "bisherige Tourenseite content/mtb/",
+    "alt": "bestehende Tour"
+  },
+  {
+    "kennung": "M04",
+    "name": "Firstalm-Runde: Alte Spitzingstraße & Josefsthal",
+    "wegpunkte": [
+      "Josefsthal"
+    ],
+    "quelle": "bisherige Tourenseite content/mtb/",
+    "alt": "bestehende Tour"
+  },
+  {
+    "kennung": "M05",
+    "name": "Firstalm-Runde: Spitzingsee-Runde",
+    "wegpunkte": [
+      "Wurzhütte",
+      "Spitzingsee"
+    ],
+    "quelle": "bisherige Tourenseite content/mtb/",
+    "alt": "bestehende Tour"
+  },
+  {
+    "kennung": "M06",
+    "name": "Firstalm-Runde: Bodenschneidhaus & Neuhaus",
+    "wegpunkte": [
+      "Bodenschneidhaus",
+      "Fischhausen-Neuhaus"
+    ],
+    "quelle": "bisherige Tourenseite content/mtb/",
+    "alt": "bestehende Tour"
+  },
+  {
+    "kennung": "M07",
+    "name": "Firstalm-Runde: Erzherzog-Johann-Klause",
+    "wegpunkte": [
+      "Forsthaus Valepp",
+      "Erzherzog-Johann-Klause"
+    ],
+    "quelle": "bisherige Tourenseite content/mtb/",
+    "alt": "bestehende Tour"
+  },
+  {
+    "kennung": "M08",
+    "name": "Firstalm-Runde: Gindelalm & Neureuth",
+    "wegpunkte": [
+      "Gindelalm",
+      "Neureuth"
+    ],
+    "quelle": "bisherige Tourenseite content/mtb/",
+    "alt": "bestehende Tour"
+  },
+  {
+    "kennung": "M09",
+    "name": "Firstalm-Runde: Söllbachtal & Hirschtalsattel",
+    "wegpunkte": [
+      "Bad Wiessee",
+      "Hirschtalsattel"
+    ],
+    "quelle": "bisherige Tourenseite content/mtb/",
+    "alt": "bestehende Tour"
+  },
+  {
+    "kennung": "M10",
+    "name": "Firstalm-Runde: Bayrischzell & Grafenherberg",
+    "wegpunkte": [
+      "Bayrischzell",
+      "Grafenherberg"
+    ],
+    "quelle": "bisherige Tourenseite content/mtb/",
+    "alt": "bestehende Tour"
+  },
+  {
+    "kennung": "M11",
+    "name": "Firstalm-Runde: Wallbergmoosalm",
+    "wegpunkte": [
+      "Wallbergmoosalm"
+    ],
+    "quelle": "bisherige Tourenseite content/mtb/",
+    "alt": "bestehende Tour"
+  },
+  {
+    "kennung": "M12",
+    "name": "Firstalm-Runde: Reichsteinalm & Ackernalm",
+    "wegpunkte": [
+      "Forsthaus Valepp",
+      "Reichsteinalm",
+      "Ackernalm"
+    ],
+    "quelle": "almenrausch.at",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M13",
+    "name": "Firstalm-Runde: Kaiserhaus an der Brandenberger Ache",
+    "wegpunkte": [
+      "Forsthaus Valepp",
+      "Kaiserhaus"
+    ],
+    "quelle": "almenrausch.at",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M14",
+    "name": "Firstalm-Runde: Valepp & Ursprungpass",
+    "wegpunkte": [
+      "Forsthaus Valepp",
+      "Ursprungpass"
+    ],
+    "quelle": "almenrausch.at",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M15",
+    "name": "Firstalm-Runde: Elendsattel & Bayrischzell",
+    "wegpunkte": [
+      "Elendsattel",
+      "Bayrischzell"
+    ],
+    "quelle": "komoot",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M16",
+    "name": "Firstalm-Runde: Sonnwendjoch-Umrundung über Landl",
+    "wegpunkte": [
+      "Forsthaus Valepp",
+      "Ackernalm",
+      "Landl",
+      "Ursprungpass"
+    ],
+    "quelle": "almenrausch.at",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M17",
+    "name": "Firstalm-Runde: Söllbachtal & Bauer in der Au",
+    "wegpunkte": [
+      "Bad Wiessee",
+      "Bauer in der Au@11.66,47.70,11.76,47.64"
+    ],
+    "quelle": "almenrausch.at (Schwarzentenn-Runde: Forstweg zum Bauer in der Au, Söllbachtal)",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M18",
+    "name": "Firstalm-Runde: Sutten & Moni-Alm",
+    "wegpunkte": [
+      "Sutten",
+      "Moni-Alm"
+    ],
+    "quelle": "biketrailspfannenstiel.ch",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M19",
+    "name": "Firstalm-Runde: Bäckeralm",
+    "wegpunkte": [
+      "Bäckeralm"
+    ],
+    "quelle": "gps-tour.info",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M20",
+    "name": "Firstalm-Runde: Schwarzentennalm",
+    "wegpunkte": [
+      "Schwarzentennalm"
+    ],
+    "quelle": "almenrausch.at",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M21",
+    "name": "Firstalm-Runde: Buchsteinhütte",
+    "wegpunkte": [
+      "Buchsteinhütte"
+    ],
+    "quelle": "almenrausch.at",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M22",
+    "name": "Firstalm-Runde: Langenau & Bayralm",
+    "wegpunkte": [
+      "Wildbad Kreuth",
+      "Bayralm"
+    ],
+    "quelle": "almenrausch.at",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M23",
+    "name": "Firstalm-Runde: Bayralm & Blaubergalm",
+    "wegpunkte": [
+      "Bayralm",
+      "Blaubergalm"
+    ],
+    "quelle": "almenrausch.at",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M24",
+    "name": "Firstalm-Runde: Freudenreichsattel & Breitenbach",
+    "wegpunkte": [
+      "Freudenreich-Alm",
+      "Breitenbach@11.83,47.75,11.90,47.70"
+    ],
+    "quelle": "DAV München-Oberland, Biketouren-Broschüre",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M25",
+    "name": "Firstalm-Runde: Schönfeldhütte",
+    "wegpunkte": [
+      "Schönfeldhütte"
+    ],
+    "quelle": "DAV München-Oberland, Biketouren-Broschüre",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M26",
+    "name": "Firstalm-Runde: Albert-Link-Hütte",
+    "wegpunkte": [
+      "Albert-Link-Hütte"
+    ],
+    "quelle": "DAV München-Oberland, Biketouren-Broschüre",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M27",
+    "name": "Firstalm-Runde: Schliersbergalm",
+    "wegpunkte": [
+      "Schliersbergalm"
+    ],
+    "quelle": "wildganz.com / Alpenregion Tegernsee Schliersee (Rund um die Schliersbergalm), bike-x.de",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M28",
+    "name": "Firstalm-Runde: Glockenalm & Aurach",
+    "wegpunkte": [
+      "Glockenalm",
+      "Aurach"
+    ],
+    "quelle": "wildganz.com / Alpenregion Tegernsee Schliersee",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M29",
+    "name": "Firstalm-Runde: Krugalm & Osterhofen",
+    "wegpunkte": [
+      "Krugalm",
+      "Osterhofen"
+    ],
+    "quelle": "wildganz.com / Alpenregion Tegernsee Schliersee",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M30",
+    "name": "Firstalm-Runde: Bayralm & Gufferthütte",
+    "wegpunkte": [
+      "Bayralm",
+      "Gufferthütte"
+    ],
+    "quelle": "almenrausch.at",
+    "alt": "neu"
+  },
+  {
+    "kennung": "M31",
+    "name": "Firstalm-Runde: Valepper Mautstraße bis Enterrottach",
+    "wegpunkte": [
+      "Forsthaus Valepp",
+      "Enterrottach"
+    ],
+    "quelle": "komoot",
+    "alt": "neu"
+  }
+]

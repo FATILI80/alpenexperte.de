@@ -1,0 +1,493 @@
+[
+  {
+    "kennung": "M01",
+    "name": "Firstalm-Runde: Drei-Seen-Runde",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Tegernsee, Landkreis Miesbach, Bayern, 83684, Deutschland",
+      "Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 41.35,
+    "laenge_km_geometrie": 41.29,
+    "hm_aufstieg": 1629,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1629
+  },
+  {
+    "kennung": "M02",
+    "name": "Firstalm-Runde: Prinzenweg & Kreuzbergalm",
+    "alt": "neu",
+    "treffer": [
+      "Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Kreuzbergalm, Prinzenweg, Schliersee, Landkreis Miesbach, Bayern, 83684, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 23.89,
+    "laenge_km_geometrie": 23.85,
+    "hm_aufstieg": 873,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 873
+  },
+  {
+    "kennung": "M03",
+    "name": "Firstalm-Runde: Rotwandhaus",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Rotwandhaus, 3, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 18.26,
+    "laenge_km_geometrie": 18.21,
+    "hm_aufstieg": 1049,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1049
+  },
+  {
+    "kennung": "M04",
+    "name": "Firstalm-Runde: Alte Spitzingstraße & Josefsthal",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Josefsthal, Neuhaus, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 11.95,
+    "laenge_km_geometrie": 11.94,
+    "hm_aufstieg": 580,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 580
+  },
+  {
+    "kennung": "M05",
+    "name": "Firstalm-Runde: Spitzingsee-Runde",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Alte Wurzhütte, 1, Roßkopfweg, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 8.08,
+    "laenge_km_geometrie": 8.07,
+    "hm_aufstieg": 282,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 282
+  },
+  {
+    "kennung": "M06",
+    "name": "Firstalm-Runde: Bodenschneidhaus & Neuhaus",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Bodenschneidhaus, 1, Bodenschneid, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Fischhausen-Neuhaus, Wendelsteinstraße, Fischhausen, Neuhaus, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 12.24,
+    "laenge_km_geometrie": 12.21,
+    "hm_aufstieg": 671,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 671
+  },
+  {
+    "kennung": "M07",
+    "name": "Firstalm-Runde: Erzherzog-Johann-Klause",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Erzherzog-Johann-Klause, 82, Aschau, Pinegg, Aschau, Brandenberg, Bezirk Kufstein, Tirol, 6234, Österreich"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 36.61,
+    "laenge_km_geometrie": 36.58,
+    "hm_aufstieg": 1052,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1052
+  },
+  {
+    "kennung": "M08",
+    "name": "Firstalm-Runde: Gindelalm & Neureuth",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Gindelalm, Schliersee, Landkreis Miesbach, Bayern, 83734, Deutschland",
+      "Neureuth, Tegernsee, Landkreis Miesbach, Bayern, 83684, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 24.67,
+    "laenge_km_geometrie": 24.65,
+    "hm_aufstieg": 1040,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1040
+  },
+  {
+    "kennung": "M09",
+    "name": "Firstalm-Runde: Söllbachtal & Hirschtalsattel",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Bad Wiessee, Landkreis Miesbach, Bayern, 83707, Deutschland",
+      "Hirschtalsattel, Bad Wiessee, Landkreis Miesbach, Bayern, 83707, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 46.39,
+    "laenge_km_geometrie": 46.29,
+    "hm_aufstieg": 1600,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1600
+  },
+  {
+    "kennung": "M10",
+    "name": "Firstalm-Runde: Bayrischzell & Grafenherberg",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland",
+      "Grafenherberg, Oberaudorf, Landkreis Rosenheim, Bayern, 83080, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 45.31,
+    "laenge_km_geometrie": 45.2,
+    "hm_aufstieg": 2082,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2082
+  },
+  {
+    "kennung": "M11",
+    "name": "Firstalm-Runde: Wallbergmoosalm",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Wallbergmoosalm Berggaststätte, 1, Wallbergmoos, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 20.76,
+    "laenge_km_geometrie": 20.72,
+    "hm_aufstieg": 1504,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1504
+  },
+  {
+    "kennung": "M12",
+    "name": "Firstalm-Runde: Reichsteinalm & Ackernalm",
+    "alt": "neu",
+    "treffer": [
+      "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Reichsteinalm, Thiersee, Bezirk Kufstein, Tirol, Österreich",
+      "Ackernalm, 48, Almen, Thiersee, Bezirk Kufstein, Tirol, 6335, Österreich"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 40.15,
+    "laenge_km_geometrie": 40.09,
+    "hm_aufstieg": 1225,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1225
+  },
+  {
+    "kennung": "M13",
+    "name": "Firstalm-Runde: Kaiserhaus an der Brandenberger Ache",
+    "alt": "neu",
+    "treffer": [
+      "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Kaiserhaus, Brandenberg, Bezirk Kufstein, Tirol, 6234, Österreich"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 50.53,
+    "laenge_km_geometrie": 50.49,
+    "hm_aufstieg": 1285,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1285
+  },
+  {
+    "kennung": "M14",
+    "name": "Firstalm-Runde: Valepp & Ursprungpass",
+    "alt": "neu",
+    "treffer": [
+      "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Ursprungpass, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 44.32,
+    "laenge_km_geometrie": 44.24,
+    "hm_aufstieg": 1514,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1514
+  },
+  {
+    "kennung": "M15",
+    "name": "Firstalm-Runde: Elendsattel & Bayrischzell",
+    "alt": "neu",
+    "treffer": [
+      "Elendsattel, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland",
+      "Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 32.38,
+    "laenge_km_geometrie": 32.31,
+    "hm_aufstieg": 1881,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1881
+  },
+  {
+    "kennung": "M16",
+    "name": "Firstalm-Runde: Sonnwendjoch-Umrundung über Landl",
+    "alt": "neu",
+    "treffer": [
+      "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Ackernalm, 48, Almen, Thiersee, Bezirk Kufstein, Tirol, 6335, Österreich",
+      "Landl, Thiersee, Bezirk Kufstein, Tirol, 6335, Österreich",
+      "Ursprungpass, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 57.62,
+    "laenge_km_geometrie": 57.51,
+    "hm_aufstieg": 2293,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2293
+  },
+  {
+    "kennung": "M17",
+    "name": "Firstalm-Runde: Söllbachtal & Bauer in der Au",
+    "alt": "neu",
+    "treffer": [
+      "Bad Wiessee, Landkreis Miesbach, Bayern, 83707, Deutschland",
+      "Bauer in der Au, Bad Wiessee, Landkreis Miesbach, Bayern, 83707, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 37.7,
+    "laenge_km_geometrie": 37.62,
+    "hm_aufstieg": 1084,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1084
+  },
+  {
+    "kennung": "M18",
+    "name": "Firstalm-Runde: Sutten & Moni-Alm",
+    "alt": "neu",
+    "treffer": [
+      "Sutten, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland",
+      "Moni-Alm, 42, Sutten, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 6.56,
+    "laenge_km_geometrie": 6.56,
+    "hm_aufstieg": 536,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 536
+  },
+  {
+    "kennung": "M19",
+    "name": "Firstalm-Runde: Bäckeralm",
+    "alt": "neu",
+    "treffer": [
+      "Grenzgasthof Bäckeralm,Bayrischzell, Tiroler Straße, Bäckeralpe, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 40.95,
+    "laenge_km_geometrie": 40.84,
+    "hm_aufstieg": 1898,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1898
+  },
+  {
+    "kennung": "M20",
+    "name": "Firstalm-Runde: Schwarzentennalm",
+    "alt": "neu",
+    "treffer": [
+      "Schwarzentennalm, Altweibersteig, Kreuth, Landkreis Miesbach, Bayern, 83661, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 47.22,
+    "laenge_km_geometrie": 47.12,
+    "hm_aufstieg": 1410,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1410
+  },
+  {
+    "kennung": "M21",
+    "name": "Firstalm-Runde: Buchsteinhütte",
+    "alt": "neu",
+    "treffer": [
+      "Buchsteinhütte, Altweibersteig, Kreuth, Landkreis Miesbach, Bayern, 83661, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 42.77,
+    "laenge_km_geometrie": 42.68,
+    "hm_aufstieg": 2764,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2764
+  },
+  {
+    "kennung": "M22",
+    "name": "Firstalm-Runde: Langenau & Bayralm",
+    "alt": "neu",
+    "treffer": [
+      "Wildbad Kreuth, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland",
+      "Bayralm, BaySF MTB Trail, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 42.99,
+    "laenge_km_geometrie": 42.94,
+    "hm_aufstieg": 2076,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2076
+  },
+  {
+    "kennung": "M23",
+    "name": "Firstalm-Runde: Bayralm & Blaubergalm",
+    "alt": "neu",
+    "treffer": [
+      "Bayralm, BaySF MTB Trail, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland",
+      "Blaubergalm, Achenkirch, Bezirk Schwaz, Tirol, 6215, Österreich"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 49.34,
+    "laenge_km_geometrie": 49.27,
+    "hm_aufstieg": 2712,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2712
+  },
+  {
+    "kennung": "M24",
+    "name": "Firstalm-Runde: Freudenreichsattel & Breitenbach",
+    "alt": "neu",
+    "treffer": [
+      "Freudenreich-Alm, Dürnbachwandsteig, Neuhaus, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Breitenbach, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 17.16,
+    "laenge_km_geometrie": 17.16,
+    "hm_aufstieg": 595,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 595
+  },
+  {
+    "kennung": "M25",
+    "name": "Firstalm-Runde: Schönfeldhütte",
+    "alt": "neu",
+    "treffer": [
+      "Schönfeldhütte, 1, Hermann-Kleber-Weg, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 9.48,
+    "laenge_km_geometrie": 9.45,
+    "hm_aufstieg": 530,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 530
+  },
+  {
+    "kennung": "M26",
+    "name": "Firstalm-Runde: Albert-Link-Hütte",
+    "alt": "neu",
+    "treffer": [
+      "Albert-Link-Hütte, 8, Valepper Straße, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 9.32,
+    "laenge_km_geometrie": 9.29,
+    "hm_aufstieg": 334,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 334
+  },
+  {
+    "kennung": "M27",
+    "name": "Firstalm-Runde: Schliersbergalm",
+    "alt": "neu",
+    "treffer": [
+      "Hotel Schliersbergalm, Dekan-Maier-Weg, Kreit, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 21.79,
+    "laenge_km_geometrie": 21.74,
+    "hm_aufstieg": 890,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 890
+  },
+  {
+    "kennung": "M28",
+    "name": "Firstalm-Runde: Glockenalm & Aurach",
+    "alt": "neu",
+    "treffer": [
+      "Campingplatz NATURAMA Glockenalm, W7, Fischeralm, Hammer, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland",
+      "Aurach, Hammer, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 17.71,
+    "laenge_km_geometrie": 17.71,
+    "hm_aufstieg": 601,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 601
+  },
+  {
+    "kennung": "M29",
+    "name": "Firstalm-Runde: Krugalm & Osterhofen",
+    "alt": "neu",
+    "treffer": [
+      "Krugalm, Hagnberg, Hammer, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland",
+      "Osterhofen, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 30.38,
+    "laenge_km_geometrie": 30.33,
+    "hm_aufstieg": 1179,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1179
+  },
+  {
+    "kennung": "M30",
+    "name": "Firstalm-Runde: Bayralm & Gufferthütte",
+    "alt": "neu",
+    "treffer": [
+      "Bayralm, BaySF MTB Trail, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland",
+      "Gufferthütte, 83, Steig Issalm Gesperrt, Brandenberg, Bezirk Kufstein, Tirol, 6234, Österreich"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 45.98,
+    "laenge_km_geometrie": 45.92,
+    "hm_aufstieg": 2463,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2463
+  },
+  {
+    "kennung": "M31",
+    "name": "Firstalm-Runde: Valepper Mautstraße bis Enterrottach",
+    "alt": "neu",
+    "treffer": [
+      "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Enterrottach, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 29.0,
+    "laenge_km_geometrie": 28.99,
+    "hm_aufstieg": 1546,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1546
+  }
+]
