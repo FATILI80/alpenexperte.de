@@ -1,103 +1,403 @@
 {
-    "$schema": "https://openapi.vercel.sh/vercel.json",
-    "cleanUrls": false,
-    "trailingSlash": false,
-    "headers": [
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": false,
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/images/(.*)",
+      "headers": [
         {
-            "source": "/images/(.*)",
-            "headers": [
-                {
-                    "key": "Cache-Control",
-                    "value": "public, max-age=31536000, immutable"
-                }
-            ]
-        },
-        {
-            "source": "/css/(.*)",
-            "headers": [
-                {
-                    "key": "Cache-Control",
-                    "value": "public, max-age=31536000, immutable"
-                }
-            ]
-        },
-        {
-            "source": "/js/(.*)",
-            "headers": [
-                {
-                    "key": "Cache-Control",
-                    "value": "public, max-age=31536000, immutable"
-                }
-            ]
-        },
-        {
-            "source": "/(.*)",
-            "headers": [
-                {
-                    "key": "X-Content-Type-Options",
-                    "value": "nosniff"
-                },
-                {
-                    "key": "X-Frame-Options",
-                    "value": "SAMEORIGIN"
-                },
-                {
-                    "key": "Referrer-Policy",
-                    "value": "strict-origin-when-cross-origin"
-                }
-            ]
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
         }
-    ],
-    "redirects": [
+      ]
+    },
+    {
+      "source": "/css/(.*)",
+      "headers": [
         {
-            "source": "/index.html",
-            "destination": "/",
-            "permanent": true
-        },
-        {
-            "source": "/index",
-            "destination": "/",
-            "permanent": true
-        },
-        {
-            "source": "/wandern.html",
-            "destination": "/content/wandern/",
-            "permanent": true
-        },
-        {
-            "source": "/startseite",
-            "destination": "/",
-            "permanent": true
-        },
-        {
-            "source": "/content/huetten/wanderwege/stuempfling-klassiker.html",
-            "destination": "/content/wandern/index.html",
-            "permanent": true
-        },
-        {
-            "source": "/content/wandern/stuempfling-klassiker.html",
-            "destination": "/content/wandern/index.html",
-            "permanent": true
-        },
-        {
-            "source": "/content/huetten/huetten-karte/",
-            "destination": "/content/huetten/huetten-karte/index.html",
-            "permanent": true
-        },
-        {
-            "source": "/content/wandern/bodenschneid-klettersteig.html",
-            "destination": "/content/klettern/bodenschneid-klettersteig.html",
-            "permanent": true
-        },
-        {
-            "source": "/content/wandern/hintere-firstalm.html",
-            "destination": "/content/wandern/untere-firstalm.html",
-            "permanent": false
-        },
-        {
-            "source": "/content/wandern/hintere-firstalm",
-            "destination": "/content/wandern/untere-firstalm.html",
-            "permanent": false
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
         }
-    ]
+      ]
+    },
+    {
+      "source": "/js/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/content/gravel/firstalm-breitenstein-grat-tour",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-breitenstein-grat-tour.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-breitenstein-sonnenwendjoch",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-breitenstein-sonnenwendjoch.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-ebbs-kaisertal",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-ebbs-kaisertal.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-ellmau-going",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-ellmau-going.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-hinterbaerenbad-kletterer",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-hinterbaerenbad-kletterer.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-hinterthiersee-joch",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-hinterthiersee-joch.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-kaiser-rundloop",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-kaiser-rundloop.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-kaiserwinkel-genuss",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-kaiserwinkel-genuss.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-kufstein-ebbs-rund",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-kufstein-ebbs-rund.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-kufstein-festungsblick",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-kufstein-festungsblick.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-kufstein-lebensraum",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-kufstein-lebensraum.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-rettenschoess",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-rettenschoess.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-ruabezahl-sonnenwend-kombi",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-ruabezahl-sonnenwend-kombi.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-ruabezahlalm-ellmau",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-ruabezahlalm-ellmau.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-sonnenwend-koenigsrunde",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-sonnenwend-koenigsrunde.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-thiersee-see-cafe",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-thiersee-see-cafe.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-thiersee-umrundung",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-thiersee-umrundung.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-ursprungpass-sonnenwend",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-ursprungpass-sonnenwend.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-walchsee-koessen",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-walchsee-koessen.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-walchsee",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/firstalm-walchsee.html",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-breitenstein-grat-tour.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-breitenstein-sonnenwendjoch.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-ebbs-kaisertal.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-ellmau-going.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-hinterbaerenbad-kletterer.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-hinterthiersee-joch.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-kaiser-rundloop.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-kaiserwinkel-genuss.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-kufstein-ebbs-rund.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-kufstein-festungsblick.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-kufstein-lebensraum.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-rettenschoess.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-ruabezahl-sonnenwend-kombi.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-ruabezahlalm-ellmau.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-sonnenwend-koenigsrunde.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-thiersee-see-cafe.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-thiersee-umrundung.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-ursprungpass-sonnenwend.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-walchsee-koessen.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/gravel/gpx/firstalm-walchsee.gpx",
+      "destination": "/gravel.html",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/index",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/wandern.html",
+      "destination": "/content/wandern/",
+      "permanent": true
+    },
+    {
+      "source": "/startseite",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wanderwege/stuempfling-klassiker.html",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/stuempfling-klassiker.html",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/huetten-karte/",
+      "destination": "/content/huetten/huetten-karte/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/bodenschneid-klettersteig.html",
+      "destination": "/content/klettern/bodenschneid-klettersteig.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/hintere-firstalm.html",
+      "destination": "/content/wandern/untere-firstalm.html",
+      "permanent": false
+    },
+    {
+      "source": "/content/wandern/hintere-firstalm",
+      "destination": "/content/wandern/untere-firstalm.html",
+      "permanent": false
+    }
+  ]
 }
