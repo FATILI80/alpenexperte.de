@@ -118,9 +118,9 @@
     "name": "Mangfall-Ursprung Genussweg",
     "alt": "16 km · 110 hm",
     "wegpunkte": [
-      "Miesbach"
+      "Gmund am Tegernsee"
     ],
-    "neuer_name": "Firstalm-Runde: Miesbach",
+    "neuer_name": "Firstalm-Runde: Gmund am Tegernsee",
     "gleiche_wegpunkte_wie": [
       "R33",
       "R47"
@@ -131,9 +131,9 @@
     "name": "Aurach-Tal Rollout",
     "alt": "28 km · 260 hm",
     "wegpunkte": [
-      "Fischbachau"
+      "Aurach"
     ],
-    "neuer_name": "Firstalm-Runde: Fischbachau",
+    "neuer_name": "Firstalm-Runde: Aurach",
     "gleiche_wegpunkte_wie": [
       "R30",
       "R39"
@@ -154,9 +154,10 @@
     "name": "Bayrischzell Talboden-Loop",
     "alt": "17 km · 130 hm",
     "wegpunkte": [
-      "Bayrischzell"
+      "Bayrischzell",
+      "Geitau"
     ],
-    "neuer_name": "Firstalm-Runde: Bayrischzell",
+    "neuer_name": "Firstalm-Runde: Bayrischzell & Geitau",
     "gleiche_wegpunkte_wie": [
       "R40"
     ]
@@ -166,9 +167,10 @@
     "name": "Schlierachtal Familienrunde",
     "alt": "11 km · 70 hm",
     "wegpunkte": [
-      "Schliersee"
+      "Schliersee",
+      "Neuhaus"
     ],
-    "neuer_name": "Firstalm-Runde: Schliersee",
+    "neuer_name": "Firstalm-Runde: Schliersee & Neuhaus",
     "gleiche_wegpunkte_wie": [
       "R32"
     ]
@@ -221,10 +223,9 @@
     "name": "Blauberg-Gravel via Achenpass",
     "alt": "45 km · 800 hm",
     "wegpunkte": [
-      "Achenpass",
-      "Kreuth"
+      "Achenpass"
     ],
-    "neuer_name": "Firstalm-Runde: Achenpass & Kreuth",
+    "neuer_name": "Firstalm-Runde: Achenpass",
     "gleiche_wegpunkte_wie": [
       "R34"
     ]
@@ -245,9 +246,9 @@
     "name": "Tegernseer Alm-Anstieg",
     "alt": "20 km · 700 hm",
     "wegpunkte": [
-      "Tegernsee"
+      "Rottachalm"
     ],
-    "neuer_name": "Firstalm-Runde: Tegernsee",
+    "neuer_name": "Firstalm-Runde: Rottachalm",
     "gleiche_wegpunkte_wie": [
       "R26",
       "R45"
@@ -279,9 +280,9 @@
     "name": "Rotwand Vorstufen-Loop",
     "alt": "21 km · 590 hm",
     "wegpunkte": [
-      "Spitzingsee"
+      "Wildfeldalm"
     ],
-    "neuer_name": "Firstalm-Runde: Spitzingsee",
+    "neuer_name": "Firstalm-Runde: Wildfeldalm",
     "gleiche_wegpunkte_wie": [
       "R31",
       "R46"
@@ -292,9 +293,9 @@
     "name": "Baumgartenschneid Runde",
     "alt": "23 km · 610 hm",
     "wegpunkte": [
-      "Tegernsee"
+      "Baumgartenschneid"
     ],
-    "neuer_name": "Firstalm-Runde: Tegernsee",
+    "neuer_name": "Firstalm-Runde: Baumgartenschneid",
     "gleiche_wegpunkte_wie": [
       "R22",
       "R45"
@@ -339,9 +340,10 @@
     "name": "Leitzachtal Höhenweg",
     "alt": "32 km · 690 hm",
     "wegpunkte": [
-      "Fischbachau"
+      "Fischbachau",
+      "Hundham"
     ],
-    "neuer_name": "Firstalm-Runde: Fischbachau",
+    "neuer_name": "Firstalm-Runde: Fischbachau & Hundham",
     "gleiche_wegpunkte_wie": [
       "R12",
       "R39"
@@ -352,9 +354,10 @@
     "name": "Spitzingsee Waldtrail",
     "alt": "16 km · 480 hm",
     "wegpunkte": [
-      "Spitzingsee"
+      "Spitzingsee",
+      "Taubensteinhaus"
     ],
-    "neuer_name": "Firstalm-Runde: Spitzingsee",
+    "neuer_name": "Firstalm-Runde: Spitzingsee & Taubensteinhaus",
     "gleiche_wegpunkte_wie": [
       "R25",
       "R46"
@@ -377,9 +380,9 @@
     "name": "Miesing Gravel-Loop",
     "alt": "27 km · 700 hm",
     "wegpunkte": [
-      "Miesbach"
+      "Hochmiesing"
     ],
-    "neuer_name": "Firstalm-Runde: Miesbach",
+    "neuer_name": "Firstalm-Runde: Hochmiesing",
     "gleiche_wegpunkte_wie": [
       "R11",
       "R47"
@@ -449,9 +452,9 @@
     "name": "Stümpfling- & Grünsee-Gravelanstieg",
     "alt": "16 km · 800 hm",
     "wegpunkte": [
-      "Fischbachau"
+      "Stümpfling"
     ],
-    "neuer_name": "Firstalm-Runde: Fischbachau",
+    "neuer_name": "Firstalm-Runde: Stümpfling",
     "gleiche_wegpunkte_wie": [
       "R12",
       "R30"
@@ -486,9 +489,10 @@
     "name": "Karwendel-Gravel-Etappe",
     "alt": "58 km · 1.400 hm",
     "wegpunkte": [
-      "Lenggries"
+      "Lenggries",
+      "Brauneck"
     ],
-    "neuer_name": "Firstalm-Runde: Lenggries",
+    "neuer_name": "Firstalm-Runde: Lenggries & Brauneck",
     "gleiche_wegpunkte_wie": [
       "R49"
     ]
@@ -512,9 +516,9 @@
     "alt": "62 km · 1.550 hm",
     "wegpunkte": [
       "Bayrischzell",
-      "Sudelfeld"
+      "Wendelsteinhaus"
     ],
-    "neuer_name": "Firstalm-Runde: Bayrischzell & Sudelfeld",
+    "neuer_name": "Firstalm-Runde: Bayrischzell & Wendelsteinhaus",
     "gleiche_wegpunkte_wie": [
       "R29"
     ]
@@ -524,9 +528,10 @@
     "name": "Tegernsee-Berge Doppelpack",
     "alt": "48 km · 1.300 hm",
     "wegpunkte": [
-      "Tegernsee"
+      "Wallberg",
+      "Baumgartenschneid"
     ],
-    "neuer_name": "Firstalm-Runde: Tegernsee",
+    "neuer_name": "Firstalm-Runde: Wallberg & Baumgartenschneid",
     "gleiche_wegpunkte_wie": [
       "R22",
       "R26"
@@ -537,9 +542,10 @@
     "name": "Spitzingsee Bikepacking-Overnighter",
     "alt": "52 km · 1.350 hm",
     "wegpunkte": [
-      "Spitzingsee"
+      "Spitzingsee",
+      "Schönfeldhütte"
     ],
-    "neuer_name": "Firstalm-Runde: Spitzingsee",
+    "neuer_name": "Firstalm-Runde: Spitzingsee & Schönfeldhütte",
     "gleiche_wegpunkte_wie": [
       "R25",
       "R31"
@@ -550,9 +556,10 @@
     "name": "Mangfall-Querung Extrem",
     "alt": "88 km · 1.950 hm",
     "wegpunkte": [
-      "Miesbach"
+      "Hochmiesing",
+      "Wendelsteinhaus"
     ],
-    "neuer_name": "Firstalm-Runde: Miesbach",
+    "neuer_name": "Firstalm-Runde: Hochmiesing & Wendelsteinhaus",
     "gleiche_wegpunkte_wie": [
       "R11",
       "R33"
@@ -574,9 +581,10 @@
     "name": "Alpenranden Großrunde",
     "alt": "75 km · 1.700 hm",
     "wegpunkte": [
-      "Lenggries"
+      "Lenggries",
+      "Benediktenwand"
     ],
-    "neuer_name": "Firstalm-Runde: Lenggries",
+    "neuer_name": "Firstalm-Runde: Lenggries & Benediktenwand",
     "gleiche_wegpunkte_wie": [
       "R42"
     ]
@@ -586,10 +594,10 @@
     "name": "Voralpen Monster-Etappe",
     "alt": "90 km · 2.000 hm",
     "wegpunkte": [
-      "Schliersee",
+      "Spitzingsee",
       "Tegernsee"
     ],
-    "neuer_name": "Firstalm-Runde: Schliersee & Tegernsee",
+    "neuer_name": "Firstalm-Runde: Spitzingsee & Tegernsee",
     "gleiche_wegpunkte_wie": [
       "R43"
     ]
