@@ -70,15 +70,15 @@ LL = page('Langlauf', '🎿 Langlauf am Spitzingsee &amp; Schliersee',
           ('snow-online – Loipen Schliersee–Spitzingsee','https://www.snow-online.com/cross-country/spitzingsee_trailmap.html')]))
 
 RODEL = page('Rodelbahn Obere Firstalm', '🛷 Rodelbahn Obere Firstalm',
- 'Die Familien-Rodelbahn am Spitzingsee: vom Spitzingsattel hinauf zur Oberen Firstalm (1.375 m), oben einkehren, auf rund 2,5 km wieder hinunter. Keine scharfen Kurven, keine Steilstücke – und abends beleuchtet. Die Alm ist unser Zuhause; die Zahlen unten stammen trotzdem aus nachprüfbaren Quellen.',
+ 'Die Familien-Rodelbahn am Spitzingsee: vom Spitzingsattel hinauf zur Oberen Firstalm (1.375 m), oben einkehren, auf rund 2,5 km wieder hinunter. Keine scharfen Kurven, keine Steilstücke – und abends beleuchtet. Die Alm ist unser Zuhause – Öffnungszeiten und Preise kommen direkt von der Hütte, die Streckendaten aus den unten genannten Quellen.',
  H2('📋 Eckdaten')+tab([
    ('Länge','ca. 2,5–2,6 km'),('Höhe','Spitzingsattel ca. 1.130 m → Obere Firstalm 1.375 m (ca. 250 Hm)'),
    ('Aufstieg','ca. 40–45 min zu Fuß auf der Bahn (für Autos gesperrter Fahrweg)'),
-   ('Schwierigkeit','leicht, gut mit Kindern'),('Beleuchtung','abends beleuchtet – laut bergtour-online.de bis 22:30 Uhr'),
-   ('Rodelverleih','an der Oberen Firstalm, ca. 7 € pro Rodel (Stand 2024/25)'),
+   ('Schwierigkeit','leicht, gut mit Kindern'),('Beleuchtung','Mondscheinrodeln ab 27.11.2026 – Bahn bis 22:30 Uhr beleuchtet'),
+   ('Rodelverleih','an der Oberen Firstalm, 7 € pro Schlitten'),
    ('Alternative','vom Parkplatz Kurvenlift über die Untere Firstalm (1.318 m) hinauf'),
-   ('Anreise','Bus 362 bis Haltestelle Spitzingsattel; Parkplatz am Sattel gebührenpflichtig')])+
- H2('🕒 Öffnungszeiten')+P('Die Quellen nennen unterschiedliche Zeiten (täglich ab 9 bzw. 10 Uhr, bei guten Rodelverhältnissen abends bis 22 Uhr; am 24.12. geschlossen). Vor dem Aufbruch telefonisch prüfen: <strong>08026 7302</strong>.')+
+   ('Anreise','Bus 362 bis Haltestelle Spitzingsattel; Parkplatz am Sattel 8 € pro Tag')])+
+ H2('🕒 Öffnungszeiten (Winter 2026/27)')+'<div style="background:#f0fdf4;border-left:5px solid #2d8a56;padding:12px 16px;border-radius:10px;color:#1f2933;"><strong>Aus erster Hand – Obere Firstalm, Stand 27.11.2026:</strong>''<ul style="margin:8px 0 0 18px;line-height:1.7;"><li>Geöffnet täglich 11–22 Uhr, ab 22 Uhr Hüttenruhe</li><li>Küche 11–21 Uhr</li>''<li>Frühstück 8–10 Uhr, 17,50 € pro Person</li><li>Mondscheinrodeln ab 27.11.2026, Bahn bis 22:30 Uhr beleuchtet</li><li>Schlitten-Verleih 7 €</li></ul>''<p style="margin:8px 0 0;">Telefon <strong>08026 7302</strong>.</p></div>'+
  H2('⚠️ Hinweise')+'<ul style="line-height:1.7;color:#1f2933;"><li>Bergauf am Rand gehen – die Bahn ist gleichzeitig Aufstiegsweg.</li><li>Bei harter, vereister Bahn langsam fahren; Grödel für den Aufstieg helfen.</li><li>Den aktuellen Zustand der Bahn vorab erfragen, besonders am Saisonanfang.</li></ul>'+
  '<p><a href="/content/winter/schneeschuh/firstalm.html">Obere Firstalm als Winterwanderung</a> · <a href="/content/winter/rodeln-familie.html">Rodeln mit Familie</a></p>'+
  quellen([('bergtour-online.de – Obere Firstalm Rodeln: 2,5 km, 250 Hm, beleuchtet bis 22:30, Rodelverleih','https://www.bergtour-online.de/bergtouren/wintertouren/rodeltouren/obere-firstalm-rodeln/'),
@@ -90,7 +90,7 @@ RODEL = page('Rodelbahn Obere Firstalm', '🛷 Rodelbahn Obere Firstalm',
 RODELN = page('Rodeln', '🛷 Rodeln am Spitzingsee &amp; Tegernsee',
  'Am Spitzingsee gibt es eine offizielle Familien-Rodelbahn – die an der Oberen Firstalm. Eine Taubenstein- oder „Rotwandbahn“-Rodelbahn gibt es nicht. Für längere Abfahrten lohnt der Blick ins Tegernseer Tal.',
  H2('🏔️ Am Spitzingsee')+tab([
-   ('Obere Firstalm','ca. 2,5 km','leicht','Aufstieg 40–45 min vom Spitzingsattel, abends beleuchtet, Rodelverleih an der Alm'),
+   ('Obere Firstalm','ca. 2,5 km','leicht','Aufstieg 40–45 min vom Spitzingsattel, bis 22:30 Uhr beleuchtet, Schlitten 7 € an der Alm'),
    ('Rotwandhaus','ca. 4,5 km','mittel','keine offizielle Rodelbahn, Forststraße nicht präpariert, kein Verleih – nur mit eigenem Schlitten bei guter Schneelage')],
    kopf=['Bahn','Länge','Anspruch','Hinweis'])+
  '<p><a href="/content/winter/firstalm-rodelbahn.html">→ Rodelbahn Obere Firstalm mit allen Eckdaten</a></p>'+

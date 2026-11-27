@@ -135,7 +135,7 @@ TOUREN = {
   route=['Vom Spitzingsattel auf dem für Autos gesperrten Fahrweg (Trautweinweg) zur Oberen Firstalm. Das ist zugleich die Rodelbahn – am Rand gehen und auf Schlittenfahrer achten.',
          'Alternative vom Parkplatz Kurvenlift: über die Untere Firstalm (1.318 m) weiter zur Oberen Firstalm.',
          'Mit Schneeschuhen: von der Oberen Firstalm über den Südwesthang zum Brecherspitz-Westgipfel; zurück wie Aufstieg.'],
-  hinweis='Öffnungszeiten der Hütte und den Zustand der Rodelbahn vor dem Aufbruch prüfen – bei guten Rodelverhältnissen ist abends länger geöffnet.',
+  hinweis='Obere Firstalm im Winter 2026/27: täglich 11–22 Uhr (Küche 11–21 Uhr), Frühstück 8–10 Uhr für 17,50 € pro Person. Mondscheinrodeln ab 27.11., Bahn bis 22:30 Uhr beleuchtet, Schlitten 7 €. Parken am Spitzingsattel 8 €.',
   aff=SCHNEESCHUH_AFF,
   quellen=[('hoehenrausch.de – Obere Firstalm (1.375 m): 45 min, 250 Hm vom Spitzingsattel','https://www.hoehenrausch.de/huetten/obere-firstalm/huettenbuch.php'),
            ('hoehenrausch.de – Winterwandern und Rodeln an der Oberen Firstalm: 249 Hm','https://www.hoehenrausch.de/wandern/kinder/obere-firstalm'),
