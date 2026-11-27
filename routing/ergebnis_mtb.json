@@ -22,15 +22,15 @@
     "alt": "neu",
     "treffer": [
       "Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
-      "Kreuzbergalm, Thiersee, Bezirk Kufstein, Tirol, Österreich"
+      "Kreuzbergalm, Prinzenweg, Schliersee, Landkreis Miesbach, Bayern, 83684, Deutschland"
     ],
     "strecke": false,
-    "laenge_km_brouter": 59.61,
-    "laenge_km_geometrie": 59.5,
-    "hm_aufstieg": 1998,
+    "laenge_km_brouter": 23.89,
+    "laenge_km_geometrie": 23.85,
+    "hm_aufstieg": 873,
     "start_abweichung_m": 12,
     "ziel_abweichung_m": 12,
-    "hm_abstieg": 1998
+    "hm_abstieg": 873
   },
   {
     "kennung": "M03",
@@ -162,7 +162,17 @@
     "kennung": "M11",
     "name": "Firstalm-Runde: Wallbergmoos & Enteralm",
     "alt": "bestehende Tour",
-    "fehler": "Kein Treffer: Wallbergmoos"
+    "treffer": [
+      "Wallbergmoosalm Berggaststätte, 1, Wallbergmoos, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland",
+      "Enteralm, Steinberg am Rofan, Bezirk Schwaz, Tirol, 6215, Österreich"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 84.23,
+    "laenge_km_geometrie": 84.13,
+    "hm_aufstieg": 4494,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 4494
   },
   {
     "kennung": "M12",
@@ -249,9 +259,9 @@
   },
   {
     "kennung": "M17",
-    "name": "Firstalm-Runde: Ackernalm & Steinkaseralm",
+    "name": "Firstalm-Runde: Wildbad Kreuth & Schwaigeralm",
     "alt": "neu",
-    "fehler": "Kein Treffer: Steinkaseralm"
+    "fehler": "Kein Treffer: Schwaigeralm@11.68,47.66,11.80,47.58"
   },
   {
     "kennung": "M18",
@@ -348,9 +358,19 @@
   },
   {
     "kennung": "M24",
-    "name": "Firstalm-Runde: Freudenreichalm",
+    "name": "Firstalm-Runde: Freudenreichsattel & Breitenbach",
     "alt": "neu",
-    "fehler": "Kein Treffer: Freudenreichalm"
+    "treffer": [
+      "Freudenreich-Alm, Dürnbachwandsteig, Neuhaus, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Breitenbach, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 17.16,
+    "laenge_km_geometrie": 17.16,
+    "hm_aufstieg": 595,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 595
   },
   {
     "kennung": "M25",
@@ -384,9 +404,18 @@
   },
   {
     "kennung": "M27",
-    "name": "Firstalm-Runde: Schilchental & Breitenbach",
+    "name": "Firstalm-Runde: Schliersbergalm",
     "alt": "neu",
-    "fehler": "Kein Treffer: Schilchental"
+    "treffer": [
+      "Hotel Schliersbergalm, Dekan-Maier-Weg, Kreit, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 21.79,
+    "laenge_km_geometrie": 21.74,
+    "hm_aufstieg": 890,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 890
   },
   {
     "kennung": "M28",
