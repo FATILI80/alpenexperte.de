@@ -1,3 +1,4 @@
+import re
 #!/usr/bin/env python3
 """R01–R50: Regionaltouren ab Oberer Firstalm als Rundfahrt rechnen (BRouter, gravel).
 
@@ -22,6 +23,11 @@ PROFIL = "gravel"
 
 def geocode(ort, cache):
     if ort in cache:
+        return cache[ort]
+    m = re.fullmatch(r"\s*(-?\d+\.\d+)\s*,\s*(-?\d+\.\d+)\s*", ort)
+    if m:  # direkte Koordinaten "lat, lon"
+        cache[ort] = {"name": ort, "lat": float(m.group(1)), "lon": float(m.group(2)),
+                      "treffer": "Koordinaten (manuell)"}
         return cache[ort]
     q = urllib.parse.urlencode({"q": f"{ort}, Bayern", "format": "json", "limit": 1,
                                 "countrycodes": "de,at"})

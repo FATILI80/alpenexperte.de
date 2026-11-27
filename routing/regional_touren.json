@@ -131,13 +131,10 @@
     "name": "Aurach-Tal Rollout",
     "alt": "28 km · 260 hm",
     "wegpunkte": [
-      "Aurach"
+      "47.705753,11.911271"
     ],
     "neuer_name": "Firstalm-Runde: Aurach",
-    "gleiche_wegpunkte_wie": [
-      "R30",
-      "R39"
-    ]
+    "gleiche_wegpunkte_wie": []
   },
   {
     "kennung": "R13",
@@ -171,9 +168,7 @@
       "Neuhaus"
     ],
     "neuer_name": "Firstalm-Runde: Schliersee & Neuhaus",
-    "gleiche_wegpunkte_wie": [
-      "R32"
-    ]
+    "gleiche_wegpunkte_wie": []
   },
   {
     "kennung": "R16",
@@ -361,18 +356,6 @@
     "gleiche_wegpunkte_wie": [
       "R25",
       "R46"
-    ]
-  },
-  {
-    "kennung": "R32",
-    "name": "Firstalm Anstieg",
-    "alt": "13 km · 520 hm",
-    "wegpunkte": [
-      "Schliersee"
-    ],
-    "neuer_name": "Firstalm-Runde: Schliersee",
-    "gleiche_wegpunkte_wie": [
-      "R15"
     ]
   },
   {
