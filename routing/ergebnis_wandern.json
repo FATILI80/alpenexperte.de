@@ -190,16 +190,16 @@
     "name": "Schönfeldalm & Schnittlauchmoos-Runde",
     "alt": "frühere Unterseite schoenfeldalm-runde.html",
     "treffer": [
-      "Schönfeldalm, Thiersee, Bezirk Kufstein, Tirol, 6335, Österreich",
-      "Schnittlauchmoosalm, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+      "Untere Schönfeldalm, Spitzingsee, Schliersee",
+      "Schnittlauchmoosalm, Schliersee"
     ],
     "strecke": false,
-    "laenge_km_brouter": 50.99,
+    "laenge_km_brouter": 12.97,
     "laenge_km_geometrie": 50.9,
-    "hm_aufstieg": 2428,
+    "hm_aufstieg": 797,
     "start_abweichung_m": 12,
     "ziel_abweichung_m": 12,
-    "hm_abstieg": 2428
+    "hm_abstieg": 797
   },
   {
     "kennung": "W13",

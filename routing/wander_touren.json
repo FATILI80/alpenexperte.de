@@ -98,7 +98,7 @@
   },
   {
     "kennung": "W09",
-    "name": "Firstalm-Runde: Ringsee am Tegernsee",
+    "name": "Ringsee bei Kreuth",
     "alt": "frühere Unterseite ringsee-runde.html",
     "wegpunkte": [
       "Ringsee"
@@ -119,7 +119,7 @@
     "name": "Schönfeldalm & Schnittlauchmoos-Runde",
     "alt": "frühere Unterseite schoenfeldalm-runde.html",
     "wegpunkte": [
-      "Schönfeldalm",
+      "Untere Schönfeldalm",
       "Schnittlauchmoosalm"
     ],
     "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen",
