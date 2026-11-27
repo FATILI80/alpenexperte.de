@@ -113,6 +113,30 @@
   {
     "kennung": "GG-IT-04",
     "name": "Ciclovia del Sole bis Rom",
-    "fehler": "HTTP Error 400: Bad Request"
+    "zwischenpunkte": [
+      {
+        "name": "Brenner",
+        "treffer": "Brenner - Brennero, Wipptal - Alta Vall'Isarco, Bolzano - Bozen, Trentino-Alto Adige/Südtirol, 39041, Italia"
+      },
+      {
+        "name": "Verona Arena",
+        "treffer": "Arena di Verona, Via Anfiteatro, Città antica, Centro storico, Verona, Veneto, 37121, Italia"
+      },
+      {
+        "name": "Bologna",
+        "treffer": "Bologna, Emilia-Romagna, Italia"
+      },
+      {
+        "name": "Florenz Dom",
+        "treffer": "Piazza del Duomo, Quartiere 1, Firenze, Toscana, Italia"
+      },
+      {
+        "name": "Rom Kolosseum",
+        "treffer": "Colosseo, Celio, Municipio Roma I, Roma, Roma Capitale, Lazio, 00184, Italia"
+      }
+    ],
+    "laenge_km_brouter": 1045.46,
+    "laenge_km_geometrie": 1044.65,
+    "hm_aufstieg": 10063
   }
 ]
