@@ -1328,6 +1328,126 @@
       "source": "/content/winter/winterwandern-groedel",
       "destination": "/content/winter/schneeschuh/index.html",
       "permanent": true
+    },
+    {
+      "source": "/content/mtb/alte-spitzingstrasse.html",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/alte-spitzingstrasse",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/bodenschneid-firstalm-trail.html",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/bodenschneid-firstalm-trail",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/drei-seen-runde.html",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/drei-seen-runde",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/erzherzog-johann-klause.html",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/erzherzog-johann-klause",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/gindelalm-neureuth-trail.html",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/gindelalm-neureuth-trail",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/hirschtalsattel-runde.html",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/hirschtalsattel-runde",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/prinzenweg.html",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/prinzenweg",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/rotwand.html",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/rotwand",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/spitzingsee-runde.html",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/spitzingsee-runde",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/sudelfeld-wendelstein-loop.html",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/sudelfeld-wendelstein-loop",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/wallberg-moosalm-runde.html",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/wallberg-moosalm-runde",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/mountainbiken-tegernsee-touren.html",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/mtb/mountainbiken-tegernsee-touren",
+      "destination": "/content/mtb/index.html",
+      "permanent": true
     }
   ]
 }
