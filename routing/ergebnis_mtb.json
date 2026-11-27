@@ -8,7 +8,13 @@
       "Tegernsee, Landkreis Miesbach, Bayern, 83684, Deutschland",
       "Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 41.35,
+    "laenge_km_geometrie": 41.29,
+    "hm_aufstieg": 1629,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1629
   },
   {
     "kennung": "M02",
@@ -18,7 +24,13 @@
       "Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
       "Kreuzbergalm, Thiersee, Bezirk Kufstein, Tirol, Österreich"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 59.61,
+    "laenge_km_geometrie": 59.5,
+    "hm_aufstieg": 1998,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1998
   },
   {
     "kennung": "M03",
@@ -27,7 +39,13 @@
     "treffer": [
       "Rotwandhaus, 3, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 18.26,
+    "laenge_km_geometrie": 18.21,
+    "hm_aufstieg": 1049,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1049
   },
   {
     "kennung": "M04",
@@ -36,7 +54,13 @@
     "treffer": [
       "Josefsthal, Neuhaus, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 11.95,
+    "laenge_km_geometrie": 11.94,
+    "hm_aufstieg": 580,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 580
   },
   {
     "kennung": "M05",
@@ -46,7 +70,13 @@
       "Alte Wurzhütte, 1, Roßkopfweg, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
       "Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 8.08,
+    "laenge_km_geometrie": 8.07,
+    "hm_aufstieg": 282,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 282
   },
   {
     "kennung": "M06",
@@ -56,7 +86,13 @@
       "Bodenschneidhaus, 1, Bodenschneid, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
       "Fischhausen-Neuhaus, Wendelsteinstraße, Fischhausen, Neuhaus, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 12.24,
+    "laenge_km_geometrie": 12.21,
+    "hm_aufstieg": 671,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 671
   },
   {
     "kennung": "M07",
@@ -66,7 +102,13 @@
       "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
       "Erzherzog-Johann-Klause, 82, Aschau, Pinegg, Aschau, Brandenberg, Bezirk Kufstein, Tirol, 6234, Österreich"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 36.61,
+    "laenge_km_geometrie": 36.58,
+    "hm_aufstieg": 1052,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1052
   },
   {
     "kennung": "M08",
@@ -76,7 +118,13 @@
       "Gindelalm, Schliersee, Landkreis Miesbach, Bayern, 83734, Deutschland",
       "Neureuth, Tegernsee, Landkreis Miesbach, Bayern, 83684, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 24.67,
+    "laenge_km_geometrie": 24.65,
+    "hm_aufstieg": 1040,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1040
   },
   {
     "kennung": "M09",
@@ -86,7 +134,13 @@
       "Bad Wiessee, Landkreis Miesbach, Bayern, 83707, Deutschland",
       "Hirschtalsattel, Bad Wiessee, Landkreis Miesbach, Bayern, 83707, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 46.39,
+    "laenge_km_geometrie": 46.29,
+    "hm_aufstieg": 1600,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1600
   },
   {
     "kennung": "M10",
@@ -96,7 +150,13 @@
       "Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland",
       "Grafenherberg, Oberaudorf, Landkreis Rosenheim, Bayern, 83080, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 45.31,
+    "laenge_km_geometrie": 45.2,
+    "hm_aufstieg": 2082,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2082
   },
   {
     "kennung": "M11",
@@ -113,7 +173,13 @@
       "Reichsteinalm, Thiersee, Bezirk Kufstein, Tirol, Österreich",
       "Ackernalm, 48, Almen, Thiersee, Bezirk Kufstein, Tirol, 6335, Österreich"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 40.15,
+    "laenge_km_geometrie": 40.09,
+    "hm_aufstieg": 1225,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1225
   },
   {
     "kennung": "M13",
@@ -123,7 +189,13 @@
       "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
       "Kaiserhaus, Brandenberg, Bezirk Kufstein, Tirol, 6234, Österreich"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 50.53,
+    "laenge_km_geometrie": 50.49,
+    "hm_aufstieg": 1285,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1285
   },
   {
     "kennung": "M14",
@@ -133,7 +205,13 @@
       "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
       "Ursprungpass, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 44.32,
+    "laenge_km_geometrie": 44.24,
+    "hm_aufstieg": 1514,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1514
   },
   {
     "kennung": "M15",
@@ -143,7 +221,13 @@
       "Elendsattel, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland",
       "Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 32.38,
+    "laenge_km_geometrie": 32.31,
+    "hm_aufstieg": 1881,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1881
   },
   {
     "kennung": "M16",
@@ -155,7 +239,13 @@
       "Landl, Thiersee, Bezirk Kufstein, Tirol, 6335, Österreich",
       "Ursprungpass, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 57.62,
+    "laenge_km_geometrie": 57.51,
+    "hm_aufstieg": 2293,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2293
   },
   {
     "kennung": "M17",
@@ -171,7 +261,13 @@
       "Sutten, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland",
       "Moni-Alm, 42, Sutten, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 6.56,
+    "laenge_km_geometrie": 6.56,
+    "hm_aufstieg": 536,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 536
   },
   {
     "kennung": "M19",
@@ -180,7 +276,13 @@
     "treffer": [
       "Grenzgasthof Bäckeralm,Bayrischzell, Tiroler Straße, Bäckeralpe, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 40.95,
+    "laenge_km_geometrie": 40.84,
+    "hm_aufstieg": 1898,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1898
   },
   {
     "kennung": "M20",
@@ -189,7 +291,13 @@
     "treffer": [
       "Schwarzentennalm, Altweibersteig, Kreuth, Landkreis Miesbach, Bayern, 83661, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 47.22,
+    "laenge_km_geometrie": 47.12,
+    "hm_aufstieg": 1410,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1410
   },
   {
     "kennung": "M21",
@@ -198,7 +306,13 @@
     "treffer": [
       "Buchsteinhütte, Altweibersteig, Kreuth, Landkreis Miesbach, Bayern, 83661, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 42.77,
+    "laenge_km_geometrie": 42.68,
+    "hm_aufstieg": 2764,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2764
   },
   {
     "kennung": "M22",
@@ -208,7 +322,13 @@
       "Wildbad Kreuth, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland",
       "Bayralm, BaySF MTB Trail, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 42.99,
+    "laenge_km_geometrie": 42.94,
+    "hm_aufstieg": 2076,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2076
   },
   {
     "kennung": "M23",
@@ -218,7 +338,13 @@
       "Bayralm, BaySF MTB Trail, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland",
       "Blaubergalm, Achenkirch, Bezirk Schwaz, Tirol, 6215, Österreich"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 49.34,
+    "laenge_km_geometrie": 49.27,
+    "hm_aufstieg": 2712,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2712
   },
   {
     "kennung": "M24",
@@ -233,7 +359,13 @@
     "treffer": [
       "Schönfeldhütte, 1, Hermann-Kleber-Weg, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 9.48,
+    "laenge_km_geometrie": 9.45,
+    "hm_aufstieg": 530,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 530
   },
   {
     "kennung": "M26",
@@ -242,7 +374,13 @@
     "treffer": [
       "Albert-Link-Hütte, 8, Valepper Straße, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 9.32,
+    "laenge_km_geometrie": 9.29,
+    "hm_aufstieg": 334,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 334
   },
   {
     "kennung": "M27",
@@ -258,7 +396,13 @@
       "Campingplatz NATURAMA Glockenalm, W7, Fischeralm, Hammer, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland",
       "Aurach, Hammer, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 17.71,
+    "laenge_km_geometrie": 17.71,
+    "hm_aufstieg": 601,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 601
   },
   {
     "kennung": "M29",
@@ -268,7 +412,13 @@
       "Krugalm, Hagnberg, Hammer, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland",
       "Osterhofen, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 30.38,
+    "laenge_km_geometrie": 30.33,
+    "hm_aufstieg": 1179,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1179
   },
   {
     "kennung": "M30",
@@ -278,7 +428,13 @@
       "Bayralm, BaySF MTB Trail, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland",
       "Gufferthütte, 83, Steig Issalm Gesperrt, Brandenberg, Bezirk Kufstein, Tirol, 6234, Österreich"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 45.98,
+    "laenge_km_geometrie": 45.92,
+    "hm_aufstieg": 2463,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 2463
   },
   {
     "kennung": "M31",
@@ -288,6 +444,12 @@
       "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
       "Enterrottach, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 29.0,
+    "laenge_km_geometrie": 28.99,
+    "hm_aufstieg": 1546,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1546
   }
 ]
