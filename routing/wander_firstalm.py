@@ -44,14 +44,19 @@ def main():
                 print(eintrag["kennung"], eintrag["fehler"])
                 continue
             eintrag["treffer"] = [g["treffer"] for g in orte]
-            punkte = [start] + orte + [start]
+            strecke = bool(t.get("strecke"))
+            punkte = [start] + orte + ([] if strecke else [start])
+            ziel = orte[-1] if strecke else start
             geo = kette_brouter(punkte)
-            m = route.messen(geo, start, start)
+            m = route.messen(geo, start, ziel)
+            p = geo["features"][0].get("properties", {})
+            netto = float(p.get("plain-ascend", 0) or 0)
+            m["hm_abstieg"] = round(m["hm_aufstieg"] - netto)
+            eintrag["strecke"] = strecke
             eintrag.update(m)
-            eintrag["pruefung"] = route.pruefen(m) if hasattr(route, "pruefen") else None
             (geo_dir / f"{t['kennung']}_wandern.geojson").write_text(
                 json.dumps(geo, ensure_ascii=False), encoding="utf-8")
-            print(f"{t['kennung']}: {m['laenge_km_brouter']} km · {m['hm_aufstieg']} Hm "
+            print(f"{t['kennung']}: {m['laenge_km_brouter']} km · ↑{m['hm_aufstieg']} ↓{m['hm_abstieg']} Hm "
                   f"(Start-Abweichung {m['start_abweichung_m']} m)")
         except Exception as e:
             eintrag["fehler"] = str(e)
