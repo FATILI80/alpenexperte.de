@@ -226,30 +226,6 @@
     ]
   },
   {
-    "kennung": "R21",
-    "name": "Valepp-Schlucht Gravel",
-    "alt": "26 km · 620 hm",
-    "wegpunkte": [
-      "Spitzingsee",
-      "Erzherzog-Johann-Klause"
-    ],
-    "neuer_name": "Firstalm-Runde: Spitzingsee & Erzherzog-Johann-Klause",
-    "gleiche_wegpunkte_wie": []
-  },
-  {
-    "kennung": "R22",
-    "name": "Tegernseer Alm-Anstieg",
-    "alt": "20 km · 700 hm",
-    "wegpunkte": [
-      "Rottachalm"
-    ],
-    "neuer_name": "Firstalm-Runde: Rottachalm",
-    "gleiche_wegpunkte_wie": [
-      "R26",
-      "R45"
-    ]
-  },
-  {
     "kennung": "R23",
     "name": "Schönfeld-Weg",
     "alt": "19 km · 560 hm",
