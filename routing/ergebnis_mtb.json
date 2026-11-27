@@ -1,0 +1,293 @@
+[
+  {
+    "kennung": "M01",
+    "name": "Firstalm-Runde: Drei-Seen-Runde",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Tegernsee, Landkreis Miesbach, Bayern, 83684, Deutschland",
+      "Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M02",
+    "name": "Firstalm-Runde: Prinzenweg & Kreuzbergalm",
+    "alt": "neu",
+    "treffer": [
+      "Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Kreuzbergalm, Thiersee, Bezirk Kufstein, Tirol, Österreich"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M03",
+    "name": "Firstalm-Runde: Rotwandhaus",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Rotwandhaus, 3, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M04",
+    "name": "Firstalm-Runde: Alte Spitzingstraße & Josefsthal",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Josefsthal, Neuhaus, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M05",
+    "name": "Firstalm-Runde: Spitzingsee-Runde",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Alte Wurzhütte, 1, Roßkopfweg, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M06",
+    "name": "Firstalm-Runde: Bodenschneidhaus & Neuhaus",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Bodenschneidhaus, 1, Bodenschneid, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Fischhausen-Neuhaus, Wendelsteinstraße, Fischhausen, Neuhaus, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M07",
+    "name": "Firstalm-Runde: Erzherzog-Johann-Klause",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Erzherzog-Johann-Klause, 82, Aschau, Pinegg, Aschau, Brandenberg, Bezirk Kufstein, Tirol, 6234, Österreich"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M08",
+    "name": "Firstalm-Runde: Gindelalm & Neureuth",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Gindelalm, Schliersee, Landkreis Miesbach, Bayern, 83734, Deutschland",
+      "Neureuth, Tegernsee, Landkreis Miesbach, Bayern, 83684, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M09",
+    "name": "Firstalm-Runde: Söllbachtal & Hirschtalsattel",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Bad Wiessee, Landkreis Miesbach, Bayern, 83707, Deutschland",
+      "Hirschtalsattel, Bad Wiessee, Landkreis Miesbach, Bayern, 83707, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M10",
+    "name": "Firstalm-Runde: Bayrischzell & Grafenherberg",
+    "alt": "bestehende Tour",
+    "treffer": [
+      "Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland",
+      "Grafenherberg, Oberaudorf, Landkreis Rosenheim, Bayern, 83080, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M11",
+    "name": "Firstalm-Runde: Wallbergmoos & Enteralm",
+    "alt": "bestehende Tour",
+    "fehler": "Kein Treffer: Wallbergmoos"
+  },
+  {
+    "kennung": "M12",
+    "name": "Firstalm-Runde: Reichsteinalm & Ackernalm",
+    "alt": "neu",
+    "treffer": [
+      "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Reichsteinalm, Thiersee, Bezirk Kufstein, Tirol, Österreich",
+      "Ackernalm, 48, Almen, Thiersee, Bezirk Kufstein, Tirol, 6335, Österreich"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M13",
+    "name": "Firstalm-Runde: Kaiserhaus an der Brandenberger Ache",
+    "alt": "neu",
+    "treffer": [
+      "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Kaiserhaus, Brandenberg, Bezirk Kufstein, Tirol, 6234, Österreich"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M14",
+    "name": "Firstalm-Runde: Valepp & Ursprungpass",
+    "alt": "neu",
+    "treffer": [
+      "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Ursprungpass, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M15",
+    "name": "Firstalm-Runde: Elendsattel & Bayrischzell",
+    "alt": "neu",
+    "treffer": [
+      "Elendsattel, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland",
+      "Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M16",
+    "name": "Firstalm-Runde: Sonnwendjoch-Umrundung über Landl",
+    "alt": "neu",
+    "treffer": [
+      "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Ackernalm, 48, Almen, Thiersee, Bezirk Kufstein, Tirol, 6335, Österreich",
+      "Landl, Thiersee, Bezirk Kufstein, Tirol, 6335, Österreich",
+      "Ursprungpass, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M17",
+    "name": "Firstalm-Runde: Ackernalm & Steinkaseralm",
+    "alt": "neu",
+    "fehler": "Kein Treffer: Steinkaseralm"
+  },
+  {
+    "kennung": "M18",
+    "name": "Firstalm-Runde: Sutten & Moni-Alm",
+    "alt": "neu",
+    "treffer": [
+      "Sutten, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland",
+      "Moni-Alm, 42, Sutten, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M19",
+    "name": "Firstalm-Runde: Bäckeralm",
+    "alt": "neu",
+    "treffer": [
+      "Grenzgasthof Bäckeralm,Bayrischzell, Tiroler Straße, Bäckeralpe, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M20",
+    "name": "Firstalm-Runde: Schwarzentennalm",
+    "alt": "neu",
+    "treffer": [
+      "Schwarzentennalm, Altweibersteig, Kreuth, Landkreis Miesbach, Bayern, 83661, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M21",
+    "name": "Firstalm-Runde: Buchsteinhütte",
+    "alt": "neu",
+    "treffer": [
+      "Buchsteinhütte, Altweibersteig, Kreuth, Landkreis Miesbach, Bayern, 83661, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M22",
+    "name": "Firstalm-Runde: Langenau & Bayralm",
+    "alt": "neu",
+    "treffer": [
+      "Wildbad Kreuth, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland",
+      "Bayralm, BaySF MTB Trail, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M23",
+    "name": "Firstalm-Runde: Bayralm & Blaubergalm",
+    "alt": "neu",
+    "treffer": [
+      "Bayralm, BaySF MTB Trail, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland",
+      "Blaubergalm, Achenkirch, Bezirk Schwaz, Tirol, 6215, Österreich"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M24",
+    "name": "Firstalm-Runde: Freudenreichalm",
+    "alt": "neu",
+    "fehler": "Kein Treffer: Freudenreichalm"
+  },
+  {
+    "kennung": "M25",
+    "name": "Firstalm-Runde: Schönfeldhütte",
+    "alt": "neu",
+    "treffer": [
+      "Schönfeldhütte, 1, Hermann-Kleber-Weg, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M26",
+    "name": "Firstalm-Runde: Albert-Link-Hütte",
+    "alt": "neu",
+    "treffer": [
+      "Albert-Link-Hütte, 8, Valepper Straße, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M27",
+    "name": "Firstalm-Runde: Schilchental & Breitenbach",
+    "alt": "neu",
+    "fehler": "Kein Treffer: Schilchental"
+  },
+  {
+    "kennung": "M28",
+    "name": "Firstalm-Runde: Glockenalm & Aurach",
+    "alt": "neu",
+    "treffer": [
+      "Campingplatz NATURAMA Glockenalm, W7, Fischeralm, Hammer, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland",
+      "Aurach, Hammer, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M29",
+    "name": "Firstalm-Runde: Krugalm & Osterhofen",
+    "alt": "neu",
+    "treffer": [
+      "Krugalm, Hagnberg, Hammer, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland",
+      "Osterhofen, Bayrischzell, Landkreis Miesbach, Bayern, 83735, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M30",
+    "name": "Firstalm-Runde: Bayralm & Gufferthütte",
+    "alt": "neu",
+    "treffer": [
+      "Bayralm, BaySF MTB Trail, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland",
+      "Gufferthütte, 83, Steig Issalm Gesperrt, Brandenberg, Bezirk Kufstein, Tirol, 6234, Österreich"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "M31",
+    "name": "Firstalm-Runde: Valepper Mautstraße bis Enterrottach",
+    "alt": "neu",
+    "treffer": [
+      "Forsthaus Valepp, 2, Valepp, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Enterrottach, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  }
+]
