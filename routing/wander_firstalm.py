@@ -8,6 +8,8 @@ Ausgabe: routing/ergebnis_wandern.json und content/wandern/geojson/{Kennung}_wan
 Gefundene Orte stehen in der Ausgabe und müssen geprüft werden.
 """
 import json
+import re
+import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -17,6 +19,30 @@ import regional_firstalm as rf
 
 HIER = Path(__file__).resolve().parent
 PROFIL = "hiking-mountain"
+
+
+# Suche nur im Gebiet Mangfallgebirge/Tegernsee/Spitzing/Bayrischzell (lon 11.55–12.05, lat 47.55–47.78),
+# sonst trifft Nominatim gleichnamige Orte in ganz Bayern (z. B. Buchstein bei Bayreuth).
+VIEWBOX = "11.55,47.78,12.05,47.55"
+
+
+def geocode_region(ort, cache):
+    if re.match(r"^\s*-?\d+(\.\d+)?\s*,\s*-?\d+(\.\d+)?\s*$", ort):
+        return rf.geocode(ort, cache)
+    if ort in cache:
+        return cache[ort]
+    q = urllib.parse.urlencode({"q": ort, "format": "json", "limit": 1, "countrycodes": "de,at",
+                                "viewbox": VIEWBOX, "bounded": 1})
+    req = urllib.request.Request(f"{rf.NOMINATIM}?{q}", headers={"User-Agent": rf.UA})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        treffer = json.loads(r.read().decode("utf-8"))
+    time.sleep(1.1)
+    if not treffer:
+        cache[ort] = None
+    else:
+        t = treffer[0]
+        cache[ort] = {"name": ort, "lat": float(t["lat"]), "lon": float(t["lon"]), "treffer": t["display_name"]}
+    return cache[ort]
 
 
 def kette_brouter(punkte):
@@ -36,7 +62,7 @@ def main():
     for t in touren:
         eintrag = {"kennung": t["kennung"], "name": t["name"], "alt": t["alt"]}
         try:
-            orte = [rf.geocode(o, cache) for o in t["wegpunkte"]]
+            orte = [geocode_region(o, cache) for o in t["wegpunkte"]]
             fehlend = [o for o, g in zip(t["wegpunkte"], orte) if g is None]
             if fehlend:
                 eintrag["fehler"] = f"Kein Treffer: {', '.join(fehlend)}"
@@ -44,14 +70,19 @@ def main():
                 print(eintrag["kennung"], eintrag["fehler"])
                 continue
             eintrag["treffer"] = [g["treffer"] for g in orte]
-            punkte = [start] + orte + [start]
+            strecke = bool(t.get("strecke"))
+            punkte = [start] + orte + ([] if strecke else [start])
+            ziel = orte[-1] if strecke else start
             geo = kette_brouter(punkte)
-            m = route.messen(geo, start, start)
+            m = route.messen(geo, start, ziel)
+            p = geo["features"][0].get("properties", {})
+            netto = float(p.get("plain-ascend", 0) or 0)
+            m["hm_abstieg"] = round(m["hm_aufstieg"] - netto)
+            eintrag["strecke"] = strecke
             eintrag.update(m)
-            eintrag["pruefung"] = route.pruefen(m) if hasattr(route, "pruefen") else None
             (geo_dir / f"{t['kennung']}_wandern.geojson").write_text(
                 json.dumps(geo, ensure_ascii=False), encoding="utf-8")
-            print(f"{t['kennung']}: {m['laenge_km_brouter']} km · {m['hm_aufstieg']} Hm "
+            print(f"{t['kennung']}: {m['laenge_km_brouter']} km · ↑{m['hm_aufstieg']} ↓{m['hm_abstieg']} Hm "
                   f"(Start-Abweichung {m['start_abweichung_m']} m)")
         except Exception as e:
             eintrag["fehler"] = str(e)

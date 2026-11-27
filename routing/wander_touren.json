@@ -74,5 +74,276 @@
       "Schnittlauchmoosalm"
     ],
     "quelle": "Titel der Karte auf content/wandern/index.html (Gipfel und Alm, Ort per Nominatim prüfen)"
+  },
+  {
+    "kennung": "W05",
+    "name": "Firstalm-Runde: Spitzingsee & Wurzhütte",
+    "alt": "frühere Unterseite spitzingsee-umrundung.html",
+    "wegpunkte": [
+      "Wurzhütte",
+      "Spitzingsee"
+    ],
+    "quelle": "Ziel aus Titel der früheren Tour-Unterseite; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W07",
+    "name": "Große Firstalm – Untere Firstalm – Spitzingsee-Runde",
+    "alt": "frühere Unterseite untere-firstalm.html",
+    "wegpunkte": [
+      "Untere Firstalm",
+      "Spitzingsee"
+    ],
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen",
+    "strecke": false
+  },
+  {
+    "kennung": "W09",
+    "name": "Ringsee bei Kreuth",
+    "alt": "frühere Unterseite ringsee-runde.html",
+    "wegpunkte": [
+      "Ringsee"
+    ],
+    "quelle": "Ziel aus Titel der früheren Tour-Unterseite; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W10",
+    "name": "Firstalm-Runde: Aueralm (1.268 m)",
+    "alt": "frühere Unterseite aueralm.html",
+    "wegpunkte": [
+      "Aueralm"
+    ],
+    "quelle": "Ziel aus Titel der früheren Tour-Unterseite; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W12",
+    "name": "Schönfeldalm & Schnittlauchmoos-Runde",
+    "alt": "frühere Unterseite schoenfeldalm-runde.html",
+    "wegpunkte": [
+      "Untere Schönfeldalm",
+      "Schnittlauchmoosalm"
+    ],
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen",
+    "strecke": false
+  },
+  {
+    "kennung": "W13",
+    "name": "Firstalm-Runde: Kesselalm",
+    "alt": "frühere Unterseite kesselalm.html",
+    "wegpunkte": [
+      "Kesselalm"
+    ],
+    "quelle": "Ziel aus Titel der früheren Tour-Unterseite; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W14",
+    "name": "Firstalm-Runde: Holzeralm",
+    "alt": "frühere Unterseite holzeralm.html",
+    "wegpunkte": [
+      "Holzeralm"
+    ],
+    "quelle": "Ziel aus Titel der früheren Tour-Unterseite; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W15",
+    "name": "Firstalm-Runde: Rinnerspitz (1.615 m)",
+    "alt": "frühere Unterseite rinnerspitz.html",
+    "wegpunkte": [
+      "Rinnerspitz"
+    ],
+    "quelle": "Ziel aus Titel der früheren Tour-Unterseite; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W16",
+    "name": "Firstalm-Runde: Roßstein (1.698 m)",
+    "alt": "frühere Unterseite rossstein.html",
+    "wegpunkte": [
+      "Roßstein"
+    ],
+    "quelle": "Ziel aus Titel der früheren Tour-Unterseite; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W17",
+    "name": "Firstalm-Runde: Buchstein (1.701 m)",
+    "alt": "frühere Unterseite buchstein.html",
+    "wegpunkte": [
+      "Buchstein"
+    ],
+    "quelle": "Ziel aus Titel der früheren Tour-Unterseite; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W18",
+    "name": "Aiplspitz (1.759 m)",
+    "alt": "frühere Unterseite aiplspitz.html",
+    "wegpunkte": [
+      "Aiplspitz"
+    ],
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen",
+    "strecke": false
+  },
+  {
+    "kennung": "W19",
+    "name": "Hochmiesing (1.883 m)",
+    "alt": "frühere Unterseite hochmiesing.html",
+    "wegpunkte": [
+      "Hochmiesing"
+    ],
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen",
+    "strecke": false
+  },
+  {
+    "kennung": "W20",
+    "name": "Wallberg (1.722 m)",
+    "alt": "frühere Unterseite wallberg.html",
+    "wegpunkte": [
+      "Wallberg"
+    ],
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen",
+    "strecke": false
+  },
+  {
+    "kennung": "W21",
+    "name": "Firstalm-Runde: Schinder (1.808 m)",
+    "alt": "frühere Unterseite schinder.html",
+    "wegpunkte": [
+      "Schinder"
+    ],
+    "quelle": "Ziel aus Titel der früheren Tour-Unterseite; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W22",
+    "name": "Firstalm-Runde: Risserkogel (1.826 m)",
+    "alt": "frühere Unterseite plankenstein.html",
+    "wegpunkte": [
+      "Risserkogel"
+    ],
+    "quelle": "Ziel aus Titel der früheren Tour-Unterseite; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W23",
+    "name": "Rotwand über Rotwandhaus",
+    "alt": "frühere Unterseite rotwand-rundtour.html",
+    "wegpunkte": [
+      "Rotwandhaus",
+      "Rotwand"
+    ],
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen",
+    "strecke": false
+  },
+  {
+    "kennung": "W24",
+    "name": "Firstalm-Runde: Blecksteinhaus",
+    "alt": "frühere Unterseite bleckstein.html",
+    "wegpunkte": [
+      "Blecksteinhaus"
+    ],
+    "quelle": "Ziel aus Titel der früheren Tour-Unterseite; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W25",
+    "name": "Taubenstein (1.692 m)",
+    "wegpunkte": [
+      "Taubenstein"
+    ],
+    "strecke": false,
+    "alt": "Karte auf content/wandern/index.html",
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W26",
+    "name": "Stümpfling & Suttenstein",
+    "wegpunkte": [
+      "Stümpfling",
+      "Suttenstein"
+    ],
+    "strecke": false,
+    "alt": "Karte auf content/wandern/index.html",
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W27",
+    "name": "Roßkopf & Grünsee",
+    "wegpunkte": [
+      "Roßkopf",
+      "Grünsee"
+    ],
+    "strecke": false,
+    "alt": "Karte auf content/wandern/index.html",
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W28",
+    "name": "Setzberg (1.706 m)",
+    "wegpunkte": [
+      "Setzberg"
+    ],
+    "strecke": false,
+    "alt": "Karte auf content/wandern/index.html",
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W29",
+    "name": "Firstalm → Bodenschneidhaus → Bahnhof Neuhaus",
+    "wegpunkte": [
+      "Bodenschneidhaus",
+      "Bahnhof Fischhausen-Neuhaus"
+    ],
+    "strecke": true,
+    "alt": "Karte auf content/wandern/index.html",
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W30",
+    "name": "Firstalm → Sutten → Enterrottach",
+    "wegpunkte": [
+      "Sutten",
+      "Enterrottach"
+    ],
+    "strecke": true,
+    "alt": "Karte auf content/wandern/index.html",
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W31",
+    "name": "Firstalm → Schliersbergalm → Bahnhof Schliersee",
+    "wegpunkte": [
+      "Schliersbergalm",
+      "Bahnhof Schliersee"
+    ],
+    "strecke": true,
+    "alt": "Karte auf content/wandern/index.html",
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W32",
+    "name": "Firstalm → Valepp → Moni-Alm → Rottach-Egern",
+    "wegpunkte": [
+      "Forsthaus Valepp",
+      "Moni-Alm",
+      "Rottach-Egern"
+    ],
+    "strecke": true,
+    "alt": "Karte auf content/wandern/index.html",
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W33",
+    "name": "Firstalm → Spitzingsattel → Josefsthaler Wasserfälle",
+    "wegpunkte": [
+      "Spitzingsattel",
+      "Josefsthaler Wasserfälle"
+    ],
+    "strecke": true,
+    "alt": "Karte auf content/wandern/index.html",
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen"
+  },
+  {
+    "kennung": "W34",
+    "name": "Sutten-Almrunde",
+    "wegpunkte": [
+      "Sutten"
+    ],
+    "strecke": false,
+    "alt": "Karte auf content/wandern/index.html",
+    "quelle": "Ziele aus dem Kartentitel; Treffer per Nominatim prüfen"
   }
 ]
