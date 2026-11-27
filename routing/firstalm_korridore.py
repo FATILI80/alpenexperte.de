@@ -25,7 +25,6 @@ KORRIDORE = [
     ("F05", "Rottach-Egern", "Rottach-Egern"),
     ("F06", "Kreuth", "Kreuth, Oberbayern"),
     ("F07", "Achenpass", "Achenpass"),
-    ("F08", "Ochsenalm Valepp", "Ochsenalm, Valepp"),
     ("F09", "Elendsattel", "Elendsattel"),
     ("F10", "Vorderthiersee", "Vorderthiersee"),
     ("F11", "Thiersee", "Thiersee"),
