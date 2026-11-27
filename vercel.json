@@ -50,6 +50,16 @@
     ],
     "redirects": [
         {
+            "source": "/index.html",
+            "destination": "/",
+            "permanent": true
+        },
+        {
+            "source": "/index",
+            "destination": "/",
+            "permanent": true
+        },
+        {
             "source": "/wandern.html",
             "destination": "/content/wandern/",
             "permanent": true
