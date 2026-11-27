@@ -1,223 +1,142 @@
-<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8"><title>1. Watt-Fresser Schotter: Die Mathematik des Rollwiderstands</title><link rel="stylesheet" href="/css/style.css?v=20261127a">
-<style id="contrast-fix">
-  body, main, section, table, td, th, p, li, div { color: #e2e8f0 !important; }
-  h1, h2, h3, h4 { color: #7dd3fc !important; }
-  table th, table td:first-child, .label, strong { color: #93c5fd !important; font-weight: 600; }
-  a { color: #38bdf8 !important; }
+<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>1. Watt-Fresser Schotter: Die Physik des Rollwiderstands | Gravel-Kompendium | Alpen-Experte</title>
+<meta name="description" content="Warum der härteste Reifen auf der Forststraße nicht der schnellste ist – mit Messdaten vom Prüfstand und der Impedanz-Theorie.">
+<link rel="canonical" href="https://www.alpenexperte.de/content/gravel/rollwiderstand.html">
+<link rel="stylesheet" href="/css/style.css?v=20261127a">
+<style id="kompendium-artikel">
+.ka{max-width:860px;margin:32px auto;padding:0 18px;color:#1f2933}
+.ka article{background:#fff;border:1px solid #e0d8cc;border-radius:16px;padding:34px}
+.ka h1{color:#14532d;font-size:1.9rem;margin:.4em 0 .3em}
+.ka h2{color:#14532d;font-size:1.3rem;margin:1.6em 0 .5em}
+.ka p,.ka li{color:#1f2933;line-height:1.7;font-size:1rem}
+.ka .lead{font-size:1.1rem;color:#334155}
+.ka .badge{background:rgba(45,138,86,.12);color:#2d8a56;padding:4px 12px;border-radius:8px;font-weight:700;font-size:.8rem}
+.ka .rechnung{background:#f0f9ff;border-left:4px solid #0288d1;padding:14px 16px;border-radius:6px;margin:18px 0}
+.ka .merke{background:#f0fdf4;border-left:4px solid #2d8a56;padding:14px 16px;border-radius:6px;margin:18px 0}
+.ka .firstalm{background:#fff7ed;border-left:4px solid #ef6c00;padding:14px 16px;border-radius:6px;margin:18px 0}
+.ka table{border-collapse:collapse;width:100%;margin:14px 0;font-size:.95rem}
+.ka th,.ka td{border:1px solid #d5dde5;padding:7px 9px;text-align:left;color:#1f2933}
+.ka th{background:#f4f6f8}
+.ka .quellen li{font-size:.9rem}
+.ka .quellen a{color:#0369a1}
+.ka .anzeige{margin-top:34px;background:#f8f9fa;padding:22px;border-radius:14px;border:1px solid #ced4da}
 </style>
-
 </head><body>
-<main class="container" style="max-width:900px;margin:40px auto;padding:0 20px;"><article style="background:#fff;border-radius:16px;padding:40px;border:1px solid #e0d8cc;">
-<span style="background:rgba(45,138,86,0.12);color:#2d8a56;padding:4px 12px;border-radius:8px;font-weight:700;font-size:0.8rem;">🔬 Faktor-10 Wissenschaftlicher Fachartikel</span>
-<h1 style="color:var(--color-primary);margin-top:15px;font-size:2rem;">1. Watt-Fresser Schotter: Die Mathematik des Rollwiderstands</h1>
-<p style="font-size:1.1rem;color:var(--color-text-light);">Impedanz-Forschung: Warum breite Gravelreifen mit 1,5 bar auf Schotter schneller rollen als harte Rennradreifen.</p>
-<div>
-            <p>Auf rauem Schotter führt ein zu harter Reifen zu <strong>Hysterese-Verlusten</strong>. Ein breiter Gravelreifen (45 mm) mit 1,5 bis 1,8 bar deformiert sich über Hindernisse hinweg.</p>
-            <blockquote style="background:rgba(45,138,86,0.08);border-left:4px solid var(--color-primary);padding:16px;margin:24px 0;border-radius:4px;">
-                <strong>Hard Fact:</strong> Tubeless-Systeme eliminieren die innere Reibung zwischen Schlauch und Karkasse vollständig.
-            </blockquote>
+<header class="site-header" role="banner">
+        <div class="container header-inner">
+            <a href="/" class="logo" aria-label="Alpen-Experte Startseite">
+                <img src="/images/logo.svg" alt="Alpen-Experte" width="160" height="42">
+            </a>
+            <!-- SUCHE -->
+            <form class="header-search" role="search" action="https://www.google.com/search" method="get" target="_blank">
+                <input type="hidden" name="q" value="site:alpenexperte.de">
+                <label for="header-search-input" class="visually-hidden">Suche auf alpenexperte.de</label>
+                <input id="header-search-input" class="header-search-input" type="text" name="q2" placeholder="Suchen…" aria-label="Suchbegriff eingeben">
+                <button type="submit" class="header-search-btn" aria-label="Suche starten">&rsaquo;</button>
+            </form>
+            <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mainNav" aria-label="Navigation öffnen/schließen">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <nav id="mainNav" class="main-nav" aria-label="Hauptnavigation">
+                <ul class="nav-list">
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Aktivitäten</button>
+                        <div class="nav-dropdown">
+                            <a href="/content/wandern/index.html" class="megamenu-item">Wandern</a>
+                            <a href="/content/klettern/index.html" class="megamenu-item">Klettern</a>
+                            <a href="/content/mtb/index.html" class="megamenu-item">MTB-Touren</a>
+                            <a href="/content/winter/index.html" class="megamenu-item">Winter-Guide</a>
+                            <a href="/content/nordic-walking/index.html" class="megamenu-item">Nordic Walking</a>
+                        </div>
+                    </li>
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Hütten</button>
+                        <div class="nav-dropdown">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                    </li>
+
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Wissensbibliothek</button>
+                        <div class="nav-dropdown megamenu">
+                            <div class="megamenu-grid">
+                                <a href="/content/fauna/index.html" class="megamenu-item">Fauna & Flora</a>
+                                <a href="/content/botanik/index.html" class="megamenu-item">Botanik</a>
+                                <a href="/content/geologie/index.html" class="megamenu-item">Geologie</a>
+                                <a href="/content/meteorologie/index.html" class="megamenu-item">Meteorologie</a>
+                                <a href="/content/limnologie/index.html" class="megamenu-item">Limnologie</a>
+                                <a href="/content/moore/index.html" class="megamenu-item">Moore</a>
+                                <a href="/content/forstwirtschaft/index.html" class="megamenu-item">Forstwirtschaft</a>
+                                <a href="/content/zoologie/index.html" class="megamenu-item">Zoologie</a>
+                                <a href="/content/almwirtschaft/index.html" class="megamenu-item">Almwirtschaft</a>
+                                <a href="/content/alpinismus_sicherheit/index.html" class="megamenu-item">Alpinismus & Sicherheit</a>
+                                <a href="/content/kultur_geschichte/index.html" class="megamenu-item">Kultur & Geschichte</a>
+                                
+                                <a href="/content/sternenhimmel/index.html" class="megamenu-item">Sternenhimmel</a>
+                                <a href="/content/almkultur/index.html" class="megamenu-item">Almkultur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="/content/praxis/index.html" class="nav-link">Praxis</a></li>
+                    <li><a href="/content/regional/index.html" class="nav-link">Regional</a></li>
+                                    <li><a href="/huetten.html" class="nav-link">H&uuml;tten &amp; Almen</a></li>
+                    <li><a href="/restaurants.html" class="nav-link">Restaurants</a></li>
+                    <li><a href="/shopping.html" class="nav-link">Shopping</a></li>
+                    <li><a href="/live-check.html" class="nav-link">Wetter &amp; Webcams</a></li>
+                    <li><a href="/packlisten.html" class="nav-link">Packlisten</a></li>
+                    <li><a href="/anreise.html" class="nav-link">Anreise &amp; Parken</a></li>
+                </ul>
+            <a href="/content/skigebiete/" style="color:var(--color-primary);font-weight:600;">⛷️ Skigebiete & Skifahren</a></nav>
         </div>
-<div style="margin-top:40px;background:#f8f9fa;padding:24px;border-radius:14px;border:1px solid #ced4da;">
-<span style="background:#6c757d;color:#fff;padding:3px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">Anzeige / Affiliate</span>
-<h3 style="margin:12px 0 6px;">🛒 Schwalbe G-One R & Dichtmilch</h3>
-<p style="margin-bottom:12px;">Die perfekte Kombination aus schnellem Reifenprofil und Pannenschutz.</p>
-<a href="https://www.amazon.de/s?k=Schwalbe+G-One+R+Gravelreifen&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" class="btn btn--primary" style="background:#ff9900;color:#111;font-weight:700;padding:8px 18px;border-radius:6px;text-decoration:none;display:inline-block;">Bei Amazon ansehen &rarr;</a></div>
-<div style="margin-top:30px;text-align:center;"><a href="/gravel.html" style="font-weight:700;color:var(--color-primary);">← Zurück zur Übersicht</a></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div style="background:rgba(45,138,86,0.06);border-left:4px solid var(--color-primary);padding:16px;border-radius:10px;margin:32px 0 16px 0;">
-    <span style="font-size:0.7rem;text-transform:uppercase;background:#6c757d;color:#fff;padding:2px 6px;border-radius:4px;font-weight:700;">Empfehlung / Anzeige</span>
-    <strong style="display:block;margin:6px 0 4px;color:#1a2a1a;font-size:1rem;">Salomon Adv Skin 12 Trailrunning-Rucksack</strong>
-    <p style="margin:0 0 12px;color:#555;font-size:0.85rem;line-height:1.5;">Ergonomischer Rucksack für lange Tagestouren und Alpin-Abenteuer.</p>
-    <a href="https://www.amazon.de/s?k=Salomon+Adv+Skin+12+Rucksack&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" class="btn btn--primary" style="background:#ff9900;color:#111;font-weight:700;padding:8px 16px;font-size:0.85rem;border-radius:6px;text-decoration:none;display:inline-block;">Bei Amazon ansehen &rarr;</a>
-</div>
-
-</article></main></body></html>
+    </header>
+<main class="ka" id="main"><article>
+<span class="badge">🔬 Faktor-10 Gravel-Kompendium · Teil 1 von 5</span>
+<h1>Watt-Fresser Schotter: Die Physik des Rollwiderstands</h1>
+<p class="lead">Warum der härteste Reifen auf der Forststraße nicht der schnellste ist – mit Messdaten vom Prüfstand und der Impedanz-Theorie.</p>
+
+<h2>Die Grundformel: Watt = Crr × Gewicht × Tempo</h2>
+<p>Rollwiderstand ist die Energie, die ein Reifen beim Walken verliert: Er wird bei jeder Umdrehung an der Aufstandsfläche eingedrückt, und die Karkasse gibt diese Verformung nicht verlustfrei zurück. Beschrieben wird das mit dem Rollwiderstandsbeiwert <strong>Crr</strong>. Der Prüfstandsbetreiber BicycleRollingResistance.com nennt dazu die Formel <em>Rollwiderstand (W) = Crr × Geschwindigkeit (m/s) × Last (N)</em>.</p>
+<div class="rechnung"><strong>Rechenbeispiel:</strong> Fahrer plus Rad und Gepäck 90 kg (≈ 883 N), Tempo 20 km/h (5,56 m/s).<br>
+Crr 0,004 → 0,004 × 5,56 × 883 ≈ <strong>20 W</strong><br>
+Crr 0,008 → 0,008 × 5,56 × 883 ≈ <strong>39 W</strong><br>
+Ein doppelt so hoher Beiwert kostet bei gleichem Tempo also rund 20 W mehr – das ist auf einer Ausfahrt der Unterschied zwischen „läuft“ und „warum ist heute alles bergauf“.</div>
+
+<h2>Was der Prüfstand misst – und was nicht</h2>
+<p>Die bekannten Laborwerte entstehen auf einer Stahltrommel: BicycleRollingResistance.com testet bei 29 km/h, 42,5 kg Radlast und einer 77 cm großen Trommel mit Riffelblech-Oberfläche. Auf dieser glatten Fläche gilt: <strong>mehr Druck = weniger Rollwiderstand</strong>, weil sich der Reifen weniger verformt. Beim Continental GP 5000 S TR stieg der Rollwiderstand im Mittel von 9,6 W bei 5,0 bar auf 11,3 W bei 3,5 bar (Aluminium-Hakenfelge).</p>
+<p>Außerdem zeigt die gleiche Testreihe: <strong>Bei gleichem Druck rollt der breitere Reifen leichter.</strong> In jeder Druckstufe lag der 32-mm-GP-5000 unter dem 23-mm-Reifen, zum Beispiel 9,0 W gegenüber 10,2 W.</p>
+
+<h2>Schotter ist keine Trommel: Impedanz und Breakpoint</h2>
+<p>Auf rauem Untergrund kommt ein zweiter Verlust dazu, den der Hersteller SILCA <strong>Impedanz</strong> nennt: Ein zu harter Reifen schluckt Unebenheiten nicht mehr, das ganze System aus Rad und Fahrer wird angehoben und durchgeschüttelt – Energie, die im Körper verpufft. SILCA beschreibt den Gesamtverlust als Summe aus Karkassenverlust (Trommelwert) und Impedanz. Daraus ergibt sich ein <strong>Breakpoint-Druck</strong>: Unterhalb davon dominieren die Karkassenverluste, darüber die Impedanz. Je rauer der Untergrund und je schmaler der Reifen, desto niedriger liegt dieser Punkt.</p>
+<p>Die Asymmetrie ist der eigentliche Knaller: In SILCAs Messungen auf neuem Asphalt kostete ein Druck 10 psi (≈ 0,7 bar) <em>unter</em> dem Breakpoint nur etwa 1 W, 10 psi <em>darüber</em> dagegen etwa 9 W.</p>
+<div class="merke"><strong>Merke:</strong> Lieber etwas zu weich als zu hart. Ein konkreter „richtiger“ Druck hängt von Gesamtgewicht, Reifenbreite, Felge und Untergrund ab – deshalb nennen wir hier bewusst keine Pauschalzahl. Rechner wie der von SILCA schätzen den Breakpoint aus diesen Angaben.</div>
+
+<h2>Schlauch, Latex oder Tubeless?</h2>
+<p>Ein Butylschlauch reibt bei jeder Verformung an der Karkasse und kostet messbar Leistung – besonders bei niedrigem Druck, also genau dort, wo Gravel gefahren wird:</p>
+<table><tr><th>Druck (MTB-Reifen, je Reifen)</th><th>Tubeless</th><th>Latexschlauch</th><th>Butylschlauch</th></tr>
+<tr><td>3,8 bar</td><td>15,5 W</td><td>15,6 W</td><td>18,0 W</td></tr>
+<tr><td>1,7 bar</td><td>17,4 W</td><td>18,5 W</td><td>22,4 W</td></tr>
+<tr><td>1,0 bar</td><td>20,2 W</td><td>22,0 W</td><td>27,9 W</td></tr></table>
+<p style="font-size:.9rem;">Quelle: BicycleRollingResistance.com, Vergleichstest 2014.</p>
+<p>Wichtig für die Ehrlichkeit: Tubeless „eliminiert“ nicht jede Reibung – ein guter Latex- oder TPU-Schlauch liegt nah dran. Beim GP 5000 S TR lagen Tubeless (20 ml Milch) und Latexschläuche bei 4,1 bar nur 0,3–0,5 W auseinander. Der große Sprung ist der Abschied vom Standard-Butyl.</p>
+
+<div class="firstalm"><strong>Firstalm-Praxis:</strong> Die Schotterabfahrt von der Oberen Firstalm Richtung Spitzingsattel ist der perfekte Breakpoint-Test: Wenn das Rad springt und die Hände kribbeln, ist der Druck zu hoch – dann verlierst du laut Impedanz-Theorie nicht nur Komfort, sondern auch Watt.</div>
+
+<h2>Quellen</h2>
+<ul class="quellen"><li><a href="https://bicyclerollingresistance.com/specials/grand-prix-5000-s-tr-hooked-vs-hookless" target="_blank" rel="noopener">BicycleRollingResistance.com – Grand Prix 5000 S TR: Hooked vs Hookless (Testbedingungen, Druckreihe)</a></li><li><a href="https://bicyclerollingresistance.com/specials/grand-prix-5000-comparison" target="_blank" rel="noopener">BicycleRollingResistance.com – Grand Prix 5000: 23, 25, 28 und 32 mm im Vergleich</a></li><li><a href="https://www.bicyclerollingresistance.com/specials/tubeless-latex-butyl-tubes" target="_blank" rel="noopener">BicycleRollingResistance.com – Tubeless vs Latex vs Butyl (MTB)</a></li><li><a href="https://bicyclerollingresistance.com/specials/grand-prix-5000-s-tr-tubeless-vs-tubes" target="_blank" rel="noopener">BicycleRollingResistance.com – GP 5000 S TR Tubeless vs Schläuche</a></li><li><a href="https://www.bicyclerollingresistance.com/road-bike-reviews/schwalbe-durano-plus-2017" target="_blank" rel="noopener">BicycleRollingResistance.com – Formel Crr × Geschwindigkeit × Last (Testbericht Durano Plus)</a></li><li><a href="https://silca.cc/blogs/silca/part-4b-rolling-resistance-and-impedance" target="_blank" rel="noopener">SILCA – Part 4B: Rolling Resistance and Impedance</a></li><li><a href="https://silca.cc/blogs/silca/tire-pressure-calculator-explained?page=4" target="_blank" rel="noopener">SILCA – Tire Pressure Calculator Explained (Breakpoint, ±10 psi)</a></li></ul>
+<p style="font-size:.85rem;color:#64748b;">Rechenbeispiele sind eigene Rechnungen mit den genannten Annahmen und keine Messwerte. Stand der Quellen: November 2026.</p>
+<div class="anzeige"><span style="background:#6c757d;color:#fff;padding:3px 8px;border-radius:4px;font-size:.75rem;font-weight:700;">Anzeige / Affiliate</span>
+<h3 style="margin:12px 0 6px;color:#1f2933;">🛒 Schwalbe G-One R & Dichtmilch</h3><p>Schnelles Gravel-Profil, tubeless-fähig.</p>
+<a href="https://www.amazon.de/s?k=Schwalbe+G-One+R+Gravelreifen&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow" style="background:#ff9900;color:#111;font-weight:700;padding:8px 18px;border-radius:6px;text-decoration:none;display:inline-block;">Bei Amazon ansehen &rarr;</a></div>
+<p style="margin-top:28px;text-align:center;"><a href="/gravel.html" style="font-weight:700;color:#14532d;">← Zurück zur Gravel-Übersicht</a></p>
+</article></main>
+<footer class="site-footer" role="contentinfo"><div class="container" style="text-align:center;padding:var(--space-lg);"><p>&copy; 2025-2026 Alpen-Experte. Alle Rechte vorbehalten.</p></div></footer>
+<script src="/js/main.js?v=20260612b" defer></script>
+</body></html>

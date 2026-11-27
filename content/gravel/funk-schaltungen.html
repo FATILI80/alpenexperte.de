@@ -1,223 +1,136 @@
-<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8"><title>3. Elektronen am Berg: Die Effizienz von 1x12 und 1x13 Schaltungen</title><link rel="stylesheet" href="/css/style.css?v=20261127a">
-<style id="contrast-fix">
-  body, main, section, table, td, th, p, li, div { color: #e2e8f0 !important; }
-  h1, h2, h3, h4 { color: #7dd3fc !important; }
-  table th, table td:first-child, .label, strong { color: #93c5fd !important; font-weight: 600; }
-  a { color: #38bdf8 !important; }
+<!DOCTYPE html><html lang="de"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>3. Elektronen am Berg: 1×12 und 1×13 im Steilstück | Gravel-Kompendium | Alpen-Experte</title>
+<meta name="description" content="Bandbreite, Gangsprünge und was eine 10–46-Kassette an der Firstalm-Rampe wirklich bedeutet.">
+<link rel="canonical" href="https://www.alpenexperte.de/content/gravel/funk-schaltungen.html">
+<link rel="stylesheet" href="/css/style.css?v=20261127a">
+<style id="kompendium-artikel">
+.ka{max-width:860px;margin:32px auto;padding:0 18px;color:#1f2933}
+.ka article{background:#fff;border:1px solid #e0d8cc;border-radius:16px;padding:34px}
+.ka h1{color:#14532d;font-size:1.9rem;margin:.4em 0 .3em}
+.ka h2{color:#14532d;font-size:1.3rem;margin:1.6em 0 .5em}
+.ka p,.ka li{color:#1f2933;line-height:1.7;font-size:1rem}
+.ka .lead{font-size:1.1rem;color:#334155}
+.ka .badge{background:rgba(45,138,86,.12);color:#2d8a56;padding:4px 12px;border-radius:8px;font-weight:700;font-size:.8rem}
+.ka .rechnung{background:#f0f9ff;border-left:4px solid #0288d1;padding:14px 16px;border-radius:6px;margin:18px 0}
+.ka .merke{background:#f0fdf4;border-left:4px solid #2d8a56;padding:14px 16px;border-radius:6px;margin:18px 0}
+.ka .firstalm{background:#fff7ed;border-left:4px solid #ef6c00;padding:14px 16px;border-radius:6px;margin:18px 0}
+.ka table{border-collapse:collapse;width:100%;margin:14px 0;font-size:.95rem}
+.ka th,.ka td{border:1px solid #d5dde5;padding:7px 9px;text-align:left;color:#1f2933}
+.ka th{background:#f4f6f8}
+.ka .quellen li{font-size:.9rem}
+.ka .quellen a{color:#0369a1}
+.ka .anzeige{margin-top:34px;background:#f8f9fa;padding:22px;border-radius:14px;border:1px solid #ced4da}
 </style>
-
 </head><body>
-<main class="container" style="max-width:900px;margin:40px auto;padding:0 20px;"><article style="background:#fff;border-radius:16px;padding:40px;border:1px solid #e0d8cc;">
-<span style="background:rgba(45,138,86,0.12);color:#2d8a56;padding:4px 12px;border-radius:8px;font-weight:700;font-size:0.8rem;">🔬 Faktor-10 Wissenschaftlicher Fachartikel</span>
-<h1 style="color:var(--color-primary);margin-top:15px;font-size:2rem;">3. Elektronen am Berg: Die Effizienz von 1x12 und 1x13 Schaltungen</h1>
-<p style="font-size:1.1rem;color:var(--color-text-light);">520 % Bandbreite, SRAM AXS Servos und die Minimierung von Reibungsverlusten.</p>
-<div>
-            <p>1x12 und 1x13 Antriebe bieten <strong>520 % Bandbreite</strong>. Elektronische Funkschaltungen schalten präzise unter Last im Matsch.</p>
-            <blockquote style="background:rgba(45,138,86,0.08);border-left:4px solid var(--color-primary);padding:16px;margin:24px 0;border-radius:4px;">
-                <strong>Hard Fact:</strong> Der Verzicht auf den Umwerfer eliminiert Kettenklemmer und vereinfacht die Wartung.
-            </blockquote>
+<header class="site-header" role="banner">
+        <div class="container header-inner">
+            <a href="/" class="logo" aria-label="Alpen-Experte Startseite">
+                <img src="/images/logo.svg" alt="Alpen-Experte" width="160" height="42">
+            </a>
+            <!-- SUCHE -->
+            <form class="header-search" role="search" action="https://www.google.com/search" method="get" target="_blank">
+                <input type="hidden" name="q" value="site:alpenexperte.de">
+                <label for="header-search-input" class="visually-hidden">Suche auf alpenexperte.de</label>
+                <input id="header-search-input" class="header-search-input" type="text" name="q2" placeholder="Suchen…" aria-label="Suchbegriff eingeben">
+                <button type="submit" class="header-search-btn" aria-label="Suche starten">&rsaquo;</button>
+            </form>
+            <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="mainNav" aria-label="Navigation öffnen/schließen">
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>
+            <nav id="mainNav" class="main-nav" aria-label="Hauptnavigation">
+                <ul class="nav-list">
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Aktivitäten</button>
+                        <div class="nav-dropdown">
+                            <a href="/content/wandern/index.html" class="megamenu-item">Wandern</a>
+                            <a href="/content/klettern/index.html" class="megamenu-item">Klettern</a>
+                            <a href="/content/mtb/index.html" class="megamenu-item">MTB-Touren</a>
+                            <a href="/content/winter/index.html" class="megamenu-item">Winter-Guide</a>
+                            <a href="/content/nordic-walking/index.html" class="megamenu-item">Nordic Walking</a>
+                        </div>
+                    </li>
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Hütten</button>
+                        <div class="nav-dropdown">
+                            
+                            
+                            
+                            
+                            
+                            
+                            
+                        </div>
+                    </li>
+
+                    <li class="nav-item-has-dropdown">
+                        <button class="nav-dropdown-toggle" aria-expanded="false">Wissensbibliothek</button>
+                        <div class="nav-dropdown megamenu">
+                            <div class="megamenu-grid">
+                                <a href="/content/fauna/index.html" class="megamenu-item">Fauna & Flora</a>
+                                <a href="/content/botanik/index.html" class="megamenu-item">Botanik</a>
+                                <a href="/content/geologie/index.html" class="megamenu-item">Geologie</a>
+                                <a href="/content/meteorologie/index.html" class="megamenu-item">Meteorologie</a>
+                                <a href="/content/limnologie/index.html" class="megamenu-item">Limnologie</a>
+                                <a href="/content/moore/index.html" class="megamenu-item">Moore</a>
+                                <a href="/content/forstwirtschaft/index.html" class="megamenu-item">Forstwirtschaft</a>
+                                <a href="/content/zoologie/index.html" class="megamenu-item">Zoologie</a>
+                                <a href="/content/almwirtschaft/index.html" class="megamenu-item">Almwirtschaft</a>
+                                <a href="/content/alpinismus_sicherheit/index.html" class="megamenu-item">Alpinismus & Sicherheit</a>
+                                <a href="/content/kultur_geschichte/index.html" class="megamenu-item">Kultur & Geschichte</a>
+                                
+                                <a href="/content/sternenhimmel/index.html" class="megamenu-item">Sternenhimmel</a>
+                                <a href="/content/almkultur/index.html" class="megamenu-item">Almkultur</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="/content/praxis/index.html" class="nav-link">Praxis</a></li>
+                    <li><a href="/content/regional/index.html" class="nav-link">Regional</a></li>
+                                    <li><a href="/huetten.html" class="nav-link">H&uuml;tten &amp; Almen</a></li>
+                    <li><a href="/restaurants.html" class="nav-link">Restaurants</a></li>
+                    <li><a href="/shopping.html" class="nav-link">Shopping</a></li>
+                    <li><a href="/live-check.html" class="nav-link">Wetter &amp; Webcams</a></li>
+                    <li><a href="/packlisten.html" class="nav-link">Packlisten</a></li>
+                    <li><a href="/anreise.html" class="nav-link">Anreise &amp; Parken</a></li>
+                </ul>
+            <a href="/content/skigebiete/" style="color:var(--color-primary);font-weight:600;">⛷️ Skigebiete & Skifahren</a></nav>
         </div>
-<div style="margin-top:40px;background:#f8f9fa;padding:24px;border-radius:14px;border:1px solid #ced4da;">
-<span style="background:#6c757d;color:#fff;padding:3px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">Anzeige / Affiliate</span>
-<h3 style="margin:12px 0 6px;">🛒 SRAM eTap AXS Akku & Kettenwachs</h3>
-<p style="margin-bottom:12px;">Zuverlässige Energieversorgung für Funkschaltungen.</p>
-<a href="https://www.amazon.de/s?k=SRAM+eTap+AXS+Akku&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" class="btn btn--primary" style="background:#ff9900;color:#111;font-weight:700;padding:8px 18px;border-radius:6px;text-decoration:none;display:inline-block;">Bei Amazon ansehen &rarr;</a></div>
-<div style="margin-top:30px;text-align:center;"><a href="/gravel.html" style="font-weight:700;color:var(--color-primary);">← Zurück zur Übersicht</a></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div style="background:rgba(45,138,86,0.06);border-left:4px solid var(--color-primary);padding:16px;border-radius:10px;margin:32px 0 16px 0;">
-    <span style="font-size:0.7rem;text-transform:uppercase;background:#6c757d;color:#fff;padding:2px 6px;border-radius:4px;font-weight:700;">Empfehlung / Anzeige</span>
-    <strong style="display:block;margin:6px 0 4px;color:#1a2a1a;font-size:1rem;">Salomon Adv Skin 12 Trailrunning-Rucksack</strong>
-    <p style="margin:0 0 12px;color:#555;font-size:0.85rem;line-height:1.5;">Ergonomischer Rucksack für lange Tagestouren und Alpin-Abenteuer.</p>
-    <a href="https://www.amazon.de/s?k=Salomon+Adv+Skin+12+Rucksack&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener" class="btn btn--primary" style="background:#ff9900;color:#111;font-weight:700;padding:8px 16px;font-size:0.85rem;border-radius:6px;text-decoration:none;display:inline-block;">Bei Amazon ansehen &rarr;</a>
-</div>
-
-</article></main></body></html>
+    </header>
+<main class="ka" id="main"><article>
+<span class="badge">🔬 Faktor-10 Gravel-Kompendium · Teil 3 von 5</span>
+<h1>Elektronen am Berg: 1×12 und 1×13 im Steilstück</h1>
+<p class="lead">Bandbreite, Gangsprünge und was eine 10–46-Kassette an der Firstalm-Rampe wirklich bedeutet.</p>
+
+<h2>Bandbreite in Prozent</h2>
+<p>Die Bandbreite ist das Verhältnis von größtem zu kleinstem Ritzel. SRAMs 13-fach-Gravelkassetten (XPLR XG-1351, -1371, -1391) haben 10–46 Zähne, laut Hersteller <strong>460 %</strong> Bandbreite, mit der Abstufung 10-11-12-13-15-17-19-21-24-28-32-38-46. Die kleinen Ritzel sind in Ein-Zahn-Schritten gestuft – „Rennrad-Abstufung“, wie BikeRadar schreibt.</p>
+<p>Campagnolos Ekar-Kassetten (13-fach) gibt es in drei Abstufungen:</p>
+<table><tr><th>Ekar</th><th>Ritzel</th><th>Bandbreite*</th></tr>
+<tr><td>9–36 (Endurance)</td><td>9-10-11-12-13-14-16-18-20-23-27-31-36</td><td>400 %</td></tr>
+<tr><td>9–42 (Gravel Race)</td><td>9-10-11-12-13-14-16-18-21-25-30-36-42</td><td>467 %</td></tr>
+<tr><td>10–44 (Gravel Adventure)</td><td>10-11-12-13-14-15-17-19-22-26-32-38-44</td><td>440 %</td></tr></table>
+<p style="font-size:.9rem;">*Eigene Rechnung: größtes ÷ kleinstes Ritzel. Händlerangaben zum 10–44 nennen teils 38, teils 39 Zähne am vorletzten Ritzel. Inzwischen bietet Campagnolo mit Ekar GT zusätzlich eine 10–48-Kassette an.</p>
+
+<h2>Was heißt das am Berg?</h2>
+<div class="rechnung"><strong>Rechenbeispiel kleinster Gang:</strong> Kettenblatt 40 Zähne, Ritzel 46 → Übersetzung 0,87. Mit einem angenommenen Radumfang von 2,2 m (typisch für 700C mit 40–45 mm Reifen) und 70 Kurbelumdrehungen pro Minute:<br>
+0,87 × 2,2 m × 70 × 60 ÷ 1000 ≈ <strong>8,0 km/h</strong>.<br>
+Bei 10 % Steigung und 90 kg Systemgewicht braucht allein das Heben etwa 90 × 9,81 × 2,22 m/s × 0,0995 ≈ <strong>195 W</strong> – plus Roll- und Luftwiderstand.</div>
+<p>Wer weniger Dauerleistung hat, braucht also ein kleineres Kettenblatt oder ein größeres Ritzel, um die Trittfrequenz zu halten. Genau dafür sind die großen Sprünge am oberen Kassettenende da.</p>
+
+<h2>Warum 1× am Gravelbike?</h2>
+<p>Ein Kettenblatt bedeutet keinen Umwerfer, weniger Teile, die verschlammen, und eine einfache Bedienung. Der Preis sind größere Gangsprünge als bei 2×. Der Schritt von 12 auf 13 Ritzel soll genau diese Lücke verkleinern: SRAM betont die engen Sprünge, Campagnolo wirbt damit, die Bandbreite eines 2×-Systems „ohne Verschwendung“ abzudecken.</p>
+<p>„Funk“ bedeutet hier: SRAMs AXS-Komponenten schalten elektronisch und kabellos. Laut BikeRadar ist die neue Red XPLR AXS mit bestehenden 12-fach-AXS-Komponenten kompatibel, braucht aber einen Rahmen mit UDH-Schaltauge.</p>
+
+<div class="firstalm"><strong>Firstalm-Praxis:</strong> Die letzten Kehren zur Oberen Firstalm sind kein Ort für Heldentum. Wer hier im 46er-Ritzel noch 60 Umdrehungen schafft, darf oben den Kaiserschmarrn mit gutem Gewissen bestellen.</div>
+
+<h2>Quellen</h2>
+<ul class="quellen"><li><a href="https://www.sram.com/en/sram/models/cs-xg-1371-e1" target="_blank" rel="noopener">SRAM – XG-1371 Kassette (Ritzelabstufung, 10–46)</a></li><li><a href="https://www.sram.com/en/sram/models/cs-xg-1351-e1" target="_blank" rel="noopener">SRAM – XG-1351 Kassette (460 % Bandbreite)</a></li><li><a href="https://www.bikeradar.com/news/sram-aims-to-set-the-gravel-standard-with-red-axs-xplr" target="_blank" rel="noopener">BikeRadar – SRAM Red XPLR AXS mit 13 Gängen</a></li><li><a href="https://www.bike-components.de/en/Campagnolo/Ekar-13-speed-Cassette-p78104" target="_blank" rel="noopener">bike-components – Campagnolo Ekar 13-fach Kassette (Abstufungen)</a></li><li><a href="https://campagnolo.com/ww-it/pignoni-ekar-gt-13-speed/CCSEKAR1X13SGT.html" target="_blank" rel="noopener">Campagnolo – Ekar GT 13-speed Kassette (bis 10–48)</a></li></ul>
+<p style="font-size:.85rem;color:#64748b;">Rechenbeispiele sind eigene Rechnungen mit den genannten Annahmen und keine Messwerte. Stand der Quellen: November 2026.</p>
+<div class="anzeige"><span style="background:#6c757d;color:#fff;padding:3px 8px;border-radius:4px;font-size:.75rem;font-weight:700;">Anzeige / Affiliate</span>
+<h3 style="margin:12px 0 6px;color:#1f2933;">🛒 SRAM eTap AXS Akku & Kettenwachs</h3><p>Ersatzakku für lange Tage am Berg.</p>
+<a href="https://www.amazon.de/s?k=SRAM+eTap+AXS+Akku&linkCode=ll2&tag=bb8ozi-21&ref_=as_li_ss_tl" target="_blank" rel="sponsored noopener nofollow" style="background:#ff9900;color:#111;font-weight:700;padding:8px 18px;border-radius:6px;text-decoration:none;display:inline-block;">Bei Amazon ansehen &rarr;</a></div>
+<p style="margin-top:28px;text-align:center;"><a href="/gravel.html" style="font-weight:700;color:#14532d;">← Zurück zur Gravel-Übersicht</a></p>
+</article></main>
+<footer class="site-footer" role="contentinfo"><div class="container" style="text-align:center;padding:var(--space-lg);"><p>&copy; 2025-2026 Alpen-Experte. Alle Rechte vorbehalten.</p></div></footer>
+<script src="/js/main.js?v=20260612b" defer></script>
+</body></html>
