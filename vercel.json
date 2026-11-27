@@ -50,6 +50,296 @@
   ],
   "redirects": [
     {
+      "source": "/content/wandern/wendelstein.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/wendelstein",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/wallberg.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/wallberg",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/valepp-talwanderung.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/valepp-talwanderung",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/untere-firstalm.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/untere-firstalm",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/tegernseer-hoehenweg.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/tegernseer-hoehenweg",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/spitzingsee-umrundung.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/spitzingsee-umrundung",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/spitzingsee-bergwald.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/spitzingsee-bergwald",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/schoenfeldalm-runde.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/schoenfeldalm-runde",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/schliersbergalm.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/schliersbergalm",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/schinder.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/schinder",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/rotwandhaus-aufstieg.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/rotwandhaus-aufstieg",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/rotwand-rundtour.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/rotwand-rundtour",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/rottach-egern-seerunde.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/rottach-egern-seerunde",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/rossstein.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/rossstein",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/rinnerspitz.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/rinnerspitz",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/ringsee-runde.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/ringsee-runde",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/plankenstein.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/plankenstein",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/kesselalm.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/kesselalm",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/hw-001-spitzingsattel-rottach.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/hw-001-spitzingsattel-rottach",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/hw-002-fischbachau-rotwand.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/hw-002-fischbachau-rotwand",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/hw-003-blauberge-spitzingsee.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/hw-003-blauberge-spitzingsee",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/holzeralm.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/holzeralm",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/hochmiesing.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/hochmiesing",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/buchstein.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/buchstein",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/brecherspitz.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/brecherspitz",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/bodenschneid.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/bodenschneid",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/bleckstein.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/bleckstein",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/aueralm.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/aueralm",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/aiplspitz.html",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/aiplspitz",
+      "destination": "/wandern/index.html",
+      "permanent": true
+    },
+    {
       "source": "/content/gravel/firstalm-anstieg",
       "destination": "/gravel.html",
       "permanent": true
