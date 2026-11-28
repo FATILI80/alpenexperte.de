@@ -1,0 +1,65 @@
+[
+  {
+    "kennung": "K01",
+    "name": "Krettenburg",
+    "alt": "theCrag 47.671252, 11.850870",
+    "fehler": "Kein Treffer: 47.671252,11.850870"
+  },
+  {
+    "kennung": "K02",
+    "name": "Taubenstein (Südgrat)",
+    "alt": "Gipfel 1.692 m",
+    "treffer": [
+      "Taubenstein, Bayrischzell, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "K03",
+    "name": "Ruchenköpfe",
+    "alt": "Panico 47.6489 N, 11.9456 O",
+    "fehler": "Kein Treffer: 47.6489,11.9456"
+  },
+  {
+    "kennung": "K04",
+    "name": "Brecherspitz",
+    "alt": "1.683 m",
+    "treffer": [
+      "Brecherspitz, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "K05",
+    "name": "Roß- und Buchstein (Tegernseer Hütte)",
+    "alt": "Wikipedia 47.6347, 11.6819",
+    "fehler": "Kein Treffer: 47.6347,11.6819"
+  },
+  {
+    "kennung": "K06",
+    "name": "Blankenstein",
+    "alt": "1.768 m",
+    "treffer": [
+      "Blankenstein, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "K07",
+    "name": "Leonhardstein",
+    "alt": "1.452 m",
+    "treffer": [
+      "Leonhardstein, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  },
+  {
+    "kennung": "K08",
+    "name": "Löchelwand",
+    "alt": "theCrag 1.208–1.252 m",
+    "treffer": [
+      "Löchelwand, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland"
+    ],
+    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+  }
+]
