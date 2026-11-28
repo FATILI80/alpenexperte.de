@@ -75,7 +75,7 @@ LYRA = karte('lyra-alm', 'Alm-Restaurants.jpg', '⭐ Gehört zur Oberen Firstalm
      ('Öffnungszeiten', 'laut Google: Samstag bis Mittwoch 9–17 Uhr, Donnerstag und Freitag 9–23 Uhr (Nachtskilauf) – Betrieb nur in der Wintersaison'),
      ('Angebot', 'Getränke, warme Speisen, Sitzplätze im Freien, auch zum Mitnehmen'),
      ('Events', 'Après-Ski und Veranstaltungen – aktuelle Termine auf Instagram und Facebook der Schirmbar'),
-     ('Ab Oberer Firstalm', 'ca. 3,5 km, rund 270 Hm bergab (Google Maps)')],
+     ('Ab Oberer Firstalm', 'zu Fuß oder auf Ski bergab, ca. 3,5 km (Google Maps)')],
     [('Angaben der Oberen Firstalm, Öffnungszeiten laut Google (Stand Nov. 2026)', '#quellen')])
 FIRST = karte('obere-firstalm', 'obere-firstalm-terrasse.jpg', 'Obere Firstalm · 1.375 m · täglich 11–22 Uhr',
     'Obere Firstalm', 'Die Alm oberhalb des Skigebiets: Küche 11–21 Uhr, Frühstück 8–10 Uhr, abends Mondscheinrodeln auf der beleuchteten Rodelbahn hinunter zum Spitzingsattel.',
