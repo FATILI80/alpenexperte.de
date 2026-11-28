@@ -2908,6 +2908,321 @@
       "source": "/huetten/index.html",
       "destination": "/huetten.html",
       "permanent": true
+    },
+    {
+      "source": "/content/restaurants/alpenkeller-rottach.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/alpenkeller-rottach",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/berggasthof-bayerwald.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/berggasthof-bayerwald",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/braeustueberl-tegernsee.html",
+      "destination": "/restaurants.html#braeustueberl-tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/braeustueberl-tegernsee",
+      "destination": "/restaurants.html#braeustueberl-tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/brunnhaus-schliersee.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/brunnhaus-schliersee",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/cafe-bistro-bergblick.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/cafe-bistro-bergblick",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/cafe-central-neuhaus.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/cafe-central-neuhaus",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/cafe-mesner.html",
+      "destination": "/restaurants.html#cafe-mesner",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/cafe-mesner",
+      "destination": "/restaurants.html#cafe-mesner",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/cafe-winklstueberl.html",
+      "destination": "/restaurants.html#cafe-winklstueberl",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/cafe-winklstueberl",
+      "destination": "/restaurants.html#cafe-winklstueberl",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/eiscafe-la-dolce-vita.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/eiscafe-la-dolce-vita",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/gasthaus-kirchbichl.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/gasthaus-kirchbichl",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/gasthof-sonnenbichl.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/gasthof-sonnenbichl",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/gasthof-terofal.html",
+      "destination": "/restaurants.html#xaver-terofal",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/gasthof-terofal",
+      "destination": "/restaurants.html#xaver-terofal",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/gasthof-zur-post.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/gasthof-zur-post",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/pizzeria-da-marco.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/pizzeria-da-marco",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/pizzeria-portofino.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/pizzeria-portofino",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/ratskeller-schliersee.html",
+      "destination": "/restaurants.html#ratskeller-schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/ratskeller-schliersee",
+      "destination": "/restaurants.html#ratskeller-schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/restaurant-herzogstand.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/restaurant-herzogstand",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/restaurant-seefischer.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/restaurant-seefischer",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/ristorante-bella-vista.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/ristorante-bella-vista",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/seehaus-schliersee.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/seehaus-schliersee",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/slyrs-caffe-canteen.html",
+      "destination": "/restaurants.html#slyrs-caffee",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/slyrs-caffe-canteen",
+      "destination": "/restaurants.html#slyrs-caffee",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/spitzing-alm.html",
+      "destination": "/restaurants.html#spitzing-alm",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/spitzing-alm",
+      "destination": "/restaurants.html#spitzing-alm",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/steakhaus-am-see.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/steakhaus-am-see",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/trattoria-venezia.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/trattoria-venezia",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/wasmeier-wirtshaus.html",
+      "destination": "/restaurants.html#zum-wofen",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/wasmeier-wirtshaus",
+      "destination": "/restaurants.html#zum-wofen",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/weinschaenke-tegernsee.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/weinschaenke-tegernsee",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/weinstube-egger.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/weinstube-egger",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/wirtshaus-alte-post.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/wirtshaus-alte-post",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/wirtshaus-im-see.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/wirtshaus-im-see",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/wirtshaus-sudfeld.html",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/wirtshaus-sudfeld",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/",
+      "destination": "/restaurants.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/restaurants/index.html",
+      "destination": "/restaurants.html",
+      "permanent": true
     }
   ]
 }
