@@ -55,3 +55,11 @@ def seite(pfad, titel, h1, intro, hero, nav, body, desc, crumb, weiter):
 HERO = lambda img, alt: f'<img src="/images/{img}" alt="{E(alt)}" loading="lazy" style="width:100%;max-height:300px;object-fit:cover;border-radius:12px;display:block;margin:10px 0 14px;">'
 
 FIG = lambda img, alt, cap: f'<figure style="margin:10px 0 14px;"><img src="/images/{img}" alt="{E(alt)}" loading="lazy" style="width:100%;max-height:320px;object-fit:cover;border-radius:12px;display:block;"><figcaption style="font-size:.84rem;color:#4b5563;margin-top:5px;">{cap}</figcaption></figure>'
+
+def AFF(links): return ('<aside style="border:1px solid #e5e7eb;border-radius:10px;padding:12px 16px;font-size:.95rem;color:#1f2933;margin-top:18px;"><span style="font-size:.75rem;text-transform:uppercase;color:#6b7280;">Anzeige</span><br>'
+                        + ' · '.join(f'<a href="https://www.amazon.de/s?k={q}&amp;linkCode=ll2&amp;tag=bb8ozi-21" target="_blank" rel="sponsored noopener">{t}</a>' for t, q in links) + ' bei Amazon</aside>')
+
+def TAB(kopf, zeilen):
+    th = ''.join(f'<th style="text-align:left;padding:7px 9px;background:#e8f5e9;color:#14532d;border-bottom:2px solid #2e7d32;">{k}</th>' for k in kopf)
+    tr = ''.join('<tr>' + ''.join(f'<td style="padding:6px 9px;border-bottom:1px solid #e5e7eb;vertical-align:top;">{c}</td>' for c in z) + '</tr>' for z in zeilen)
+    return f'<div style="overflow-x:auto;margin:10px 0 14px;"><table style="width:100%;border-collapse:collapse;font-size:.92rem;color:#1f2933;"><thead><tr>{th}</tr></thead><tbody>{tr}</tbody></table></div>'

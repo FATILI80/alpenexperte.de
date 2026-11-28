@@ -4296,7 +4296,7 @@
     },
     {
       "source": "/anfaenger-guide(/|/index\\.html)?",
-      "destination": "/content/sternenhimmel/anfaenger-guide.html",
+      "destination": "/content/sternenhimmel/#nacht",
       "permanent": true
     },
     {
@@ -4311,7 +4311,7 @@
     },
     {
       "source": "/astronomie-events(/|/index\\.html)?",
-      "destination": "/content/sternenhimmel/astronomie-events.html",
+      "destination": "/content/sternenhimmel/#kalender",
       "permanent": true
     },
     {
@@ -4416,7 +4416,7 @@
     },
     {
       "source": "/best-locations(/|/index\\.html)?",
-      "destination": "/content/sternenhimmel/best-locations.html",
+      "destination": "/content/sternenhimmel/#orte",
       "permanent": true
     },
     {
@@ -4591,7 +4591,7 @@
     },
     {
       "source": "/content/anfaenger-guide(/|/index\\.html)?",
-      "destination": "/content/sternenhimmel/anfaenger-guide.html",
+      "destination": "/content/sternenhimmel/#nacht",
       "permanent": true
     },
     {
@@ -4606,7 +4606,7 @@
     },
     {
       "source": "/content/astronomie-events(/|/index\\.html)?",
-      "destination": "/content/sternenhimmel/astronomie-events.html",
+      "destination": "/content/sternenhimmel/#kalender",
       "permanent": true
     },
     {
@@ -4671,7 +4671,7 @@
     },
     {
       "source": "/content/best-locations(/|/index\\.html)?",
-      "destination": "/content/sternenhimmel/best-locations.html",
+      "destination": "/content/sternenhimmel/#orte",
       "permanent": true
     },
     {
@@ -4996,7 +4996,7 @@
     },
     {
       "source": "/content/milchstrasse-fotografieren(/|/index\\.html)?",
-      "destination": "/content/sternenhimmel/milchstrasse-fotografieren.html",
+      "destination": "/content/sternenhimmel/#foto",
       "permanent": true
     },
     {
@@ -5301,7 +5301,7 @@
     },
     {
       "source": "/content/sternenkaerte-saisonal(/|/index\\.html)?",
-      "destination": "/content/sternenhimmel/sternenkaerte-saisonal.html",
+      "destination": "/content/sternenhimmel/#milchstrasse",
       "permanent": true
     },
     {
@@ -5346,7 +5346,7 @@
     },
     {
       "source": "/content/teleskop-auswahl(/|/index\\.html)?",
-      "destination": "/content/sternenhimmel/teleskop-auswahl.html",
+      "destination": "/content/sternenhimmel/#ausruestung",
       "permanent": true
     },
     {
@@ -5901,7 +5901,7 @@
     },
     {
       "source": "/milchstrasse-fotografieren(/|/index\\.html)?",
-      "destination": "/content/sternenhimmel/milchstrasse-fotografieren.html",
+      "destination": "/content/sternenhimmel/#foto",
       "permanent": true
     },
     {
@@ -6271,7 +6271,7 @@
     },
     {
       "source": "/sternenkaerte-saisonal(/|/index\\.html)?",
-      "destination": "/content/sternenhimmel/sternenkaerte-saisonal.html",
+      "destination": "/content/sternenhimmel/#milchstrasse",
       "permanent": true
     },
     {
@@ -6321,7 +6321,7 @@
     },
     {
       "source": "/teleskop-auswahl(/|/index\\.html)?",
-      "destination": "/content/sternenhimmel/teleskop-auswahl.html",
+      "destination": "/content/sternenhimmel/#ausruestung",
       "permanent": true
     },
     {
@@ -6552,6 +6552,36 @@
     {
       "source": "/content/almkultur/trachten.html",
       "destination": "/content/almkultur/#tracht",
+      "permanent": true
+    },
+    {
+      "source": "/content/sternenhimmel/anfaenger-guide.html",
+      "destination": "/content/sternenhimmel/#nacht",
+      "permanent": true
+    },
+    {
+      "source": "/content/sternenhimmel/astronomie-events.html",
+      "destination": "/content/sternenhimmel/#kalender",
+      "permanent": true
+    },
+    {
+      "source": "/content/sternenhimmel/best-locations.html",
+      "destination": "/content/sternenhimmel/#orte",
+      "permanent": true
+    },
+    {
+      "source": "/content/sternenhimmel/milchstrasse-fotografieren.html",
+      "destination": "/content/sternenhimmel/#foto",
+      "permanent": true
+    },
+    {
+      "source": "/content/sternenhimmel/sternenkaerte-saisonal.html",
+      "destination": "/content/sternenhimmel/#milchstrasse",
+      "permanent": true
+    },
+    {
+      "source": "/content/sternenhimmel/teleskop-auswahl.html",
+      "destination": "/content/sternenhimmel/#ausruestung",
       "permanent": true
     }
   ]
