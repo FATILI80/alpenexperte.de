@@ -1,0 +1,10 @@
+[
+  {"kennung": "K01", "name": "Krettenburg", "alt": "theCrag 47.671252, 11.850870", "wegpunkte": ["47.671252,11.850870"], "quelle": "https://www.thecrag.com/climbing/germany/oberbayern/area/2765345964/guide"},
+  {"kennung": "K02", "name": "Taubenstein (Südgrat)", "alt": "Gipfel 1.692 m", "wegpunkte": ["Taubenstein"], "quelle": "hoehenrausch.de"},
+  {"kennung": "K03", "name": "Ruchenköpfe", "alt": "Panico 47.6489 N, 11.9456 O", "wegpunkte": ["Rotwandhaus", "47.6489,11.9456"], "quelle": "https://www.panico.de/media/wysiwyg/PDF/TopoDMonats/Topo%20des%20Monats-06-2026.pdf"},
+  {"kennung": "K04", "name": "Brecherspitz", "alt": "1.683 m", "wegpunkte": ["Brecherspitz"], "quelle": "tourentipp 735"},
+  {"kennung": "K05", "name": "Roß- und Buchstein (Tegernseer Hütte)", "alt": "Wikipedia 47.6347, 11.6819", "wegpunkte": ["47.6347,11.6819"], "strecke": true, "quelle": "https://en.wikipedia.org/wiki/Ro%C3%9F-_und_Buchstein"},
+  {"kennung": "K06", "name": "Blankenstein", "alt": "1.768 m", "wegpunkte": ["Blankenstein"], "strecke": true, "quelle": "via-ferrata.de"},
+  {"kennung": "K07", "name": "Leonhardstein", "alt": "1.452 m", "wegpunkte": ["Leonhardstein"], "strecke": true, "quelle": "tourentipp 30"},
+  {"kennung": "K08", "name": "Löchelwand", "alt": "theCrag 1.208–1.252 m", "wegpunkte": ["Löchelwand"], "strecke": true, "quelle": "https://www.thecrag.com/de/klettern/germany/area/6731659860"}
+]
