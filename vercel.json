@@ -3223,6 +3223,16 @@
       "source": "/content/restaurants/index.html",
       "destination": "/restaurants.html",
       "permanent": true
+    },
+    {
+      "source": "/live-check.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/live-check",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
     }
   ]
 }
