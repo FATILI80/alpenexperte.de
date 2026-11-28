@@ -47,6 +47,7 @@ b = ['<main id="main"><article class="container" style="max-width:1100px;margin:
      H2('webcams', '📹 Webcams') + P('Die Bilder liegen bei den Betreibern bzw. Portalen – ein Klick öffnet die aktuelle Aufnahme samt Archiv.') + GRID + ''.join(CAMS) + '</div>',
      H2('dienste', '⚠️ Lawinenlage, Bergwetter &amp; Warnungen') + GRID + ''.join(DIENSTE) + '</div>'
      + '<div style="background:#fef2f2;border-left:5px solid #b91c1c;padding:12px 16px;border-radius:10px;margin:16px 0;color:#1f2933;"><strong>Notruf 112</strong> – Bergwacht, Rettungsdienst und Feuerwehr. Wichtig: Standort, was passiert ist, wie viele Verletzte.</div>',
+     '<figure style="margin:18px 0 6px;max-width:520px;"><img src="/images/obere-firstalm-schnee-nov-2026.jpg" alt="Neuschnee vor der Oberen Firstalm, 26. November 2026" loading="lazy" style="width:100%;height:auto;border-radius:12px;display:block;"><figcaption style="font-size:.85rem;color:#4b5563;margin-top:6px;">Wintereinbruch an der Oberen Firstalm (1.375 m), 26. November 2026 – eigenes Foto. Auf der Höhe kann es schneien, während es im Tal noch regnet.</figcaption></figure>' +
      H2('tipps', '🧭 Wetter in den Bergen lesen') + '<ul style="line-height:1.7;color:#1f2933;">'
      '<li><strong>Höhe zählt:</strong> Vergleiche die drei Punkte oben – zwischen Schliersee (784 m) und Rotwand (1.884 m) liegen gut 1.100 Höhenmeter.</li>'
      '<li><strong>Webcam vor Wetterkarte:</strong> Das Bild von der Firstalm zeigt Nebel, Schnee und Rodelbahn-Zustand, bevor ein Modell es tut.</li>'

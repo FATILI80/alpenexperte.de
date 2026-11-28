@@ -129,7 +129,7 @@ SCHLIERSEE = [
       text='Bewirtschaftete Alm mit Blick auf die Bodenschneid, beliebt bei Mountainbikern. Über den Freudenreichsattel (Schiebe- und Tragestück) geht es hinüber zur Oberen Firstalm.',
       f=[('Zustieg', 'aus Richtung Fischhausen-Neuhaus/Josefsthal, Teil der Bodenschneid-Runden')],
       q=[('komoot', 'https://www.komoot.com/highlight/997075')]),
- dict(id='ankelalm', name='Ankelalm', hoehe='1.311 m', kopf='Brotzeitalm · am Brecherspitz', bild='Ankelalm.jpg', tags='es',
+ dict(id='ankelalm', name='Ankelalm', hoehe='1.311 m', kopf='Brotzeitalm · am Brecherspitz', bild='ankelalm-front.jpg', tags='es',
       text='Kleine Alm im Kessel unter dem Brecherspitz, 2019 neu aufgebaut. Brotzeiten, Kuchen, Käse und Milch von der Alm – gute Rast vor dem Gipfel.',
       f=[('Geöffnet', 'Almsaison Anfang Juni bis Ende September; laut hoehenrausch Mo–Do 9–21, Fr 9–18 Uhr, Sa/So Ruhetag'), ('Zustieg', 'ca. 1:30 h ab Neuhaus; ab Oberer Firstalm über den Brecherspitz ca. 2 h')],
       q=[('hoehenrausch', HR + 'ankelalm'), ('servus-schliersee', 'https://servus-schliersee.de/?p=6657')]),
