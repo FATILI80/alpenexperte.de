@@ -3233,6 +3233,441 @@
       "source": "/live-check",
       "destination": "/wetter-webcams.html",
       "permanent": true
+    },
+    {
+      "source": "/content/ausruestung/rucksaecke",
+      "destination": "/content/ausruestung/#rucksack",
+      "permanent": true
+    },
+    {
+      "source": "/content/ausruestung/rucksaecke/",
+      "destination": "/content/ausruestung/#rucksack",
+      "permanent": true
+    },
+    {
+      "source": "/content/ausruestung/rucksaecke/index.html",
+      "destination": "/content/ausruestung/#rucksack",
+      "permanent": true
+    },
+    {
+      "source": "/content/ausruestung/wanderschuhe",
+      "destination": "/content/ausruestung/#schuhe",
+      "permanent": true
+    },
+    {
+      "source": "/content/ausruestung/wanderschuhe/",
+      "destination": "/content/ausruestung/#schuhe",
+      "permanent": true
+    },
+    {
+      "source": "/content/ausruestung/wanderschuhe/index.html",
+      "destination": "/content/ausruestung/#schuhe",
+      "permanent": true
+    },
+    {
+      "source": "/content/ausruestung/wanderstoecke",
+      "destination": "/content/ausruestung/#stoecke",
+      "permanent": true
+    },
+    {
+      "source": "/content/ausruestung/wanderstoecke/",
+      "destination": "/content/ausruestung/#stoecke",
+      "permanent": true
+    },
+    {
+      "source": "/content/ausruestung/wanderstoecke/index.html",
+      "destination": "/content/ausruestung/#stoecke",
+      "permanent": true
+    },
+    {
+      "source": "/content/wanderstoecke",
+      "destination": "/content/ausruestung/#stoecke",
+      "permanent": true
+    },
+    {
+      "source": "/content/wanderstoecke/",
+      "destination": "/content/ausruestung/#stoecke",
+      "permanent": true
+    },
+    {
+      "source": "/content/wanderstoecke/index.html",
+      "destination": "/content/ausruestung/#stoecke",
+      "permanent": true
+    },
+    {
+      "source": "/content/layering/baselayer",
+      "destination": "/content/layering/#base",
+      "permanent": true
+    },
+    {
+      "source": "/content/layering/baselayer/",
+      "destination": "/content/layering/#base",
+      "permanent": true
+    },
+    {
+      "source": "/content/layering/baselayer/index.html",
+      "destination": "/content/layering/#base",
+      "permanent": true
+    },
+    {
+      "source": "/content/layering/midlayer",
+      "destination": "/content/layering/#mid",
+      "permanent": true
+    },
+    {
+      "source": "/content/layering/midlayer/",
+      "destination": "/content/layering/#mid",
+      "permanent": true
+    },
+    {
+      "source": "/content/layering/midlayer/index.html",
+      "destination": "/content/layering/#mid",
+      "permanent": true
+    },
+    {
+      "source": "/content/layering/outer-shell",
+      "destination": "/content/layering/#shell",
+      "permanent": true
+    },
+    {
+      "source": "/content/layering/outer-shell/",
+      "destination": "/content/layering/#shell",
+      "permanent": true
+    },
+    {
+      "source": "/content/layering/outer-shell/index.html",
+      "destination": "/content/layering/#shell",
+      "permanent": true
+    },
+    {
+      "source": "/content/baselayer",
+      "destination": "/content/layering/#base",
+      "permanent": true
+    },
+    {
+      "source": "/content/baselayer/",
+      "destination": "/content/layering/#base",
+      "permanent": true
+    },
+    {
+      "source": "/content/baselayer/index.html",
+      "destination": "/content/layering/#base",
+      "permanent": true
+    },
+    {
+      "source": "/content/midlayer",
+      "destination": "/content/layering/#mid",
+      "permanent": true
+    },
+    {
+      "source": "/content/midlayer/",
+      "destination": "/content/layering/#mid",
+      "permanent": true
+    },
+    {
+      "source": "/content/midlayer/index.html",
+      "destination": "/content/layering/#mid",
+      "permanent": true
+    },
+    {
+      "source": "/content/fehlkauf-vermeidung/anfaengerfehler",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/fehlkauf-vermeidung/anfaengerfehler/",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/fehlkauf-vermeidung/anfaengerfehler/index.html",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/fehlkauf-vermeidung/preis-leistung",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/fehlkauf-vermeidung/preis-leistung/",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/fehlkauf-vermeidung/preis-leistung/index.html",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/fehlkauf-vermeidung/qualitaetsmerkmale",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/fehlkauf-vermeidung/qualitaetsmerkmale/",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/fehlkauf-vermeidung/qualitaetsmerkmale/index.html",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/fehlkauf-vermeidung",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/fehlkauf-vermeidung/",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/fehlkauf-vermeidung/index.html",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/fitness/einsteiger",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fitness/einsteiger/",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fitness/einsteiger/index.html",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fitness/fortgeschrittene",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fitness/fortgeschrittene/",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fitness/fortgeschrittene/index.html",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fitness/huettentour",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fitness/huettentour/",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fitness/huettentour/index.html",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fitness/trainingsplaene",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fitness/trainingsplaene/",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fitness/trainingsplaene/index.html",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/sicherheit-ausruestung",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/sicherheit-ausruestung/",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/sicherheit-ausruestung/index.html",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/sicherheit/erste-hilfe.html",
+      "destination": "/content/sicherheit/#erstehilfe",
+      "permanent": true
+    },
+    {
+      "source": "/content/sicherheit/erste-hilfe",
+      "destination": "/content/sicherheit/#erstehilfe",
+      "permanent": true
+    },
+    {
+      "source": "/content/sicherheit/wetterkunde.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/sicherheit/wetterkunde",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/sicherheit/berg-knigge.html",
+      "destination": "/content/sicherheit/#regeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/sicherheit/berg-knigge",
+      "destination": "/content/sicherheit/#regeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/anfaengerfehler",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/anfaengerfehler/",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/anfaengerfehler/index.html",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/preis-leistung",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/preis-leistung/",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/preis-leistung/index.html",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/qualitaetsmerkmale",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/qualitaetsmerkmale/",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/qualitaetsmerkmale/index.html",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/fehlkauf-vermeidung",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/fehlkauf-vermeidung/",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/fehlkauf-vermeidung/index.html",
+      "destination": "/content/ausruestung/#fehlkauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/einsteiger",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/einsteiger/",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/einsteiger/index.html",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fortgeschrittene",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fortgeschrittene/",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/fortgeschrittene/index.html",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/huettentour",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/huettentour/",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/huettentour/index.html",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/trainingsplaene",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/trainingsplaene/",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/trainingsplaene/index.html",
+      "destination": "/content/fitness/#plan",
+      "permanent": true
+    },
+    {
+      "source": "/content/outer-shell",
+      "destination": "/content/layering/#shell",
+      "permanent": true
+    },
+    {
+      "source": "/content/outer-shell/",
+      "destination": "/content/layering/#shell",
+      "permanent": true
+    },
+    {
+      "source": "/content/outer-shell/index.html",
+      "destination": "/content/layering/#shell",
+      "permanent": true
     }
   ]
 }
