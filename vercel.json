@@ -4161,7 +4161,7 @@
     },
     {
       "source": "/almen-kulturlandschaft-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/almen-kulturlandschaft-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/index.html",
       "permanent": true
     },
     {
@@ -4356,7 +4356,7 @@
     },
     {
       "source": "/bauernhofmuseum-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/bauernhofmuseum-bayerische-voralpen.html",
+      "destination": "/content/regional/#wasmeier",
       "permanent": true
     },
     {
@@ -4376,7 +4376,7 @@
     },
     {
       "source": "/bergbau-geschichte-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/bergbau-geschichte-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#bergbau",
       "permanent": true
     },
     {
@@ -4511,7 +4511,7 @@
     },
     {
       "source": "/content/almen-kulturlandschaft-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/almen-kulturlandschaft-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/index.html",
       "permanent": true
     },
     {
@@ -4626,7 +4626,7 @@
     },
     {
       "source": "/content/bauernhofmuseum-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/bauernhofmuseum-bayerische-voralpen.html",
+      "destination": "/content/regional/#wasmeier",
       "permanent": true
     },
     {
@@ -4641,7 +4641,7 @@
     },
     {
       "source": "/content/bergbau-geschichte-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/bergbau-geschichte-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#bergbau",
       "permanent": true
     },
     {
@@ -4856,7 +4856,7 @@
     },
     {
       "source": "/content/glaubenskultur-kirchen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/glaubenskultur-kirchen-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#kirchen",
       "permanent": true
     },
     {
@@ -4866,7 +4866,7 @@
     },
     {
       "source": "/content/historische-verkehrswege-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/historische-verkehrswege-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#verkehr",
       "permanent": true
     },
     {
@@ -4886,7 +4886,7 @@
     },
     {
       "source": "/content/holzkunst-schnitzerei-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/holzkunst-schnitzerei-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/",
       "permanent": true
     },
     {
@@ -4961,12 +4961,12 @@
     },
     {
       "source": "/content/kultur-geschichte-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/kultur-geschichte-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/",
       "permanent": true
     },
     {
       "source": "/content/kulturelles-erbe-zukunft-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/kulturelles-erbe-zukunft-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/",
       "permanent": true
     },
     {
@@ -4986,7 +4986,7 @@
     },
     {
       "source": "/content/malerei-kunst-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/malerei-kunst-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#kunst",
       "permanent": true
     },
     {
@@ -5081,7 +5081,7 @@
     },
     {
       "source": "/content/musik-singen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/musik-singen-bayerische-voralpen.html",
+      "destination": "/content/almkultur/#musik",
       "permanent": true
     },
     {
@@ -5131,7 +5131,7 @@
     },
     {
       "source": "/content/persoenlichkeiten-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/persoenlichkeiten-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#personen",
       "permanent": true
     },
     {
@@ -5176,7 +5176,7 @@
     },
     {
       "source": "/content/sagen-legenden-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/sagen-legenden-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/",
       "permanent": true
     },
     {
@@ -5386,7 +5386,7 @@
     },
     {
       "source": "/content/trachten-brauchtum-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/trachten-brauchtum-bayerische-voralpen.html",
+      "destination": "/content/almkultur/#tracht",
       "permanent": true
     },
     {
@@ -5416,7 +5416,7 @@
     },
     {
       "source": "/content/wallfahrten-prozessionen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/wallfahrten-prozessionen-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#kirchen",
       "permanent": true
     },
     {
@@ -5501,7 +5501,7 @@
     },
     {
       "source": "/content/wirtschaftsgeschichte-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/wirtschaftsgeschichte-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#bergbau",
       "permanent": true
     },
     {
@@ -5721,7 +5721,7 @@
     },
     {
       "source": "/glaubenskultur-kirchen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/glaubenskultur-kirchen-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#kirchen",
       "permanent": true
     },
     {
@@ -5731,7 +5731,7 @@
     },
     {
       "source": "/historische-verkehrswege-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/historische-verkehrswege-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#verkehr",
       "permanent": true
     },
     {
@@ -5756,7 +5756,7 @@
     },
     {
       "source": "/holzkunst-schnitzerei-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/holzkunst-schnitzerei-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/",
       "permanent": true
     },
     {
@@ -5836,7 +5836,7 @@
     },
     {
       "source": "/kultur-geschichte-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/kultur-geschichte-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/",
       "permanent": true
     },
     {
@@ -5846,7 +5846,7 @@
     },
     {
       "source": "/kulturelles-erbe-zukunft-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/kulturelles-erbe-zukunft-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/",
       "permanent": true
     },
     {
@@ -5886,7 +5886,7 @@
     },
     {
       "source": "/malerei-kunst-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/malerei-kunst-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#kunst",
       "permanent": true
     },
     {
@@ -6001,7 +6001,7 @@
     },
     {
       "source": "/musik-singen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/musik-singen-bayerische-voralpen.html",
+      "destination": "/content/almkultur/#musik",
       "permanent": true
     },
     {
@@ -6056,7 +6056,7 @@
     },
     {
       "source": "/persoenlichkeiten-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/persoenlichkeiten-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#personen",
       "permanent": true
     },
     {
@@ -6126,7 +6126,7 @@
     },
     {
       "source": "/sagen-legenden-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/sagen-legenden-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/",
       "permanent": true
     },
     {
@@ -6356,7 +6356,7 @@
     },
     {
       "source": "/trachten-brauchtum-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/trachten-brauchtum-bayerische-voralpen.html",
+      "destination": "/content/almkultur/#tracht",
       "permanent": true
     },
     {
@@ -6391,7 +6391,7 @@
     },
     {
       "source": "/wallfahrten-prozessionen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/wallfahrten-prozessionen-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#kirchen",
       "permanent": true
     },
     {
@@ -6506,7 +6506,7 @@
     },
     {
       "source": "/wirtschaftsgeschichte-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/kultur_geschichte/wirtschaftsgeschichte-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#bergbau",
       "permanent": true
     },
     {
@@ -6602,6 +6602,81 @@
     {
       "source": "/content/astronomie_geschichte/elefanten-in-den-alpen.html",
       "destination": "/content/regional/",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/almen-kulturlandschaft-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/bauernhofmuseum-bayerische-voralpen.html",
+      "destination": "/content/regional/#wasmeier",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/bergbau-geschichte-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#bergbau",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/glaubenskultur-kirchen-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#kirchen",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/historische-verkehrswege-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#verkehr",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/holzkunst-schnitzerei-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/kultur-geschichte-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/kulturelles-erbe-zukunft-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/malerei-kunst-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#kunst",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/musik-singen-bayerische-voralpen.html",
+      "destination": "/content/almkultur/#musik",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/persoenlichkeiten-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#personen",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/sagen-legenden-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/trachten-brauchtum-bayerische-voralpen.html",
+      "destination": "/content/almkultur/#tracht",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/wallfahrten-prozessionen-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#kirchen",
+      "permanent": true
+    },
+    {
+      "source": "/content/kultur_geschichte/wirtschaftsgeschichte-bayerische-voralpen.html",
+      "destination": "/content/kultur_geschichte/#bergbau",
       "permanent": true
     }
   ]
