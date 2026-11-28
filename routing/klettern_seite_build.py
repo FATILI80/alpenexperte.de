@@ -22,7 +22,7 @@ def dav(km, hm):
 def zustieg(k, text, fallback=None):
     """k = Kletter-Kennung (K..). Ohne Kletter-Ergebnis: bereits berechnete Wanderroute (fallback W..) oder nichts."""
     if k in ERGK:
-        t, pfad, art = ERGK[k], 'klettern', ('Strecke' if ERGK[k].get('strecke') else 'Runde')
+        t, pfad, art = ERGK[k], 'klettern', ('Hinweg' if ERGK[k].get('strecke') else 'Runde')
     elif fallback and fallback in ERG:
         t, pfad, art, k = ERG[fallback], 'wandern', 'Runde', fallback
     else:
@@ -30,7 +30,7 @@ def zustieg(k, text, fallback=None):
     km, hm, hab = t['laenge_km_brouter'], t['hm_aufstieg'], t.get('hm_abstieg', t['hm_aufstieg'])
     hmtxt = f"↑↓ {hm:,} Hm".replace(',', '.') if art == 'Runde' else f"↑ {hm:,} / ↓ {hab:,} Hm".replace(',', '.')
     zeit = dav(km, hm) if art == 'Runde' else dav_strecke(km, hm, hab)
-    rueck = '' if art == 'Runde' else ' – zurück mit dem Bus'
+    rueck = '' if art == 'Runde' else ' – nur Hinweg; als Klettertag sinnvoller mit Anfahrt ins Tal'
     return (f'<p style="margin:8px 0 4px;font-size:.84rem;color:#0f2942;"><strong>Zustieg ab Oberer Firstalm (BRouter, hiking-mountain):</strong> {E(text)} – '
             f'{art} {str(km).replace(".", ",")} km · {hmtxt} · ca. {zeit} Std. Gehzeit ohne Kletterzeit (DAV-Formel){rueck}.</p>'
             f'<div class="mini-karte" data-route="{k}" data-pfad="{pfad}" style="height:200px;margin-top:6px;border-radius:8px;"></div>')
