@@ -5733,6 +5733,341 @@
       "source": "/naturschutz-alpine-flora/index.html",
       "destination": "/content/botanik/#sammeln",
       "permanent": true
+    },
+    {
+      "source": "/content/regional/3-seen-vergleich.html",
+      "destination": "/content/regional/#vergleich",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/3-seen-vergleich",
+      "destination": "/content/regional/#vergleich",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/almwirtschaft.html",
+      "destination": "/content/almwirtschaft/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/almwirtschaft",
+      "destination": "/content/almwirtschaft/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/geschichte-jennerwein.html",
+      "destination": "/content/regional/#jennerwein",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/geschichte-jennerwein",
+      "destination": "/content/regional/#jennerwein",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/spitzingsee.html",
+      "destination": "/content/regional/#spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/spitzingsee",
+      "destination": "/content/regional/#spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/tegernsee.html",
+      "destination": "/content/regional/#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/tegernsee",
+      "destination": "/content/regional/#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/kultur-geschichte/index.html",
+      "destination": "/content/regional/#geschichte",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/kultur-geschichte",
+      "destination": "/content/regional/#geschichte",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/kultur-geschichte/",
+      "destination": "/content/regional/#geschichte",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/kultur-geschichte/fischerei-schliersee.html",
+      "destination": "/content/regional/#schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/kultur-geschichte/fischerei-schliersee",
+      "destination": "/content/regional/#schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/kultur-geschichte/markus-wasmeier.html",
+      "destination": "/content/regional/#wasmeier",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/kultur-geschichte/markus-wasmeier",
+      "destination": "/content/regional/#wasmeier",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/kultur-geschichte/wilparting.html",
+      "destination": "/content/regional/#wilparting",
+      "permanent": true
+    },
+    {
+      "source": "/content/regional/kultur-geschichte/wilparting",
+      "destination": "/content/regional/#wilparting",
+      "permanent": true
+    },
+    {
+      "source": "/region/index.html",
+      "destination": "/content/regional/",
+      "permanent": true
+    },
+    {
+      "source": "/region",
+      "destination": "/content/regional/",
+      "permanent": true
+    },
+    {
+      "source": "/region/",
+      "destination": "/content/regional/",
+      "permanent": true
+    },
+    {
+      "source": "/region/spitzingsee/index.html",
+      "destination": "/content/regional/#spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/region/spitzingsee",
+      "destination": "/content/regional/#spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/region/spitzingsee/",
+      "destination": "/content/regional/#spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/region/schliersee/index.html",
+      "destination": "/content/regional/#schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/region/schliersee",
+      "destination": "/content/regional/#schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/region/schliersee/",
+      "destination": "/content/regional/#schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/region/tegernsee/index.html",
+      "destination": "/content/regional/#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/region/tegernsee",
+      "destination": "/content/regional/#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/region/tegernsee/",
+      "destination": "/content/regional/#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/region/valepp/index.html",
+      "destination": "/content/regional/#valepp",
+      "permanent": true
+    },
+    {
+      "source": "/region/valepp",
+      "destination": "/content/regional/#valepp",
+      "permanent": true
+    },
+    {
+      "source": "/region/valepp/",
+      "destination": "/content/regional/#valepp",
+      "permanent": true
+    },
+    {
+      "source": "/region/geschichte/index.html",
+      "destination": "/content/regional/#geschichte",
+      "permanent": true
+    },
+    {
+      "source": "/region/geschichte",
+      "destination": "/content/regional/#geschichte",
+      "permanent": true
+    },
+    {
+      "source": "/region/geschichte/",
+      "destination": "/content/regional/#geschichte",
+      "permanent": true
+    },
+    {
+      "source": "/region/schliersee/geschichte/index.html",
+      "destination": "/content/regional/#schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/region/schliersee/geschichte",
+      "destination": "/content/regional/#schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/region/schliersee/geschichte/",
+      "destination": "/content/regional/#schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/region/tegernsee/geschichte/index.html",
+      "destination": "/content/regional/#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/region/tegernsee/geschichte",
+      "destination": "/content/regional/#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/region/tegernsee/geschichte/",
+      "destination": "/content/regional/#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/region/huetten/index.html",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/region/huetten",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/region/huetten/",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/region/schliersee/huetten/index.html",
+      "destination": "/huetten.html#schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/region/schliersee/huetten",
+      "destination": "/huetten.html#schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/region/schliersee/huetten/",
+      "destination": "/huetten.html#schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/region/tegernsee/huetten/index.html",
+      "destination": "/huetten.html#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/region/tegernsee/huetten",
+      "destination": "/huetten.html#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/region/tegernsee/huetten/",
+      "destination": "/huetten.html#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/region/klettern/index.html",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/region/klettern",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/region/klettern/",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/region/schliersee/klettern/index.html",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/region/schliersee/klettern",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/region/schliersee/klettern/",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/region/tegernsee/klettern/index.html",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/region/tegernsee/klettern",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/region/tegernsee/klettern/",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/pilze-region",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/pilze-region/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/pilze-region/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/waldfruechte-region",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/waldfruechte-region/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/waldfruechte-region/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
     }
   ]
 }
