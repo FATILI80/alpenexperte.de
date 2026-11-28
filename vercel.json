@@ -50,11 +50,6 @@
   ],
   "redirects": [
     {
-      "source": "/((?!offline\\.html|impressum\\.html|datenschutz\\.html|css/|js/|fonts/|images/|favicon).*)",
-      "destination": "/offline.html",
-      "permanent": false
-    },
-    {
       "source": "/content/wandern/wendelstein.html",
       "destination": "/wandern/index.html",
       "permanent": true
