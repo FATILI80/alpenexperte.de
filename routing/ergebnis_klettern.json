@@ -3,7 +3,16 @@
     "kennung": "K01",
     "name": "Krettenburg",
     "alt": "theCrag 47.671252, 11.850870",
-    "fehler": "Kein Treffer: 47.671252,11.850870"
+    "treffer": [
+      "Koordinate 47.671252, 11.85087"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 1.02,
+    "laenge_km_geometrie": 1.02,
+    "hm_aufstieg": 46,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 46
   },
   {
     "kennung": "K02",
@@ -12,13 +21,29 @@
     "treffer": [
       "Taubenstein, Bayrischzell, Landkreis Miesbach, Bayern, 83727, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 13.33,
+    "laenge_km_geometrie": 13.29,
+    "hm_aufstieg": 799,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 799
   },
   {
     "kennung": "K03",
     "name": "Ruchenköpfe",
     "alt": "Panico 47.6489 N, 11.9456 O",
-    "fehler": "Kein Treffer: 47.6489,11.9456"
+    "treffer": [
+      "Rotwandhaus, 3, Spitzingsee, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland",
+      "Koordinate 47.6489, 11.9456"
+    ],
+    "strecke": false,
+    "laenge_km_brouter": 19.92,
+    "laenge_km_geometrie": 19.88,
+    "hm_aufstieg": 1274,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 1274
   },
   {
     "kennung": "K04",
@@ -27,13 +52,28 @@
     "treffer": [
       "Brecherspitz, Schliersee, Landkreis Miesbach, Bayern, 83727, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": false,
+    "laenge_km_brouter": 3.57,
+    "laenge_km_geometrie": 3.55,
+    "hm_aufstieg": 373,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 12,
+    "hm_abstieg": 373
   },
   {
     "kennung": "K05",
     "name": "Roß- und Buchstein (Tegernseer Hütte)",
     "alt": "Wikipedia 47.6347, 11.6819",
-    "fehler": "Kein Treffer: 47.6347,11.6819"
+    "treffer": [
+      "Koordinate 47.6347, 11.6819"
+    ],
+    "strecke": true,
+    "laenge_km_brouter": 22.89,
+    "laenge_km_geometrie": 22.84,
+    "hm_aufstieg": 1134,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 247,
+    "hm_abstieg": 895
   },
   {
     "kennung": "K06",
@@ -42,7 +82,13 @@
     "treffer": [
       "Blankenstein, Rottach-Egern, Landkreis Miesbach, Bayern, 83700, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": true,
+    "laenge_km_brouter": 8.36,
+    "laenge_km_geometrie": 8.35,
+    "hm_aufstieg": 843,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 20,
+    "hm_abstieg": 510
   },
   {
     "kennung": "K07",
@@ -51,7 +97,13 @@
     "treffer": [
       "Leonhardstein, Kreuth, Landkreis Miesbach, Bayern, 83708, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": true,
+    "laenge_km_brouter": 18.05,
+    "laenge_km_geometrie": 18.01,
+    "hm_aufstieg": 741,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 0,
+    "hm_abstieg": 673
   },
   {
     "kennung": "K08",
@@ -60,6 +112,12 @@
     "treffer": [
       "Löchelwand, Fischbachau, Landkreis Miesbach, Bayern, 83730, Deutschland"
     ],
-    "fehler": "<urlopen error [WinError 10061] Es konnte keine Verbindung hergestellt werden, da der Zielcomputer die Verbindung verweigerte>"
+    "strecke": true,
+    "laenge_km_brouter": 16.47,
+    "laenge_km_geometrie": 16.46,
+    "hm_aufstieg": 623,
+    "start_abweichung_m": 12,
+    "ziel_abweichung_m": 138,
+    "hm_abstieg": 768
   }
 ]
