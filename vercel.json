@@ -2266,12 +2266,12 @@
     },
     {
       "source": "/content/huetten/lukas-alm.html",
-      "destination": "/huetten.html#tegernsee",
+      "destination": "/huetten.html#lukas-alm",
       "permanent": true
     },
     {
       "source": "/content/huetten/lukas-alm",
-      "destination": "/huetten.html#tegernsee",
+      "destination": "/huetten.html#lukas-alm",
       "permanent": true
     },
     {
@@ -2291,7 +2291,7 @@
     },
     {
       "source": "/content/huetten/moni-alm.md",
-      "destination": "/huetten.html#spitzingsee",
+      "destination": "/huetten.html#moni-alm",
       "permanent": true
     },
     {
@@ -2431,12 +2431,12 @@
     },
     {
       "source": "/content/huetten/schwaigeralm.html",
-      "destination": "/huetten.html#tegernsee",
+      "destination": "/huetten.html#schwaigeralm",
       "permanent": true
     },
     {
       "source": "/content/huetten/schwaigeralm",
-      "destination": "/huetten.html#tegernsee",
+      "destination": "/huetten.html#schwaigeralm",
       "permanent": true
     },
     {
