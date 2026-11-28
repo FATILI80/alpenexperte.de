@@ -62,7 +62,7 @@ b.append(H2('pisten', '🎿 Pisten, Parks &amp; Kinderbereiche') + tab(['Abfahrt
     ['Sutten-Abfahrt', 'ca. 3,2 km', 'abwechslungsreiche rote Abfahrt hinunter zur Suttenbahn (Tegernseer Seite)'],
     ['Stümpfling-Talabfahrt', 'über 2 km', 'mit Blick auf den See; donnerstags und freitags Flutlicht'],
     ['Snowpark Spitzingsee', 'Untere Firstalm, Nordhanglift', 'Kicker, Rails, Boxen, Jib-Barrels und Wave-Track, täglich geshapt'],
-    ['Funslope', 'Osthang / Untere Firstalm', 'Wellen, Steilkurven und Sprünge – auch für Einsteiger'],
+    ['Funslope', 'Osthang bei der Unteren Firstalm', 'Wellenbahnen, Steilkurven und Sprünge – für Einsteiger und Fortgeschrittene; Aufbau erst bei ausreichend Schnee, meist nicht gleich zum Saisonstart'],
     ['Kids-Parks', 'Lyralift und Bayernhanglift', 'Kinderbereiche für die ersten Schwünge']]) +
     '')
 
@@ -71,6 +71,7 @@ LYRA = karte('lyra-alm', 'Alm-Restaurants.jpg', '⭐ Gehört zur Oberen Firstalm
     'Lyra Alm Schirmbar', 'Die Schirmbar am Lyralift, gleich bei der Talstation der Stümpflingbahn: Einkehrschwung zum Schluss, Après-Ski und an den Nachtskilauf-Abenden bis spät geöffnet. Auf der Karte stehen unter anderem Pizza, Flammkuchen, Leberkassemmel, Germknödel – und das Chili con carne, auf das das Firstalm-Team schwört.',
     [('Adresse', 'Lyraweg 6, 83727 Schliersee (am Lyralift, nahe Talstation Stümpflingbahn)'),
      ('Telefon', '<a href="tel:+4980263959390">08026 3959390</a>'),
+     ('E-Mail', '<a href="mailto:info@firstalm.de">info@firstalm.de</a> (Obere Firstalm)'),
      ('Öffnungszeiten', 'laut Google: Samstag bis Mittwoch 9–17 Uhr, Donnerstag und Freitag 9–23 Uhr (Nachtskilauf) – Betrieb nur in der Wintersaison'),
      ('Angebot', 'Getränke, warme Speisen, Sitzplätze im Freien, auch zum Mitnehmen'),
      ('Events', 'Après-Ski und Veranstaltungen – aktuelle Termine auf Instagram und Facebook der Schirmbar'),
@@ -112,7 +113,9 @@ b.append('<aside style="border:1px solid #e5e7eb;border-radius:10px;padding:12px
          '<a href="https://www.amazon.de/s?k=Skihandschuhe&amp;linkCode=ll2&amp;tag=bb8ozi-21" target="_blank" rel="sponsored noopener">Skihandschuhe</a> bei Amazon</aside>')
 QUELLEN = [('Alpenbahnen Spitzingsee – Aktionsangebote 2026/27 (Mittwochskracher, Happy Hour, MVV-Skipass, Kartenpfand)', 'https://www.alpenbahnen-spitzingsee.de/de/aktionsangebote.html'),
  ('skiresort.de – Spitzingsee-Tegernsee: Tageskarte, Pisten, Lifttypen, Kids-Parks, Snowpark, Grünsee-Abfahrt', 'https://www.skiresort.de/skigebiet/spitzingsee-tegernsee/'),
- ('schneehoehen.de – Saison, Höhe, Lifte, Beschneiung, Funslope', 'https://www.schneehoehen.de/skigebiete/info/spitzingsee-stuempfling-taubenstein'),
+ ('schneehoehen.de – Saison, Höhe, Lifte, Osthang- und Nordhanglift', 'https://www.schneehoehen.de/skigebiete/info/spitzingsee-stuempfling-taubenstein'),
+ ('Oberbayern.de – Funslope am Osthang', 'https://www.oberbayern.de/en/erleben/ski/winter-abenteuer'),
+ ('skiresort.info – Snowpark Spitzingsee an der Unteren Firstalm, Nordhanglift', 'https://www.skiresort.info/ski-resort/spitzingsee-tegernsee/test-result/snow-park'),
  ('skiresort.info – Taubensteinbahn, geschlossen 2015', 'https://skiresort.info/ski-resort/spitzingsee-tegernsee/ski-lifts/l1847'),
  ('bahn.de – Nachtskilauf Stümpflingabfahrt', 'https://www.bahn.de/angebot/urlaub/bahnreisen/winterrail/deutschland/alpenregion-tegernsee-schliersee-by'),
  ('Sudelfeld – Alpen Plus Skipassverbund (vier Gebiete)', 'https://www.sudelfeld.de/?p=4491'),
