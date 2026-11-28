@@ -84,7 +84,7 @@ body.append(H2('rodeln','🛷 Rodeln')+P('Die bekannteste Rodelbahn am Spitzings
             'Zum <strong>Rotwandhaus</strong> führt eine breite Forststraße, die aber nicht als Rodelbahn präpariert ist – mit eigenem Schlitten nur bei passender Schneelage.')+
             '<p><a href="/content/winter/firstalm-rodelbahn.html">→ Rodelbahn Obere Firstalm</a> · <a href="/content/winter/rodeln-familie.html">Rodeln mit Familie</a></p>')
 body.append(H2('skigebiet','⛷️ Skigebiet Spitzingsee-Tegernsee')+P('Das Skigebiet reicht vom Spitzingsee über die Firstalmen, Stümpfling und Roßkopf bis zum Sutten auf der Tegernseer Seite. Die Portale zählen unterschiedlich – deshalb hier die Spanne mit Quelle:')+tab+
-            '<p><a href="/content/winter/skigebiet/index.html">→ Skigebiet-Guide</a> · Saisonzeiten und Liftstatus tagesaktuell bei den <a href="https://www.alpenbahnen-spitzingsee.de" target="_blank" rel="noopener">Alpenbahnen Spitzingsee</a>.</p>')
+            '<p><a href="/content/skigebiete/">→ Skigebiet-Guide</a> · Saisonzeiten und Liftstatus tagesaktuell bei den <a href="https://www.alpenbahnen-spitzingsee.de" target="_blank" rel="noopener">Alpenbahnen Spitzingsee</a>.</p>')
 body.append(H2('langlauf','🎿 Langlauf')+P('Am Spitzingsee liegen die Loipen an den <strong>Valepper Almen</strong>: die Valepper-Almen-Loipe ist rund 6,5 km lang, startet am Roßkopfweg (ca. 1.100 m), ist klassisch und für Skating gespurt und läuft teils entlang der Roten Valepp. Das Langlaufzentrum liegt an der Albert-Link-Hütte. '
             'Rund um Schliersee und Spitzingsee kommen je nach Portal etwa 22–33 km Loipen zusammen.')+'<p><a href="/content/winter/langlauf/index.html">→ Langlauf-Guide</a></p>')
 body.append(H2('lawine','⚠️ Lawine &amp; Notruf')+LAW)

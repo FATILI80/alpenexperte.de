@@ -1658,6 +1658,81 @@
       "source": "/content/wandern/bodenschneid-klettersteig",
       "destination": "/content/klettern/index.html#hinweis",
       "permanent": true
+    },
+    {
+      "source": "/content/winter/skigebiet",
+      "destination": "/content/skigebiete/",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/skigebiet/",
+      "destination": "/content/skigebiete/",
+      "permanent": true
+    },
+    {
+      "source": "/content/winter/skigebiet/index.html",
+      "destination": "/content/skigebiete/",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiet",
+      "destination": "/content/skigebiete/",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiet/",
+      "destination": "/content/skigebiete/",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiet/index.html",
+      "destination": "/content/skigebiete/",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiete/sudelfeld.html",
+      "destination": "/content/skigebiete/#umgebung",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiete/sudelfeld.md",
+      "destination": "/content/skigebiete/#umgebung",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiete/wallberg.html",
+      "destination": "/content/skigebiete/#umgebung",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiete/wallberg.md",
+      "destination": "/content/skigebiete/#umgebung",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiete/wendelstein.html",
+      "destination": "/content/skigebiete/#umgebung",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiete/wendelstein.md",
+      "destination": "/content/skigebiete/#umgebung",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiete/schliersee-tatzelwurm.html",
+      "destination": "/content/skigebiete/#umgebung",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiete/schliersee-tatzelwurm.md",
+      "destination": "/content/skigebiete/#umgebung",
+      "permanent": true
+    },
+    {
+      "source": "/content/skigebiete/index.md",
+      "destination": "/content/skigebiete/",
+      "permanent": true
     }
   ]
 }

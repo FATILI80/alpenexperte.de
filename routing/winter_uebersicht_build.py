@@ -25,7 +25,7 @@ PAGES={
     ('winter-landschaft.jpg','content/winter/skitouren/taubenstein.html','1.692 m · ca. 600 Hm · leicht'),
     ('AusblickWinterunterfirst.jpg','content/winter/skitouren/brecherspitz.html','Westgipfel ca. 1.630 m · ca. 500 Hm · leicht'),
     ('winter-1.jpeg','content/winter/skitouren/bodenschneid.html','1.669 m · 560–810 Hm · mittel bis steil')],
-   '<p style="margin-top:14px;"><a href="/content/winter/skigebiet/index.html">Pistentouren im Skigebiet</a> · <a href="/content/winter/skitouren-anfaenger.html">Skitouren für Einsteiger</a></p>'),
+   '<p style="margin-top:14px;"><a href="/content/skigebiete/">Pistentouren im Skigebiet</a> · <a href="/content/winter/skitouren-anfaenger.html">Skitouren für Einsteiger</a></p>'),
  'content/winter/schneeschuh/index.html':('Schneeschuh','👣 Schneeschuh- &amp; Winterwandern am Spitzingsee',
    'Drei Touren vom flachen Seeufer bis zum Rotwandhaus. Auf gespurten Wegen reichen oft Grödel, Schneeschuhe lohnen sich nach Neuschnee.',
    [('schneeschuh.jpg','content/winter/schneeschuh/spitzingsee-runde.html','ca. 3 km · 20–30 Hm · 1 h · leicht'),
