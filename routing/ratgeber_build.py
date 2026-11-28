@@ -39,6 +39,8 @@ def seite(pfad, titel, h1, intro, hero, nav, body, desc, crumb):
     head = re.sub(r'(<meta property="og:url" content=")[^"]*(")', lambda m: m.group(1) + url + m.group(2), head)
     head = re.sub(r'(<meta property="og:title" content=")[^"]*(")', lambda m: m.group(1) + html.escape(titel) + m.group(2), head)
     head = re.sub(r'<script type="application/ld\+json">.*?</script>', '', head, flags=re.S)
+    absol = lambda t: re.sub(r'((?:href|src)=")(?!https?:|/|#|mailto:|tel:|data:|javascript:)([^"]+)"', r'\1/\2"', t)
+    head, tail = absol(head), absol(tail)
     m = ['<main id="main"><article class="container" style="max-width:960px;margin:0 auto;padding:24px 16px 48px;">',
          f'<nav aria-label="Breadcrumb" style="font-size:.9rem;margin-bottom:12px;"><a href="/">Home</a> › <span aria-current="page">{crumb}</span></nav>',
          f'<header style="margin-bottom:14px;"><h1 style="color:#14532d;margin:0 0 8px;">{h1}</h1><p style="font-size:1.08rem;color:#1f2933;margin:0;line-height:1.6;">{intro}</p></header>', hero,
@@ -166,7 +168,7 @@ b.append(H2('gehzeit', '⏱️ Selbstcheck: die DAV-Gehzeit')
 b.append(q.liste())
 seite('content/fitness/index.html', 'Fit fürs Bergwandern – Training, Umfang, 8-Wochen-Plan',
       '💪 Fit fürs Bergwandern', 'Wie viel Training sinnvoll ist, welche Bausteine der DAV empfiehlt und ein 8-Wochen-Aufbau mit Touren ab der Oberen Firstalm – mit Quellen von WHO und Alpenverein.',
-      IMG('fitness.jpg', 'Training für die Berge'), [('warum', '❤️ Warum'), ('umfang', '📏 Umfang'), ('plan', '🗓️ 8-Wochen-Plan'), ('gehzeit', '⏱️ Gehzeit'), ('quellen', '📚 Quellen')],
+      IMG('wandern-brecherspitz.jpg', 'Blick vom Weg zur Brecherspitz auf den Spitzingsee'), [('warum', '❤️ Warum'), ('umfang', '📏 Umfang'), ('plan', '🗓️ 8-Wochen-Plan'), ('gehzeit', '⏱️ Gehzeit'), ('quellen', '📚 Quellen')],
       ''.join(b), 'Training fürs Bergwandern mit Quellen: WHO-Bewegungsempfehlung, DAV-Trainingsbausteine, 8-Wochen-Plan mit Touren ab der Oberen Firstalm und DAV-Gehzeitformel.', 'Fitness')
 
 # ============ SICHERHEIT ============

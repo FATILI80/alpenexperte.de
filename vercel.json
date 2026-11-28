@@ -3668,6 +3668,21 @@
       "source": "/content/outer-shell/index.html",
       "destination": "/content/layering/#shell",
       "permanent": true
+    },
+    {
+      "source": "/content",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/content/",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/content/index.html",
+      "destination": "/",
+      "permanent": true
     }
   ]
 }
