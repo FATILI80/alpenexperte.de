@@ -4736,7 +4736,7 @@
     },
     {
       "source": "/content/elefanten-in-den-alpen(/|/index\\.html)?",
-      "destination": "/content/astronomie_geschichte/elefanten-in-den-alpen.html",
+      "destination": "/content/regional/",
       "permanent": true
     },
     {
@@ -5006,7 +5006,7 @@
     },
     {
       "source": "/content/mittelalter-astronomie-tegernsee(/|/index\\.html)?",
-      "destination": "/content/astronomie_geschichte/mittelalter-astronomie-tegernsee.html",
+      "destination": "/content/sternenhimmel/",
       "permanent": true
     },
     {
@@ -5296,7 +5296,7 @@
     },
     {
       "source": "/content/steinzeit-jaeger-spitzingsee(/|/index\\.html)?",
-      "destination": "/content/astronomie_geschichte/steinzeit-jaeger-spitzingsee.html",
+      "destination": "/content/regional/",
       "permanent": true
     },
     {
@@ -5306,7 +5306,7 @@
     },
     {
       "source": "/content/sternenklar-mangfallgebirge(/|/index\\.html)?",
-      "destination": "/content/astronomie_geschichte/sternenklar-mangfallgebirge.html",
+      "destination": "/content/sternenhimmel/#dunkel",
       "permanent": true
     },
     {
@@ -5546,7 +5546,7 @@
     },
     {
       "source": "/elefanten-in-den-alpen(/|/index\\.html)?",
-      "destination": "/content/astronomie_geschichte/elefanten-in-den-alpen.html",
+      "destination": "/content/regional/",
       "permanent": true
     },
     {
@@ -5911,7 +5911,7 @@
     },
     {
       "source": "/mittelalter-astronomie-tegernsee(/|/index\\.html)?",
-      "destination": "/content/astronomie_geschichte/mittelalter-astronomie-tegernsee.html",
+      "destination": "/content/sternenhimmel/",
       "permanent": true
     },
     {
@@ -6261,7 +6261,7 @@
     },
     {
       "source": "/steinzeit-jaeger-spitzingsee(/|/index\\.html)?",
-      "destination": "/content/astronomie_geschichte/steinzeit-jaeger-spitzingsee.html",
+      "destination": "/content/regional/",
       "permanent": true
     },
     {
@@ -6276,7 +6276,7 @@
     },
     {
       "source": "/sternenklar-mangfallgebirge(/|/index\\.html)?",
-      "destination": "/content/astronomie_geschichte/sternenklar-mangfallgebirge.html",
+      "destination": "/content/sternenhimmel/#dunkel",
       "permanent": true
     },
     {
@@ -6582,6 +6582,26 @@
     {
       "source": "/content/sternenhimmel/teleskop-auswahl.html",
       "destination": "/content/sternenhimmel/#ausruestung",
+      "permanent": true
+    },
+    {
+      "source": "/content/astronomie_geschichte/sternenklar-mangfallgebirge.html",
+      "destination": "/content/sternenhimmel/#dunkel",
+      "permanent": true
+    },
+    {
+      "source": "/content/astronomie_geschichte/mittelalter-astronomie-tegernsee.html",
+      "destination": "/content/sternenhimmel/",
+      "permanent": true
+    },
+    {
+      "source": "/content/astronomie_geschichte/steinzeit-jaeger-spitzingsee.html",
+      "destination": "/content/regional/",
+      "permanent": true
+    },
+    {
+      "source": "/content/astronomie_geschichte/elefanten-in-den-alpen.html",
+      "destination": "/content/regional/",
       "permanent": true
     }
   ]
