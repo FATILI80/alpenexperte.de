@@ -38,7 +38,7 @@ b = ['<main id="main"><article class="container" style="max-width:1100px;margin:
      '<p style="font-size:1.08rem;color:#1f2933;margin:0;">Live-Wetter für die Obere Firstalm, die Rotwand und den Schliersee, die Webcams rund um Spitzingsee und Firstalm und die offiziellen Dienste für Bergwetter und Lawinen – alles auf einer Seite.</p></header>',
      '<nav class="kat-nav" style="background:#e8f5e9;border:1px solid #2e7d32;border-radius:10px;padding:10px;margin:12px 0 16px;display:flex;flex-wrap:wrap;gap:8px;z-index:50;">'
      + ''.join(f'<a href="#{i}" style="background:#14532d;color:#fff;padding:6px 10px;border-radius:6px;text-decoration:none;font-size:.84rem;font-weight:700;">{t}</a>' for i, t in
-               [('live', '🌡️ Live-Wetter'), ('webcams', '📹 Webcams'), ('dienste', '⚠️ Lawine & Bergwetter'), ('tipps', '🧭 Wetter lesen')]) + '</nav>',
+               [('live', '🌡️ Live-Wetter'), ('webcams', '📹 Webcams'), ('dienste', '⚠️ Lawine & Bergwetter'), ('tipps', '🧭 Wetter lesen'), ('foehn', '🌬️ Föhn')]) + '</nav>',
      H2('live', '🌡️ Live-Wetter') + '<div id="wx" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;">'
      + ''.join(f'<div class="wxk" data-lat="{la}" data-lon="{lo}" data-ele="{el}" style="background:#fff;border:{"2px solid #c2410c" if i == "firstalm" else "1px solid #2e7d32"};border-radius:12px;padding:12px 14px;">'
                f'<div style="font-size:.78rem;color:#1d4ed8;font-weight:700;">{el:,} m'.replace(',', '.') + f'</div><h3 style="margin:3px 0 6px;color:#14532d;font-size:1rem;">{E(n)}</h3><div class="wxb" style="font-size:.9rem;color:#1f2933;">lädt …</div></div>'
@@ -52,7 +52,14 @@ b = ['<main id="main"><article class="container" style="max-width:1100px;margin:
      '<li><strong>Höhe zählt:</strong> Vergleiche die drei Punkte oben – zwischen Schliersee (784 m) und Rotwand (1.884 m) liegen gut 1.100 Höhenmeter.</li>'
      '<li><strong>Webcam vor Wetterkarte:</strong> Das Bild von der Firstalm zeigt Nebel, Schnee und Rodelbahn-Zustand, bevor ein Modell es tut.</li>'
      '<li><strong>Lawinenlagebericht</strong> gilt im Winter für jede Tour abseits gesicherter Pisten – mehr dazu in den <a href="/content/winter/lawinenkunde-grundlagen.html">Lawinen-Grundlagen</a>.</li>'
-     '<li>Hintergründe zu Föhn, Gewitter und Nebel in der <a href="/content/meteorologie/index.html">Wetterkunde</a>.</li></ul>'
+     '<li>Gewitter und Wetterumschwung: Verhaltensregeln im <a href="/content/sicherheit/#wetter">Sicherheits-Ratgeber</a>.</li></ul>'
+     + H2('foehn', '🌬️ Föhn')
+     + '<ul style="line-height:1.7;color:#1f2933;">'
+     '<li>Föhn ist ein warmer, trockener, oft böiger Fallwind auf der Leeseite hoher Gebirge – bei uns auf der Alpennordseite als Südföhn.<sup><a href="https://www.spektrum.de/lexikon/geowissenschaften/foehn/5103" target="_blank" rel="noopener">[Spektrum]</a></sup></li>'
+     '<li>Über dem Alpenhauptkamm ist dann oft die „Föhnmauer“ zu sehen; sinkt die Luft auf der Nordseite ab, lösen sich die Wolken rasch auf.<sup><a href="https://www.wetterdienst.de/Deutschlandwetter/Thema_des_Tages/774/foehnlage" target="_blank" rel="noopener">[wetterdienst.de]</a></sup></li>'
+     '<li>In Föhntälern kann er Sturmstärke erreichen, auf den Gipfeln Orkanstärke – am Grat also mit kräftigem Wind rechnen, auch wenn es im Tal mild und sonnig ist.<sup><a href="https://14-tage-wettervorhersage.de/news/thema/191120/" target="_blank" rel="noopener">[DWD-Thema]</a></sup></li>'
+     '<li>Im Winter kann Föhn Gleitschneerutsche und Lawinen auslösen.<sup><a href="https://www.wetterdienst.de/Service/Lexikon/Foehn" target="_blank" rel="noopener">[wetterdienst.de]</a></sup></li>'
+     '<li>Die Schulbuch-Erklärung „im Süden regnet es sich aus“ stimmt nicht immer: Föhn kann auch ohne Niederschlag auf der Südseite entstehen.<sup><a href="https://www.srf.ch/meteo/meteo-stories/foehn-fuenf-fakten-zum-warmen-fallwind" target="_blank" rel="noopener">[SRF Meteo]</a></sup></li></ul>'
      '<p style="font-size:.82rem;color:#4b5563;">Stand: 28. November 2026.</p></article></main>']
 
 JS = r'''<script>

@@ -4256,12 +4256,12 @@
     },
     {
       "source": "/alpine-ethik-nachhaltigkeit-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/alpine-ethik-nachhaltigkeit-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#regeln",
       "permanent": true
     },
     {
       "source": "/alpine-gefahren-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/alpine-gefahren-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#unfaelle",
       "permanent": true
     },
     {
@@ -4281,12 +4281,12 @@
     },
     {
       "source": "/alpinismus-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/alpinismus-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/",
       "permanent": true
     },
     {
       "source": "/alpinismus_sicherheit(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/",
+      "destination": "/content/sicherheit/",
       "permanent": true
     },
     {
@@ -4341,7 +4341,7 @@
     },
     {
       "source": "/ausruestung-bergtouren-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/ausruestung-bergtouren-bayerische-voralpen.html",
+      "destination": "/content/ausruestung/",
       "permanent": true
     },
     {
@@ -4386,7 +4386,7 @@
     },
     {
       "source": "/bergrettung-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/bergrettung-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#notruf",
       "permanent": true
     },
     {
@@ -4406,12 +4406,12 @@
     },
     {
       "source": "/bergwandern-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/bergwandern-bayerische-voralpen.html",
+      "destination": "/content/wandern/index.html",
       "permanent": true
     },
     {
       "source": "/bergwanderung-brecherspitz-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/bergwanderung-brecherspitz-bayerische-voralpen.html",
+      "destination": "/content/wandern/index.html",
       "permanent": true
     },
     {
@@ -4571,17 +4571,17 @@
     },
     {
       "source": "/content/alpine-ethik-nachhaltigkeit-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/alpine-ethik-nachhaltigkeit-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#regeln",
       "permanent": true
     },
     {
       "source": "/content/alpine-gefahren-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/alpine-gefahren-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#unfaelle",
       "permanent": true
     },
     {
       "source": "/content/alpinismus-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/alpinismus-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/",
       "permanent": true
     },
     {
@@ -4616,7 +4616,7 @@
     },
     {
       "source": "/content/ausruestung-bergtouren-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/ausruestung-bergtouren-bayerische-voralpen.html",
+      "destination": "/content/ausruestung/",
       "permanent": true
     },
     {
@@ -4651,7 +4651,7 @@
     },
     {
       "source": "/content/bergrettung-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/bergrettung-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#notruf",
       "permanent": true
     },
     {
@@ -4661,12 +4661,12 @@
     },
     {
       "source": "/content/bergwandern-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/bergwandern-bayerische-voralpen.html",
+      "destination": "/content/wandern/index.html",
       "permanent": true
     },
     {
       "source": "/content/bergwanderung-brecherspitz-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/bergwanderung-brecherspitz-bayerische-voralpen.html",
+      "destination": "/content/wandern/index.html",
       "permanent": true
     },
     {
@@ -4766,7 +4766,7 @@
     },
     {
       "source": "/content/erste-hilfe-berge-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/erste-hilfe-berge-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#erstehilfe",
       "permanent": true
     },
     {
@@ -4801,7 +4801,7 @@
     },
     {
       "source": "/content/foehn(/|/index\\.html)?",
-      "destination": "/content/praxis/foehn.html",
+      "destination": "/wetter-webcams.html#foehn",
       "permanent": true
     },
     {
@@ -4916,7 +4916,7 @@
     },
     {
       "source": "/content/jahreszeiten(/|/index\\.html)?",
-      "destination": "/content/praxis/jahreszeiten/",
+      "destination": "/content/almkultur/#jahreslauf",
       "permanent": true
     },
     {
@@ -5116,17 +5116,17 @@
     },
     {
       "source": "/content/oepnv-guide(/|/index\\.html)?",
-      "destination": "/content/praxis/oepnv-guide/",
+      "destination": "/content/regional/#anreise",
       "permanent": true
     },
     {
       "source": "/content/orientierung-berge-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/orientierung-berge-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#regeln",
       "permanent": true
     },
     {
       "source": "/content/packlisten(/|/index\\.html)?",
-      "destination": "/content/praxis/packlisten/",
+      "destination": "/content/ausruestung/",
       "permanent": true
     },
     {
@@ -5181,7 +5181,7 @@
     },
     {
       "source": "/content/saisonaler-kalender(/|/index\\.html)?",
-      "destination": "/content/praxis/saisonaler-kalender.html",
+      "destination": "/content/almkultur/#jahreslauf",
       "permanent": true
     },
     {
@@ -5206,7 +5206,7 @@
     },
     {
       "source": "/content/schneeschuhwandern-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/schneeschuhwandern-bayerische-voralpen.html",
+      "destination": "/content/winter/index.html",
       "permanent": true
     },
     {
@@ -5261,7 +5261,7 @@
     },
     {
       "source": "/content/sicherheit-wetter-berge-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/sicherheit-wetter-berge-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#wetter",
       "permanent": true
     },
     {
@@ -5276,7 +5276,7 @@
     },
     {
       "source": "/content/skitouren-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/skitouren-bayerische-voralpen.html",
+      "destination": "/content/winter/index.html",
       "permanent": true
     },
     {
@@ -5371,12 +5371,12 @@
     },
     {
       "source": "/content/tourenplanung(/|/index\\.html)?",
-      "destination": "/content/praxis/tourenplanung/",
+      "destination": "/content/sicherheit/#regeln",
       "permanent": true
     },
     {
       "source": "/content/tourenplanung-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/tourenplanung-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#regeln",
       "permanent": true
     },
     {
@@ -5586,7 +5586,7 @@
     },
     {
       "source": "/erste-hilfe-berge-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/erste-hilfe-berge-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#erstehilfe",
       "permanent": true
     },
     {
@@ -5636,7 +5636,7 @@
     },
     {
       "source": "/foehn(/|/index\\.html)?",
-      "destination": "/content/praxis/foehn.html",
+      "destination": "/wetter-webcams.html#foehn",
       "permanent": true
     },
     {
@@ -6051,7 +6051,7 @@
     },
     {
       "source": "/orientierung-berge-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/orientierung-berge-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#regeln",
       "permanent": true
     },
     {
@@ -6066,7 +6066,7 @@
     },
     {
       "source": "/praxis(/|/index\\.html)?",
-      "destination": "/content/praxis/",
+      "destination": "/content/sicherheit/",
       "permanent": true
     },
     {
@@ -6131,7 +6131,7 @@
     },
     {
       "source": "/saisonaler-kalender(/|/index\\.html)?",
-      "destination": "/content/praxis/saisonaler-kalender.html",
+      "destination": "/content/almkultur/#jahreslauf",
       "permanent": true
     },
     {
@@ -6151,7 +6151,7 @@
     },
     {
       "source": "/schneeschuhwandern-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/schneeschuhwandern-bayerische-voralpen.html",
+      "destination": "/content/winter/index.html",
       "permanent": true
     },
     {
@@ -6216,7 +6216,7 @@
     },
     {
       "source": "/sicherheit-wetter-berge-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/sicherheit-wetter-berge-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#wetter",
       "permanent": true
     },
     {
@@ -6231,7 +6231,7 @@
     },
     {
       "source": "/skitouren-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/skitouren-bayerische-voralpen.html",
+      "destination": "/content/winter/index.html",
       "permanent": true
     },
     {
@@ -6346,7 +6346,7 @@
     },
     {
       "source": "/tourenplanung-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/alpinismus_sicherheit/tourenplanung-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#regeln",
       "permanent": true
     },
     {
@@ -7137,6 +7137,226 @@
     {
       "source": "/content/meteorologie/wolkenkunde-bergsteiger-bayerische-voralpen.html",
       "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/alpine-ethik-nachhaltigkeit-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#regeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/alpine-gefahren-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#unfaelle",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/alpinismus-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/ausruestung-bergtouren-bayerische-voralpen.html",
+      "destination": "/content/ausruestung/",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/bergrettung-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#notruf",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/bergtour-umkehrentscheidung.html",
+      "destination": "/content/sicherheit/#regeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/bergwandern-bayerische-voralpen.html",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/bergwanderung-brecherspitz-bayerische-voralpen.html",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/erste-hilfe-berge-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#erstehilfe",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/erste-hilfe-set-bergtour.html",
+      "destination": "/content/sicherheit/#erstehilfe",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/notfall-am-berg-erste-hilfe.html",
+      "destination": "/content/sicherheit/#erstehilfe",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/gehzeit-bergtour-berechnen.html",
+      "destination": "/content/fitness/#gehzeit",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/gewitter-bergtour-verhalten.html",
+      "destination": "/content/sicherheit/#wetter",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/sicherheit-wetter-berge-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#wetter",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/klettern-bayerische-voralpen.html",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/klettersteige-bayerische-voralpen.html",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/offlinekarten-gps-wandern.html",
+      "destination": "/content/sicherheit/#regeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/orientierung-berge-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#regeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/tourenplanung-bayerische-voralpen.html",
+      "destination": "/content/sicherheit/#regeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/regenjacke-bergtour.html",
+      "destination": "/content/layering/#shell",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/wanderkleidung-zwiebelprinzip.html",
+      "destination": "/content/layering/",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/schneeschuhwandern-bayerische-voralpen.html",
+      "destination": "/content/winter/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/skitouren-bayerische-voralpen.html",
+      "destination": "/content/winter/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/stirnlampe-powerbank-bergtour.html",
+      "destination": "/content/ausruestung/",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/tagesrucksack-wandern.html",
+      "destination": "/content/ausruestung/#rucksack",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/wanderschuhe-kaufberatung.html",
+      "destination": "/content/ausruestung/#schuhe",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/wandersocken-blasen-vermeiden.html",
+      "destination": "/content/ausruestung/#schuhe",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit/wanderschwierigkeit-t1-t6.html",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpinismus_sicherheit(/|/index\\.html)?",
+      "destination": "/content/sicherheit/",
+      "permanent": true
+    },
+    {
+      "source": "/content/praxis/foehn.html",
+      "destination": "/wetter-webcams.html#foehn",
+      "permanent": true
+    },
+    {
+      "source": "/content/praxis/geologie.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/praxis/packliste-tagestour-berge.html",
+      "destination": "/content/ausruestung/",
+      "permanent": true
+    },
+    {
+      "source": "/content/praxis/packlisten(/|/index\\.html)?",
+      "destination": "/content/ausruestung/",
+      "permanent": true
+    },
+    {
+      "source": "/content/praxis/wandern-ohne-auto-voralpen.html",
+      "destination": "/content/regional/#anreise",
+      "permanent": true
+    },
+    {
+      "source": "/content/praxis/oepnv-guide(/|/index\\.html)?",
+      "destination": "/content/regional/#anreise",
+      "permanent": true
+    },
+    {
+      "source": "/content/praxis/saisonaler-kalender.html",
+      "destination": "/content/almkultur/#jahreslauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/praxis/jahreszeiten(/|/index\\.html)?",
+      "destination": "/content/almkultur/#jahreslauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/praxis/tourenplanung(/|/index\\.html)?",
+      "destination": "/content/sicherheit/#regeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/praxis(/|/index\\.html)?",
+      "destination": "/content/sicherheit/",
+      "permanent": true
+    },
+    {
+      "source": "/waldkrankheit(/|/index\\.html)?",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/waldkrankheit/ressourcen(/|/index\\.html)?",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/waldkrankheit/symptome(/|/index\\.html)?",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/waldkrankheit/ursachen(/|/index\\.html)?",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/waldkrankheit/zukunft(/|/index\\.html)?",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     }
   ]
