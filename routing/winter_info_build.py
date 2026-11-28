@@ -168,7 +168,6 @@ LAWINE = page('Lawinenkunde', '⚠️ Lawinenkunde – die Grundlagen',
           ('DAV – Notfall-App SOS EU ALP','https://www.alpenverein.de/artikel/notfall-app-sos-eu-alp_69098d79-169b-40df-8bca-daa419eeced6')]))
 
 for f,body,title,desc in [
-  ('content/winter/skigebiet/index.html',SKI,'Skigebiet Spitzingsee-Tegernsee – Lifte, Pisten, Skipass','Skigebiet Spitzingsee-Tegernsee: 983–1.570 m, 10 Lifte, 14–20 km Pisten, Nachtskilauf Do/Fr, Skipass und Anreise – mit Quellen.'),
   ('content/winter/firstalm-rodelbahn.html',RODEL,'Rodelbahn Obere Firstalm – 2,5 km, beleuchtet','Rodelbahn Obere Firstalm am Spitzingsee: ca. 2,5 km, 250 Hm, abends beleuchtet, Rodelverleih an der Alm – Eckdaten mit Quellen.'),
   ('content/winter/rodeln-familie.html',RODELN,'Rodeln am Spitzingsee & Tegernsee – Bahnen im Überblick','Rodeln am Spitzingsee: Familien-Rodelbahn Obere Firstalm (2,5 km, bis 22:30 Uhr beleuchtet) – dazu Neureuth, Riederstein, Aueralm, Hirschberg, Wallberg und Blomberg mit Quellen.'),
   ('content/winter/skitouren-anfaenger.html',EINSTEIGER,'Skitouren für Einsteiger am Spitzingsee','Leichte Einstiegs-Skitouren am Spitzingsee: Brecherspitz-Westgipfel, Taubenstein, Rotwand – plus Checkliste vor der ersten Tour, mit Quellen.'),
