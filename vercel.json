@@ -4146,7 +4146,7 @@
     },
     {
       "source": "/alm-kulinarik(/|/index\\.html)?",
-      "destination": "/content/almkultur/alm-kulinarik.html",
+      "destination": "/content/almkultur/#alm",
       "permanent": true
     },
     {
@@ -4456,7 +4456,7 @@
     },
     {
       "source": "/braeuche-feste(/|/index\\.html)?",
-      "destination": "/content/almkultur/braeuche-feste.html",
+      "destination": "/content/almkultur/#jahreslauf",
       "permanent": true
     },
     {
@@ -4496,7 +4496,7 @@
     },
     {
       "source": "/content/alm-kulinarik(/|/index\\.html)?",
-      "destination": "/content/almkultur/alm-kulinarik.html",
+      "destination": "/content/almkultur/#alm",
       "permanent": true
     },
     {
@@ -4701,7 +4701,7 @@
     },
     {
       "source": "/content/braeuche-feste(/|/index\\.html)?",
-      "destination": "/content/almkultur/braeuche-feste.html",
+      "destination": "/content/almkultur/#jahreslauf",
       "permanent": true
     },
     {
@@ -5076,7 +5076,7 @@
     },
     {
       "source": "/content/musik-instrumente(/|/index\\.html)?",
-      "destination": "/content/almkultur/musik-instrumente.html",
+      "destination": "/content/almkultur/#musik",
       "permanent": true
     },
     {
@@ -5381,7 +5381,7 @@
     },
     {
       "source": "/content/trachten(/|/index\\.html)?",
-      "destination": "/content/almkultur/trachten.html",
+      "destination": "/content/almkultur/#tracht",
       "permanent": true
     },
     {
@@ -5996,7 +5996,7 @@
     },
     {
       "source": "/musik-instrumente(/|/index\\.html)?",
-      "destination": "/content/almkultur/musik-instrumente.html",
+      "destination": "/content/almkultur/#musik",
       "permanent": true
     },
     {
@@ -6351,7 +6351,7 @@
     },
     {
       "source": "/trachten(/|/index\\.html)?",
-      "destination": "/content/almkultur/trachten.html",
+      "destination": "/content/almkultur/#tracht",
       "permanent": true
     },
     {
@@ -6527,6 +6527,31 @@
     {
       "source": "/content/wandern/rotwand.html",
       "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/almkultur/alm-kulinarik.html",
+      "destination": "/content/almkultur/#alm",
+      "permanent": true
+    },
+    {
+      "source": "/content/almkultur/almwirtschaft.html",
+      "destination": "/content/almwirtschaft/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/almkultur/braeuche-feste.html",
+      "destination": "/content/almkultur/#jahreslauf",
+      "permanent": true
+    },
+    {
+      "source": "/content/almkultur/musik-instrumente.html",
+      "destination": "/content/almkultur/#musik",
+      "permanent": true
+    },
+    {
+      "source": "/content/almkultur/trachten.html",
+      "destination": "/content/almkultur/#tracht",
       "permanent": true
     }
   ]
