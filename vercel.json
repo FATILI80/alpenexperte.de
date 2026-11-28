@@ -6523,6 +6523,11 @@
       "source": "/zukunft-almwirtschaft-bayerische-voralpen(/|/index\\.html)?",
       "destination": "/content/almwirtschaft/zukunft-almwirtschaft-bayerische-voralpen.html",
       "permanent": true
+    },
+    {
+      "source": "/content/wandern/rotwand.html",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
     }
   ]
 }
