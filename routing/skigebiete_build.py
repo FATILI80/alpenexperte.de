@@ -86,7 +86,7 @@ FIRST = karte('obere-firstalm', 'obere-firstalm-terrasse.jpg', 'Obere Firstalm �
     [('Angabe der Hütte, Stand 27.11.2026', '/content/winter/firstalm-rodelbahn.html')],
     '<p style="font-size:.84rem;margin:6px 0 0;"><a href="/content/winter/firstalm-rodelbahn.html">→ Rodelbahn Obere Firstalm</a></p>')
 b.append(H2('einkehr', '🍕 Einkehr im Skigebiet') + GRID + LYRA + FIRST + '</div>' +
-         P('Weitere Hütten rund um den Spitzingsee: <a href="/content/huetten/index.html">Hütten &amp; Almen</a>.'))
+         P('Weitere Hütten rund um den Spitzingsee: <a href="/huetten.html">Hütten &amp; Almen</a>.'))
 
 # Skipass
 b.append(H2('skipass', '💶 Skipass 2026/27') + tab(['Ticket', 'Erwachsene', 'Jugendliche', 'Kinder'], [

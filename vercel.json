@@ -1883,6 +1883,1031 @@
       "source": "/content/nordic-walking/rhythmisches-gehen/",
       "destination": "/content/nordic-walking/",
       "permanent": true
+    },
+    {
+      "source": "/content/huetten/albert-link-huette.html",
+      "destination": "/huetten.html#albert-link-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/albert-link-huette",
+      "destination": "/huetten.html#albert-link-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/albert-link-huette.md",
+      "destination": "/huetten.html#albert-link-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/alm-restaurants/index.html",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/alm-restaurants",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/alm-restaurants/",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/almbad-huberspitz.html",
+      "destination": "/huetten.html#almbad-huberspitz",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/almbad-huberspitz",
+      "destination": "/huetten.html#almbad-huberspitz",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/altes-wallberghaus.html",
+      "destination": "/huetten.html#altes-wallberghaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/altes-wallberghaus",
+      "destination": "/huetten.html#altes-wallberghaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/aueralm.html",
+      "destination": "/huetten.html#aueralm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/aueralm",
+      "destination": "/huetten.html#aueralm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/aueralm.md",
+      "destination": "/huetten.html#aueralm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/bayreuther-huette.html",
+      "destination": "/huetten.html#bayreuther-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/bayreuther-huette",
+      "destination": "/huetten.html#bayreuther-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/berggasthof-rofans.html",
+      "destination": "/huetten.html#berggasthof-rofan",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/berggasthof-rofans",
+      "destination": "/huetten.html#berggasthof-rofan",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/blaubergalm.html",
+      "destination": "/huetten.html#blaubergalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/blaubergalm",
+      "destination": "/huetten.html#blaubergalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/blecksteinhaus.html",
+      "destination": "/huetten.html#blecksteinhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/blecksteinhaus",
+      "destination": "/huetten.html#blecksteinhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/blecksteinhaus.md",
+      "destination": "/huetten.html#blecksteinhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/bodenschneidhaus.html",
+      "destination": "/huetten.html#bodenschneidhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/bodenschneidhaus",
+      "destination": "/huetten.html#bodenschneidhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/bodenschneidhaus.md",
+      "destination": "/huetten.html#bodenschneidhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/brauneck-gipfelhaus.md",
+      "destination": "/huetten.html#brauneck-gipfelhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/bruennsteinhaus.md",
+      "destination": "/huetten.html#weitere",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/buchstein-huette.md",
+      "destination": "/huetten.html#buchsteinhuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/buchsteinhuette.html",
+      "destination": "/huetten.html#buchsteinhuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/buchsteinhuette",
+      "destination": "/huetten.html#buchsteinhuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/crottenthaler-alm.md",
+      "destination": "/huetten.html#spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/dalfazalm.html",
+      "destination": "/huetten.html#dalfazalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/dalfazalm",
+      "destination": "/huetten.html#dalfazalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/dav-haus-spitzingsee.html",
+      "destination": "/huetten.html#dav-haus-spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/dav-haus-spitzingsee",
+      "destination": "/huetten.html#dav-haus-spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/dav-haus-spitzingsee.md",
+      "destination": "/huetten.html#dav-haus-spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/dav-huetten-reservieren.html",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/dav-huetten-reservieren",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/erfurter-huette.html",
+      "destination": "/huetten.html#erfurter-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/erfurter-huette",
+      "destination": "/huetten.html#erfurter-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/forsthaus-valepp.md",
+      "destination": "/huetten.html#forsthaus-valepp",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/gindelalm.html",
+      "destination": "/huetten.html#gindelalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/gindelalm",
+      "destination": "/huetten.html#gindelalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/ginderalm.html",
+      "destination": "/huetten.html#gindelalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/ginderalm",
+      "destination": "/huetten.html#gindelalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/gindlalm.md",
+      "destination": "/huetten.html#gindelalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/gufferthuette.html",
+      "destination": "/huetten.html#gufferthuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/gufferthuette",
+      "destination": "/huetten.html#gufferthuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/hirschberghaus.html",
+      "destination": "/huetten.html#hirschberghaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/hirschberghaus",
+      "destination": "/huetten.html#hirschberghaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/hochrieshuette.html",
+      "destination": "/huetten.html#hochrieshuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/hochrieshuette",
+      "destination": "/huetten.html#hochrieshuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/hochrieshuette.md",
+      "destination": "/huetten.html#hochrieshuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/huberspitz.md",
+      "destination": "/huetten.html#almbad-huberspitz",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/huetten-karte/index.html",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/huetten-karte",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/huetten-oeffnungszeiten-saison.html",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/huetten-oeffnungszeiten-saison",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/huettenuebernachtung-packliste.html",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/huettenuebernachtung-packliste",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/index.html",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/index",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/jagahuettn.html",
+      "destination": "/huetten.html#jagahuettn",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/jagahuettn",
+      "destination": "/huetten.html#jagahuettn",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/kala-alm.md",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/kappelschuster-alm.md",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/kesselalm.html",
+      "destination": "/huetten.html#kesselalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/kesselalm",
+      "destination": "/huetten.html#kesselalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/kesselalm.md",
+      "destination": "/huetten.html#kesselalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/koenigsalm.html",
+      "destination": "/huetten.html#koenigsalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/koenigsalm",
+      "destination": "/huetten.html#koenigsalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/kreuzbergalm.html",
+      "destination": "/huetten.html#kreuzbergalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/kreuzbergalm",
+      "destination": "/huetten.html#kreuzbergalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/lenggrieser-huette.html",
+      "destination": "/huetten.html#lenggrieser-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/lenggrieser-huette",
+      "destination": "/huetten.html#lenggrieser-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/lenggrieser-huette.md",
+      "destination": "/huetten.html#lenggrieser-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/lukas-alm.html",
+      "destination": "/huetten.html#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/lukas-alm",
+      "destination": "/huetten.html#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/mitteralm.html",
+      "destination": "/huetten.html#mitteralm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/mitteralm",
+      "destination": "/huetten.html#mitteralm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/mitteralm.md",
+      "destination": "/huetten.html#mitteralm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/moni-alm.md",
+      "destination": "/huetten.html#spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/neureuth.html",
+      "destination": "/huetten.html#neureuth",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/neureuth",
+      "destination": "/huetten.html#neureuth",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/neureuth.md",
+      "destination": "/huetten.html#neureuth",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/obere-firstalm.html",
+      "destination": "/huetten.html#obere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/obere-firstalm",
+      "destination": "/huetten.html#obere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/obere-firstalm.md",
+      "destination": "/huetten.html#obere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/obere-maxlraineralm.md",
+      "destination": "/huetten.html#obere-maxlraineralm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/obere-maxraineralm.html",
+      "destination": "/huetten.html#obere-maxlraineralm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/obere-maxraineralm",
+      "destination": "/huetten.html#obere-maxlraineralm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/priener-huette.html",
+      "destination": "/huetten.html#priener-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/priener-huette",
+      "destination": "/huetten.html#priener-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/priener-huette.md",
+      "destination": "/huetten.html#priener-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/reiseralm.md",
+      "destination": "/huetten.html#lenggries",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/reitbauernalm.md",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/riederstein.html",
+      "destination": "/huetten.html#riederstein",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/riederstein",
+      "destination": "/huetten.html#riederstein",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/riesenkopfhuette.md",
+      "destination": "/huetten.html#weitere",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/rotwandhaus.html",
+      "destination": "/huetten.html#rotwandhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/rotwandhaus",
+      "destination": "/huetten.html#rotwandhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/rotwandhaus.md",
+      "destination": "/huetten.html#rotwandhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/ruebezahl-alm.html",
+      "destination": "/huetten.html#ruebezahl-alm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/ruebezahl-alm",
+      "destination": "/huetten.html#ruebezahl-alm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/schliersbergalm.html",
+      "destination": "/huetten.html#schliersbergalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/schliersbergalm",
+      "destination": "/huetten.html#schliersbergalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/schoenfeldhuette.html",
+      "destination": "/huetten.html#schoenfeldhuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/schoenfeldhuette",
+      "destination": "/huetten.html#schoenfeldhuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/schoenfeldhuette.md",
+      "destination": "/huetten.html#schoenfeldhuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/schwaigeralm.html",
+      "destination": "/huetten.html#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/schwaigeralm",
+      "destination": "/huetten.html#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/schwarzentennalm.html",
+      "destination": "/huetten.html#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/schwarzentennalm",
+      "destination": "/huetten.html#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/schwarzentennalm.md",
+      "destination": "/huetten.html#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/siebenhuetten.html",
+      "destination": "/huetten.html#siebenhuetten",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/siebenhuetten",
+      "destination": "/huetten.html#siebenhuetten",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/siebenhuetten.md",
+      "destination": "/huetten.html#siebenhuetten",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/siglhuette.md",
+      "destination": "/huetten.html#bayrischzell",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/sonnenalm-kampenwand.md",
+      "destination": "/huetten.html#weitere",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/spitzsteinhaus.md",
+      "destination": "/huetten.html#weitere",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/stuempflingalm.md",
+      "destination": "/huetten.html#jagahuettn",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/taubensteinhaus.html",
+      "destination": "/huetten.html#taubensteinhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/taubensteinhaus",
+      "destination": "/huetten.html#taubensteinhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/taubensteinhaus.md",
+      "destination": "/huetten.html#taubensteinhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/tegernseer-huette.html",
+      "destination": "/huetten.html#tegernseer-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/tegernseer-huette",
+      "destination": "/huetten.html#tegernseer-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/tegernseer-huette.md",
+      "destination": "/huetten.html#tegernseer-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/tutzinger-huette.html",
+      "destination": "/huetten.html#tutzinger-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/tutzinger-huette",
+      "destination": "/huetten.html#tutzinger-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/tutzinger-huette.md",
+      "destination": "/huetten.html#tutzinger-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/untere-firstalm.html",
+      "destination": "/huetten.html#untere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/untere-firstalm",
+      "destination": "/huetten.html#untere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/untere-firstalm.md",
+      "destination": "/huetten.html#untere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wallberghaus.md",
+      "destination": "/huetten.html#altes-wallberghaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wallbergmoosalm.html",
+      "destination": "/huetten.html#wallbergmoosalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wallbergmoosalm",
+      "destination": "/huetten.html#wallbergmoosalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/walleralm.html",
+      "destination": "/huetten.html#walleralm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/walleralm",
+      "destination": "/huetten.html#walleralm",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wanderwege/brecherspitz-gipfelweg.html",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wanderwege/brecherspitz-gipfelweg",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wanderwege/index.html",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wanderwege",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wanderwege/",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wanderwege/josefsthaler-wasserfaelle.html",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wanderwege/josefsthaler-wasserfaelle",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wanderwege/obere-firstalm.html",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wanderwege/obere-firstalm",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wanderwege/valepp.html",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wanderwege/valepp",
+      "destination": "/content/wandern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/weissach-alm.html",
+      "destination": "/huetten.html#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/weissach-alm",
+      "destination": "/huetten.html#tegernsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/wendelsteinhaus.md",
+      "destination": "/huetten.html#wendelsteinhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/obere-firstalm",
+      "destination": "/huetten.html#obere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/obere-firstalm/",
+      "destination": "/huetten.html#obere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/obere-firstalm/index.html",
+      "destination": "/huetten.html#obere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/untere-firstalm",
+      "destination": "/huetten.html#untere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/untere-firstalm/",
+      "destination": "/huetten.html#untere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/untere-firstalm/index.html",
+      "destination": "/huetten.html#untere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/content/albert-link-huette",
+      "destination": "/huetten.html#albert-link-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/albert-link-huette/",
+      "destination": "/huetten.html#albert-link-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/albert-link-huette/index.html",
+      "destination": "/huetten.html#albert-link-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/rotwandhaus",
+      "destination": "/huetten.html#rotwandhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/rotwandhaus/",
+      "destination": "/huetten.html#rotwandhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/rotwandhaus/index.html",
+      "destination": "/huetten.html#rotwandhaus",
+      "permanent": true
+    },
+    {
+      "source": "/content/schoenfeldhuette",
+      "destination": "/huetten.html#schoenfeldhuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/schoenfeldhuette/",
+      "destination": "/huetten.html#schoenfeldhuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/schoenfeldhuette/index.html",
+      "destination": "/huetten.html#schoenfeldhuette",
+      "permanent": true
+    },
+    {
+      "source": "/content/dav-haus-spitzingsee",
+      "destination": "/huetten.html#dav-haus-spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/dav-haus-spitzingsee/",
+      "destination": "/huetten.html#dav-haus-spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/dav-haus-spitzingsee/index.html",
+      "destination": "/huetten.html#dav-haus-spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/tegernseer-huette",
+      "destination": "/huetten.html#tegernseer-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/tegernseer-huette/",
+      "destination": "/huetten.html#tegernseer-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/tegernseer-huette/index.html",
+      "destination": "/huetten.html#tegernseer-huette",
+      "permanent": true
+    },
+    {
+      "source": "/content/alm-restaurants",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/alm-restaurants/",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/alm-restaurants/index.html",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten-karte",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten-karte/",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten-karte/index.html",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/albert-link-huette",
+      "destination": "/huetten.html#albert-link-huette",
+      "permanent": true
+    },
+    {
+      "source": "/albert-link-huette/",
+      "destination": "/huetten.html#albert-link-huette",
+      "permanent": true
+    },
+    {
+      "source": "/albert-link-huette/index.html",
+      "destination": "/huetten.html#albert-link-huette",
+      "permanent": true
+    },
+    {
+      "source": "/alm-restaurants",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/alm-restaurants/",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/alm-restaurants/index.html",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/obere-firstalm",
+      "destination": "/huetten.html#obere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/obere-firstalm/",
+      "destination": "/huetten.html#obere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/obere-firstalm/index.html",
+      "destination": "/huetten.html#obere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/untere-firstalm",
+      "destination": "/huetten.html#untere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/untere-firstalm/",
+      "destination": "/huetten.html#untere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/untere-firstalm/index.html",
+      "destination": "/huetten.html#untere-firstalm",
+      "permanent": true
+    },
+    {
+      "source": "/rotwandhaus",
+      "destination": "/huetten.html#rotwandhaus",
+      "permanent": true
+    },
+    {
+      "source": "/rotwandhaus/",
+      "destination": "/huetten.html#rotwandhaus",
+      "permanent": true
+    },
+    {
+      "source": "/rotwandhaus/index.html",
+      "destination": "/huetten.html#rotwandhaus",
+      "permanent": true
+    },
+    {
+      "source": "/schoenfeldhuette",
+      "destination": "/huetten.html#schoenfeldhuette",
+      "permanent": true
+    },
+    {
+      "source": "/schoenfeldhuette/",
+      "destination": "/huetten.html#schoenfeldhuette",
+      "permanent": true
+    },
+    {
+      "source": "/schoenfeldhuette/index.html",
+      "destination": "/huetten.html#schoenfeldhuette",
+      "permanent": true
+    },
+    {
+      "source": "/tegernseer-huette",
+      "destination": "/huetten.html#tegernseer-huette",
+      "permanent": true
+    },
+    {
+      "source": "/tegernseer-huette/",
+      "destination": "/huetten.html#tegernseer-huette",
+      "permanent": true
+    },
+    {
+      "source": "/tegernseer-huette/index.html",
+      "destination": "/huetten.html#tegernseer-huette",
+      "permanent": true
+    },
+    {
+      "source": "/huetten",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/huetten/",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/huetten/index.html",
+      "destination": "/huetten.html",
+      "permanent": true
     }
   ]
 }
