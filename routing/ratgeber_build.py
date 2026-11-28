@@ -135,7 +135,7 @@ b.append(H2('praxis', '🏔️ Kombinationen für unsere Region')
 b.append(q.liste())
 seite('content/layering/index.html', 'Layering & Zwiebelprinzip – Baselayer, Midlayer, Shell erklärt',
       '🧅 Layering: das Zwiebelprinzip fürs Bergwandern', 'Merino oder Synthetik, Daune oder Kunstfaser, wie viel Wassersäule und welcher RET-Wert – die drei Schichten verständlich erklärt, mit Quellen und Kombinationen für Touren am Spitzingsee.',
-      IMG('layer-kleidung.jpg', 'Outdoor-Bekleidung in Schichten'), [('prinzip', '🧅 Prinzip'), ('base', '👕 Baselayer'), ('mid', '🧥 Midlayer'), ('shell', '🌧️ Shell'), ('praxis', '🏔️ Praxis'), ('quellen', '📚 Quellen')],
+      IMG('wanderpfad-im-nebel.jpeg', 'Wanderweg im Nebel'), [('prinzip', '🧅 Prinzip'), ('base', '👕 Baselayer'), ('mid', '🧥 Midlayer'), ('shell', '🌧️ Shell'), ('praxis', '🏔️ Praxis'), ('quellen', '📚 Quellen')],
       ''.join(b), 'Zwiebelprinzip mit Quellen: Merino vs. Synthetik, Daune vs. Kunstfaser (cuin), Wassersäule nach DIN/EN 343 und RET-Wert – plus Kombinationen für Touren am Spitzingsee.', 'Layering')
 
 # ============ FITNESS ============
@@ -201,5 +201,5 @@ b.append(H2('wetter', '⛈️ Wetter &amp; Lawinen')
 b.append(q.liste())
 seite('content/sicherheit/index.html', 'Sicherheit beim Bergwandern – DAV-Empfehlungen, Notruf, Erste Hilfe',
       '🛟 Sicher am Berg', 'Die 10 Empfehlungen der Alpenvereine, was die DAV-Unfallstatistik zeigt, wie Notruf und alpines Notsignal funktionieren und was ins Erste-Hilfe-Set gehört – mit Quellen.',
-      IMG('sicherheit-ausruestung.jpg', 'Sicherheitsausrüstung'), [('regeln', '✅ 10 Empfehlungen'), ('unfaelle', '📊 Unfälle'), ('notruf', '🆘 Notruf'), ('erstehilfe', '⛑️ Erste Hilfe'), ('wetter', '⛈️ Wetter'), ('quellen', '📚 Quellen')],
+      IMG('wanderer-bayern.jpg', 'Wanderer auf einer Felsstufe'), [('regeln', '✅ 10 Empfehlungen'), ('unfaelle', '📊 Unfälle'), ('notruf', '🆘 Notruf'), ('erstehilfe', '⛑️ Erste Hilfe'), ('wetter', '⛈️ Wetter'), ('quellen', '📚 Quellen')],
       ''.join(b), 'Sicherheit beim Bergwandern mit Quellen: 10 Empfehlungen der Alpenvereine, DAV-Unfallstatistik, Notruf 112, alpines Notsignal, Erste Hilfe.', 'Sicherheit')
