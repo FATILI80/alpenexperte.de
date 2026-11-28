@@ -1733,6 +1733,156 @@
       "source": "/content/skigebiete/index.md",
       "destination": "/content/skigebiete/",
       "permanent": true
+    },
+    {
+      "source": "/nordic-walking",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/nordic-walking/",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/nordic-walking/index.html",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/haas-fertigbau-trail.html",
+      "destination": "/content/nordic-walking/#haas-fertigbau-trail",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/haas-fertigbau-trail",
+      "destination": "/content/nordic-walking/#haas-fertigbau-trail",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/haas-fertigbau-trail/",
+      "destination": "/content/nordic-walking/#haas-fertigbau-trail",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/eon-schliersee.html",
+      "destination": "/content/nordic-walking/#eon-schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/eon-schliersee",
+      "destination": "/content/nordic-walking/#eon-schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/eon-schliersee/",
+      "destination": "/content/nordic-walking/#eon-schliersee",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/eon-spitzingsee.html",
+      "destination": "/content/nordic-walking/#eon-spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/eon-spitzingsee",
+      "destination": "/content/nordic-walking/#eon-spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/eon-spitzingsee/",
+      "destination": "/content/nordic-walking/#eon-spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/siegsdorfer-petrusquelle.html",
+      "destination": "/content/nordic-walking/#petrusquelle-spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/siegsdorfer-petrusquelle",
+      "destination": "/content/nordic-walking/#petrusquelle-spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/siegsdorfer-petrusquelle/",
+      "destination": "/content/nordic-walking/#petrusquelle-spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/alpiner-marathon.html",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/alpiner-marathon",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/alpiner-marathon/",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/praeventionssport.html",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/praeventionssport",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/praeventionssport/",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/faszien-aktivierung.html",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/faszien-aktivierung",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/faszien-aktivierung/",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/naturgenuss.html",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/naturgenuss",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/naturgenuss/",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/rhythmisches-gehen.html",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/rhythmisches-gehen",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
+    },
+    {
+      "source": "/content/nordic-walking/rhythmisches-gehen/",
+      "destination": "/content/nordic-walking/",
+      "permanent": true
     }
   ]
 }
