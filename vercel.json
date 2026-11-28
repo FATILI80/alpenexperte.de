@@ -1176,7 +1176,7 @@
     },
     {
       "source": "/content/wandern/bodenschneid-klettersteig.html",
-      "destination": "/content/klettern/bodenschneid-klettersteig.html",
+      "destination": "/content/klettern/index.html#hinweis",
       "permanent": true
     },
     {
@@ -1462,6 +1462,201 @@
     {
       "source": "/content/huetten/rodelpisten",
       "destination": "/content/winter/rodeln-familie.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/bodenschneid-klettersteig.html",
+      "destination": "/content/klettern/index.html#hinweis",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/bodenschneid-klettersteig",
+      "destination": "/content/klettern/index.html#hinweis",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/bodenschneid-gratkletterei.html",
+      "destination": "/content/klettern/index.html#hinweis",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/bodenschneid-gratkletterei",
+      "destination": "/content/klettern/index.html#hinweis",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/brecherspitz-klettersteig.html",
+      "destination": "/content/klettern/index.html#brecherspitz-ostgrat",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/brecherspitz-klettersteig",
+      "destination": "/content/klettern/index.html#brecherspitz-ostgrat",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/rotwand-klettersteig.html",
+      "destination": "/content/klettern/index.html#hinweis",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/rotwand-klettersteig",
+      "destination": "/content/klettern/index.html#hinweis",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/taubenstein-klettersteig.html",
+      "destination": "/content/klettern/index.html#taubenstein-suedgrat",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/taubenstein-klettersteig",
+      "destination": "/content/klettern/index.html#taubenstein-suedgrat",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/taubenstein-suedgrat.html",
+      "destination": "/content/klettern/index.html#taubenstein-suedgrat",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/taubenstein-suedgrat",
+      "destination": "/content/klettern/index.html#taubenstein-suedgrat",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/ross-buchstein.html",
+      "destination": "/content/klettern/index.html#ross-buchstein",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/ross-buchstein",
+      "destination": "/content/klettern/index.html#ross-buchstein",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/leonhardstein.html",
+      "destination": "/content/klettern/index.html#leonhardstein",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/leonhardstein",
+      "destination": "/content/klettern/index.html#leonhardstein",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/blankenstein.html",
+      "destination": "/content/klettern/index.html#blankenstein",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/blankenstein",
+      "destination": "/content/klettern/index.html#blankenstein",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/anfaenger-routen.html",
+      "destination": "/content/klettern/index.html#spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/anfaenger-routen",
+      "destination": "/content/klettern/index.html#spitzingsee",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/sicherheit-ausruestung.html",
+      "destination": "/content/klettern/index.html#sicherheit",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/sicherheit-ausruestung",
+      "destination": "/content/klettern/index.html#sicherheit",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/klettersteigset-kaufberatung.html",
+      "destination": "/content/klettern/index.html#ausruestung",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/klettersteigset-kaufberatung",
+      "destination": "/content/klettern/index.html#ausruestung",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/klettersteig-einsteiger-ausruestung.html",
+      "destination": "/content/klettern/index.html#ausruestung",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/klettersteig-einsteiger-ausruestung",
+      "destination": "/content/klettern/index.html#ausruestung",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/felstechniken-uebersicht.html",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/klettern/felstechniken-uebersicht",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/klettern/index.html",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/klettern/index",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/klettern/brecherspitz-klettersteig.html",
+      "destination": "/content/klettern/index.html#brecherspitz-ostgrat",
+      "permanent": true
+    },
+    {
+      "source": "/content/huetten/klettern/brecherspitz-klettersteig",
+      "destination": "/content/klettern/index.html#brecherspitz-ostgrat",
+      "permanent": true
+    },
+    {
+      "source": "/content/guides/schwere-klettersteige.html",
+      "destination": "/content/klettern/index.html#klettersteige",
+      "permanent": true
+    },
+    {
+      "source": "/content/guides/schwere-klettersteige",
+      "destination": "/content/klettern/index.html#klettersteige",
+      "permanent": true
+    },
+    {
+      "source": "/content/guides/kletterhallen-fels.html",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/guides/kletterhallen-fels",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/guides/eisklettern.html",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/guides/eisklettern",
+      "destination": "/content/klettern/index.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/wandern/bodenschneid-klettersteig",
+      "destination": "/content/klettern/index.html#hinweis",
       "permanent": true
     }
   ]
