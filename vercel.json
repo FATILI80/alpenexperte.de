@@ -3683,6 +3683,2056 @@
       "source": "/content/index.html",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/content/fauna/gaemse.html",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/gaemse",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/gaemse/",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/gaemse/index.html",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/rothirsch.html",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/rothirsch",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/rothirsch/",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/rothirsch/index.html",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/steinadler.html",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/steinadler",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/steinadler/",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/steinadler/index.html",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/auerhahn.html",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/auerhahn",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/auerhahn/",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/auerhahn/index.html",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/auerhuhn.html",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/auerhuhn",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/auerhuhn/",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/auerhuhn/index.html",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/birkhuhn.html",
+      "destination": "/content/fauna/#birkhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/birkhuhn",
+      "destination": "/content/fauna/#birkhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/birkhuhn/",
+      "destination": "/content/fauna/#birkhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/birkhuhn/index.html",
+      "destination": "/content/fauna/#birkhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/wanderfalke-weissrueckenspecht.html",
+      "destination": "/content/fauna/#greifvoegel",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/wanderfalke-weissrueckenspecht",
+      "destination": "/content/fauna/#greifvoegel",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/wanderfalke-weissrueckenspecht/",
+      "destination": "/content/fauna/#greifvoegel",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/wanderfalke-weissrueckenspecht/index.html",
+      "destination": "/content/fauna/#greifvoegel",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/gebirgsstelze.html",
+      "destination": "/content/fauna/#wald-bach",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/gebirgsstelze",
+      "destination": "/content/fauna/#wald-bach",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/gebirgsstelze/",
+      "destination": "/content/fauna/#wald-bach",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/gebirgsstelze/index.html",
+      "destination": "/content/fauna/#wald-bach",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/wasseramsel.html",
+      "destination": "/content/fauna/#wasseramsel",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/wasseramsel",
+      "destination": "/content/fauna/#wasseramsel",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/wasseramsel/",
+      "destination": "/content/fauna/#wasseramsel",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/wasseramsel/index.html",
+      "destination": "/content/fauna/#wasseramsel",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/neuntoeter.html",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/neuntoeter",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/neuntoeter/",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/neuntoeter/index.html",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/murmeltier.html",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/murmeltier",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/murmeltier/",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/murmeltier/index.html",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/weitere-arten.html",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/weitere-arten",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/weitere-arten/",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/weitere-arten/index.html",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/vogel-tierliste-mangfallgebirge.html",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/vogel-tierliste-mangfallgebirge",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/vogel-tierliste-mangfallgebirge/",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/vogel-tierliste-mangfallgebirge/index.html",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/pilze-region.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/pilze-region",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/pilze-region/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/pilze-region/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/waldfruechte-region.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/waldfruechte-region",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/waldfruechte-region/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/waldfruechte-region/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/wildpflanzen.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/wildpflanzen",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/wildpflanzen/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/wildpflanzen/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/alpenrose.html",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/alpenrose",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/alpenrose/",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/alpenrose/index.html",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/arnika.html",
+      "destination": "/content/botanik/#arnika",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/arnika",
+      "destination": "/content/botanik/#arnika",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/arnika/",
+      "destination": "/content/botanik/#arnika",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/arnika/index.html",
+      "destination": "/content/botanik/#arnika",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/edelweiss.html",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/edelweiss",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/edelweiss/",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/edelweiss/index.html",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/enzian.html",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/enzian",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/enzian/",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/enzian/index.html",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/hohenstufen.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/hohenstufen",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/hohenstufen/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/hohenstufen/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/laerchengold.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/laerchengold",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/laerchengold/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/laerchengold/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/orchideen-wildblumen.html",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/orchideen-wildblumen",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/orchideen-wildblumen/",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/orchideen-wildblumen/index.html",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/index.html",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/index",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/index/",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/index/index.html",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpenrosen.html",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpenrosen",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpenrosen/",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpenrosen/index.html",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-blumenwiesen.html",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-blumenwiesen",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-blumenwiesen/",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-blumenwiesen/index.html",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-kraeuterkueche.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-kraeuterkueche",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-kraeuterkueche/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-kraeuterkueche/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-rasen.html",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-rasen",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-rasen/",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-rasen/index.html",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-wildkraeuter-heilkraeuter.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-wildkraeuter-heilkraeuter",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-wildkraeuter-heilkraeuter/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/alpine-wildkraeuter-heilkraeuter/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/baumgrenze-alpen.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/baumgrenze-alpen",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/baumgrenze-alpen/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/baumgrenze-alpen/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/bergwald-oekologie.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/bergwald-oekologie",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/bergwald-oekologie/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/bergwald-oekologie/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/edelweiss-alpen.html",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/edelweiss-alpen",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/edelweiss-alpen/",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/edelweiss-alpen/index.html",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/enzian-alpen.html",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/enzian-alpen",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/enzian-alpen/",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/enzian-alpen/index.html",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/flechten-moose-alpen.html",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/flechten-moose-alpen",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/flechten-moose-alpen/",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/flechten-moose-alpen/index.html",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/latschengebuesch-alpen.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/latschengebuesch-alpen",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/latschengebuesch-alpen/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/latschengebuesch-alpen/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/naturschutz-alpine-flora.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/naturschutz-alpine-flora",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/naturschutz-alpine-flora/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/naturschutz-alpine-flora/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/orchideen-alpen.html",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/orchideen-alpen",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/orchideen-alpen/",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/orchideen-alpen/index.html",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/pflanzenanpassungen-alpen.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/pflanzenanpassungen-alpen",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/pflanzenanpassungen-alpen/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/pflanzenanpassungen-alpen/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/vegetationsstufen-alpen.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/vegetationsstufen-alpen",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/vegetationsstufen-alpen/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/botanik/vegetationsstufen-alpen/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/alpensalamander-bayerische-voralpen.html",
+      "destination": "/content/fauna/#alpensalamander",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/alpensalamander-bayerische-voralpen",
+      "destination": "/content/fauna/#alpensalamander",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/alpensalamander-bayerische-voralpen/",
+      "destination": "/content/fauna/#alpensalamander",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/alpensalamander-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#alpensalamander",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/alpenschneehuhn-bayerische-voralpen.html",
+      "destination": "/content/fauna/#alpenschneehuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/alpenschneehuhn-bayerische-voralpen",
+      "destination": "/content/fauna/#alpenschneehuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/alpenschneehuhn-bayerische-voralpen/",
+      "destination": "/content/fauna/#alpenschneehuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/alpenschneehuhn-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#alpenschneehuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/auerhuhn-bayerische-voralpen.html",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/auerhuhn-bayerische-voralpen",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/auerhuhn-bayerische-voralpen/",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/auerhuhn-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/bachforelle-bayerische-voralpen.html",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/bachforelle-bayerische-voralpen",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/bachforelle-bayerische-voralpen/",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/bachforelle-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/biodiversitaet-artenschutz-voralpen.html",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/biodiversitaet-artenschutz-voralpen",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/biodiversitaet-artenschutz-voralpen/",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/biodiversitaet-artenschutz-voralpen/index.html",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/fuchs-dachs-bayerische-voralpen.html",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/fuchs-dachs-bayerische-voralpen",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/fuchs-dachs-bayerische-voralpen/",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/fuchs-dachs-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/gaemse-bayerische-voralpen.html",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/gaemse-bayerische-voralpen",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/gaemse-bayerische-voralpen/",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/gaemse-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/index.html",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/index",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/index/",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/index/index.html",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/kreuzotter-bayerische-voralpen.html",
+      "destination": "/content/fauna/#kreuzotter",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/kreuzotter-bayerische-voralpen",
+      "destination": "/content/fauna/#kreuzotter",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/kreuzotter-bayerische-voralpen/",
+      "destination": "/content/fauna/#kreuzotter",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/kreuzotter-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#kreuzotter",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/libellen-voralpenseen.html",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/libellen-voralpenseen",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/libellen-voralpenseen/",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/libellen-voralpenseen/index.html",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/murmeltier-bayerische-voralpen.html",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/murmeltier-bayerische-voralpen",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/murmeltier-bayerische-voralpen/",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/murmeltier-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/reh-bayerische-voralpen.html",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/reh-bayerische-voralpen",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/reh-bayerische-voralpen/",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/reh-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/rothirsch-bayerische-voralpen.html",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/rothirsch-bayerische-voralpen",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/rothirsch-bayerische-voralpen/",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/rothirsch-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/saeugetiere-bayerische-voralpen.html",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/saeugetiere-bayerische-voralpen",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/saeugetiere-bayerische-voralpen/",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/saeugetiere-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/steinadler-bayerische-voralpen.html",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/steinadler-bayerische-voralpen",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/steinadler-bayerische-voralpen/",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/steinadler-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/wildschwein-bayerische-voralpen.html",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/wildschwein-bayerische-voralpen",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/wildschwein-bayerische-voralpen/",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/wildschwein-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/flora",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/flora/",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/flora/index.html",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/wildpflanzen",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/wildpflanzen/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/wildpflanzen/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/murmeltier",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/murmeltier/",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/murmeltier/index.html",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/murmeltier-bayerische-voralpen",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/murmeltier-bayerische-voralpen/",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/murmeltier-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/content/naturschutz-alpine-flora",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/naturschutz-alpine-flora/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/naturschutz-alpine-flora/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/pflanzenanpassungen-alpen",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/pflanzenanpassungen-alpen/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/pflanzenanpassungen-alpen/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/saeugetiere-bayerische-voralpen",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/saeugetiere-bayerische-voralpen/",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/saeugetiere-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/zoologie/",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/fauna/flora/",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/orchideen-wildblumen",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/orchideen-wildblumen/",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/orchideen-wildblumen/index.html",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/orchideen-alpen",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/orchideen-alpen/",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/orchideen-alpen/index.html",
+      "destination": "/content/botanik/#orchideen",
+      "permanent": true
+    },
+    {
+      "source": "/content/kreuzotter-bayerische-voralpen",
+      "destination": "/content/fauna/#kreuzotter",
+      "permanent": true
+    },
+    {
+      "source": "/content/kreuzotter-bayerische-voralpen/",
+      "destination": "/content/fauna/#kreuzotter",
+      "permanent": true
+    },
+    {
+      "source": "/content/kreuzotter-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#kreuzotter",
+      "permanent": true
+    },
+    {
+      "source": "/content/vegetationsstufen-alpen",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/vegetationsstufen-alpen/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/vegetationsstufen-alpen/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpine-wildkraeuter-heilkraeuter",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpine-wildkraeuter-heilkraeuter/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpine-wildkraeuter-heilkraeuter/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/fuchs-dachs-bayerische-voralpen",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/fuchs-dachs-bayerische-voralpen/",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/fuchs-dachs-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/wanderfalke-weissrueckenspecht",
+      "destination": "/content/fauna/#greifvoegel",
+      "permanent": true
+    },
+    {
+      "source": "/content/wanderfalke-weissrueckenspecht/",
+      "destination": "/content/fauna/#greifvoegel",
+      "permanent": true
+    },
+    {
+      "source": "/content/wanderfalke-weissrueckenspecht/index.html",
+      "destination": "/content/fauna/#greifvoegel",
+      "permanent": true
+    },
+    {
+      "source": "/content/waldfruechte-region",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/waldfruechte-region/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/waldfruechte-region/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/auerhuhn",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/auerhuhn/",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/auerhuhn/index.html",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/enzian-alpen",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/enzian-alpen/",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/enzian-alpen/index.html",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/edelweiss",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/edelweiss/",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/edelweiss/index.html",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpenschneehuhn-bayerische-voralpen",
+      "destination": "/content/fauna/#alpenschneehuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpenschneehuhn-bayerische-voralpen/",
+      "destination": "/content/fauna/#alpenschneehuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpenschneehuhn-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#alpenschneehuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/edelweiss-alpen",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/edelweiss-alpen/",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/edelweiss-alpen/index.html",
+      "destination": "/content/botanik/#edelweiss",
+      "permanent": true
+    },
+    {
+      "source": "/content/auerhahn",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/auerhahn/",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/auerhahn/index.html",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/wasseramsel",
+      "destination": "/content/fauna/#wasseramsel",
+      "permanent": true
+    },
+    {
+      "source": "/content/wasseramsel/",
+      "destination": "/content/fauna/#wasseramsel",
+      "permanent": true
+    },
+    {
+      "source": "/content/wasseramsel/index.html",
+      "destination": "/content/fauna/#wasseramsel",
+      "permanent": true
+    },
+    {
+      "source": "/content/auerhuhn-bayerische-voralpen",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/auerhuhn-bayerische-voralpen/",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/auerhuhn-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#auerhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/birkhuhn",
+      "destination": "/content/fauna/#birkhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/birkhuhn/",
+      "destination": "/content/fauna/#birkhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/birkhuhn/index.html",
+      "destination": "/content/fauna/#birkhuhn",
+      "permanent": true
+    },
+    {
+      "source": "/content/rothirsch-bayerische-voralpen",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/rothirsch-bayerische-voralpen/",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/rothirsch-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/bachforelle-bayerische-voralpen",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/bachforelle-bayerische-voralpen/",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/bachforelle-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/steinadler-bayerische-voralpen",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/steinadler-bayerische-voralpen/",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/steinadler-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/flechten-moose-alpen",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/flechten-moose-alpen/",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/flechten-moose-alpen/index.html",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/content/biodiversitaet-artenschutz-voralpen",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/biodiversitaet-artenschutz-voralpen/",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/biodiversitaet-artenschutz-voralpen/index.html",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpine-blumenwiesen",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpine-blumenwiesen/",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpine-blumenwiesen/index.html",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/weitere-arten",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/weitere-arten/",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/weitere-arten/index.html",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/neuntoeter",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/neuntoeter/",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/neuntoeter/index.html",
+      "destination": "/content/fauna/#schutzgebiet",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpine-rasen",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpine-rasen/",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpine-rasen/index.html",
+      "destination": "/content/botanik/#wiesen",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpine-kraeuterkueche",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpine-kraeuterkueche/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpine-kraeuterkueche/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/laerchengold",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/laerchengold/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/laerchengold/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/libellen-voralpenseen",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/libellen-voralpenseen/",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/libellen-voralpenseen/index.html",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/content/latschengebuesch-alpen",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/latschengebuesch-alpen/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/latschengebuesch-alpen/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/gaemse",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/content/gaemse/",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/content/gaemse/index.html",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/content/hohenstufen",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/hohenstufen/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/hohenstufen/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/gebirgsstelze",
+      "destination": "/content/fauna/#wald-bach",
+      "permanent": true
+    },
+    {
+      "source": "/content/gebirgsstelze/",
+      "destination": "/content/fauna/#wald-bach",
+      "permanent": true
+    },
+    {
+      "source": "/content/gebirgsstelze/index.html",
+      "destination": "/content/fauna/#wald-bach",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpenrosen",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpenrosen/",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpenrosen/index.html",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/reh-bayerische-voralpen",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/reh-bayerische-voralpen/",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/reh-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#fuchs",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpensalamander-bayerische-voralpen",
+      "destination": "/content/fauna/#alpensalamander",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpensalamander-bayerische-voralpen/",
+      "destination": "/content/fauna/#alpensalamander",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpensalamander-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#alpensalamander",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpenrose",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpenrose/",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/alpenrose/index.html",
+      "destination": "/content/botanik/#alpenrose",
+      "permanent": true
+    },
+    {
+      "source": "/content/bergwald-oekologie",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/bergwald-oekologie/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/bergwald-oekologie/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/steinadler",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/steinadler/",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/steinadler/index.html",
+      "destination": "/content/fauna/#steinadler",
+      "permanent": true
+    },
+    {
+      "source": "/content/enzian",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/enzian/",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/enzian/index.html",
+      "destination": "/content/botanik/#enzian",
+      "permanent": true
+    },
+    {
+      "source": "/content/pilze-region",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/pilze-region/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/pilze-region/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/content/wildschwein-bayerische-voralpen",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/wildschwein-bayerische-voralpen/",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/wildschwein-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/content/arnika",
+      "destination": "/content/botanik/#arnika",
+      "permanent": true
+    },
+    {
+      "source": "/content/arnika/",
+      "destination": "/content/botanik/#arnika",
+      "permanent": true
+    },
+    {
+      "source": "/content/arnika/index.html",
+      "destination": "/content/botanik/#arnika",
+      "permanent": true
+    },
+    {
+      "source": "/content/baumgrenze-alpen",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/baumgrenze-alpen/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/baumgrenze-alpen/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/content/rothirsch",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/rothirsch/",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/rothirsch/index.html",
+      "destination": "/content/fauna/#rothirsch",
+      "permanent": true
+    },
+    {
+      "source": "/content/gaemse-bayerische-voralpen",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/content/gaemse-bayerische-voralpen/",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/content/gaemse-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#gaemse",
+      "permanent": true
+    },
+    {
+      "source": "/pflanzenanpassungen-alpen",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/pflanzenanpassungen-alpen/",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/pflanzenanpassungen-alpen/index.html",
+      "destination": "/content/botanik/#bergwald",
+      "permanent": true
+    },
+    {
+      "source": "/saeugetiere-bayerische-voralpen",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/saeugetiere-bayerische-voralpen/",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/saeugetiere-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#saeugetiere",
+      "permanent": true
+    },
+    {
+      "source": "/murmeltier-bayerische-voralpen",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/murmeltier-bayerische-voralpen/",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/murmeltier-bayerische-voralpen/index.html",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/murmeltier",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/murmeltier/",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/murmeltier/index.html",
+      "destination": "/content/fauna/#murmeltier",
+      "permanent": true
+    },
+    {
+      "source": "/fauna",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/fauna/",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/fauna/index.html",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/zoologie",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/zoologie/",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/zoologie/index.html",
+      "destination": "/content/fauna/",
+      "permanent": true
+    },
+    {
+      "source": "/botanik",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/botanik/",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/botanik/index.html",
+      "destination": "/content/botanik/",
+      "permanent": true
+    },
+    {
+      "source": "/wildpflanzen",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/wildpflanzen/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/wildpflanzen/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/naturschutz-alpine-flora",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/naturschutz-alpine-flora/",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
+    },
+    {
+      "source": "/naturschutz-alpine-flora/index.html",
+      "destination": "/content/botanik/#sammeln",
+      "permanent": true
     }
   ]
 }
