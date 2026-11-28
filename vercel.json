@@ -4191,7 +4191,7 @@
     },
     {
       "source": "/almwald-beweidung(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/almwald-beweidung.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -4366,7 +4366,7 @@
     },
     {
       "source": "/bedeutende-moorgebiete-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/bedeutende-moorgebiete-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
@@ -4381,7 +4381,7 @@
     },
     {
       "source": "/bergmischwald-natuerliche-waldgesellschaft(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/bergmischwald-natuerliche-waldgesellschaft.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -4396,7 +4396,7 @@
     },
     {
       "source": "/bergwald-im-wandel(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/bergwald-im-wandel.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -4476,7 +4476,7 @@
     },
     {
       "source": "/buche-bergwald(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/buche-bergwald.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -4536,7 +4536,7 @@
     },
     {
       "source": "/content/almwald-beweidung(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/almwald-beweidung.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -4631,7 +4631,7 @@
     },
     {
       "source": "/content/bedeutende-moorgebiete-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/bedeutende-moorgebiete-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
@@ -4646,7 +4646,7 @@
     },
     {
       "source": "/content/bergmischwald-natuerliche-waldgesellschaft(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/bergmischwald-natuerliche-waldgesellschaft.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -4656,7 +4656,7 @@
     },
     {
       "source": "/content/bergwald-im-wandel(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/bergwald-im-wandel.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -4721,12 +4721,12 @@
     },
     {
       "source": "/content/buche-bergwald(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/buche-bergwald.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
       "source": "/content/die-alpidische-gebirgsbildung(/|/index\\.html)?",
-      "destination": "/content/geologie/die-alpidische-gebirgsbildung.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -4751,12 +4751,12 @@
     },
     {
       "source": "/content/erdbeben(/|/index\\.html)?",
-      "destination": "/content/geologie/erdbeben.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
       "source": "/content/erdgeschichte-auf-einen-blick(/|/index\\.html)?",
-      "destination": "/content/geologie/erdgeschichte-auf-einen-blick.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -4776,7 +4776,7 @@
     },
     {
       "source": "/content/fichte-bergwald(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/fichte-bergwald.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -4791,12 +4791,12 @@
     },
     {
       "source": "/content/fischpopulation-voralpenseen(/|/index\\.html)?",
-      "destination": "/content/limnologie/fischpopulation-voralpenseen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/content/flyschzone(/|/index\\.html)?",
-      "destination": "/content/geologie/flyschzone.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -4806,32 +4806,32 @@
     },
     {
       "source": "/content/foehn-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/foehn-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/content/forstliche-foerderprogramme(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/forstliche-foerderprogramme.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
       "source": "/content/forstwege-management(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/forstwege-management.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
       "source": "/content/fossilien-im-alpenraum(/|/index\\.html)?",
-      "destination": "/content/geologie/fossilien-im-alpenraum.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
       "source": "/content/gefaehrdung-moore-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/gefaehrdung-moore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/content/geomorphologie(/|/index\\.html)?",
-      "destination": "/content/geologie/geomorphologie.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -4841,17 +4841,17 @@
     },
     {
       "source": "/content/gesteine-spitzingsattel(/|/index\\.html)?",
-      "destination": "/content/geologie/gesteine-spitzingsattel.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
       "source": "/content/gesteinskreislauf-im-alpenraum(/|/index\\.html)?",
-      "destination": "/content/geologie/gesteinskreislauf-im-alpenraum.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
       "source": "/content/gewitter-alpen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/gewitter-alpen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
@@ -4876,12 +4876,12 @@
     },
     {
       "source": "/content/hochmoore-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/hochmoore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/content/holzernte-ruecketechniken(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/holzernte-ruecketechniken.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -4911,7 +4911,7 @@
     },
     {
       "source": "/content/jagd-und-wald-voralpen(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/jagd-und-wald-voralpen.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -4926,7 +4926,7 @@
     },
     {
       "source": "/content/karst-und-hoehlen(/|/index\\.html)?",
-      "destination": "/content/geologie/karst-und-hoehlen.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -4941,12 +4941,12 @@
     },
     {
       "source": "/content/klimawandel-alpine-seen(/|/index\\.html)?",
-      "destination": "/content/limnologie/klimawandel-alpine-seen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/content/klimawandel-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/klimawandel-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
@@ -5001,7 +5001,7 @@
     },
     {
       "source": "/content/mineralien-und-bodenschaetze(/|/index\\.html)?",
-      "destination": "/content/geologie/mineralien-und-bodenschaetze.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -5011,52 +5011,52 @@
     },
     {
       "source": "/content/molassebecken-alpenvorland(/|/index\\.html)?",
-      "destination": "/content/geologie/molassebecken-alpenvorland.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
       "source": "/content/moor-klima-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moor-klima-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/content/moor-wasserhaushalt-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moor-wasserhaushalt-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/content/moore-archive-naturgeschichte-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moore-archive-naturgeschichte-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/content/moore-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/content/moore-biodiversitaet-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moore-biodiversitaet-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/content/moore-mensch-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moore-mensch-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/content/moorrenaturierung-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moorrenaturierung-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/content/moorschutz-bayern-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moorschutz-bayern-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/content/moorvegetation-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moorvegetation-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
@@ -5086,32 +5086,32 @@
     },
     {
       "source": "/content/nachhaltige-waldwirtschaft-voralpen(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/nachhaltige-waldwirtschaft-voralpen.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
       "source": "/content/naehrstoffkreislauf-bergseen(/|/index\\.html)?",
-      "destination": "/content/limnologie/naehrstoffkreislauf-bergseen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/content/nebel-inversion-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/nebel-inversion-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/content/niedermoore-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/niedermoore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/content/niederschlag-starkregen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/niederschlag-starkregen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/content/noerdliche-kalkalpen(/|/index\\.html)?",
-      "destination": "/content/geologie/noerdliche-kalkalpen.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -5136,7 +5136,7 @@
     },
     {
       "source": "/content/plankton-bergseen(/|/index\\.html)?",
-      "destination": "/content/limnologie/plankton-bergseen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
@@ -5186,17 +5186,17 @@
     },
     {
       "source": "/content/schichtstufen-und-reliefentwicklung(/|/index\\.html)?",
-      "destination": "/content/geologie/schichtstufen-und-reliefentwicklung.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
       "source": "/content/schliersee-limnologie(/|/index\\.html)?",
-      "destination": "/content/limnologie/schliersee-limnologie.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/content/schnee-lawinen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/schnee-lawinen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
@@ -5236,22 +5236,22 @@
     },
     {
       "source": "/content/sedimente-seeboden(/|/index\\.html)?",
-      "destination": "/content/limnologie/sedimente-seeboden.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/content/seen-moore-wechselwirkung(/|/index\\.html)?",
-      "destination": "/content/limnologie/seen-moore-wechselwirkung.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/content/seenentstehung-alpen(/|/index\\.html)?",
-      "destination": "/content/limnologie/seenentstehung-alpen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/content/seeufer-lebensraum(/|/index\\.html)?",
-      "destination": "/content/limnologie/seeufer-lebensraum.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
@@ -5286,7 +5286,7 @@
     },
     {
       "source": "/content/spitzingsee-limnologie(/|/index\\.html)?",
-      "destination": "/content/limnologie/spitzingsee-limnologie.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
@@ -5311,7 +5311,7 @@
     },
     {
       "source": "/content/tanne-bergwald(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/tanne-bergwald.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -5336,12 +5336,12 @@
     },
     {
       "source": "/content/tegernsee-limnologie(/|/index\\.html)?",
-      "destination": "/content/limnologie/tegernsee-limnologie.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/content/tektonik(/|/index\\.html)?",
-      "destination": "/content/geologie/tektonik.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -5351,22 +5351,22 @@
     },
     {
       "source": "/content/temperatur-hoehenstufen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/temperatur-hoehenstufen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/content/temperaturschichtung-bergseen(/|/index\\.html)?",
-      "destination": "/content/limnologie/temperaturschichtung-bergseen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/content/tierwelt-moore-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/tierwelt-moore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/content/torfmoose-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/torfmoose-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
@@ -5396,22 +5396,22 @@
     },
     {
       "source": "/content/vergletscherung(/|/index\\.html)?",
-      "destination": "/content/geologie/vergletscherung.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
       "source": "/content/wald-klimawandel-voralpen(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/wald-klimawandel-voralpen.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
       "source": "/content/waldboden-humus(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/waldboden-humus.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
       "source": "/content/waldverjuengung-naturverjuengung(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/waldverjuengung-naturverjuengung.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -5431,12 +5431,12 @@
     },
     {
       "source": "/content/wasserkreislauf-alpen(/|/index\\.html)?",
-      "destination": "/content/limnologie/wasserkreislauf-alpen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/content/wasserqualitaet-gewaesserschutz(/|/index\\.html)?",
-      "destination": "/content/limnologie/wasserqualitaet-gewaesserschutz.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
@@ -5446,12 +5446,12 @@
     },
     {
       "source": "/content/wetter-klima-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wetter-klima-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/content/wetter-sicherheit-berge-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wetter-sicherheit-berge-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
@@ -5461,27 +5461,27 @@
     },
     {
       "source": "/content/wetterphaenomene-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wetterphaenomene-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/content/wetterrekorde-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wetterrekorde-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/content/wetterstationen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wetterstationen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/content/wettervorhersage-berge-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wettervorhersage-berge-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/content/wildbachverbauung-schutzwald(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/wildbachverbauung-schutzwald.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -5491,7 +5491,7 @@
     },
     {
       "source": "/content/wind-berge-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wind-berge-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
@@ -5506,12 +5506,12 @@
     },
     {
       "source": "/content/wolkenkunde-bergsteiger-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wolkenkunde-bergsteiger-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/content/zufluesse-hydrologie(/|/index\\.html)?",
-      "destination": "/content/limnologie/zufluesse-hydrologie.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
@@ -5526,7 +5526,7 @@
     },
     {
       "source": "/die-alpidische-gebirgsbildung(/|/index\\.html)?",
-      "destination": "/content/geologie/die-alpidische-gebirgsbildung.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -5571,12 +5571,12 @@
     },
     {
       "source": "/erdbeben(/|/index\\.html)?",
-      "destination": "/content/geologie/erdbeben.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
       "source": "/erdgeschichte-auf-einen-blick(/|/index\\.html)?",
-      "destination": "/content/geologie/erdgeschichte-auf-einen-blick.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -5601,7 +5601,7 @@
     },
     {
       "source": "/fichte-bergwald(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/fichte-bergwald.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -5616,7 +5616,7 @@
     },
     {
       "source": "/fischpopulation-voralpenseen(/|/index\\.html)?",
-      "destination": "/content/limnologie/fischpopulation-voralpenseen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
@@ -5631,7 +5631,7 @@
     },
     {
       "source": "/flyschzone(/|/index\\.html)?",
-      "destination": "/content/geologie/flyschzone.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -5641,17 +5641,17 @@
     },
     {
       "source": "/foehn-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/foehn-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/forstliche-foerderprogramme(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/forstliche-foerderprogramme.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
       "source": "/forstwege-management(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/forstwege-management.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -5661,7 +5661,7 @@
     },
     {
       "source": "/fossilien-im-alpenraum(/|/index\\.html)?",
-      "destination": "/content/geologie/fossilien-im-alpenraum.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -5686,7 +5686,7 @@
     },
     {
       "source": "/gefaehrdung-moore-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/gefaehrdung-moore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
@@ -5696,7 +5696,7 @@
     },
     {
       "source": "/geomorphologie(/|/index\\.html)?",
-      "destination": "/content/geologie/geomorphologie.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -5706,17 +5706,17 @@
     },
     {
       "source": "/gesteine-spitzingsattel(/|/index\\.html)?",
-      "destination": "/content/geologie/gesteine-spitzingsattel.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
       "source": "/gesteinskreislauf-im-alpenraum(/|/index\\.html)?",
-      "destination": "/content/geologie/gesteinskreislauf-im-alpenraum.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
       "source": "/gewitter-alpen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/gewitter-alpen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
@@ -5741,7 +5741,7 @@
     },
     {
       "source": "/hochmoore-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/hochmoore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
@@ -5751,7 +5751,7 @@
     },
     {
       "source": "/holzernte-ruecketechniken(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/holzernte-ruecketechniken.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -5781,7 +5781,7 @@
     },
     {
       "source": "/jagd-und-wald-voralpen(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/jagd-und-wald-voralpen.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -5791,7 +5791,7 @@
     },
     {
       "source": "/karst-und-hoehlen(/|/index\\.html)?",
-      "destination": "/content/geologie/karst-und-hoehlen.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -5821,12 +5821,12 @@
     },
     {
       "source": "/klimawandel-alpine-seen(/|/index\\.html)?",
-      "destination": "/content/limnologie/klimawandel-alpine-seen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/klimawandel-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/klimawandel-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
@@ -5896,7 +5896,7 @@
     },
     {
       "source": "/meteorologie(/|/index\\.html)?",
-      "destination": "/content/meteorologie/",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
@@ -5906,7 +5906,7 @@
     },
     {
       "source": "/mineralien-und-bodenschaetze(/|/index\\.html)?",
-      "destination": "/content/geologie/mineralien-und-bodenschaetze.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -5916,17 +5916,17 @@
     },
     {
       "source": "/molassebecken-alpenvorland(/|/index\\.html)?",
-      "destination": "/content/geologie/molassebecken-alpenvorland.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
       "source": "/moor-klima-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moor-klima-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/moor-wasserhaushalt-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moor-wasserhaushalt-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
@@ -5936,37 +5936,37 @@
     },
     {
       "source": "/moore-archive-naturgeschichte-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moore-archive-naturgeschichte-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/moore-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/moore-biodiversitaet-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moore-biodiversitaet-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/moore-mensch-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moore-mensch-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/moorrenaturierung-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moorrenaturierung-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/moorschutz-bayern-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moorschutz-bayern-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/moorvegetation-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/moorvegetation-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
@@ -6006,17 +6006,17 @@
     },
     {
       "source": "/nachhaltige-waldwirtschaft-voralpen(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/nachhaltige-waldwirtschaft-voralpen.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
       "source": "/naehrstoffkreislauf-bergseen(/|/index\\.html)?",
-      "destination": "/content/limnologie/naehrstoffkreislauf-bergseen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/nebel-inversion-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/nebel-inversion-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
@@ -6026,17 +6026,17 @@
     },
     {
       "source": "/niedermoore-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/niedermoore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/niederschlag-starkregen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/niederschlag-starkregen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/noerdliche-kalkalpen(/|/index\\.html)?",
-      "destination": "/content/geologie/noerdliche-kalkalpen.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -6061,7 +6061,7 @@
     },
     {
       "source": "/plankton-bergseen(/|/index\\.html)?",
-      "destination": "/content/limnologie/plankton-bergseen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
@@ -6136,17 +6136,17 @@
     },
     {
       "source": "/schichtstufen-und-reliefentwicklung(/|/index\\.html)?",
-      "destination": "/content/geologie/schichtstufen-und-reliefentwicklung.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
       "source": "/schliersee-limnologie(/|/index\\.html)?",
-      "destination": "/content/limnologie/schliersee-limnologie.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/schnee-lawinen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/schnee-lawinen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
@@ -6181,22 +6181,22 @@
     },
     {
       "source": "/sedimente-seeboden(/|/index\\.html)?",
-      "destination": "/content/limnologie/sedimente-seeboden.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/seen-moore-wechselwirkung(/|/index\\.html)?",
-      "destination": "/content/limnologie/seen-moore-wechselwirkung.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/seenentstehung-alpen(/|/index\\.html)?",
-      "destination": "/content/limnologie/seenentstehung-alpen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/seeufer-lebensraum(/|/index\\.html)?",
-      "destination": "/content/limnologie/seeufer-lebensraum.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
@@ -6241,7 +6241,7 @@
     },
     {
       "source": "/spitzingsee-limnologie(/|/index\\.html)?",
-      "destination": "/content/limnologie/spitzingsee-limnologie.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
@@ -6281,7 +6281,7 @@
     },
     {
       "source": "/tanne-bergwald(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/tanne-bergwald.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -6311,12 +6311,12 @@
     },
     {
       "source": "/tegernsee-limnologie(/|/index\\.html)?",
-      "destination": "/content/limnologie/tegernsee-limnologie.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/tektonik(/|/index\\.html)?",
-      "destination": "/content/geologie/tektonik.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
@@ -6326,22 +6326,22 @@
     },
     {
       "source": "/temperatur-hoehenstufen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/temperatur-hoehenstufen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/temperaturschichtung-bergseen(/|/index\\.html)?",
-      "destination": "/content/limnologie/temperaturschichtung-bergseen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/tierwelt-moore-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/tierwelt-moore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
       "source": "/torfmoose-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/moore/torfmoose-bayerische-voralpen.html",
+      "destination": "/content/moore/",
       "permanent": true
     },
     {
@@ -6371,22 +6371,22 @@
     },
     {
       "source": "/vergletscherung(/|/index\\.html)?",
-      "destination": "/content/geologie/vergletscherung.html",
+      "destination": "/content/geologie/",
       "permanent": true
     },
     {
       "source": "/wald-klimawandel-voralpen(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/wald-klimawandel-voralpen.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
       "source": "/waldboden-humus(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/waldboden-humus.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
       "source": "/waldverjuengung-naturverjuengung(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/waldverjuengung-naturverjuengung.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -6421,12 +6421,12 @@
     },
     {
       "source": "/wasserkreislauf-alpen(/|/index\\.html)?",
-      "destination": "/content/limnologie/wasserkreislauf-alpen.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
       "source": "/wasserqualitaet-gewaesserschutz(/|/index\\.html)?",
-      "destination": "/content/limnologie/wasserqualitaet-gewaesserschutz.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
@@ -6436,12 +6436,12 @@
     },
     {
       "source": "/wetter-klima-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wetter-klima-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/wetter-sicherheit-berge-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wetter-sicherheit-berge-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
@@ -6451,27 +6451,27 @@
     },
     {
       "source": "/wetterphaenomene-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wetterphaenomene-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/wetterrekorde-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wetterrekorde-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/wetterstationen-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wetterstationen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/wettervorhersage-berge-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wettervorhersage-berge-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/wildbachverbauung-schutzwald(/|/index\\.html)?",
-      "destination": "/content/forstwirtschaft/wildbachverbauung-schutzwald.html",
+      "destination": "/content/forstwirtschaft/",
       "permanent": true
     },
     {
@@ -6486,7 +6486,7 @@
     },
     {
       "source": "/wind-berge-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wind-berge-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
@@ -6511,12 +6511,12 @@
     },
     {
       "source": "/wolkenkunde-bergsteiger-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/meteorologie/wolkenkunde-bergsteiger-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     },
     {
       "source": "/zufluesse-hydrologie(/|/index\\.html)?",
-      "destination": "/content/limnologie/zufluesse-hydrologie.html",
+      "destination": "/content/limnologie/",
       "permanent": true
     },
     {
@@ -6752,6 +6752,391 @@
     {
       "source": "/content/almwirtschaft/zukunft-almwirtschaft-bayerische-voralpen.html",
       "destination": "/content/almwirtschaft/#foerderung",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/erdgeschichte-auf-einen-blick.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/gesteinskreislauf-im-alpenraum.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/gesteine-spitzingsattel.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/tektonik.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/geomorphologie.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/karst-und-hoehlen.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/molassebecken-alpenvorland.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/flyschzone.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/vergletscherung.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/schichtstufen-und-reliefentwicklung.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/fossilien-im-alpenraum.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/mineralien-und-bodenschaetze.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/noerdliche-kalkalpen.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/erdbeben.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/geologie/die-alpidische-gebirgsbildung.html",
+      "destination": "/content/geologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/tegernsee-limnologie.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/naehrstoffkreislauf-bergseen.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/fischpopulation-voralpenseen.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/spitzingsee-limnologie.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/klimawandel-alpine-seen.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/seenentstehung-alpen.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/zufluesse-hydrologie.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/temperaturschichtung-bergseen.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/plankton-bergseen.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/seen-moore-wechselwirkung.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/sedimente-seeboden.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/seeufer-lebensraum.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/schliersee-limnologie.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/wasserqualitaet-gewaesserschutz.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/limnologie/wasserkreislauf-alpen.html",
+      "destination": "/content/limnologie/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/moore-mensch-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/moore-archive-naturgeschichte-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/niedermoore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/hochmoore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/torfmoose-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/moorvegetation-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/moor-wasserhaushalt-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/moorschutz-bayern-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/moore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/moor-klima-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/tierwelt-moore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/moorrenaturierung-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/gefaehrdung-moore-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/moore-biodiversitaet-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/moore/bedeutende-moorgebiete-bayerische-voralpen.html",
+      "destination": "/content/moore/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/wald-klimawandel-voralpen.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/holzernte-ruecketechniken.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/waldboden-humus.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/bergmischwald-natuerliche-waldgesellschaft.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/almwald-beweidung.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/fichte-bergwald.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/bergwald-im-wandel.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/tanne-bergwald.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/buche-bergwald.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/forstliche-foerderprogramme.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/waldverjuengung-naturverjuengung.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/wildbachverbauung-schutzwald.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/jagd-und-wald-voralpen.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/nachhaltige-waldwirtschaft-voralpen.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/forstwirtschaft/forstwege-management.html",
+      "destination": "/content/forstwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/wetterrekorde-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/wetter-klima-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/foehn-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/wind-berge-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/gewitter-alpen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/wetterphaenomene-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/wetter-sicherheit-berge-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/bergwetter-bergtour-planen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie(/|/index\\.html)?",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/nebel-inversion-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/klimawandel-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/wetterstationen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/temperatur-hoehenstufen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/niederschlag-starkregen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/wettervorhersage-berge-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/schnee-lawinen-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/meteorologie/wolkenkunde-bergsteiger-bayerische-voralpen.html",
+      "destination": "/wetter-webcams.html",
       "permanent": true
     }
   ]
