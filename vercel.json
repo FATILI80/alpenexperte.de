@@ -4141,7 +4141,7 @@
     },
     {
       "source": "/alkaese-milchverarbeitung-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/alkaese-milchverarbeitung-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/",
       "permanent": true
     },
     {
@@ -4151,12 +4151,12 @@
     },
     {
       "source": "/alm-und-wald-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/alm-und-wald-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#natur",
       "permanent": true
     },
     {
       "source": "/almauftrieb-abtrieb-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almauftrieb-abtrieb-bayerische-voralpen.html",
+      "destination": "/content/almkultur/#almabtrieb",
       "permanent": true
     },
     {
@@ -4166,12 +4166,12 @@
     },
     {
       "source": "/almgenossenschaften-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almgenossenschaften-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#formen",
       "permanent": true
     },
     {
       "source": "/almhuetten-architektur-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almhuetten-architektur-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/",
       "permanent": true
     },
     {
@@ -4181,12 +4181,12 @@
     },
     {
       "source": "/almprodukte-vermarktung-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almprodukte-vermarktung-bayerische-voralpen.html",
+      "destination": "/huetten.html",
       "permanent": true
     },
     {
       "source": "/almtiere-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almtiere-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#zahlen",
       "permanent": true
     },
     {
@@ -4201,32 +4201,32 @@
     },
     {
       "source": "/almwirtschaft-artenvielfalt-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almwirtschaft-artenvielfalt-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#natur",
       "permanent": true
     },
     {
       "source": "/almwirtschaft-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almwirtschaft-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/",
       "permanent": true
     },
     {
       "source": "/almwirtschaft-klimawandel-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almwirtschaft-klimawandel-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#natur",
       "permanent": true
     },
     {
       "source": "/almwirtschaft-landschaftspflege-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almwirtschaft-landschaftspflege-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#natur",
       "permanent": true
     },
     {
       "source": "/almwirtschaft-tourismus-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almwirtschaft-tourismus-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#verhalten",
       "permanent": true
     },
     {
       "source": "/almwirtschaft-winter-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almwirtschaft-winter-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/",
       "permanent": true
     },
     {
@@ -4491,7 +4491,7 @@
     },
     {
       "source": "/content/alkaese-milchverarbeitung-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/alkaese-milchverarbeitung-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/",
       "permanent": true
     },
     {
@@ -4501,12 +4501,12 @@
     },
     {
       "source": "/content/alm-und-wald-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/alm-und-wald-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#natur",
       "permanent": true
     },
     {
       "source": "/content/almauftrieb-abtrieb-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almauftrieb-abtrieb-bayerische-voralpen.html",
+      "destination": "/content/almkultur/#almabtrieb",
       "permanent": true
     },
     {
@@ -4516,22 +4516,22 @@
     },
     {
       "source": "/content/almgenossenschaften-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almgenossenschaften-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#formen",
       "permanent": true
     },
     {
       "source": "/content/almhuetten-architektur-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almhuetten-architektur-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/",
       "permanent": true
     },
     {
       "source": "/content/almprodukte-vermarktung-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almprodukte-vermarktung-bayerische-voralpen.html",
+      "destination": "/huetten.html",
       "permanent": true
     },
     {
       "source": "/content/almtiere-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almtiere-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#zahlen",
       "permanent": true
     },
     {
@@ -4541,32 +4541,32 @@
     },
     {
       "source": "/content/almwirtschaft-artenvielfalt-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almwirtschaft-artenvielfalt-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#natur",
       "permanent": true
     },
     {
       "source": "/content/almwirtschaft-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almwirtschaft-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/",
       "permanent": true
     },
     {
       "source": "/content/almwirtschaft-klimawandel-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almwirtschaft-klimawandel-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#natur",
       "permanent": true
     },
     {
       "source": "/content/almwirtschaft-landschaftspflege-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almwirtschaft-landschaftspflege-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#natur",
       "permanent": true
     },
     {
       "source": "/content/almwirtschaft-tourismus-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almwirtschaft-tourismus-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#verhalten",
       "permanent": true
     },
     {
       "source": "/content/almwirtschaft-winter-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/almwirtschaft-winter-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/",
       "permanent": true
     },
     {
@@ -5256,7 +5256,7 @@
     },
     {
       "source": "/content/senner-käsekultur-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/senner-käsekultur-bayerische-voralpen.html",
+      "destination": "/content/almkultur/#alm",
       "permanent": true
     },
     {
@@ -5516,7 +5516,7 @@
     },
     {
       "source": "/content/zukunft-almwirtschaft-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/zukunft-almwirtschaft-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#foerderung",
       "permanent": true
     },
     {
@@ -6201,7 +6201,7 @@
     },
     {
       "source": "/senner-käsekultur-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/senner-käsekultur-bayerische-voralpen.html",
+      "destination": "/content/almkultur/#alm",
       "permanent": true
     },
     {
@@ -6521,7 +6521,7 @@
     },
     {
       "source": "/zukunft-almwirtschaft-bayerische-voralpen(/|/index\\.html)?",
-      "destination": "/content/almwirtschaft/zukunft-almwirtschaft-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#foerderung",
       "permanent": true
     },
     {
@@ -6677,6 +6677,81 @@
     {
       "source": "/content/kultur_geschichte/wirtschaftsgeschichte-bayerische-voralpen.html",
       "destination": "/content/kultur_geschichte/#bergbau",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/alkaese-milchverarbeitung-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/alm-und-wald-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#natur",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/almauftrieb-abtrieb-bayerische-voralpen.html",
+      "destination": "/content/almkultur/#almabtrieb",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/almgenossenschaften-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#formen",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/almhuetten-architektur-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/almprodukte-vermarktung-bayerische-voralpen.html",
+      "destination": "/huetten.html",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/almtiere-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#zahlen",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/almwirtschaft-artenvielfalt-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#natur",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/almwirtschaft-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/almwirtschaft-klimawandel-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#natur",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/almwirtschaft-landschaftspflege-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#natur",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/almwirtschaft-tourismus-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#verhalten",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/almwirtschaft-winter-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/senner-käsekultur-bayerische-voralpen.html",
+      "destination": "/content/almkultur/#alm",
+      "permanent": true
+    },
+    {
+      "source": "/content/almwirtschaft/zukunft-almwirtschaft-bayerische-voralpen.html",
+      "destination": "/content/almwirtschaft/#foerderung",
       "permanent": true
     }
   ]
