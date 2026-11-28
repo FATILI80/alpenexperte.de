@@ -28,7 +28,8 @@ VIEWBOX = "11.55,47.78,12.05,47.55"
 
 def geocode_region(ort, cache):
     if re.match(r"^\s*-?\d+(\.\d+)?\s*,\s*-?\d+(\.\d+)?\s*$", ort):
-        return rf.geocode(ort, cache)
+        lat, lon = (float(x) for x in ort.split(","))
+        return {"name": ort, "lat": lat, "lon": lon, "treffer": f"Koordinate {lat}, {lon}"}
     if ort in cache:
         return cache[ort]
     q = urllib.parse.urlencode({"q": ort, "format": "json", "limit": 1, "countrycodes": "de,at",
